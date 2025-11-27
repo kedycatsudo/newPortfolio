@@ -22,7 +22,6 @@ export async function generateMetadata() {
     title: about.title,
     description: about.description,
     baseURL: baseURL,
-    image: `/api/og/generate?title=${encodeURIComponent(about.title)}`,
     path: about.path,
   });
 }
@@ -33,11 +32,6 @@ export default function About() {
       title: about.intro.title,
       display: about.intro.display,
       items: [],
-    },
-    {
-      title: about.work.title,
-      display: about.work.display,
-      items: about.work.experiences.map((experience) => experience.company),
     },
     {
       title: about.studies.title,
@@ -58,7 +52,6 @@ export default function About() {
         title={about.title}
         description={about.description}
         path={about.path}
-        image={`/api/og/generate?title=${encodeURIComponent(about.title)}`}
         author={{
           name: person.name,
           url: `${baseURL}${about.path}`,

@@ -1,4 +1,4 @@
-import { IconType } from "react-icons";
+import type { IconType } from "react-icons";
 
 import {
   HiArrowUpRight,
@@ -23,13 +23,34 @@ import {
 } from "react-icons/pi";
 
 import {
+  SiLinux,
+  SiDjango,
+  SiPython,
+  SiMongoose,
+  SiMongodb,
+  SiNodedotjs,
+  SiExpress,
+  SiTypescript,
   SiJavascript,
   SiNextdotjs,
   SiFigma,
   SiSupabase,
 } from "react-icons/si";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import {
+  FaDiscord,
+  FaGithub,
+  FaLinkedin,
+  FaX,
+  FaThreads,
+  FaInstagram,
+  FaXTwitter,
+  FaFacebook,
+  FaPinterest,
+  FaWhatsapp,
+  FaReddit,
+  FaTelegram,
+} from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -55,7 +76,15 @@ export const iconLibrary: Record<string, IconType> = {
   document: HiOutlineDocument,
   rocket: HiOutlineRocketLaunch,
   javascript: SiJavascript,
+  linux: SiLinux,
+  mongodb: SiMongodb,
+  django: SiDjango,
+  mongoose: SiMongoose,
+  typescript: SiTypescript,
   nextjs: SiNextdotjs,
+  python: SiPython,
+  nodedotjs: SiNodedotjs,
+  express: SiExpress,
   supabase: SiSupabase,
   figma: SiFigma,
   facebook: FaFacebook,

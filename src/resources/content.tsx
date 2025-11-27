@@ -1,15 +1,15 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import type { About, Blog, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  firstName: "Doruk",
+  lastName: "Kocausta",
+  name: "Doruk Kocausta",
+  role: "Full-Stack Web Developer",
+  avatar: "/images/dorukAvatar.jpg",
+  email: "dkocausta.linkedin@gmail.com",
+  location: "United States/Tennessee", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Turkish"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -25,26 +25,20 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/kedycatsudo",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/dorukkocausta/",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com",
     essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
   },
   {
     name: "Email",
@@ -60,24 +54,13 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
-  featured: {
-    display: true,
-    title: (
-      <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
-        <Line background="brand-alpha-strong" vert height="20" />
-        <Text marginRight="4" onBackground="brand-medium">
-          Featured work
-        </Text>
-      </Row>
-    ),
-    href: "/work/building-once-ui-a-customizable-design-system",
-  },
+  headline: <>Building the Future of the Web </>,
+
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
-</>
+      I’m Doruk, a Full-Stack Web Developer focused on creating efficient, scalable and secure web
+      apps. Welcome to my portfolio!
+    </>
   ),
 };
 
@@ -94,7 +77,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -102,14 +85,14 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am Doruk Kocausta, a Full Stack Developer passionate about building practical,
+        user-centered web applications that solve real problems. I focus on the intersection of
+        product, design, and engineering turning ideas into reliable, maintainable systems.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Work Experience",
     experiences: [
       {
@@ -159,12 +142,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Pamukkale",
+        description: <>Studied computer science at Turkey.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Tripleten",
+        description: <>Graduated from Tripleten Full Stack Developer Program.</>,
       },
     ],
   },
@@ -174,58 +157,130 @@ const about: About = {
     skills: [
       {
         title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
+
         tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          { name: "Design Systems" },
+          { name: "Prototyping" },
+          { name: "UI/UX" },
+          { name: "Auto Layout" },
+          { name: "Wireframing" },
         ],
       },
       {
         title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
+
         tags: [
           {
             name: "JavaScript",
             icon: "javascript",
           },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
+          { name: "TypeScript", icon: "typescript" },
+          { name: "SSR" },
+          { name: "SEO" },
+          { name: "API Routes" },
+          { name: "Routing" },
+          { name: "Full Stack" },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+      },
+      {
+        title: "React",
+        tags: [
+          { name: "javascript", icon: "javascript" },
+          { name: "TypeScript", icon: "typescript" },
+          { name: "Hooks" },
+          { name: "Context API" },
+          { name: "State Management" },
+          { name: "React Router" },
+          { name: "Performance" },
+        ],
+      },
+      {
+        title: "Node.js",
+        tags: [
+          { name: "API Development" },
+          { name: "JavaScript", icon: "javascript" },
+          { name: "TypeScript", icon: "typescript" },
+          { name: "API" },
+          { name: "Backend Development" },
+          { name: "REST" },
+          { name: "Server" },
+          { name: "Full Stack" },
+          { name: "Express.js", icon: "express" },
+        ],
+      },
+      {
+        title: "Express.js",
+        tags: [
+          { name: "API Development" },
+          { name: "JavaScript", icon: "javascript" },
+          { name: "TypeScript", icon: "typescript" },
+          { name: "API" },
+          { name: "Backend" },
+          { name: "REST" },
+          { name: "Middleware" },
+          { name: "Full Stack" },
+          { name: "Node.js", icon: "nodedotjs" },
+        ],
+      },
+      {
+        title: "Mongodb",
+        tags: [
+          { name: "MongoDB", icon: "mongodb" },
+          { name: "mongoose", icon: "mongoose" },
+          { name: "Backend" },
+          { name: "Database" },
+          { name: "NoSQL" },
+          { name: "Data Modeling" },
+        ],
+      },
+      {
+        title: "Python",
+        tags: [
+          { name: "python", icon: "python" },
+          { name: "mongoose", icon: "mongoose" },
+          { name: "Backend" },
+          { name: "Django", icon: "django" },
+          { name: "API" },
+          { name: "Scripting" },
+        ],
+      },
+      {
+        title: "Java",
+        tags: [
+          { name: "java" },
+          { name: "JVM" },
+          { name: "Backend" },
+          { name: "OOP" },
+          { name: "API" },
+          { name: "REST" },
+        ],
+      },
+      {
+        title: "Cloud Deployment",
+        tags: [
+          { name: "Netlify" },
+          { name: "AWS" },
+          { name: "Google Cloud" },
+          { name: "OOP" },
+          { name: "CI/CD" },
+          { name: "Docker" },
+          { name: "Kubernetes" },
+          { name: "Serverless" },
+          { name: "DevOps" },
+          { name: "Hosting" },
+        ],
+      },
+      {
+        title: "Linux",
+        tags: [
+          { name: "Linux", icon: "linux" },
+          { name: "Bash" },
+          { name: "Shell Scripting" },
+          { name: "Ubuntu" },
+          { name: "CLI" },
+          { name: "Kali Linux" },
+          { name: "Cybersecurity" },
+          { name: "Open Source" },
         ],
       },
     ],
@@ -250,55 +305,4 @@ const work: Work = {
   // All projects will be listed on the /home and /work routes
 };
 
-const gallery: Gallery = {
-  path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
-  images: [
-    {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-  ],
-};
-
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work };
