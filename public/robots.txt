@@ -1,0 +1,4 @@
+
+User-agent: *
+Allow: /
+Sitemap: https://kedycatsudo.github.io/newPortfolio/sitemap.xml

@@ -1,5 +1,7 @@
 import mdx from "@next/mdx";
 
+const isGithubPages = process.env.GITHUB_PAGES === 'true';
+
 const withMDX = mdx({
   extension: /\.mdx?$/,
   options: {},
@@ -17,11 +19,15 @@ const nextConfig = {
         pathname: "**",
       },
     ],
+    unoptimized: true,
   },
   sassOptions: {
     compiler: "modern",
     silenceDeprecations: ["legacy-js-api"],
   },
+  output: 'export',
+  assetPrefix: isGithubPages ? '/newPortfolio/' : '',
+  basePath: isGithubPages ? '/newPortfolio' : '',
 };
 
 export default withMDX(nextConfig);
