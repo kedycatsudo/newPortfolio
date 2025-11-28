@@ -26,8 +26,7 @@ const nextConfig = {
     silenceDeprecations: ["legacy-js-api"],
   },
   output: 'export',
-  assetPrefix: isGithubPages ? '/newPortfolio/' : '',
-  basePath: isGithubPages ? '/newPortfolio' : '',
+  
 };
 
 export default withMDX(nextConfig);
