@@ -26,8 +26,8 @@ const nextConfig = {
     silenceDeprecations: ["legacy-js-api"],
   },
   output: "export",
-  basePath: "/newportfolio",
-  assetPrefix: "/newportfolio/",
+  basePath: "/newPortfolio",
+  assetPrefix: "/newPortfolio/",
   
 };
 
