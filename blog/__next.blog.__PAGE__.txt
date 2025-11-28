@@ -1,0 +1,66 @@
+1:"$Sreact.fragment"
+2:I[273323,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Column"]
+3:I[479520,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],""]
+4:I[696470,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"ClientGrid"]
+5:I[814360,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"default"]
+7:I[303847,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Mailchimp"]
+c:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+6:T77d,
+## About
+
+Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable.
+
+I wanted a platform to showcase my work, projects, and blog posts — and I found this setup perfect for developers who want both flexibility and polish.
+
+## Why I Chose This Stack
+
+I wanted to learn a new framework not just by following tutorials, but by diving in and building something real from scratch. Hands-on experience always helps me understand and retain new skills better.
+
+After some research, I picked these tools for my portfolio:
+
+- **Next.js** — a modern React framework that makes routing, deployment, and performance optimization much easier out of the box.
+- **MDX** — lets me write content in Markdown while also embedding React components, so my blog can be interactive and developer-friendly.
+- **Once UI / Magic Portfolio** — provides a beautiful, ready-to-go theme with professional design, so I can focus my time on learning and content rather than building a design system from scratch.
+
+## Quick Start
+
+Thinking of starting your own? Here’s how I did it:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start your local dev server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />
+
+## What’s Next?
+
+I’ll be sharing more about my journey, tech experiments, and projects here. Stay tuned for posts on web development, the MERN stack, and full-stack best practices!
+
+---
+
+Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!0:{"buildId":"Ppcy7lD6n42isd1ZhT2AR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://demo.magic-portfolio.com/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"s":{"columns":1},"columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$6"},"thumbnail":true}]]}],false,["$","$L7",null,{"marginBottom":"l"}],"$L8","$L9"]}]]}],["$La"],"$Lb"]}],"loading":null,"isPartial":false}
+8:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textWrap":"balance"},"children":"Earlier posts"}]
+9:false
+a:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js","async":true}]
+b:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

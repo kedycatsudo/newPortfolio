@@ -1,0 +1,228 @@
+1:"$Sreact.fragment"
+3:I[339756,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"default"]
+4:I[837457,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"default"]
+5:I[273323,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"Column"]
+6:I[479520,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],""]
+7:I[474855,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"ProjectCard"]
+d:I[168027,[],"default"]
+:HL["/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","style"]
+:HL["/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","style"]
+:HL["/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","style"]
+:HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
+:HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+8:T1110,
+## Overview
+
+WhatToWear is a full-stack application that helps users decide what to wear each day by combining live weather data, a personal wardrobe inventory, calendar events, and user style preferences. The backend (Express) aggregates weather and calendar feeds, manages user wardrobes and preferences, and returns ranked outfit suggestions. The frontend (React/Vite) provides an intuitive UI for managing clothing items, viewing daily suggestions, and saving favorites.
+
+## Key Features
+
+- **Weather-Aware Recommendations**: Fetches local weather (temperature, precipitation, wind) and recommends outfits suitable for current conditions and forecasts.
+- **Wardrobe Inventory**: Users upload or create clothing items with attributes (type, layers, warmth, colors, images). Items are stored in the user profile and can be tagged.
+- **Event & Calendar Integration**: Optionally syncs with user calendars to tailor outfit suggestions to event type (formal, casual, outdoor) and time of day.
+- **Personalization & Preferences**: Users set style preferences, disliked items, and preferred outfits; the system learns and ranks suggestions accordingly.
+- **Outfit Builder & History**: Saved outfit combinations and history let users reuse looks and refine recommendations over time.
+- **Smart Filters & Constraints**: Supports constraints like dress code, color coordination, and laundry status.
+- **Lightweight API Layer**: Server aggregates third-party weather APIs, normalizes responses, and applies caching to limit external calls.
+- **Dockerized & CI/CD Ready**: Containerized backend and frontend with GitHub Actions for automated builds and deployment.
+
+## Technologies Used
+
+- Backend: Node.js, Express
+- Frontend: React (Vite)
+- External APIs: OpenWeatherMap (or alternate provider), Google Calendar / CalDAV adapters
+- Data Storage: MongoDB (Mongoose) for users, wardrobe, and preferences
+- Caching: Redis or in-memory TTL cache for weather and recommendation results
+- Auth: JWT for session handling and protected user resources
+- Deployment: Docker, GitHub Actions (CI/CD), optional Nginx reverse proxy + Certbot for SSL
+- Utilities: multer / cloud storage for item images, axios for HTTP, cron jobs for scheduled syncs
+
+## Challenges and Learnings
+
+- **Data Modeling for Clothing**: Designing a flexible schema for clothing attributes (layering, warmth, formality, color) was key to meaningful recommendations.
+- **Normalization of External Data**: Weather and calendar providers use different structures; an adapter layer simplifies downstream logic.
+- **Personalization**: Balancing automated recommendations with user control required clear preference settings and feedback loops (likes/dislikes).
+- **Caching & Rate Limits**: Implemented short TTLs and request coalescing to avoid exceeding external API rate limits while keeping suggestions fresh.
+- **Image Handling**: Optimizing upload, storage, and delivery of item photos improved UX and reduced bandwidth.
+
+## Outcome
+
+- A coherent MVP that suggests context-appropriate outfits, enables wardrobe management, and integrates with external data sources.
+- Backend endpoints for wardrobe CRUD, suggestion generation, calendar sync, and user preferences are available and ready for frontend consumption.
+- The system is containerized and prepared for deployment; frontend can run as a static site while the API runs in a Docker container on a VM.
+
+## Deployment & Next Steps
+
+1. Point a domain or free DNS to your VM and create an A record for the API host.
+2. Use Nginx as a reverse proxy and obtain SSL certificates via Certbot to enable HTTPS.
+3. Harden the VM (SSH keys, disable root login, enable UFW for 22/80/443).
+4. Store API keys and secrets in CI/CD secrets or a secrets manager; use environment variables at runtime.
+5. Add Redis for stable caching if scaling, and enable structured logging and monitoring.
+6. Improve personalization with lightweight ML models or heuristics, add image auto-tagging (color, type), and implement offline-first frontend caching for reliability.
+7. Offer social sharing and exportable outfit plans as future features.
+
+---
+
+This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.0:{"P":null,"b":"Ppcy7lD6n42isd1ZhT2AR","c":["","work"],"q":"","i":false,"f":[[["",{"children":["work",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/136acffeffc44697.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://demo.magic-portfolio.com/work\",\"sameAs\":[],\"headline\":\"Projects – Doruk Kocausta\",\"description\":\"Design and dev projects by Doruk Kocausta\",\"image\":\"https://demo.magic-portfolio.com/og?title=Projects%20%E2%80%93%20Doruk%20Kocausta\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Doruk Kocausta"}],["$","$L5",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L7","building-once-ui-a-customizable-design-system",{"priority":true,"href":"/work/building-once-ui-a-customizable-design-system","images":["/images/projects/project-02/wt_cover-01.png","/images/projects/project-02/wt_cover-02.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather, calendar events, and personal style preferences.","content":"$8","avatars":[{"src":"/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}],"$L9","$La"]}]]}],null,"$Lb"]}],{},null,false,false]},null,false,false]},null,false,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"S":true}
+10:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+13:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"ViewportBoundary"]
+15:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"MetadataBoundary"]
+18:I[530824,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"Providers"]
+19:I[621971,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"RevealFx"]
+1a:I[394412,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"Background"]
+1b:I[521247,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"ClientFlex"]
+1c:I[402971,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"Header"]
+e:Tea3,
+## Overview
+
+MealMatch is an MVP that streamlines meal donations by matching donors (restaurants, caterers, home cooks) with organizations and individuals in need. The project focuses on reducing food waste and improving logistics by providing a simple registration and matching flow, secure authentication, and an admin interface for managing donations and users.
+
+## Key Features
+
+- **User Authentication & Authorization**: Secure registration and login using JWTs. Roles include regular users and admins with protected routes for administrative actions.
+- **Donation Flow**: Donors can create donation entries (meals, portions, pickup details). Recipients and partner organizations can claim available donations.
+- **Automated Matching**: Basic matching logic using location and availability to suggest nearby recipients or pickup points.
+- **Admin Dashboard**: Admins can manage users, approve donation listings, and review donation history and metrics.
+- **Notifications**: Email or push notifications for new donations, claims, and status changes.
+- **Dockerized Backend**: Backend runs inside Docker with environment-driven configuration and connection to MongoDB Atlas for persistence.
+
+## Technologies Used
+
+- Backend: Node.js, Express, Mongoose (MongoDB Atlas)
+- Frontend: React (Vite), modern SPA patterns
+- Auth: JSON Web Tokens (JWT)
+- Deployment & DevOps: Docker, GitHub Actions (CI/CD), Docker Hub
+- Optional infra: Nginx reverse-proxy, Certbot for SSL
+- Utilities: dotenv for env vars, bcrypt for password hashing, nodemailer for emails
+
+## Challenges and Learnings
+
+- **Remote DB Access**: Atlas requires IP whitelisting — remember to add your VM or CI runner IPs (or use 0.0.0.0/0 temporarily while developing, then tighten).
+- **Environment Management**: Keep secrets out of the repo. Use runtime environment variables or CI secrets instead of baking .env into images.
+- **CORS & Frontend Integration**: When serving a frontend from a different origin (local dev, GitHub Pages), set proper CORS rules on the backend and include the full protocol in API URLs (e.g., `https://api.mealdomain.com`).
+- **Docker Context & .dockerignore**: Ensure .env exists in the build context when you intentionally copy it, or prefer passing envs at runtime with docker run --env.
+- **SSL & Production Readiness**: Use a domain + Certbot (Let’s Encrypt) and a reverse proxy (Nginx) to handle HTTPS and forward traffic to the app port (e.g., 3001).
+- **Logging & Monitoring**: Pipe logs to stdout/stderr for Docker visibility. Add monitoring for long-running processes and resource usage.
+
+## Outcome
+
+- A working MVP with backend endpoints available and responding (authentication, donation CRUD, admin routes).
+- Frontend can connect locally to the deployed backend using a VITE_API_URL env var (include protocol).
+- Docker images are built and ready to be pushed to a registry; GitHub Actions configured to build/publish on pushes to main.
+
+## Deployment & Next Steps
+
+- Point a domain or free DNS (Freenom / DuckDNS) to the VM IP and set an A record for the API host.
+- Install Nginx as a reverse proxy and obtain SSL via Certbot to enable HTTPS.
+- Harden the VM (SSH keys, UFW firewall rules for 22/80/443 and your VPN port) before exposing services publicly.
+- Deploy the frontend (GitHub Pages is fine for a static SPA) and set CORS to allow the Pages origin.
+- Improve matching algorithms, add real-time updates (WebSockets), and implement production-grade logging and backups (MongoDB Atlas backups).
+
+---
+
+This Mealmatch MDX entry summarizes the project, technical decisions, and actionable next steps for taking the MVP from a working prototype to a secure, production-ready service.9:["$","$L7","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/images/projects/project-01/cover-01.png","/images/projects/project-01/cover-02.jpeg"],"title":"MealMatch — Automating Meal Donations and Distribution","description":"MealMatch connects donors, kitchens, and recipients to reduce food waste and streamline meal distribution with an easy-to-use web platform and automated matching.","content":"$e","avatars":[{"src":"/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/mealmatch"}]
+f:Tc82,
+## Overview
+
+**Spots** is a modern, responsive social media platform for sharing and discovering photos of interesting locations. It offers users a clean interface and seamless experience across devices, combining ES6+ JavaScript, modular OOP design, and best practices in UI/UX development. Users can create a personal profile, upload and like photos, and explore a gallery that updates dynamically with API integration.
+
+## Key Features
+
+- **Responsive Design:** Adapts smoothly to desktop, tablet, and mobile screens using CSS Grid, Flexbox, and media queries.
+- **User Profile Section:** Each user can view and edit personal information, including their display name and bio.
+- **Profile Image Editing:** Simple modal interface for uploading or updating profile pictures, enhancing user identity.
+- **Photo Gallery with Likes:** Photos appear in stylish cards with a like button for user engagement.
+- **Form Validations:** All user input is validated in real time, with custom error messages and clear feedback.
+- **API Integration:** Fetches and submits user and photo data using RESTful endpoints for a live, interactive feel.
+- **Modular OOP Architecture:** Built with ES6 classes for clean, maintainable, and reusable code.
+- **BEM Methodology:** CSS follows Block-Element-Modifier conventions for clarity and scalability.
+
+## Technologies Used
+
+- **HTML5:** Semantic markup supports accessibility and SEO.
+- **CSS3:** Layouts built with Flexbox, CSS Grid, and responsive media queries.
+- **JavaScript (ES6+):** Modern, modular code using classes and advanced JS features.
+- **OOP:** Object-Oriented Programming improves structure and scalability.
+- **RESTful API:** Communication with backend services for data management.
+- **Form Validation:** Inline, user-friendly validation enhances UX.
+- **BEM CSS:** Systematic approach for organized styles.
+- **Git & GitHub:** Version control and remote collaboration.
+
+## Challenges and Learnings
+
+- **Scalable CSS Structure:** Implementing BEM and modular SCSS/CSS for maintainable styles.
+- **OOP in Frontend:** Adopting ES6 classes across components to improve scalability.
+- **UX Refinement:** Ensured smooth modals, validations, and photo interactions through user testing and iteration.
+- **API Error Handling:** Managed various response states for resilience and clear user feedback.
+- **Responsive Layouts:** Tuned grid/flex layouts for consistent, attractive look at any device resolution.
+
+## Outcome
+
+- Delivered a fully responsive, feature-rich social media web app.
+- Users can edit their profile, interact with others' photos, and enjoy a seamless viewing and editing experience.
+- The application codebase is clean, maintainable, and ready for further enhancements.
+
+## Deployment & Next Steps
+
+- Deployed live at [https://kedycatsudo.github.io/se_project_spots/](https://kedycatsudo.github.io/se_project_spots/)
+- Future ideas: add comments, improved search/filter for spots, backend authentication, and richer social sharing features.
+
+---
+
+This MDX entry documents the **Spots** project, showcasing the technical and user experience foundations of a robust photo-sharing platform.
+a:["$","$L7","simple-portfolio-builder",{"priority":false,"href":"/work/simple-portfolio-builder","images":["/images/projects/project-03/spots1.png","/images/projects/project-03/spots2.png","/images/projects/project-03/spots3.png"],"title":"Spots — Social Photo Sharing Platform","description":"Spots is a responsive social platform where users share, explore, and interact with photos of unique places. Built with modern JavaScript, OOP, and modular architecture for maintainability and great user experience.","content":"$f","avatars":[{"src":"/images/dorukAvatar.jpg"}],"link":"https://kedycatsudo.github.io/se_project_spots/"}]
+b:["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]
+c:["$","$1","h",{"children":[null,["$","$L13",null,{"children":"$@14"}],["$","div",null,{"hidden":true,"children":["$","$L15",null,{"children":["$","$11",null,{"name":"Next.Metadata","children":"$@16"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+17:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$17"}}]}],["$","$L18",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L19",null,{"fill":true,"position":"absolute","children":["$","$L1a",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L1b",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L1c",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L1d","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L1e","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L1f"]}]}]]}]
+20:I[778454,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"Row"]
+21:I[298229,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"IconButton"]
+1d:["$","$L4",null,{}]
+1e:[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
+1f:["$","$L20",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L20",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2025," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L20",null,{"gap":"16","children":[["$","$L21","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L21","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L21","Instagram",{"href":"https://www.instagram.com","icon":"instagram","tooltip":"Instagram","size":"s","variant":"ghost"}],["$","$L21","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L20",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+22:I[27201,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"IconMark"]
+16:[["$","title","0",{"children":"Projects – Doruk Kocausta"}],["$","meta","1",{"name":"description","content":"Design and dev projects by Doruk Kocausta"}],["$","meta","2",{"property":"og:title","content":"Projects – Doruk Kocausta"}],["$","meta","3",{"property":"og:description","content":"Design and dev projects by Doruk Kocausta"}],["$","meta","4",{"property":"og:url","content":"https://demo.magic-portfolio.com/work"}],["$","meta","5",{"property":"og:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Projects%20%E2%80%93%20Doruk%20Kocausta"}],["$","meta","6",{"property":"og:image:alt","content":"Projects – Doruk Kocausta"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Projects – Doruk Kocausta"}],["$","meta","10",{"name":"twitter:description","content":"Design and dev projects by Doruk Kocausta"}],["$","meta","11",{"name":"twitter:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Projects%20%E2%80%93%20Doruk%20Kocausta"}],["$","link","12",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.ed981638.ico","sizes":"120x120","type":"image/x-icon"}],["$","$L22","13",{}]]
+12:null

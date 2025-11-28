@@ -1,0 +1,124 @@
+1:"$Sreact.fragment"
+2:I[273323,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Column"]
+3:I[479520,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],""]
+4:I[621971,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"RevealFx"]
+5:I[691722,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Button"]
+6:I[778454,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Row"]
+7:I[145250,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Avatar"]
+8:I[474855,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"ProjectCard"]
+e:I[696470,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"ClientGrid"]
+f:I[814360,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"default"]
+11:I[303847,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/c8de3ccdd6e7b091.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Mailchimp"]
+12:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+13:"$Sreact.suspense"
+9:T1110,
+## Overview
+
+WhatToWear is a full-stack application that helps users decide what to wear each day by combining live weather data, a personal wardrobe inventory, calendar events, and user style preferences. The backend (Express) aggregates weather and calendar feeds, manages user wardrobes and preferences, and returns ranked outfit suggestions. The frontend (React/Vite) provides an intuitive UI for managing clothing items, viewing daily suggestions, and saving favorites.
+
+## Key Features
+
+- **Weather-Aware Recommendations**: Fetches local weather (temperature, precipitation, wind) and recommends outfits suitable for current conditions and forecasts.
+- **Wardrobe Inventory**: Users upload or create clothing items with attributes (type, layers, warmth, colors, images). Items are stored in the user profile and can be tagged.
+- **Event & Calendar Integration**: Optionally syncs with user calendars to tailor outfit suggestions to event type (formal, casual, outdoor) and time of day.
+- **Personalization & Preferences**: Users set style preferences, disliked items, and preferred outfits; the system learns and ranks suggestions accordingly.
+- **Outfit Builder & History**: Saved outfit combinations and history let users reuse looks and refine recommendations over time.
+- **Smart Filters & Constraints**: Supports constraints like dress code, color coordination, and laundry status.
+- **Lightweight API Layer**: Server aggregates third-party weather APIs, normalizes responses, and applies caching to limit external calls.
+- **Dockerized & CI/CD Ready**: Containerized backend and frontend with GitHub Actions for automated builds and deployment.
+
+## Technologies Used
+
+- Backend: Node.js, Express
+- Frontend: React (Vite)
+- External APIs: OpenWeatherMap (or alternate provider), Google Calendar / CalDAV adapters
+- Data Storage: MongoDB (Mongoose) for users, wardrobe, and preferences
+- Caching: Redis or in-memory TTL cache for weather and recommendation results
+- Auth: JWT for session handling and protected user resources
+- Deployment: Docker, GitHub Actions (CI/CD), optional Nginx reverse proxy + Certbot for SSL
+- Utilities: multer / cloud storage for item images, axios for HTTP, cron jobs for scheduled syncs
+
+## Challenges and Learnings
+
+- **Data Modeling for Clothing**: Designing a flexible schema for clothing attributes (layering, warmth, formality, color) was key to meaningful recommendations.
+- **Normalization of External Data**: Weather and calendar providers use different structures; an adapter layer simplifies downstream logic.
+- **Personalization**: Balancing automated recommendations with user control required clear preference settings and feedback loops (likes/dislikes).
+- **Caching & Rate Limits**: Implemented short TTLs and request coalescing to avoid exceeding external API rate limits while keeping suggestions fresh.
+- **Image Handling**: Optimizing upload, storage, and delivery of item photos improved UX and reduced bandwidth.
+
+## Outcome
+
+- A coherent MVP that suggests context-appropriate outfits, enables wardrobe management, and integrates with external data sources.
+- Backend endpoints for wardrobe CRUD, suggestion generation, calendar sync, and user preferences are available and ready for frontend consumption.
+- The system is containerized and prepared for deployment; frontend can run as a static site while the API runs in a Docker container on a VM.
+
+## Deployment & Next Steps
+
+1. Point a domain or free DNS to your VM and create an A record for the API host.
+2. Use Nginx as a reverse proxy and obtain SSL certificates via Certbot to enable HTTPS.
+3. Harden the VM (SSH keys, disable root login, enable UFW for 22/80/443).
+4. Store API keys and secrets in CI/CD secrets or a secrets manager; use environment variables at runtime.
+5. Add Redis for stable caching if scaling, and enable structured logging and monitoring.
+6. Improve personalization with lightweight ML models or heuristics, add image auto-tagging (color, type), and implement offline-first frontend caching for reliability.
+7. Offer social sharing and exportable outfit plans as future features.
+
+---
+
+This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.0:{"buildId":"Ppcy7lD6n42isd1ZhT2AR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://demo.magic-portfolio.com/\",\"sameAs\":[],\"headline\":\"Doruk Kocausta's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Full-Stack Web Developer\",\"image\":\"https://demo.magic-portfolio.com/og?title=Doruk%20Kocausta's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/dorukAvatar.jpg\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Building the Future of the Web "}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":"I’m Doruk, a Full-Stack Web Developer focused on creating efficient, scalable and secure web apps. Welcome to my portfolio!"}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L5",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L7",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/dorukAvatar.jpg","size":"l"}],"About – Doruk Kocausta"]}]}]}]]}]}],["$","$L4",null,{"translateY":"16","delay":0.6,"children":["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L8","building-once-ui-a-customizable-design-system",{"priority":true,"href":"/work/building-once-ui-a-customizable-design-system","images":["/images/projects/project-02/wt_cover-01.png","/images/projects/project-02/wt_cover-02.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather, calendar events, and personal style preferences.","content":"$9","avatars":[{"src":"/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}]]}]}],"$La","$Lb"]}],["$Lc"],"$Ld"]}],"loading":null,"isPartial":false}
+10:T77d,
+## About
+
+Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable.
+
+I wanted a platform to showcase my work, projects, and blog posts — and I found this setup perfect for developers who want both flexibility and polish.
+
+## Why I Chose This Stack
+
+I wanted to learn a new framework not just by following tutorials, but by diving in and building something real from scratch. Hands-on experience always helps me understand and retain new skills better.
+
+After some research, I picked these tools for my portfolio:
+
+- **Next.js** — a modern React framework that makes routing, deployment, and performance optimization much easier out of the box.
+- **MDX** — lets me write content in Markdown while also embedding React components, so my blog can be interactive and developer-friendly.
+- **Once UI / Magic Portfolio** — provides a beautiful, ready-to-go theme with professional design, so I can focus my time on learning and content rather than building a design system from scratch.
+
+## Quick Start
+
+Thinking of starting your own? Here’s how I did it:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start your local dev server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />
+
+## What’s Next?
+
+I’ll be sharing more about my journey, tech experiments, and projects here. Stay tuned for posts on web development, the MERN stack, and full-stack best practices!
+
+---
+
+Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!a:["$","$L2",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L6",null,{"fillWidth":true,"paddingRight":"64","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"48rem","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],["$","$L6",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L6",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Latest from the blog"}]}],["$","$L6",null,{"flex":3,"paddingX":"20","children":["$","$Le",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$Lf","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$10"},"thumbnail":false}]]}]}]]}],["$","$L6",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"48rem","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]]}]
+b:["$","$L11",null,{}]
+c:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/77c1917bfce7ffb0.js","async":true}]
+d:["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]
+14:null
