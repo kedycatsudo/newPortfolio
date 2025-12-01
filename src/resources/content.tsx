@@ -22,7 +22,7 @@ const person: Person = {
   lastName: "Kocausta",
   name: "Doruk Kocausta",
   role: "Full-Stack Web Developer",
-  avatar: prefix("/images/dorukAvatar.jpg"),
+  avatar: "/newPortfolio/images/dorukAvatar.jpg",
   email: "dkocausta.linkedin@gmail.com",
   location: "United States/Tennessee",
   languages: ["English", "Turkish"],
