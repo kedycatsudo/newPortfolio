@@ -71,7 +71,7 @@ const home: Home = {
 
   subline: (
     <>
-      I’m Doruk, a Full-Stack Web Developer focused on creating efficient, scalable and secure web
+      I’m Doruk, Full-Stack Web Developer focused on creating efficient, scalable and secure web
       apps. Welcome to my portfolio!
     </>
   ),
@@ -98,9 +98,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        I am Doruk Kocausta, a Full Stack Developer passionate about building practical,
-        user-centered web applications that solve real problems. I focus on the intersection of
-        product, design, and engineering turning ideas into reliable, maintainable systems.
+        I am Doruk Kocausta, a Full Stack Developer passionate about building practical, user
+        centered web applications that solve real problems. I focus on the intersection of product,
+        design, and engineering turning ideas into reliable, maintainable systems.
       </>
     ),
   },
@@ -155,7 +155,7 @@ const about: About = {
     institutions: [
       {
         name: "University of Pamukkale",
-        description: <>Studied computer science at Turkey.</>,
+        description: <>Graduated computer science at Turkey.</>,
       },
       {
         name: "Tripleten",
