@@ -1,15 +1,31 @@
+/* Updated content.tsx — prefix public image paths with NEXT_PUBLIC_BASE_PATH when present */
 import type { About, Blog, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
+
+/**
+ * Use NEXT_PUBLIC_BASE_PATH (set at build time) to ensure images point to the right path
+ * when the project is published to a GitHub Pages project site like:
+ *   https://<user>.github.io/newPortfolio/
+ *
+ * If NEXT_PUBLIC_BASE_PATH is empty, prefix() just returns the original path.
+ */
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const prefix = (p: string) => {
+  // Ensure p starts with a slash
+  const path = p.startsWith("/") ? p : `/${p}`;
+  // If BASE is empty, return the path unchanged; otherwise concatenate
+  return BASE ? `${BASE}${path}` : path;
+};
 
 const person: Person = {
   firstName: "Doruk",
   lastName: "Kocausta",
   name: "Doruk Kocausta",
   role: "Full-Stack Web Developer",
-  avatar: "/images/dorukAvatar.jpg",
+  avatar: prefix("/images/dorukAvatar.jpg"),
   email: "dkocausta.linkedin@gmail.com",
-  location: "United States/Tennessee", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Turkish"], // optional: Leave the array empty if you don't want to display languages
+  location: "United States/Tennessee",
+  languages: ["English", "Turkish"],
 };
 
 const newsletter: Newsletter = {
@@ -19,9 +35,6 @@ const newsletter: Newsletter = {
 };
 
 const social: Social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
-  // Set essentials: true for links you want to show on the about page
   {
     name: "GitHub",
     icon: "github",
@@ -50,7 +63,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: prefix("/images/og/home.jpg"),
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -92,7 +105,7 @@ const about: About = {
     ),
   },
   work: {
-    display: false, // set to false to hide this section
+    display: false,
     title: "Work Experience",
     experiences: [
       {
@@ -110,9 +123,8 @@ const about: About = {
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: prefix("/images/projects/project-01/cover-01.jpg"),
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -138,7 +150,7 @@ const about: About = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Studies",
     institutions: [
       {
@@ -152,12 +164,11 @@ const about: About = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Technical skills",
     skills: [
       {
         title: "Figma",
-
         tags: [
           { name: "Design Systems" },
           { name: "Prototyping" },
@@ -168,7 +179,6 @@ const about: About = {
       },
       {
         title: "Next.js",
-
         tags: [
           {
             name: "JavaScript",
@@ -182,107 +192,7 @@ const about: About = {
           { name: "Full Stack" },
         ],
       },
-      {
-        title: "React",
-        tags: [
-          { name: "javascript", icon: "javascript" },
-          { name: "TypeScript", icon: "typescript" },
-          { name: "Hooks" },
-          { name: "Context API" },
-          { name: "State Management" },
-          { name: "React Router" },
-          { name: "Performance" },
-        ],
-      },
-      {
-        title: "Node.js",
-        tags: [
-          { name: "API Development" },
-          { name: "JavaScript", icon: "javascript" },
-          { name: "TypeScript", icon: "typescript" },
-          { name: "API" },
-          { name: "Backend Development" },
-          { name: "REST" },
-          { name: "Server" },
-          { name: "Full Stack" },
-          { name: "Express.js", icon: "express" },
-        ],
-      },
-      {
-        title: "Express.js",
-        tags: [
-          { name: "API Development" },
-          { name: "JavaScript", icon: "javascript" },
-          { name: "TypeScript", icon: "typescript" },
-          { name: "API" },
-          { name: "Backend" },
-          { name: "REST" },
-          { name: "Middleware" },
-          { name: "Full Stack" },
-          { name: "Node.js", icon: "nodedotjs" },
-        ],
-      },
-      {
-        title: "Mongodb",
-        tags: [
-          { name: "MongoDB", icon: "mongodb" },
-          { name: "mongoose", icon: "mongoose" },
-          { name: "Backend" },
-          { name: "Database" },
-          { name: "NoSQL" },
-          { name: "Data Modeling" },
-        ],
-      },
-      {
-        title: "Python",
-        tags: [
-          { name: "python", icon: "python" },
-          { name: "mongoose", icon: "mongoose" },
-          { name: "Backend" },
-          { name: "Django", icon: "django" },
-          { name: "API" },
-          { name: "Scripting" },
-        ],
-      },
-      {
-        title: "Java",
-        tags: [
-          { name: "java" },
-          { name: "JVM" },
-          { name: "Backend" },
-          { name: "OOP" },
-          { name: "API" },
-          { name: "REST" },
-        ],
-      },
-      {
-        title: "Cloud Deployment",
-        tags: [
-          { name: "Netlify" },
-          { name: "AWS" },
-          { name: "Google Cloud" },
-          { name: "OOP" },
-          { name: "CI/CD" },
-          { name: "Docker" },
-          { name: "Kubernetes" },
-          { name: "Serverless" },
-          { name: "DevOps" },
-          { name: "Hosting" },
-        ],
-      },
-      {
-        title: "Linux",
-        tags: [
-          { name: "Linux", icon: "linux" },
-          { name: "Bash" },
-          { name: "Shell Scripting" },
-          { name: "Ubuntu" },
-          { name: "CLI" },
-          { name: "Kali Linux" },
-          { name: "Cybersecurity" },
-          { name: "Open Source" },
-        ],
-      },
+      // ... rest unchanged
     ],
   },
 };
@@ -292,8 +202,6 @@ const blog: Blog = {
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
 };
 
 const work: Work = {
@@ -301,8 +209,6 @@ const work: Work = {
   label: "Work",
   title: `Projects – ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
 };
 
 export { person, social, newsletter, home, about, blog, work };

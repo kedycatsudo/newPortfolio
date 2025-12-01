@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
+    "predeploy": "cross-env NEXT_PUBLIC_BASE_PATH=/newPortfolio npm run build",
     "deploy": "GITHUB_PAGES=true gh-pages -d out",
     "biome-write": "npx @biomejs/biome format --write .",
     "start": "next start",
@@ -32,6 +32,7 @@
     "@types/node": "^20.17.30",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.5",
+    "cross-env": "^10.1.0",
     "eslint": "^9.25.0",
     "gh-pages": "^6.3.0",
     "prettier": "^3.6.2",
