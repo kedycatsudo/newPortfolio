@@ -1,22 +1,19 @@
 1:"$Sreact.fragment"
-2:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/fd542162e525c853.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js"],"Column"]
-3:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/fd542162e525c853.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js"],""]
-4:I[74855,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/fd542162e525c853.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js"],"ProjectCard"]
+2:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js"],"Column"]
+3:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js"],""]
+4:I[74855,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js"],"ProjectCard"]
 b:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
 c:"$Sreact.suspense"
-5:T1110,
+5:Te97,
 ## Overview
 
-WhatToWear is a full-stack application that helps users decide what to wear each day by combining live weather data, a personal wardrobe inventory, calendar events, and user style preferences. The backend (Express) aggregates weather and calendar feeds, manages user wardrobes and preferences, and returns ranked outfit suggestions. The frontend (React/Vite) provides an intuitive UI for managing clothing items, viewing daily suggestions, and saving favorites.
+WhatToWear is a full-stack application that helps users decide what to wear each day by combining live weather data and a personal wardrobe inventory. The backend (Express) aggregates weather feeds, manages user wardrobes, and returns outfit suggestions. The frontend (React/Vite) provides an intuitive UI for managing clothing items, viewing daily suggestions, and saving favorites.
 
 ## Key Features
 
 - **Weather-Aware Recommendations**: Fetches local weather (temperature, precipitation, wind) and recommends outfits suitable for current conditions and forecasts.
 - **Wardrobe Inventory**: Users upload or create clothing items with attributes (type, layers, warmth, colors, images). Items are stored in the user profile and can be tagged.
-- **Event & Calendar Integration**: Optionally syncs with user calendars to tailor outfit suggestions to event type (formal, casual, outdoor) and time of day.
-- **Personalization & Preferences**: Users set style preferences, disliked items, and preferred outfits; the system learns and ranks suggestions accordingly.
 - **Outfit Builder & History**: Saved outfit combinations and history let users reuse looks and refine recommendations over time.
-- **Smart Filters & Constraints**: Supports constraints like dress code, color coordination, and laundry status.
 - **Lightweight API Layer**: Server aggregates third-party weather APIs, normalizes responses, and applies caching to limit external calls.
 - **Dockerized & CI/CD Ready**: Containerized backend and frontend with GitHub Actions for automated builds and deployment.
 
@@ -24,26 +21,29 @@ WhatToWear is a full-stack application that helps users decide what to wear each
 
 - Backend: Node.js, Express
 - Frontend: React (Vite)
-- External APIs: OpenWeatherMap (or alternate provider), Google Calendar / CalDAV adapters
-- Data Storage: MongoDB (Mongoose) for users, wardrobe, and preferences
+- External APIs: OpenWeatherMap (or alternate provider)
+- Data Storage: MongoDB (Mongoose) for users and wardrobe
 - Caching: Redis or in-memory TTL cache for weather and recommendation results
 - Auth: JWT for session handling and protected user resources
-- Deployment: Docker, GitHub Actions (CI/CD), optional Nginx reverse proxy + Certbot for SSL
+- Deployment: Google Cloud, optional Nginx reverse proxy + Certbot for SSL
 - Utilities: multer / cloud storage for item images, axios for HTTP, cron jobs for scheduled syncs
 
 ## Challenges and Learnings
 
 - **Data Modeling for Clothing**: Designing a flexible schema for clothing attributes (layering, warmth, formality, color) was key to meaningful recommendations.
-- **Normalization of External Data**: Weather and calendar providers use different structures; an adapter layer simplifies downstream logic.
-- **Personalization**: Balancing automated recommendations with user control required clear preference settings and feedback loops (likes/dislikes).
+- **Normalization of External Data**: Weather providers use different structures; an adapter layer simplifies downstream logic.
 - **Caching & Rate Limits**: Implemented short TTLs and request coalescing to avoid exceeding external API rate limits while keeping suggestions fresh.
 - **Image Handling**: Optimizing upload, storage, and delivery of item photos improved UX and reduced bandwidth.
+
+
 
 ## Outcome
 
 - A coherent MVP that suggests context-appropriate outfits, enables wardrobe management, and integrates with external data sources.
-- Backend endpoints for wardrobe CRUD, suggestion generation, calendar sync, and user preferences are available and ready for frontend consumption.
+- Backend endpoints for wardrobe CRUD, suggestion generation, and user preferences are available and ready for frontend consumption.
 - The system is containerized and prepared for deployment; frontend can run as a static site while the API runs in a Docker container on a VM.
+- **Domain**: https://wtwrkedycat.baselinux.net
+- **Frontend repo**: https://github.com/kedycatsudo/se_project_react
 
 ## Deployment & Next Steps
 
@@ -57,8 +57,8 @@ WhatToWear is a full-stack application that helps users decide what to wear each
 
 ---
 
-This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.0:{"buildId":"6m6mdCJ2-D7K9oJd_2EpO","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://demo.magic-portfolio.com/work\",\"sameAs\":[],\"headline\":\"Projects – Doruk Kocausta\",\"description\":\"Design and dev projects by Doruk Kocausta\",\"image\":\"https://demo.magic-portfolio.com/og?title=Projects%20%E2%80%93%20Doruk%20Kocausta\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Doruk Kocausta"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","building-once-ui-a-customizable-design-system",{"priority":true,"href":"/work/building-once-ui-a-customizable-design-system","images":["/newPortfolio/images/projects/project-02/wt_cover-01.png","/newPortfolio/images/projects/project-02/wt_cover-02.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather, calendar events, and personal style preferences.","content":"$5","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}],"$L6","$L7"]}]]}],null,"$L8"]}],"loading":null,"isPartial":false}
-9:Tea3,
+This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.0:{"buildId":"UUrrcQZdcsviapuaNiw8K","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://demo.magic-portfolio.com/work\",\"sameAs\":[],\"headline\":\"Projects – Doruk Kocausta\",\"description\":\"Design and dev projects by Doruk Kocausta\",\"image\":\"https://demo.magic-portfolio.com/og?title=Projects%20%E2%80%93%20Doruk%20Kocausta\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Doruk Kocausta"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-02/wt_cover-02.png","/newPortfolio/images/projects/project-02/wt_cover-01.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather.","content":"$5","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}],"$L6","$L7"]}]]}],null,"$L8"]}],"loading":null,"isPartial":false}
+9:Tf18,
 ## Overview
 
 MealMatch is an MVP that streamlines meal donations by matching donors (restaurants, caterers, home cooks) with organizations and individuals in need. The project focuses on reducing food waste and improving logistics by providing a simple registration and matching flow, secure authentication, and an admin interface for managing donations and users.
@@ -68,7 +68,6 @@ MealMatch is an MVP that streamlines meal donations by matching donors (restaura
 - **User Authentication & Authorization**: Secure registration and login using JWTs. Roles include regular users and admins with protected routes for administrative actions.
 - **Donation Flow**: Donors can create donation entries (meals, portions, pickup details). Recipients and partner organizations can claim available donations.
 - **Automated Matching**: Basic matching logic using location and availability to suggest nearby recipients or pickup points.
-- **Admin Dashboard**: Admins can manage users, approve donation listings, and review donation history and metrics.
 - **Notifications**: Email or push notifications for new donations, claims, and status changes.
 - **Dockerized Backend**: Backend runs inside Docker with environment-driven configuration and connection to MongoDB Atlas for persistence.
 
@@ -77,7 +76,7 @@ MealMatch is an MVP that streamlines meal donations by matching donors (restaura
 - Backend: Node.js, Express, Mongoose (MongoDB Atlas)
 - Frontend: React (Vite), modern SPA patterns
 - Auth: JSON Web Tokens (JWT)
-- Deployment & DevOps: Docker, GitHub Actions (CI/CD), Docker Hub
+- Deployment & DevOps: Docker, GitHub Actions (CI/CD), Docker Hub, Digital Ocean
 - Optional infra: Nginx reverse-proxy, Certbot for SSL
 - Utilities: dotenv for env vars, bcrypt for password hashing, nodemailer for emails
 
@@ -95,6 +94,8 @@ MealMatch is an MVP that streamlines meal donations by matching donors (restaura
 - A working MVP with backend endpoints available and responding (authentication, donation CRUD, admin routes).
 - Frontend can connect locally to the deployed backend using a VITE_API_URL env var (include protocol).
 - Docker images are built and ready to be pushed to a registry; GitHub Actions configured to build/publish on pushes to main.
+- **Domain**: https://mealmatch.online/
+- **Github Repo**: https://github.com/kedycatsudo/mealmatch
 
 ## Deployment & Next Steps
 
@@ -103,11 +104,12 @@ MealMatch is an MVP that streamlines meal donations by matching donors (restaura
 - Harden the VM (SSH keys, UFW firewall rules for 22/80/443 and your VPN port) before exposing services publicly.
 - Deploy the frontend (GitHub Pages is fine for a static SPA) and set CORS to allow the Pages origin.
 - Improve matching algorithms, add real-time updates (WebSockets), and implement production-grade logging and backups (MongoDB Atlas backups).
+- **Admin Dashboard**: Admins can manage users, approve donation listings, and review donation history and metrics.
 
 ---
 
-This Mealmatch MDX entry summarizes the project, technical decisions, and actionable next steps for taking the MVP from a working prototype to a secure, production-ready service.6:["$","$L4","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-01/cover-01.png","/newPortfolio/images/projects/project-01/cover-02.jpeg"],"title":"MealMatch — Automating Meal Donations and Distribution","description":"MealMatch connects donors, kitchens, and recipients to reduce food waste and streamline meal distribution with an easy-to-use web platform and automated matching.","content":"$9","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/mealmatch"}]
-a:Tc82,
+This Mealmatch MDX entry summarizes the project, technical decisions, and actionable next steps for taking the MVP from a working prototype to a secure, production-ready service.6:["$","$L4","building-once-ui-a-customizable-design-system",{"priority":true,"href":"/work/building-once-ui-a-customizable-design-system","images":["/newPortfolio/images/projects/project-01/cover-01.png","/newPortfolio/images/projects/project-01/cover-02.jpeg"],"title":"MealMatch — Automating Meal Donations and Distribution","description":"MealMatch connects donors, kitchens, and recipients to reduce food waste and streamline meal distribution with an easy-to-use web platform and automated matching.","content":"$9","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/mealmatch"}]
+a:Tc8e,
 ## Overview
 
 **Spots** is a modern, responsive social media platform for sharing and discovering photos of interesting locations. It offers users a clean interface and seamless experience across devices, combining ES6+ JavaScript, modular OOP design, and best practices in UI/UX development. Users can create a personal profile, upload and like photos, and explore a gallery that updates dynamically with API integration.
@@ -147,10 +149,11 @@ a:Tc82,
 - Delivered a fully responsive, feature-rich social media web app.
 - Users can edit their profile, interact with others' photos, and enjoy a seamless viewing and editing experience.
 - The application codebase is clean, maintainable, and ready for further enhancements.
+- **Domain**: https://kedycatsudo.github.io/se_project_spots/
+- **Github Repo**: https://github.com/kedycatsudo/se_project_spots
 
 ## Deployment & Next Steps
 
-- Deployed live at [https://kedycatsudo.github.io/se_project_spots/](https://kedycatsudo.github.io/se_project_spots/)
 - Future ideas: add comments, improved search/filter for spots, backend authentication, and richer social sharing features.
 
 ---
