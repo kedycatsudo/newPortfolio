@@ -169,6 +169,7 @@ const about: About = {
     skills: [
       {
         title: "Figma",
+
         tags: [
           { name: "Design Systems" },
           { name: "Prototyping" },
@@ -179,6 +180,7 @@ const about: About = {
       },
       {
         title: "Next.js",
+
         tags: [
           {
             name: "JavaScript",
@@ -192,7 +194,107 @@ const about: About = {
           { name: "Full Stack" },
         ],
       },
-      // ... rest unchanged
+      {
+        title: "React",
+        tags: [
+          { name: "javascript", icon: "javascript" },
+          { name: "TypeScript", icon: "typescript" },
+          { name: "Hooks" },
+          { name: "Context API" },
+          { name: "State Management" },
+          { name: "React Router" },
+          { name: "Performance" },
+        ],
+      },
+      {
+        title: "Node.js",
+        tags: [
+          { name: "API Development" },
+          { name: "JavaScript", icon: "javascript" },
+          { name: "TypeScript", icon: "typescript" },
+          { name: "API" },
+          { name: "Backend Development" },
+          { name: "REST" },
+          { name: "Server" },
+          { name: "Full Stack" },
+          { name: "Express.js", icon: "express" },
+        ],
+      },
+      {
+        title: "Express.js",
+        tags: [
+          { name: "API Development" },
+          { name: "JavaScript", icon: "javascript" },
+          { name: "TypeScript", icon: "typescript" },
+          { name: "API" },
+          { name: "Backend" },
+          { name: "REST" },
+          { name: "Middleware" },
+          { name: "Full Stack" },
+          { name: "Node.js", icon: "nodedotjs" },
+        ],
+      },
+      {
+        title: "Mongodb",
+        tags: [
+          { name: "MongoDB", icon: "mongodb" },
+          { name: "mongoose", icon: "mongoose" },
+          { name: "Backend" },
+          { name: "Database" },
+          { name: "NoSQL" },
+          { name: "Data Modeling" },
+        ],
+      },
+      {
+        title: "Python",
+        tags: [
+          { name: "python", icon: "python" },
+          { name: "mongoose", icon: "mongoose" },
+          { name: "Backend" },
+          { name: "Django", icon: "django" },
+          { name: "API" },
+          { name: "Scripting" },
+        ],
+      },
+      {
+        title: "Java",
+        tags: [
+          { name: "java" },
+          { name: "JVM" },
+          { name: "Backend" },
+          { name: "OOP" },
+          { name: "API" },
+          { name: "REST" },
+        ],
+      },
+      {
+        title: "Cloud Deployment",
+        tags: [
+          { name: "Netlify" },
+          { name: "AWS" },
+          { name: "Google Cloud" },
+          { name: "OOP" },
+          { name: "CI/CD" },
+          { name: "Docker" },
+          { name: "Kubernetes" },
+          { name: "Serverless" },
+          { name: "DevOps" },
+          { name: "Hosting" },
+        ],
+      },
+      {
+        title: "Linux",
+        tags: [
+          { name: "Linux", icon: "linux" },
+          { name: "Bash" },
+          { name: "Shell Scripting" },
+          { name: "Ubuntu" },
+          { name: "CLI" },
+          { name: "Kali Linux" },
+          { name: "Cybersecurity" },
+          { name: "Open Source" },
+        ],
+      },
     ],
   },
 };
