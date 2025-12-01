@@ -29,7 +29,7 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
@@ -47,12 +47,7 @@ const social: Social = [
     link: "https://www.linkedin.com/in/dorukkocausta/",
     essential: true,
   },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com",
-    essential: false,
-  },
+
   {
     name: "Email",
     icon: "email",

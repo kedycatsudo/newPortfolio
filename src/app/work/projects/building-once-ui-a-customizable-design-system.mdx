@@ -1,69 +1,65 @@
 ---
-title: "WhatToWear — Personal Outfit Recommendation App"
-publishedAt: "2025-11-27"
-summary: "A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather, calendar events, and personal style preferences."
+title: "MealMatch — Automating Meal Donations and Distribution"
+publishedAt: "2025-11-26"
+summary: "MealMatch connects donors, kitchens, and recipients to reduce food waste and streamline meal distribution with an easy-to-use web platform and automated matching."
 images:
-  - "/newPortfolio/images/projects/project-02/wt_cover-02.png"
-  - "/newPortfolio/images/projects/project-02/wt_cover-01.png"
+  - "/newPortfolio/images/projects/project-01/cover-01.png"
+  - "/newPortfolio/images/projects/project-01/cover-02.jpeg"
 team:
   - name: "Doruk Kocausta"
     role: "Full-Stack Developer"
     avatar: "/newPortfolio/images/dorukAvatar.jpg"
     linkedIn: "https://www.linkedin.com/in/kedycatsudo"
-repo: "@kedycatsudo/se_project_express"
-link: "https://github.com/kedycatsudo/se_project_express"
+link: "https://github.com/kedycatsudo/mealmatch"
 ---
 
 ## Overview
 
-WhatToWear is a full-stack application that helps users decide what to wear each day by combining live weather data, a personal wardrobe inventory, calendar events, and user style preferences. The backend (Express) aggregates weather and calendar feeds, manages user wardrobes and preferences, and returns ranked outfit suggestions. The frontend (React/Vite) provides an intuitive UI for managing clothing items, viewing daily suggestions, and saving favorites.
+MealMatch is an MVP that streamlines meal donations by matching donors (restaurants, caterers, home cooks) with organizations and individuals in need. The project focuses on reducing food waste and improving logistics by providing a simple registration and matching flow, secure authentication, and an admin interface for managing donations and users.
 
 ## Key Features
 
-- **Weather-Aware Recommendations**: Fetches local weather (temperature, precipitation, wind) and recommends outfits suitable for current conditions and forecasts.
-- **Wardrobe Inventory**: Users upload or create clothing items with attributes (type, layers, warmth, colors, images). Items are stored in the user profile and can be tagged.
-- **Event & Calendar Integration**: Optionally syncs with user calendars to tailor outfit suggestions to event type (formal, casual, outdoor) and time of day.
-- **Personalization & Preferences**: Users set style preferences, disliked items, and preferred outfits; the system learns and ranks suggestions accordingly.
-- **Outfit Builder & History**: Saved outfit combinations and history let users reuse looks and refine recommendations over time.
-- **Smart Filters & Constraints**: Supports constraints like dress code, color coordination, and laundry status.
-- **Lightweight API Layer**: Server aggregates third-party weather APIs, normalizes responses, and applies caching to limit external calls.
-- **Dockerized & CI/CD Ready**: Containerized backend and frontend with GitHub Actions for automated builds and deployment.
+- **User Authentication & Authorization**: Secure registration and login using JWTs. Roles include regular users and admins with protected routes for administrative actions.
+- **Donation Flow**: Donors can create donation entries (meals, portions, pickup details). Recipients and partner organizations can claim available donations.
+- **Automated Matching**: Basic matching logic using location and availability to suggest nearby recipients or pickup points.
+- **Notifications**: Email or push notifications for new donations, claims, and status changes.
+- **Dockerized Backend**: Backend runs inside Docker with environment-driven configuration and connection to MongoDB Atlas for persistence.
 
 ## Technologies Used
 
-- Backend: Node.js, Express
-- Frontend: React (Vite)
-- External APIs: OpenWeatherMap (or alternate provider), Google Calendar / CalDAV adapters
-- Data Storage: MongoDB (Mongoose) for users, wardrobe, and preferences
-- Caching: Redis or in-memory TTL cache for weather and recommendation results
-- Auth: JWT for session handling and protected user resources
-- Deployment: Docker, GitHub Actions (CI/CD), optional Nginx reverse proxy + Certbot for SSL
-- Utilities: multer / cloud storage for item images, axios for HTTP, cron jobs for scheduled syncs
+- Backend: Node.js, Express, Mongoose (MongoDB Atlas)
+- Frontend: React (Vite), modern SPA patterns
+- Auth: JSON Web Tokens (JWT)
+- Deployment & DevOps: Docker, GitHub Actions (CI/CD), Docker Hub, Digital Ocean
+- Optional infra: Nginx reverse-proxy, Certbot for SSL
+- Utilities: dotenv for env vars, bcrypt for password hashing, nodemailer for emails
 
 ## Challenges and Learnings
 
-- **Data Modeling for Clothing**: Designing a flexible schema for clothing attributes (layering, warmth, formality, color) was key to meaningful recommendations.
-- **Normalization of External Data**: Weather and calendar providers use different structures; an adapter layer simplifies downstream logic.
-- **Personalization**: Balancing automated recommendations with user control required clear preference settings and feedback loops (likes/dislikes).
-- **Caching & Rate Limits**: Implemented short TTLs and request coalescing to avoid exceeding external API rate limits while keeping suggestions fresh.
-- **Image Handling**: Optimizing upload, storage, and delivery of item photos improved UX and reduced bandwidth.
+- **Remote DB Access**: Atlas requires IP whitelisting — remember to add your VM or CI runner IPs (or use 0.0.0.0/0 temporarily while developing, then tighten).
+- **Environment Management**: Keep secrets out of the repo. Use runtime environment variables or CI secrets instead of baking .env into images.
+- **CORS & Frontend Integration**: When serving a frontend from a different origin (local dev, GitHub Pages), set proper CORS rules on the backend and include the full protocol in API URLs (e.g., `https://api.mealdomain.com`).
+- **Docker Context & .dockerignore**: Ensure .env exists in the build context when you intentionally copy it, or prefer passing envs at runtime with docker run --env.
+- **SSL & Production Readiness**: Use a domain + Certbot (Let’s Encrypt) and a reverse proxy (Nginx) to handle HTTPS and forward traffic to the app port (e.g., 3001).
+- **Logging & Monitoring**: Pipe logs to stdout/stderr for Docker visibility. Add monitoring for long-running processes and resource usage.
 
 ## Outcome
 
-- A coherent MVP that suggests context-appropriate outfits, enables wardrobe management, and integrates with external data sources.
-- Backend endpoints for wardrobe CRUD, suggestion generation, calendar sync, and user preferences are available and ready for frontend consumption.
-- The system is containerized and prepared for deployment; frontend can run as a static site while the API runs in a Docker container on a VM.
+- A working MVP with backend endpoints available and responding (authentication, donation CRUD, admin routes).
+- Frontend can connect locally to the deployed backend using a VITE_API_URL env var (include protocol).
+- Docker images are built and ready to be pushed to a registry; GitHub Actions configured to build/publish on pushes to main.
+- **Domain**: https://mealmatch.online/
+- **Github Repo**: https://github.com/kedycatsudo/mealmatch
 
 ## Deployment & Next Steps
 
-1. Point a domain or free DNS to your VM and create an A record for the API host.
-2. Use Nginx as a reverse proxy and obtain SSL certificates via Certbot to enable HTTPS.
-3. Harden the VM (SSH keys, disable root login, enable UFW for 22/80/443).
-4. Store API keys and secrets in CI/CD secrets or a secrets manager; use environment variables at runtime.
-5. Add Redis for stable caching if scaling, and enable structured logging and monitoring.
-6. Improve personalization with lightweight ML models or heuristics, add image auto-tagging (color, type), and implement offline-first frontend caching for reliability.
-7. Offer social sharing and exportable outfit plans as future features.
+- Point a domain or free DNS (Freenom / DuckDNS) to the VM IP and set an A record for the API host.
+- Install Nginx as a reverse proxy and obtain SSL via Certbot to enable HTTPS.
+- Harden the VM (SSH keys, UFW firewall rules for 22/80/443 and your VPN port) before exposing services publicly.
+- Deploy the frontend (GitHub Pages is fine for a static SPA) and set CORS to allow the Pages origin.
+- Improve matching algorithms, add real-time updates (WebSockets), and implement production-grade logging and backups (MongoDB Atlas backups).
+- **Admin Dashboard**: Admins can manage users, approve donation listings, and review donation history and metrics.
 
 ---
 
-This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.
+This Mealmatch MDX entry summarizes the project, technical decisions, and actionable next steps for taking the MVP from a working prototype to a secure, production-ready service.
