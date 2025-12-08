@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
 3:I[39756,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
 4:I[37457,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
-5:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"Column"]
-6:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],""]
-7:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"ClientGrid"]
-8:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"default"]
+5:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"Column"]
+6:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],""]
+7:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"ClientGrid"]
+8:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"default"]
 11:I[68027,[],"default"]
 :HL["/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
 :HL["/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","style"]
@@ -13,7 +13,133 @@
 :HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
 :HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-9:T77d,
+9:Te17,
+## Why Build MyFinance?
+
+A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance.
+
+Why am I so hyped about this one? Because for the first time, I’m building a solution for a real-world problem that I actually face every month. I’ve tried a bunch of finance apps, but most are either paid, overloaded with features I don’t need, or simply don’t fit the way I want to track things. I wanted something simple: to track my monthly income and expenses and keep my investments tidy—all in one dashboard. 
+
+So, I decided to build my own tailored solution. And yes, MyFinance will be completely free!
+
+---
+
+## Defining the Project Scope & Goals
+
+**Project name:** MyFinance
+
+**The goal:** Let users (including myself!) easily track income, expenses, and investments with custom categories, see profit or loss each month, and export statements as neat PDFs.
+
+**MVP Features:**  
+- Personal sign up & login for privacy  
+- Default and custom categories for income/expenses  
+- Add/edit income and expense entries  
+- Track investments (profit/loss per asset)  
+- Monthly summary & one-click PDF exports
+
+**Out of scope (for now):**  
+- Bank integrations  
+- Cross-account transfers  
+- Net worth tracking  
+- Mobile app  
+- Payments/subscriptions
+
+---
+
+## Planning Data Flow & Architecture
+
+I spent a fair bit of time sketching out the data models and relationships before writing any code. Here’s what I decided on:
+
+**Core entities:**  
+- **User:** Your personal account and settings  
+- **Category:** "Groceries", "Salary", etc.—for grouping transactions  
+- **Transaction:** Any income or expense entry  
+- **Investment:** Profit/loss for assets you hold  
+- **MonthlySnapshot (optional):** For caching monthly summaries
+
+**Example data models:**
+
+```json
+// User
+{ "username": "kedycat", "currency": "USD" }
+
+// Category
+{ "title": "Groceries", "type": "expense" }
+
+// Transaction
+{ "categoryId": "...", "type": "expense", "amount": 380000, "date": "..." }
+
+// Investment
+{ "asset": "BTC", "resultType": "profit", "resultAmount": 5000 }
+```
+
+- Transactions are linked to categories (many-to-one)
+- Investments linked to users
+
+---
+
+## Aggregation & Reporting
+
+One of the things I wanted most was a clear, one-glance monthly report showing income, expenses, investments, and overall profit.
+
+I’m leveraging MongoDB’s aggregation to crunch the numbers for monthly reports:
+
+- Sum up monthly income and expenses
+- Sum profits (or losses) from investments
+- Compute overall profit:
+
+`profit = incomeTotal + investmentTotal - expenseTotal`
+
+**API sample response:**
+
+```json
+{
+  "incomeTotal": 450000,
+  "expenseTotal": 350000,
+  "investmentTotal": 50000,
+  "profit": 150000
+}
+```
+
+---
+
+## API & UI Design
+
+To keep things neat and user-friendly:
+
+- **API Endpoints:** signup/login, CRUD for categories, transactions, investments, monthly reporting with PDF export
+- **UI:** A dashboard with charts, easy category management, quick data entry via modals, and one-click PDF downloads
+
+---
+
+## Tech Stack
+
+- **Next.js** (React UI & API routes)
+- **TypeScript**
+- **MongoDB**
+- **Tailwind CSS**
+- PDF export support via **Puppeteer** (or another server-side PDF lib)
+
+---
+
+## What’s Next?
+
+Development has begun, and I’ll be sharing updates on how the build goes, and posting project learnings, cool solutions, and perhaps even some pain points here in the blog. If tracking your finances in your own way sounds interesting, stay tuned!
+
+Thanks for reading—and wish me luck building MyFinance!
+
+---0:{"P":null,"b":"6W6HfuR6EO-OALsq2gl7c","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://demo.magic-portfolio.com/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
+13:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"Mailchimp"]
+14:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+17:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"ViewportBoundary"]
+19:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"MetadataBoundary"]
+1c:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"Providers"]
+1d:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"RevealFx"]
+1e:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"Background"]
+1f:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"ClientFlex"]
+20:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"Header"]
+12:T77d,
 ## About
 
 Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable.
@@ -65,25 +191,14 @@ I’ll be sharing more about my journey, tech experiments, and projects here. St
 
 ---
 
-Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!0:{"P":null,"b":"UUrrcQZdcsviapuaNiw8K","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://demo.magic-portfolio.com/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
-12:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"Mailchimp"]
-13:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
-14:"$Sreact.suspense"
-16:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"ViewportBoundary"]
-18:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"MetadataBoundary"]
-1b:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"Providers"]
-1c:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"RevealFx"]
-1d:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"Background"]
-1e:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"ClientFlex"]
-1f:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"Header"]
-a:false
-b:["$","$L12",null,{"marginBottom":"l"}]
+Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!a:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$12"},"thumbnail":true,"direction":"column"}]]}]
+b:["$","$L13",null,{"marginBottom":"l"}]
 c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Earlier posts"}]
 d:false
-e:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js","async":true,"nonce":"$undefined"}]
-f:["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]
-10:["$","$1","h",{"children":[null,["$","$L16",null,{"children":"$@17"}],["$","div",null,{"hidden":true,"children":["$","$L18",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$@19"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-1a:T76b,
+e:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/37039ff616360ece.js","async":true,"nonce":"$undefined"}]
+f:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
+10:["$","$1","h",{"children":[null,["$","$L17",null,{"children":"$@18"}],["$","div",null,{"hidden":true,"children":["$","$L19",null,{"children":["$","$15",null,{"name":"Next.Metadata","children":"$@1a"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1b:T76b,
               (function() {
                 try {
                   const root = document.documentElement;
@@ -123,13 +238,13 @@ f:["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","ch
                   document.documentElement.setAttribute('data-theme', 'dark');
                 }
               })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$1a"}}]}],["$","$L1b",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L1c",null,{"fill":true,"position":"absolute","children":["$","$L1d",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L1e",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L1f",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L20","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L21","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L22"]}]}]]}]
-23:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"Row"]
-24:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/84ca4695da1c10c9.js"],"IconButton"]
-20:["$","$L4",null,{}]
-21:[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
-22:["$","$L23",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L23",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2025," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L23",null,{"gap":"16","children":[["$","$L24","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L24","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L24","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L23",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-25:I[27201,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"IconMark"]
-19:[["$","title","0",{"children":"Writing about design and tech..."}],["$","meta","1",{"name":"description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about design and tech..."}],["$","meta","3",{"property":"og:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://demo.magic-portfolio.com/blog"}],["$","meta","5",{"property":"og:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","meta","6",{"property":"og:image:alt","content":"Writing about design and tech..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about design and tech..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","link","12",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.433fb4fb.ico","sizes":"620x661","type":"image/x-icon"}],["$","$L25","13",{}]]
-15:null
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$1b"}}]}],["$","$L1c",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L1d",null,{"fill":true,"position":"absolute","children":["$","$L1e",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L1f",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L20",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L21","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L22","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L23"]}]}]]}]
+24:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"Row"]
+25:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/37039ff616360ece.js"],"IconButton"]
+21:["$","$L4",null,{}]
+22:[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
+23:["$","$L24",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L24",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2025," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L24",null,{"gap":"16","children":[["$","$L25","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L25","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L25","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L24",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+26:I[27201,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"IconMark"]
+1a:[["$","title","0",{"children":"Writing about design and tech..."}],["$","meta","1",{"name":"description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about design and tech..."}],["$","meta","3",{"property":"og:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://demo.magic-portfolio.com/blog"}],["$","meta","5",{"property":"og:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","meta","6",{"property":"og:image:alt","content":"Writing about design and tech..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about design and tech..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","link","12",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.433fb4fb.ico","sizes":"620x661","type":"image/x-icon"}],["$","$L26","13",{}]]
+16:null
