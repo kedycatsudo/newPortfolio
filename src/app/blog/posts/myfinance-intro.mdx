@@ -1,0 +1,124 @@
+---
+title: "Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch"
+subtitle: "From Portfolio Launch to Solving My Own Real-World Problem"
+summary: "Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place."
+image: "/newPortfolio/images/gallery/myfinancelogo.png"
+publishedAt: "2025-12-08"
+tag: "Side Project"
+---
+
+## Why Build MyFinance?
+
+A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance.
+
+Why am I so hyped about this one? Because for the first time, I’m building a solution for a real-world problem that I actually face every month. I’ve tried a bunch of finance apps, but most are either paid, overloaded with features I don’t need, or simply don’t fit the way I want to track things. I wanted something simple: to track my monthly income and expenses and keep my investments tidy—all in one dashboard. 
+
+So, I decided to build my own tailored solution. And yes, MyFinance will be completely free!
+
+---
+
+## Defining the Project Scope & Goals
+
+**Project name:** MyFinance
+
+**The goal:** Let users (including myself!) easily track income, expenses, and investments with custom categories, see profit or loss each month, and export statements as neat PDFs.
+
+**MVP Features:**  
+- Personal sign up & login for privacy  
+- Default and custom categories for income/expenses  
+- Add/edit income and expense entries  
+- Track investments (profit/loss per asset)  
+- Monthly summary & one-click PDF exports
+
+**Out of scope (for now):**  
+- Bank integrations  
+- Cross-account transfers  
+- Net worth tracking  
+- Mobile app  
+- Payments/subscriptions
+
+---
+
+## Planning Data Flow & Architecture
+
+I spent a fair bit of time sketching out the data models and relationships before writing any code. Here’s what I decided on:
+
+**Core entities:**  
+- **User:** Your personal account and settings  
+- **Category:** "Groceries", "Salary", etc.—for grouping transactions  
+- **Transaction:** Any income or expense entry  
+- **Investment:** Profit/loss for assets you hold  
+- **MonthlySnapshot (optional):** For caching monthly summaries
+
+**Example data models:**
+
+```json
+// User
+{ "username": "kedycat", "currency": "USD" }
+
+// Category
+{ "title": "Groceries", "type": "expense" }
+
+// Transaction
+{ "categoryId": "...", "type": "expense", "amount": 380000, "date": "..." }
+
+// Investment
+{ "asset": "BTC", "resultType": "profit", "resultAmount": 5000 }
+```
+
+- Transactions are linked to categories (many-to-one)
+- Investments linked to users
+
+---
+
+## Aggregation & Reporting
+
+One of the things I wanted most was a clear, one-glance monthly report showing income, expenses, investments, and overall profit.
+
+I’m leveraging MongoDB’s aggregation to crunch the numbers for monthly reports:
+
+- Sum up monthly income and expenses
+- Sum profits (or losses) from investments
+- Compute overall profit:
+
+`profit = incomeTotal + investmentTotal - expenseTotal`
+
+**API sample response:**
+
+```json
+{
+  "incomeTotal": 450000,
+  "expenseTotal": 350000,
+  "investmentTotal": 50000,
+  "profit": 150000
+}
+```
+
+---
+
+## API & UI Design
+
+To keep things neat and user-friendly:
+
+- **API Endpoints:** signup/login, CRUD for categories, transactions, investments, monthly reporting with PDF export
+- **UI:** A dashboard with charts, easy category management, quick data entry via modals, and one-click PDF downloads
+
+---
+
+## Tech Stack
+
+- **Next.js** (React UI & API routes)
+- **TypeScript**
+- **MongoDB**
+- **Tailwind CSS**
+- PDF export support via **Puppeteer** (or another server-side PDF lib)
+
+---
+
+## What’s Next?
+
+Development has begun, and I’ll be sharing updates on how the build goes, and posting project learnings, cool solutions, and perhaps even some pain points here in the blog. If tracking your finances in your own way sounds interesting, stay tuned!
+
+Thanks for reading—and wish me luck building MyFinance!
+
+---
