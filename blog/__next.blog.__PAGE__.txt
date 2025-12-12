@@ -6,7 +6,7 @@
 f:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
 10:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
 11:"$Sreact.suspense"
-6:Te99,
+6:T1249,
 ---
 
 ## Confessions of a Code-First Creator (Who Isn't a Designer)
@@ -15,13 +15,21 @@ It might sound strange, but for me, putting creativity on digital paper—whethe
 
 I don’t have formal design training or a background in art, and I suspect that’s part of the reason why it’s tough for me to know what will actually look good on a website. Still, I definitely see improvement every time I work on a new project, and that’s what matters. Progress, not perfection!
 
----
 
 ### Login & Register: Stealing with Pride
+
+<img src="/newPortfolio/images/gallery/loginregister.png" alt="Login/Register Logo" />
+
+When it came time to design the login and registration screens, I realized I didn’t need to look any further than my own past work. I borrowed heavily from the layouts and user flows I’d built for MealMatch—there’s no shame in reusing your own tried-and-true solutions! It made the whole process much faster and let me focus on refining the user experience instead of reinventing basic forms.
+
+I tweaked the color scheme and spacing to fit the MyFinance brand, but many components—like labeled input fields, feedback messages, and the clean, central card layout—came straight from my previous designs. Adapting what worked well in MealMatch gave me a solid foundation and a little boost of confidence, too. Sometimes the smartest move is to steal from yourself.
 
 ---
 
 ### Dashboard: Where It Starts Feeling Real
+
+<img src="/newPortfolio/images/gallery/dashboard.png" alt="Login/Register Logo" />
+
 
 After a couple hours of sketching and tweaking, I had my Dashboard page laid out and surprisingly… I liked the result! Here's the setup:
 
@@ -68,7 +76,7 @@ Thanks for reading—and have an awesome day!
 
 ---
 
-#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch0:{"buildId":"fIGr7VfMmr4pFXvzAgcHq","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://demo.magic-portfolio.com/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"s":{"columns":1},"columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9","$La"]}]]}],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch0:{"buildId":"UDqSIkhcX6agI-CixQ-zx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://demo.magic-portfolio.com/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"s":{"columns":1},"columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9","$La"]}]]}],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
 d:Te17,
 ## Why Build MyFinance?
 
