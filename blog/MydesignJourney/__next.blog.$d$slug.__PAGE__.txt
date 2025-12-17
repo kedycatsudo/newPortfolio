@@ -6,48 +6,131 @@
 6:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
 7:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
 8:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
-2a:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
-2b:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
-2c:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
-2d:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
-2e:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
-31:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
-32:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
-33:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
-34:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
-35:"$Sreact.suspense"
+2b:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
+2c:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
+2d:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
+2e:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
+2f:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
+32:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
+33:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
+34:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
+35:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+36:"$Sreact.suspense"
 :HL["/newPortfolio/images/gallery/loginregister.png","image"]
 :HL["/newPortfolio/images/gallery/dashboard.png","image"]
-0:{"buildId":"UDqSIkhcX6agI-CixQ-zx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/MydesignJourney","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog/MydesignJourney\",\"sameAs\":[],\"headline\":\"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges\",\"description\":\"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.\",\"image\":\"https://demo.magic-portfolio.com/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-10\",\"dateModified\":\"2025-12-10\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 9, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"confessions-of-a-code-first-creator-who-isn-t-a-designer","children":"Confessions of a Code-First Creator (Who Isn't a Designer)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It might sound strange, but for me, putting creativity on digital paper—whether it's designing a website, painting, or drawing—has always been a struggle. Which is odd, because I consider myself a very creative person. That creativity shows up in all sorts of places: problem-solving software, coming up with clever workflows, or even my work as a sous chef, plating a dish. But something about UI/UX design? It just doesn't come naturally."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I don’t have formal design training or a background in art, and I suspect that’s part of the reason why it’s tough for me to know what will actually look good on a website. Still, I definitely see improvement every time I work on a new project, and that’s what matters. Progress, not perfection!"}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23"]}],"$L24","$L25","$L26"]}]}],"$L27"]}],["$L28"],"$L29"]}],"loading":null,"isPartial":false}
-9:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"login-and-register-stealing-with-pride","children":"Login & Register: Stealing with Pride"}]
-a:["$","img",null,{"src":"/newPortfolio/images/gallery/loginregister.png","alt":"Login/Register Logo"}]
-b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"When it came time to design the login and registration screens, I realized I didn’t need to look any further than my own past work. I borrowed heavily from the layouts and user flows I’d built for MealMatch—there’s no shame in reusing your own tried-and-true solutions! It made the whole process much faster and let me focus on refining the user experience instead of reinventing basic forms."}]
-c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I tweaked the color scheme and spacing to fit the MyFinance brand, but many components—like labeled input fields, feedback messages, and the clean, central card layout—came straight from my previous designs. Adapting what worked well in MealMatch gave me a solid foundation and a little boost of confidence, too. Sometimes the smartest move is to steal from yourself."}]
-d:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
-e:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"dashboard-where-it-starts-feeling-real","children":"Dashboard: Where It Starts Feeling Real"}]
-f:["$","img",null,{"src":"/newPortfolio/images/gallery/dashboard.png","alt":"Login/Register Logo"}]
-10:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"After a couple hours of sketching and tweaking, I had my Dashboard page laid out and surprisingly… I liked the result! Here's the setup:"}]
-11:["$","$L2a",null,{"children":["\n",["$","$L2b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Logo stays anchored in the top left—because hey, brand consistency matters!"}],"\n",["$","$L2b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Page header reminds you where you are."}],"\n",["$","$L2b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Welcoming message with a splash of color (\"Welcome to MyFinance Dashboard. Congratulations, your colour is green so far this month!\")—it's a tiny touch, but helps users feel seen and in control."}],"\n"]}]
-12:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"On the left, a sidebar for navigation. The main area holds three bubble containers with key data stats and listings. I chose a palette of crisp white with soft, light blue accents for the background. It adds clarity and clear separation without straining the eyes, even for longer reading or data review sessions."}]
-13:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I plan to use these bubbles throughout the app—consistency makes life easier, and creating reusable components isn’t just smart for devs, it’s a win for design too."}]
-14:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
-15:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"the-pie-chart-challenge","children":"The Pie Chart Challenge"}]
-16:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Of course, it's not all smooth sailing. Building a pie chart that visually breaks down the data by category, with colors that mean something and look good, is going to be a real challenge—especially as a code-first person. But I'm up for it. Backend-to-frontend data connection will push me a bit outside my comfort zone, but that's the part that excites me most."}]
-17:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
-18:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"what-i-ve-learned-so-far","children":"What I've Learned So Far"}]
-19:["$","$L2a",null,{"children":["\n",["$","$L2b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Not being a designer doesn’t mean you can’t design—just expect to iterate more."}],"\n",["$","$L2b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Borrowing trusted layouts and patterns is totally okay, especially for forms."}],"\n",["$","$L2b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Pick a color scheme you love early on, and use it as much as possible. Your app will feel more cohesive."}],"\n",["$","$L2b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Reusable components save you headaches down the line."}],"\n",["$","$L2b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Tackling the hardest parts (architecture and data flow) before visuals makes UI decisions easier."}],"\n"]}]
-1a:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
-1b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"next-steps","children":"Next Steps"}]
-1c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"There’s still plenty to build: sidebar sections, adding more data containers, and thinking through the rest of the workflow screens. But with the dashboard and auth pages done, things are starting to click into place."}]
-1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"After these steps, I’ll finally be able to start writing some code and wiring up the real data. That’s the fun part I’ve been waiting for!"}]
-1e:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
-1f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"parting-thoughts","children":"Parting Thoughts"}]
-20:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Design is always going to challenge me, but that's half the reason I wanted to build MyFinance in the first place—creating something that solves a problem I care about, and learning new tech skills in the process. Each step, even the awkward, uncertain design moments, is progress. If you want to follow along with the build, or have advice on making pie charts prettier, I’d love to hear from you!"}]
-21:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Thanks for reading—and have an awesome day!"}]
-22:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
-23:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch"}]
-24:["$","$L2c",null,{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","url":"https://demo.magic-portfolio.com/blog/MydesignJourney"}]
-2f:Te17,
+0:{"buildId":"Zkix4jy8FJdJ1o8zNfqod","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/MydesignJourney","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/MydesignJourney\",\"sameAs\":[],\"headline\":\"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges\",\"description\":\"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-10\",\"dateModified\":\"2025-12-10\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 9, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"confessions-of-a-code-first-creator-who-isn-t-a-designer","children":"Confessions of a Code-First Creator (Who Isn't a Designer)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It might sound strange, but for me, putting creativity on digital paper—whether it's designing a website, painting, or drawing—has always been a struggle. Which is odd, because I consider myself a very creative person. That creativity shows up in all sorts of places: problem-solving software, coming up with clever workflows, or even my work as a sous chef, plating a dish. But something about UI/UX design? It just doesn't come naturally."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24"]}],"$L25","$L26","$L27"]}]}],"$L28"]}],["$L29"],"$L2a"]}],"loading":null,"isPartial":false}
+9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I don’t have formal design training or a background in art, and I suspect that’s part of the reason why it’s tough for me to know what will actually look good on a website. Still, I definitely see improvement every time I work on a new project, and that’s what matters. Progress, not perfection!"}]
+a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"login-and-register-stealing-with-pride","children":"Login & Register: Stealing with Pride"}]
+b:["$","img",null,{"src":"/newPortfolio/images/gallery/loginregister.png","alt":"Login/Register Logo"}]
+c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"When it came time to design the login and registration screens, I realized I didn’t need to look any further than my own past work. I borrowed heavily from the layouts and user flows I’d built for MealMatch—there’s no shame in reusing your own tried-and-true solutions! It made the whole process much faster and let me focus on refining the user experience instead of reinventing basic forms."}]
+d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I tweaked the color scheme and spacing to fit the MyFinance brand, but many components—like labeled input fields, feedback messages, and the clean, central card layout—came straight from my previous designs. Adapting what worked well in MealMatch gave me a solid foundation and a little boost of confidence, too. Sometimes the smartest move is to steal from yourself."}]
+e:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"dashboard-where-it-starts-feeling-real","children":"Dashboard: Where It Starts Feeling Real"}]
+10:["$","img",null,{"src":"/newPortfolio/images/gallery/dashboard.png","alt":"Login/Register Logo"}]
+11:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"After a couple hours of sketching and tweaking, I had my Dashboard page laid out and surprisingly… I liked the result! Here's the setup:"}]
+12:["$","$L2b",null,{"children":["\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Logo stays anchored in the top left—because hey, brand consistency matters!"}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Page header reminds you where you are."}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Welcoming message with a splash of color (\"Welcome to MyFinance Dashboard. Congratulations, your colour is green so far this month!\")—it's a tiny touch, but helps users feel seen and in control."}],"\n"]}]
+13:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"On the left, a sidebar for navigation. The main area holds three bubble containers with key data stats and listings. I chose a palette of crisp white with soft, light blue accents for the background. It adds clarity and clear separation without straining the eyes, even for longer reading or data review sessions."}]
+14:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I plan to use these bubbles throughout the app—consistency makes life easier, and creating reusable components isn’t just smart for devs, it’s a win for design too."}]
+15:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+16:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"the-pie-chart-challenge","children":"The Pie Chart Challenge"}]
+17:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Of course, it's not all smooth sailing. Building a pie chart that visually breaks down the data by category, with colors that mean something and look good, is going to be a real challenge—especially as a code-first person. But I'm up for it. Backend-to-frontend data connection will push me a bit outside my comfort zone, but that's the part that excites me most."}]
+18:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+19:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"what-i-ve-learned-so-far","children":"What I've Learned So Far"}]
+1a:["$","$L2b",null,{"children":["\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Not being a designer doesn’t mean you can’t design—just expect to iterate more."}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Borrowing trusted layouts and patterns is totally okay, especially for forms."}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Pick a color scheme you love early on, and use it as much as possible. Your app will feel more cohesive."}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Reusable components save you headaches down the line."}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Tackling the hardest parts (architecture and data flow) before visuals makes UI decisions easier."}],"\n"]}]
+1b:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+1c:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"next-steps","children":"Next Steps"}]
+1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"There’s still plenty to build: sidebar sections, adding more data containers, and thinking through the rest of the workflow screens. But with the dashboard and auth pages done, things are starting to click into place."}]
+1e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"After these steps, I’ll finally be able to start writing some code and wiring up the real data. That’s the fun part I’ve been waiting for!"}]
+1f:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+20:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"parting-thoughts","children":"Parting Thoughts"}]
+21:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Design is always going to challenge me, but that's half the reason I wanted to build MyFinance in the first place—creating something that solves a problem I care about, and learning new tech skills in the process. Each step, even the awkward, uncertain design moments, is progress. If you want to follow along with the build, or have advice on making pie charts prettier, I’d love to hear from you!"}]
+22:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Thanks for reading—and have an awesome day!"}]
+23:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+24:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch"}]
+25:["$","$L2d",null,{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","url":"https://kedycatsudo.github.io/newPortfolio//blog/MydesignJourney"}]
+30:T120e,
+---
+
+## Progress Update: Conquering Frontend Fears 🚀
+
+As I mentioned before, frontend design has always felt a bit daunting for me. But this time around, working on MyFinance, I surprised myself—I’m genuinely happy with how things turned out. It’s rewarding to see real progress, and it’s proof that with time and iteration, you can absolutely improve your design skills, even if you don’t consider yourself a “designer.” Still, I have to admit, I’m excited to dive back into the code!
+
+### Why I Didn’t Skip the Design Step
+
+In past projects, I’ve been tempted to rush straight into development, putting off the visuals for later. This time, I forced myself to slow down and take the design process seriously, because:
+
+- **Most critical decisions happen here:** From how data should be structured, to what fields are actually needed, right down to choosing button styles and color palettes.
+- **Better design = better schemas:** Laying out the UI made me revisit and finalize all my schema fields. Even though I started with a rough MVP schema, working on the screens showed me gaps and refinements I wouldn’t have spotted otherwise.
+- **Iterating visually fuels better workflows:** Letting the design evolve alongside my data flow helped make the whole app more cohesive—not just in how it looks, but in how it works under the hood.
+
+---
+
+<img src="/newPortfolio/images/gallery/outcome-income.png" alt="Incomes and Outcomes pages screenshot" />
+
+---
+
+### What’s Ready So Far
+
+- **Incomes and Outcomes pages:**  
+  Clean, organized, and user-friendly. I spent extra effort making sure users always know where to find their data and how to interact with it—no more confusion or clutter.
+- **Clear component structure:**  
+  Each component is responsible for a single piece of data or UI, making the pages easy to read and navigate.
+- **Dynamic modals:**  
+  - Edit categories (for customizing how you see your finances)
+  - Edit entries (for both payments and earnings)
+- **Sidebar and side components:**  
+  For seamless navigation and contextual data views.
+- **Live data graph:**  
+  A visual snapshot of current financial status, always up to date.
+- **Reusability:**  
+  All of this is built from just five small, modular, and reusable components, keeping things maintainable as the project grows.
+
+---
+
+<img src="/newPortfolio/images/gallery/components.png" alt="Reusable Components" />
+
+---
+
+### The New Challenge: Investments Page
+
+Up next: tackling the Investments page!  
+This area is a bit more complex—there’s a lot of data to surface and plenty of details to get right. Here’s my plan:
+
+- **Map out all possible fields and relationships** for investments (assets, returns, performance over time, etc)
+- **Design flexible UI components** that can handle a variety of investment types and summary stats
+- **Keep the data highly readable and well separated** so users never feel overwhelmed
+- **Develop the backend logic** to support robust data aggregation and reporting
+
+It’s honestly exciting to see how much more there is to consider when the content is “money.” Compared to my previous project, MealMatch (which was a lot lighter on data), MyFinance is proving to be a fulfilling, challenging next step.
+
+---
+
+### What I’ve Learned (So Far)
+
+- **Don’t fear the design phase:** The more effort I put into it, the fewer issues I have during development.
+- **Schema-first doesn’t always mean UI-second:** Letting UI and data design evolve together makes for a more intuitive app.
+- **Bite-sized reusable components = clear code and clean layouts.**
+- **Good data flow planning pays off—** especially with complex domains like finance.
+- **Expect surprises:** As soon as you work with real (or realistic) data, new requirements always surface!
+
+---
+
+### Wrapping Up
+
+Thanks for following along—it means a lot. There’s still a long way to go, but seeing these pages come together (and learning so much in the process) has made the challenge completely worth it. I’m eager to finish the Investments page and then confront the backend complexities head-on.
+
+If you have any feedback, suggestions, or just want to talk about building finance apps (or design struggles!), drop me a message or a comment below. And if you’re interested in a deeper dive, I’ve written an article about this very journey on my blog—check it out! I’d love your thoughts.
+
+Stay warm, and have a fantastic holiday season! 🎄
+
+---
+
+#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork26:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L2e",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2f","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$30"},"thumbnail":true,"direction":"column"}],"$L31"]}]]}]
+27:["$","$L32",null,{}]
+28:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L33",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L34",null,{"fitHeight":true}]]}]
+29:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+2a:["$","$L35",null,{"children":["$","$36",null,{"name":"Next.MetadataOutlet","children":"$@37"}]}]
+38:Te17,
 ## Why Build MyFinance?
 
 A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance.
@@ -162,62 +245,5 @@ Development has begun, and I’ll be sharing updates on how the build goes, and 
 
 Thanks for reading—and wish me luck building MyFinance!
 
----25:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L2d",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2e","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$2f"},"thumbnail":true,"direction":"column"}],"$L30"]}]]}]
-26:["$","$L31",null,{}]
-27:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L32",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L33",null,{"fitHeight":true}]]}]
-28:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
-29:["$","$L34",null,{"children":["$","$35",null,{"name":"Next.MetadataOutlet","children":"$@36"}]}]
-37:T77d,
-## About
-
-Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable.
-
-I wanted a platform to showcase my work, projects, and blog posts — and I found this setup perfect for developers who want both flexibility and polish.
-
-## Why I Chose This Stack
-
-I wanted to learn a new framework not just by following tutorials, but by diving in and building something real from scratch. Hands-on experience always helps me understand and retain new skills better.
-
-After some research, I picked these tools for my portfolio:
-
-- **Next.js** — a modern React framework that makes routing, deployment, and performance optimization much easier out of the box.
-- **MDX** — lets me write content in Markdown while also embedding React components, so my blog can be interactive and developer-friendly.
-- **Once UI / Magic Portfolio** — provides a beautiful, ready-to-go theme with professional design, so I can focus my time on learning and content rather than building a design system from scratch.
-
-## Quick Start
-
-Thinking of starting your own? Here’s how I did it:
-
-<CodeBlock compact marginBottom="16" codes={[
-  {
-    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
-    language: "bash"
-  }
-]} />
-
-Install the dependencies:
-
-<CodeBlock compact marginBottom="16" codes={[
-  {
-    code: "npm install",
-    language: "bash"
-  }
-]} />
-
-Start your local dev server:
-
-<CodeBlock compact marginBottom="16" codes={[
-  {
-    code: "npm run dev",
-    language: "bash"
-  }
-]} />
-
-## What’s Next?
-
-I’ll be sharing more about my journey, tech experiments, and projects here. Stay tuned for posts on web development, the MERN stack, and full-stack best practices!
-
----
-
-Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!30:["$","$L2e","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$37"},"thumbnail":true,"direction":"column"}]
-36:null
+---31:["$","$L2f","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$38"},"thumbnail":true,"direction":"column"}]
+37:null

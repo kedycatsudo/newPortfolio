@@ -6,34 +6,114 @@
 6:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
 7:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
 8:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
-9:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
-a:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
-1f:I[97784,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"CodeBlock"]
-20:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
-21:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
-22:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
-25:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
-26:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
-27:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
-28:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
-29:"$Sreact.suspense"
-0:{"buildId":"UDqSIkhcX6agI-CixQ-zx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/quick-start","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog/quick-start\",\"sameAs\":[],\"headline\":\"Launching My New Portfolio\",\"description\":\"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.\",\"image\":\"https://demo.magic-portfolio.com/newPortfolio/images/gallery/image.png\",\"datePublished\":\"2025-11-27\",\"dateModified\":\"2025-11-27\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"November 26, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Launching My New Portfolio"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/image.png","alt":"Launching My New Portfolio","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"about","children":"About"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I wanted a platform to showcase my work, projects, and blog posts — and I found this setup perfect for developers who want both flexibility and polish."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-i-chose-this-stack","children":"Why I Chose This Stack"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I wanted to learn a new framework not just by following tutorials, but by diving in and building something real from scratch. Hands-on experience always helps me understand and retain new skills better."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"After some research, I picked these tools for my portfolio:"}],"\n",["$","$L9",null,{"children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["$Lb"," — a modern React framework that makes routing, deployment, and performance optimization much easier out of the box."]}],"\n","$Lc","\n","$Ld","\n"]}],"\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18"]}],"$L19","$L1a","$L1b"]}]}],"$L1c"]}],["$L1d"],"$L1e"]}],"loading":null,"isPartial":false}
-b:["$","strong",null,{"children":"Next.js"}]
-c:["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"MDX"}]," — lets me write content in Markdown while also embedding React components, so my blog can be interactive and developer-friendly."]}]
-d:["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Once UI / Magic Portfolio"}]," — provides a beautiful, ready-to-go theme with professional design, so I can focus my time on learning and content rather than building a design system from scratch."]}]
-e:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"quick-start","children":"Quick Start"}]
-f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Thinking of starting your own? Here’s how I did it:"}]
-10:["$","$L1f",null,{"compact":true,"marginBottom":"16","codes":[{"code":"git clone https://github.com/once-ui-system/magic-portfolio.git","language":"bash"}]}]
-11:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Install the dependencies:"}]
-12:["$","$L1f",null,{"compact":true,"marginBottom":"16","codes":[{"code":"npm install","language":"bash"}]}]
-13:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Start your local dev server:"}]
-14:["$","$L1f",null,{"compact":true,"marginBottom":"16","codes":[{"code":"npm run dev","language":"bash"}]}]
-15:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-s-next","children":"What’s Next?"}]
-16:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I’ll be sharing more about my journey, tech experiments, and projects here. Stay tuned for posts on web development, the MERN stack, and full-stack best practices!"}]
-17:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
-18:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!"}]
-19:["$","$L20",null,{"title":"Launching My New Portfolio","url":"https://demo.magic-portfolio.com/blog/quick-start"}]
-23:T1249,
+1b:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
+1c:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
+1d:I[97784,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"CodeBlock"]
+1e:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
+1f:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
+20:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
+23:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
+24:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
+25:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
+26:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+27:"$Sreact.suspense"
+0:{"buildId":"Zkix4jy8FJdJ1o8zNfqod","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/quick-start","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/quick-start\",\"sameAs\":[],\"headline\":\"Launching My New Portfolio\",\"description\":\"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/image.png\",\"datePublished\":\"2025-11-27\",\"dateModified\":\"2025-11-27\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"November 26, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Launching My New Portfolio"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/image.png","alt":"Launching My New Portfolio","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"about","children":"About"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I wanted a platform to showcase my work, projects, and blog posts — and I found this setup perfect for developers who want both flexibility and polish."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-i-chose-this-stack","children":"Why I Chose This Stack"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I wanted to learn a new framework not just by following tutorials, but by diving in and building something real from scratch. Hands-on experience always helps me understand and retain new skills better."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"After some research, I picked these tools for my portfolio:"}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14"]}],"$L15","$L16","$L17"]}]}],"$L18"]}],["$L19"],"$L1a"]}],"loading":null,"isPartial":false}
+9:["$","$L1b",null,{"children":["\n",["$","$L1c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Next.js"}]," — a modern React framework that makes routing, deployment, and performance optimization much easier out of the box."]}],"\n",["$","$L1c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"MDX"}]," — lets me write content in Markdown while also embedding React components, so my blog can be interactive and developer-friendly."]}],"\n",["$","$L1c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Once UI / Magic Portfolio"}]," — provides a beautiful, ready-to-go theme with professional design, so I can focus my time on learning and content rather than building a design system from scratch."]}],"\n"]}]
+a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"quick-start","children":"Quick Start"}]
+b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Thinking of starting your own? Here’s how I did it:"}]
+c:["$","$L1d",null,{"compact":true,"marginBottom":"16","codes":[{"code":"git clone https://github.com/once-ui-system/magic-portfolio.git","language":"bash"}]}]
+d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Install the dependencies:"}]
+e:["$","$L1d",null,{"compact":true,"marginBottom":"16","codes":[{"code":"npm install","language":"bash"}]}]
+f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Start your local dev server:"}]
+10:["$","$L1d",null,{"compact":true,"marginBottom":"16","codes":[{"code":"npm run dev","language":"bash"}]}]
+11:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-s-next","children":"What’s Next?"}]
+12:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I’ll be sharing more about my journey, tech experiments, and projects here. Stay tuned for posts on web development, the MERN stack, and full-stack best practices!"}]
+13:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+14:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!"}]
+15:["$","$L1e",null,{"title":"Launching My New Portfolio","url":"https://kedycatsudo.github.io/newPortfolio//blog/quick-start"}]
+21:T120e,
+---
+
+## Progress Update: Conquering Frontend Fears 🚀
+
+As I mentioned before, frontend design has always felt a bit daunting for me. But this time around, working on MyFinance, I surprised myself—I’m genuinely happy with how things turned out. It’s rewarding to see real progress, and it’s proof that with time and iteration, you can absolutely improve your design skills, even if you don’t consider yourself a “designer.” Still, I have to admit, I’m excited to dive back into the code!
+
+### Why I Didn’t Skip the Design Step
+
+In past projects, I’ve been tempted to rush straight into development, putting off the visuals for later. This time, I forced myself to slow down and take the design process seriously, because:
+
+- **Most critical decisions happen here:** From how data should be structured, to what fields are actually needed, right down to choosing button styles and color palettes.
+- **Better design = better schemas:** Laying out the UI made me revisit and finalize all my schema fields. Even though I started with a rough MVP schema, working on the screens showed me gaps and refinements I wouldn’t have spotted otherwise.
+- **Iterating visually fuels better workflows:** Letting the design evolve alongside my data flow helped make the whole app more cohesive—not just in how it looks, but in how it works under the hood.
+
+---
+
+<img src="/newPortfolio/images/gallery/outcome-income.png" alt="Incomes and Outcomes pages screenshot" />
+
+---
+
+### What’s Ready So Far
+
+- **Incomes and Outcomes pages:**  
+  Clean, organized, and user-friendly. I spent extra effort making sure users always know where to find their data and how to interact with it—no more confusion or clutter.
+- **Clear component structure:**  
+  Each component is responsible for a single piece of data or UI, making the pages easy to read and navigate.
+- **Dynamic modals:**  
+  - Edit categories (for customizing how you see your finances)
+  - Edit entries (for both payments and earnings)
+- **Sidebar and side components:**  
+  For seamless navigation and contextual data views.
+- **Live data graph:**  
+  A visual snapshot of current financial status, always up to date.
+- **Reusability:**  
+  All of this is built from just five small, modular, and reusable components, keeping things maintainable as the project grows.
+
+---
+
+<img src="/newPortfolio/images/gallery/components.png" alt="Reusable Components" />
+
+---
+
+### The New Challenge: Investments Page
+
+Up next: tackling the Investments page!  
+This area is a bit more complex—there’s a lot of data to surface and plenty of details to get right. Here’s my plan:
+
+- **Map out all possible fields and relationships** for investments (assets, returns, performance over time, etc)
+- **Design flexible UI components** that can handle a variety of investment types and summary stats
+- **Keep the data highly readable and well separated** so users never feel overwhelmed
+- **Develop the backend logic** to support robust data aggregation and reporting
+
+It’s honestly exciting to see how much more there is to consider when the content is “money.” Compared to my previous project, MealMatch (which was a lot lighter on data), MyFinance is proving to be a fulfilling, challenging next step.
+
+---
+
+### What I’ve Learned (So Far)
+
+- **Don’t fear the design phase:** The more effort I put into it, the fewer issues I have during development.
+- **Schema-first doesn’t always mean UI-second:** Letting UI and data design evolve together makes for a more intuitive app.
+- **Bite-sized reusable components = clear code and clean layouts.**
+- **Good data flow planning pays off—** especially with complex domains like finance.
+- **Expect surprises:** As soon as you work with real (or realistic) data, new requirements always surface!
+
+---
+
+### Wrapping Up
+
+Thanks for following along—it means a lot. There’s still a long way to go, but seeing these pages come together (and learning so much in the process) has made the challenge completely worth it. I’m eager to finish the Investments page and then confront the backend complexities head-on.
+
+If you have any feedback, suggestions, or just want to talk about building finance apps (or design struggles!), drop me a message or a comment below. And if you’re interested in a deeper dive, I’ve written an article about this very journey on my blog—check it out! I’d love your thoughts.
+
+Stay warm, and have a fantastic holiday season! 🎄
+
+---
+
+#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork16:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L1f",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L20","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$21"},"thumbnail":true,"direction":"column"}],"$L22"]}]]}]
+17:["$","$L23",null,{}]
+18:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L24",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L25",null,{"fitHeight":true}]]}]
+19:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+1a:["$","$L26",null,{"children":["$","$27",null,{"name":"Next.MetadataOutlet","children":"$@28"}]}]
+29:T1249,
 ---
 
 ## Confessions of a Code-First Creator (Who Isn't a Designer)
@@ -103,125 +183,5 @@ Thanks for reading—and have an awesome day!
 
 ---
 
-#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch1a:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L21",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L22","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$23"},"thumbnail":true,"direction":"column"}],"$L24"]}]]}]
-1b:["$","$L25",null,{}]
-1c:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L26",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L27",null,{"fitHeight":true}]]}]
-1d:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
-1e:["$","$L28",null,{"children":["$","$29",null,{"name":"Next.MetadataOutlet","children":"$@2a"}]}]
-2b:Te17,
-## Why Build MyFinance?
-
-A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance.
-
-Why am I so hyped about this one? Because for the first time, I’m building a solution for a real-world problem that I actually face every month. I’ve tried a bunch of finance apps, but most are either paid, overloaded with features I don’t need, or simply don’t fit the way I want to track things. I wanted something simple: to track my monthly income and expenses and keep my investments tidy—all in one dashboard. 
-
-So, I decided to build my own tailored solution. And yes, MyFinance will be completely free!
-
----
-
-## Defining the Project Scope & Goals
-
-**Project name:** MyFinance
-
-**The goal:** Let users (including myself!) easily track income, expenses, and investments with custom categories, see profit or loss each month, and export statements as neat PDFs.
-
-**MVP Features:**  
-- Personal sign up & login for privacy  
-- Default and custom categories for income/expenses  
-- Add/edit income and expense entries  
-- Track investments (profit/loss per asset)  
-- Monthly summary & one-click PDF exports
-
-**Out of scope (for now):**  
-- Bank integrations  
-- Cross-account transfers  
-- Net worth tracking  
-- Mobile app  
-- Payments/subscriptions
-
----
-
-## Planning Data Flow & Architecture
-
-I spent a fair bit of time sketching out the data models and relationships before writing any code. Here’s what I decided on:
-
-**Core entities:**  
-- **User:** Your personal account and settings  
-- **Category:** "Groceries", "Salary", etc.—for grouping transactions  
-- **Transaction:** Any income or expense entry  
-- **Investment:** Profit/loss for assets you hold  
-- **MonthlySnapshot (optional):** For caching monthly summaries
-
-**Example data models:**
-
-```json
-// User
-{ "username": "kedycat", "currency": "USD" }
-
-// Category
-{ "title": "Groceries", "type": "expense" }
-
-// Transaction
-{ "categoryId": "...", "type": "expense", "amount": 380000, "date": "..." }
-
-// Investment
-{ "asset": "BTC", "resultType": "profit", "resultAmount": 5000 }
-```
-
-- Transactions are linked to categories (many-to-one)
-- Investments linked to users
-
----
-
-## Aggregation & Reporting
-
-One of the things I wanted most was a clear, one-glance monthly report showing income, expenses, investments, and overall profit.
-
-I’m leveraging MongoDB’s aggregation to crunch the numbers for monthly reports:
-
-- Sum up monthly income and expenses
-- Sum profits (or losses) from investments
-- Compute overall profit:
-
-`profit = incomeTotal + investmentTotal - expenseTotal`
-
-**API sample response:**
-
-```json
-{
-  "incomeTotal": 450000,
-  "expenseTotal": 350000,
-  "investmentTotal": 50000,
-  "profit": 150000
-}
-```
-
----
-
-## API & UI Design
-
-To keep things neat and user-friendly:
-
-- **API Endpoints:** signup/login, CRUD for categories, transactions, investments, monthly reporting with PDF export
-- **UI:** A dashboard with charts, easy category management, quick data entry via modals, and one-click PDF downloads
-
----
-
-## Tech Stack
-
-- **Next.js** (React UI & API routes)
-- **TypeScript**
-- **MongoDB**
-- **Tailwind CSS**
-- PDF export support via **Puppeteer** (or another server-side PDF lib)
-
----
-
-## What’s Next?
-
-Development has begun, and I’ll be sharing updates on how the build goes, and posting project learnings, cool solutions, and perhaps even some pain points here in the blog. If tracking your finances in your own way sounds interesting, stay tuned!
-
-Thanks for reading—and wish me luck building MyFinance!
-
----24:["$","$L22","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$2b"},"thumbnail":true,"direction":"column"}]
-2a:null
+#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch22:["$","$L20","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$29"},"thumbnail":true,"direction":"column"}]
+28:null
