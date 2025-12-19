@@ -67,7 +67,7 @@ WhatToWear is a full-stack application that helps users decide what to wear each
 
 ---
 
-This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.0:{"P":null,"b":"Zkix4jy8FJdJ1o8zNfqod","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/\",\"sameAs\":[],\"headline\":\"Doruk Kocausta's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Full-Stack Web Developer\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Doruk%20Kocausta's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Building the Future of the Web "}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I’m Doruk, Full-Stack Web Developer focused on creating efficient, scalable and secure web apps. Welcome to my portfolio!"}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L8",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/newPortfolio/images/dorukAvatar.jpg","size":"l"}],"About – Doruk Kocausta"]}]}]}]]}]}],["$","$L5",null,{"translateY":"16","delay":0.6,"children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L9","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-02/wt_cover-02.png","/newPortfolio/images/projects/project-02/wt_cover-01.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}]]}]}],"$Lb","$Lc"]}],["$Ld"],"$Le"]}],{},null,false,false]},null,false,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true}
+This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.0:{"P":null,"b":"eLp2PSfBu6UFqWtwNZzKZ","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/\",\"sameAs\":[],\"headline\":\"Doruk Kocausta's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Full-Stack Web Developer\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Doruk%20Kocausta's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Building the Future of the Web "}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I’m Doruk, Full-Stack Web Developer focused on creating efficient, scalable and secure web apps. Welcome to my portfolio!"}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L8",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/newPortfolio/images/dorukAvatar.jpg","size":"l"}],"About – Doruk Kocausta"]}]}]}]]}]}],["$","$L5",null,{"translateY":"16","delay":0.6,"children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L9","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-02/wt_cover-02.png","/newPortfolio/images/projects/project-02/wt_cover-01.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}]]}]}],"$Lb","$Lc"]}],["$Ld"],"$Le"]}],{},null,false,false]},null,false,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true}
 11:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientGrid"]
 12:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"default"]
 16:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
@@ -80,7 +80,141 @@ This MDX entry documents the WhatToWear project, highlighting architecture, core
 21:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientFlex"]
 22:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Header"]
 23:I[39756,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
-13:T120e,
+13:T16a9,
+---
+
+## Frontend Design Wrapped 🎉 — MyFinance Dev Update
+
+I can hardly believe it’s only been 12 days since I started building MyFinance. (To be honest, it felt even longer for how much I processed in those days. The result? I really like where it landed MyFinance holds way more information and complexity compared to MealMatch, and I’ll get into why!)
+
+![MyFinance Logo](/newPortfolio/images/gallery/myfinancelogo.png)
+
+---
+
+### Starting with System Design
+
+Before touching Figma, I mapped out backend schemas, data tables, data flows… basically all the structure from the ground up. As I moved into frontend design, some of those choices needed realignment—which just proves how closely backend and frontend play together. That’s what makes me proud to call myself a full stack developer now; I enjoy shaping both and seeing how each informs the other. Watching the logic (“bones”) and the interface (“skin”) come together, evolving in sync, is deeply satisfying—especially when it all just starts to make sense for this app’s unique needs.
+
+![Puzzle Logo](/newPortfolio/images/gallery/puzzle.jpg)
+
+---
+
+### The Evolution (What I Had vs. What I Changed)
+
+Page by page, my design instincts grew. I kept asking myself: what do I really need to see (not just what would be “cool”)? I focused on showing crisp separations between information blocks—this is a data-driven app, after all, with not much imagery or fluff. Each block needed clear segmenting, so data is readable (and, dare I say, a little inviting?). By the final screen, I noticed I’d developed a consistent style for lists, inputs, and modals—so I looped back and updated the earlier pages for a unified MVP look.
+
+---
+
+### The Finished Design (So Far)
+
+Here’s the current lineup of 5 main pages (and what changed):
+
+- **Login/Register**  
+  Totally refreshed with new input styles and containers. These now fit the background narrative and feel much more futuristic—so good, they’re almost “fun” to fill out!
+  
+  ![Login/Register](/newPortfolio/images/gallery/loginregister.png)
+
+- **Dashboard**  
+  Updated data blocks with my current design language. I plopped in new "side" blocks that display investments and miscellaneous spending for the current month—turns out, these were just what the page needed. Recent incomings and outgoings show up in up-to-date tables.
+  
+  ![Dashboard](/newPortfolio/images/gallery/dashboard.png)
+
+- **Incomes/Outcomes**  
+  These pages are basically the birthplace of the new style. At first, the content was there, but it looked bland. With a new component system and better background, both pages are way cleaner and actually nice to look at, no matter how much data you throw at them.  
+  ![Income/Outcome](/newPortfolio/images/gallery/incomesoutcomes.png)
+
+- **Investment**  
+  Here’s where things got really interesting. There’s a LOT more relevant data to surface than I first thought—assets, profit/loss, types, and more. I intentionally kept the scope tight so I wouldn’t overbuild, but re-used small components for new types of info. It’s also where I realized the importance of relational data: investments link to assets, returns, and user activity in ways a pure document database can’t easily handle. I started out building with MongoDB, but the deeper I went, the clearer it became—this project’s structure begs for a relational database. I’m now researching my options:  
+    - **PostgreSQL:** Handles relationships, powerful queries, open source, huge community.  
+    - **MySQL:** Mature, widespread, great performance, but not as flexible for JSON or modern types.  
+    - **Supabase:** Postgres-based with instant APIs/auth, but still a bit new for mission-critical stuff.  
+
+  I haven’t picked one yet, but diving into relational DBs makes this project even more valuable for me—I’m learning Next.js and TypeScript, then adding serious SQL design to my stack!
+
+  ![Investment](/newPortfolio/images/gallery/investment.png)
+
+- **Profile**  
+  The simplest page, showing only what I need from the user: username, email (for auth/comms), the reset date for their monthly statement, and base currency for future features.
+
+  ![Profile](/newPortfolio/images/gallery/profile.png)
+
+---
+
+- **Modals for Editing Data:**  
+  There’s one main modal for editing, but it’s super reusable—swapping content as needed from page to page, styled for clarity and easy option selection or confirmation.
+
+- **A Bunch of Small, Reusable Components:**  
+  Core to keeping things DRY and maintainable.  
+  ![Components](/newPortfolio/images/gallery/component.png)
+
+- **Custom Buttons and Input Fields:**  
+  Unified style, with color feedback and clear affordances everywhere.
+
+---
+
+In all honesty, designing for the large screen is now DONE—the structure is locked in, and every part fits just right. All that’s left is implementation, testing, and deployment. It feels wild to write that!
+
+---
+
+### What’s Next?
+
+Much as I’d love to skip it, there’s no shipping a web app in 2025 that isn’t responsive. So mobile-first and tablet designs are next on my list. Once that's in place, I can finally dive deep into the codebase, start plugging in data, and let the real logic shine. I’m actually looking forward to untangling backend aggregates and complex queries with my new relational DB setup!
+
+---
+
+Thanks so much for following along—every message and bit of feedback motivates me more! Stay tuned for mobile layouts and backend tales soon, and as always, I’d love to hear your thoughts or suggestions.
+
+Stay warm, happy holidays, and keep building! 🚀
+
+#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuildingb:["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"48rem","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest from the blog"}]}],["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L11",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L12","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$13"},"thumbnail":false,"direction":"$undefined"}],"$L14"]}]}]]}],"$L15"]}]
+c:["$","$L16",null,{}]
+d:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true,"nonce":"$undefined"}]
+e:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+f:["$","$1","h",{"children":[null,["$","$L1a",null,{"children":"$@1b"}],["$","div",null,{"hidden":true,"children":["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$@1d"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1e:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$1e"}}]}],["$","$L1f",null,{"children":["$","$L3",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L20",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L21",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L22",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L23",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L24","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L25","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L26"]}]}]]}]
+28:I[37457,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
+29:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"IconButton"]
+27:T120e,
 ---
 
 ## Progress Update: Conquering Frontend Fears 🚀
@@ -157,125 +291,7 @@ Stay warm, and have a fantastic holiday season! 🎄
 
 ---
 
-#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWorkb:["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"48rem","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest from the blog"}]}],["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L11",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L12","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$13"},"thumbnail":false,"direction":"$undefined"}],"$L14"]}]}]]}],"$L15"]}]
-c:["$","$L16",null,{}]
-d:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true,"nonce":"$undefined"}]
-e:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
-f:["$","$1","h",{"children":[null,["$","$L1a",null,{"children":"$@1b"}],["$","div",null,{"hidden":true,"children":["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$@1d"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-1e:T76b,
-              (function() {
-                try {
-                  const root = document.documentElement;
-                  const defaultTheme = 'system';
-                  
-                  // Set defaults from config
-                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
-                  
-                  // Apply default values
-                  Object.entries(config).forEach(([key, value]) => {
-                    root.setAttribute('data-' + key, value);
-                  });
-                  
-                  // Resolve theme
-                  const resolveTheme = (themeValue) => {
-                    if (!themeValue || themeValue === 'system') {
-                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                    }
-                    return themeValue;
-                  };
-                  
-                  // Apply saved theme
-                  const savedTheme = localStorage.getItem('data-theme');
-                  const resolvedTheme = resolveTheme(savedTheme);
-                  root.setAttribute('data-theme', resolvedTheme);
-                  
-                  // Apply any saved style overrides
-                  const styleKeys = Object.keys(config);
-                  styleKeys.forEach(key => {
-                    const value = localStorage.getItem('data-' + key);
-                    if (value) {
-                      root.setAttribute('data-' + key, value);
-                    }
-                  });
-                } catch (e) {
-                  console.error('Failed to initialize theme:', e);
-                  document.documentElement.setAttribute('data-theme', 'dark');
-                }
-              })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$1e"}}]}],["$","$L1f",null,{"children":["$","$L3",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L20",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L21",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L22",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L23",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L24","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L25","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L26"]}]}]]}]
-28:I[37457,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
-29:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"IconButton"]
-27:T1249,
----
-
-## Confessions of a Code-First Creator (Who Isn't a Designer)
-
-It might sound strange, but for me, putting creativity on digital paper—whether it's designing a website, painting, or drawing—has always been a struggle. Which is odd, because I consider myself a very creative person. That creativity shows up in all sorts of places: problem-solving software, coming up with clever workflows, or even my work as a sous chef, plating a dish. But something about UI/UX design? It just doesn't come naturally.
-
-I don’t have formal design training or a background in art, and I suspect that’s part of the reason why it’s tough for me to know what will actually look good on a website. Still, I definitely see improvement every time I work on a new project, and that’s what matters. Progress, not perfection!
-
-
-### Login & Register: Stealing with Pride
-
-<img src="/newPortfolio/images/gallery/loginregister.png" alt="Login/Register Logo" />
-
-When it came time to design the login and registration screens, I realized I didn’t need to look any further than my own past work. I borrowed heavily from the layouts and user flows I’d built for MealMatch—there’s no shame in reusing your own tried-and-true solutions! It made the whole process much faster and let me focus on refining the user experience instead of reinventing basic forms.
-
-I tweaked the color scheme and spacing to fit the MyFinance brand, but many components—like labeled input fields, feedback messages, and the clean, central card layout—came straight from my previous designs. Adapting what worked well in MealMatch gave me a solid foundation and a little boost of confidence, too. Sometimes the smartest move is to steal from yourself.
-
----
-
-### Dashboard: Where It Starts Feeling Real
-
-<img src="/newPortfolio/images/gallery/dashboard.png" alt="Login/Register Logo" />
-
-
-After a couple hours of sketching and tweaking, I had my Dashboard page laid out and surprisingly… I liked the result! Here's the setup:
-
-- Logo stays anchored in the top left—because hey, brand consistency matters!
-- Page header reminds you where you are.
-- Welcoming message with a splash of color ("Welcome to MyFinance Dashboard. Congratulations, your colour is green so far this month!")—it's a tiny touch, but helps users feel seen and in control.
-
-On the left, a sidebar for navigation. The main area holds three bubble containers with key data stats and listings. I chose a palette of crisp white with soft, light blue accents for the background. It adds clarity and clear separation without straining the eyes, even for longer reading or data review sessions.
-
-I plan to use these bubbles throughout the app—consistency makes life easier, and creating reusable components isn’t just smart for devs, it’s a win for design too.
-
-
----
-
-### The Pie Chart Challenge
-
-Of course, it's not all smooth sailing. Building a pie chart that visually breaks down the data by category, with colors that mean something and look good, is going to be a real challenge—especially as a code-first person. But I'm up for it. Backend-to-frontend data connection will push me a bit outside my comfort zone, but that's the part that excites me most.
-
----
-
-### What I've Learned So Far
-
-- Not being a designer doesn’t mean you can’t design—just expect to iterate more.
-- Borrowing trusted layouts and patterns is totally okay, especially for forms.
-- Pick a color scheme you love early on, and use it as much as possible. Your app will feel more cohesive.
-- Reusable components save you headaches down the line.
-- Tackling the hardest parts (architecture and data flow) before visuals makes UI decisions easier.
-
----
-
-### Next Steps
-
-There’s still plenty to build: sidebar sections, adding more data containers, and thinking through the rest of the workflow screens. But with the dashboard and auth pages done, things are starting to click into place. 
-
-After these steps, I’ll finally be able to start writing some code and wiring up the real data. That’s the fun part I’ve been waiting for!
-
----
-
-### Parting Thoughts
-
-Design is always going to challenge me, but that's half the reason I wanted to build MyFinance in the first place—creating something that solves a problem I care about, and learning new tech skills in the process. Each step, even the awkward, uncertain design moments, is progress. If you want to follow along with the build, or have advice on making pie charts prettier, I’d love to hear from you!
-
-Thanks for reading—and have an awesome day!
-
----
-
-#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch14:["$","$L12","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$27"},"thumbnail":false,"direction":"$undefined"}]
+#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork14:["$","$L12","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$27"},"thumbnail":false,"direction":"$undefined"}]
 15:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"48rem","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}]
 24:["$","$L28",null,{}]
 25:[["$","$L3",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
