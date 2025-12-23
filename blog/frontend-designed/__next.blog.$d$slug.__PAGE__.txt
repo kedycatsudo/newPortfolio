@@ -16,7 +16,7 @@
 32:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
 33:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
 34:"$Sreact.suspense"
-0:{"buildId":"eLp2PSfBu6UFqWtwNZzKZ","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/frontend-designed","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/frontend-designed\",\"sameAs\":[],\"headline\":\"MyFinance Frontend Designed: From System Schemas to User-Ready Screens\",\"description\":\"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-26\",\"dateModified\":\"2025-12-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 25, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"A full-stack journey, UI growth, and planning my next (relational!) backend moves"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"frontend-design-wrapped-myfinance-dev-update","children":"Frontend Design Wrapped 🎉 — MyFinance Dev Update"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I can hardly believe it’s only been 12 days since I started building MyFinance. (To be honest, it felt even longer for how much I processed in those days. The result? I really like where it landed MyFinance holds way more information and complexity compared to MealMatch, and I’ll get into why!)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"MyFinance Logo","src":"/newPortfolio/images/gallery/myfinancelogo.png"}]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e"]}],"$L1f","$L20","$L21"]}]}],"$L22"]}],["$L23"],"$L24"]}],"loading":null,"isPartial":false}
+0:{"buildId":"i-7Ko5T-EZPrczGkiJtgD","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/frontend-designed","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/frontend-designed\",\"sameAs\":[],\"headline\":\"MyFinance Frontend Designed: From System Schemas to User-Ready Screens\",\"description\":\"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-26\",\"dateModified\":\"2025-12-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 25, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"A full-stack journey, UI growth, and planning my next (relational!) backend moves"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"frontend-design-wrapped-myfinance-dev-update","children":"Frontend Design Wrapped 🎉 — MyFinance Dev Update"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I can hardly believe it’s only been 12 days since I started building MyFinance. (To be honest, it felt even longer for how much I processed in those days. The result? I really like where it landed MyFinance holds way more information and complexity compared to MealMatch, and I’ll get into why!)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"MyFinance Logo","src":"/newPortfolio/images/gallery/myfinancelogo.png"}]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e"]}],"$L1f","$L20","$L21"]}]}],"$L22"]}],["$L23"],"$L24"]}],"loading":null,"isPartial":false}
 9:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
 a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"starting-with-system-design","children":"Starting with System Design"}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Before touching Figma, I mapped out backend schemas, data tables, data flows… basically all the structure from the ground up. As I moved into frontend design, some of those choices needed realignment—which just proves how closely backend and frontend play together. That’s what makes me proud to call myself a full stack developer now; I enjoy shaping both and seeing how each informs the other. Watching the logic (“bones”) and the interface (“skin”) come together, evolving in sync, is deeply satisfying—especially when it all just starts to make sense for this app’s unique needs."}]
@@ -40,7 +40,63 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Stay warm, happy holidays, and keep building! 🚀"}]
 1e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding"}]
 1f:["$","$L2b",null,{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","url":"https://kedycatsudo.github.io/newPortfolio//blog/frontend-designed"}]
-2e:T120e,
+2e:Tff8,
+## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
+
+Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
+
+It turns out, the process is much smoother than I imagined. Within days, I went from blank screens to a snappy login and register system, all responsive and matching my design vision.
+
+![MyFinance Logo](/newPortfolio/images/gallery/login.png)
+
+### 🌐 Designing with Reusable Components
+
+Designing clean, responsive UIs with Tailwind CSS felt intimidating at first (not a design fan here 😅), but seeing everything come together on both desktop and mobile made it worth the effort. 
+
+What surprised me most was how easy it was to maintain consistency across the project once I set up my first truly responsive page and a few reusable components. After that, adapting the look and structure for other pages became almost effortless—no more rewriting the same CSS or re tweaking layouts! 
+
+Every element—buttons, inputs, containers—was built once and used everywhere, letting me focus on the bigger picture: how users will flow through the app and how data will move under the hood.
+
+### ⚡ The Magic of Next.js Routing
+
+Setting up the `/app` directory in Next.js made routing a breeze—no manual setup required! As someone who’s used to wiring up traditional routers and view logic by hand, it felt almost unreal to just drop a new file or folder into `/app` and have a working new route. 
+
+Now, with the frontend for login and registration pages in place and polished, I’m really looking forward to diving deeper into server side coding. I can't wait to explore things like authentication flows, data fetching with React Server Components, API routes, and real database connections.
+
+Honestly, the pace of development is way beyond what I expected going in. No wonder Next.js has become the go to for so many modern web apps!
+
+### ✨ Surprises & Learnings So Far
+
+- **Tailwind CSS isn’t just “another CSS framework”**: It made responsive design feel natural, not like an afterthought. I used to dread making layouts mobile friendly—now, I build with breakpoints from the start.
+- **Component driven design really pays off**: Once you have a toolbox of fields, forms, and containers, everything new is just composition.
+- **VSCode is my friend again**: I spend less time fighting with boilerplate and more time thinking about real features. 
+- **Frontend Backend are more connected than I thought**: Choices in form design and page structure are already shaping what data I’ll need and how I’ll store it.
+
+![MyFinance Logo](/newPortfolio/images/gallery/register.png)
+
+
+### 🛤️ What’s Next?
+
+With the core structure and authentication pages (login, register) done, my next step is to round out the rest of MyFinance’s main interface. I’ll be focusing on finishing up the frontends for the other essential pages: **dashboard, incomes, outcomes, investment, and profile**.
+
+I'm confident that building out these screens—from data tables to interactive components—will challenge me and deepen my skills in Tailwind CSS and the frontend capabilities of Next.js. Each new page is an opportunity to refine my design system, improve maintainability, and ensure consistency across the application.
+
+Once the UI is complete, I get to dive into my favorite part: the backend! I can't wait to architect relational flows, design efficient schemas, and bring MyFinance’s data to life using PostgreSQL and Next.js server-side features. 
+
+I’ll be posting regular updates and sharing everything I learn—mistakes included—so if you're interested in a transparent build process or want insights on working with these technologies, stay tuned!
+
+Stay warm, and let’s keep building awesome things!
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog20:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L2c",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2d","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$2e"},"thumbnail":true,"direction":"column"}],"$L2f"]}]]}]
+21:["$","$L30",null,{}]
+22:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L31",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L32",null,{"fitHeight":true}]]}]
+23:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+24:["$","$L33",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
+27:["$","$L26",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Supabase:"}]," Postgres-based with instant APIs/auth, but still a bit new for mission-critical stuff."]}]
+28:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I haven’t picked one yet, but diving into relational DBs makes this project even more valuable for me—I’m learning Next.js and TypeScript, then adding serious SQL design to my stack!"}]
+29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"Investment","src":"/newPortfolio/images/gallery/investment.png"}]}]
+2a:["$","$L26",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Profile"}],["$","br",null,{}],"\n","The simplest page, showing only what I need from the user: username, email (for auth/comms), the reset date for their monthly statement, and base currency for future features."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"Profile","src":"/newPortfolio/images/gallery/profile.png"}]}],"\n"]}]
+36:T120e,
 ---
 
 ## Progress Update: Conquering Frontend Fears 🚀
@@ -117,84 +173,5 @@ Stay warm, and have a fantastic holiday season! 🎄
 
 ---
 
-#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork20:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L2c",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2d","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$2e"},"thumbnail":true,"direction":"column"}],"$L2f"]}]]}]
-21:["$","$L30",null,{}]
-22:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L31",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L32",null,{"fitHeight":true}]]}]
-23:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
-24:["$","$L33",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
-27:["$","$L26",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Supabase:"}]," Postgres-based with instant APIs/auth, but still a bit new for mission-critical stuff."]}]
-28:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I haven’t picked one yet, but diving into relational DBs makes this project even more valuable for me—I’m learning Next.js and TypeScript, then adding serious SQL design to my stack!"}]
-29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"Investment","src":"/newPortfolio/images/gallery/investment.png"}]}]
-2a:["$","$L26",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Profile"}],["$","br",null,{}],"\n","The simplest page, showing only what I need from the user: username, email (for auth/comms), the reset date for their monthly statement, and base currency for future features."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"Profile","src":"/newPortfolio/images/gallery/profile.png"}]}],"\n"]}]
-36:T1249,
----
-
-## Confessions of a Code-First Creator (Who Isn't a Designer)
-
-It might sound strange, but for me, putting creativity on digital paper—whether it's designing a website, painting, or drawing—has always been a struggle. Which is odd, because I consider myself a very creative person. That creativity shows up in all sorts of places: problem-solving software, coming up with clever workflows, or even my work as a sous chef, plating a dish. But something about UI/UX design? It just doesn't come naturally.
-
-I don’t have formal design training or a background in art, and I suspect that’s part of the reason why it’s tough for me to know what will actually look good on a website. Still, I definitely see improvement every time I work on a new project, and that’s what matters. Progress, not perfection!
-
-
-### Login & Register: Stealing with Pride
-
-<img src="/newPortfolio/images/gallery/loginregister.png" alt="Login/Register Logo" />
-
-When it came time to design the login and registration screens, I realized I didn’t need to look any further than my own past work. I borrowed heavily from the layouts and user flows I’d built for MealMatch—there’s no shame in reusing your own tried-and-true solutions! It made the whole process much faster and let me focus on refining the user experience instead of reinventing basic forms.
-
-I tweaked the color scheme and spacing to fit the MyFinance brand, but many components—like labeled input fields, feedback messages, and the clean, central card layout—came straight from my previous designs. Adapting what worked well in MealMatch gave me a solid foundation and a little boost of confidence, too. Sometimes the smartest move is to steal from yourself.
-
----
-
-### Dashboard: Where It Starts Feeling Real
-
-<img src="/newPortfolio/images/gallery/dashboard.png" alt="Login/Register Logo" />
-
-
-After a couple hours of sketching and tweaking, I had my Dashboard page laid out and surprisingly… I liked the result! Here's the setup:
-
-- Logo stays anchored in the top left—because hey, brand consistency matters!
-- Page header reminds you where you are.
-- Welcoming message with a splash of color ("Welcome to MyFinance Dashboard. Congratulations, your colour is green so far this month!")—it's a tiny touch, but helps users feel seen and in control.
-
-On the left, a sidebar for navigation. The main area holds three bubble containers with key data stats and listings. I chose a palette of crisp white with soft, light blue accents for the background. It adds clarity and clear separation without straining the eyes, even for longer reading or data review sessions.
-
-I plan to use these bubbles throughout the app—consistency makes life easier, and creating reusable components isn’t just smart for devs, it’s a win for design too.
-
-
----
-
-### The Pie Chart Challenge
-
-Of course, it's not all smooth sailing. Building a pie chart that visually breaks down the data by category, with colors that mean something and look good, is going to be a real challenge—especially as a code-first person. But I'm up for it. Backend-to-frontend data connection will push me a bit outside my comfort zone, but that's the part that excites me most.
-
----
-
-### What I've Learned So Far
-
-- Not being a designer doesn’t mean you can’t design—just expect to iterate more.
-- Borrowing trusted layouts and patterns is totally okay, especially for forms.
-- Pick a color scheme you love early on, and use it as much as possible. Your app will feel more cohesive.
-- Reusable components save you headaches down the line.
-- Tackling the hardest parts (architecture and data flow) before visuals makes UI decisions easier.
-
----
-
-### Next Steps
-
-There’s still plenty to build: sidebar sections, adding more data containers, and thinking through the rest of the workflow screens. But with the dashboard and auth pages done, things are starting to click into place. 
-
-After these steps, I’ll finally be able to start writing some code and wiring up the real data. That’s the fun part I’ve been waiting for!
-
----
-
-### Parting Thoughts
-
-Design is always going to challenge me, but that's half the reason I wanted to build MyFinance in the first place—creating something that solves a problem I care about, and learning new tech skills in the process. Each step, even the awkward, uncertain design moments, is progress. If you want to follow along with the build, or have advice on making pie charts prettier, I’d love to hear from you!
-
-Thanks for reading—and have an awesome day!
-
----
-
-#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch2f:["$","$L2d","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$36"},"thumbnail":true,"direction":"column"}]
+#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork2f:["$","$L2d","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$36"},"thumbnail":true,"direction":"column"}]
 35:null
