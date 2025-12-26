@@ -1,0 +1,138 @@
+---
+title: "Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard"
+subtitle: "How doing it the hard way (and some AI help) made me a better Next.js dev"
+summary: "Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again."
+image: "/newPortfolio/images/gallery/myfinancelogo.png"
+publishedAt: "2025-12-28"
+tag: "Learning Journey"
+---
+
+# Dashboard Complete
+
+Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
+
+---
+
+> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
+
+This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
+
+What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
+
+---
+
+## Structure: Two Columns, Many Components
+
+The dashboard splits into two main columns.
+
+
+### Left Sidebar (the "static anchor")
+
+1. MyFinance Logo  
+   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
+
+2. Sidebar Navigation  
+   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
+   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
+
+3. Recently Invested and Misc List  
+   Shows most recent investments by date.  
+   Displays "misc" purchases and their totals for the month.  
+   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
+   Both live inside the same container, built for reusability but visually pleasing.  
+   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
+
+---
+
+### The Main Content (the "dynamic hub")
+
+Greeting Container  
+Header and warm welcome message to users.
+![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
+
+Financial Snapshot Cards  
+One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
+Data includes: name, amount, date simple yet effective.
+
+![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
+![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
+
+
+Pie Chart  
+I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
+
+---
+
+![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
+
+---
+![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
+
+## Extra
+
+I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
+
+---
+
+## Realities of Learning Tailwind (vs. Plain CSS)
+
+I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
+
+The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
+The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
+
+I’m not anti Tailwind, just cautious  
+It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
+
+---
+
+## Tailwind CSS: Pros and Cons
+
+**Pros**  
+Speed Build layouts faster by composing utility classes; changes update in real time.  
+Consistency Enforces a design system via config and tokens.  
+Responsive by Default Mobile first breakpoints are straightforward.  
+Component Driven Encourages reusable UI blocks.  
+Scoped Styles No fear of class name collisions.
+
+**Cons**  
+Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
+Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
+Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
+Requires Tooling Not as portable as raw CSS without build setup.  
+Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
+
+---
+
+## Plain CSS: Pros and Cons
+
+**Pros**  
+Universal and Timeless No build tools required; works everywhere.  
+Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
+Total Control No abstraction in the way of unique or advanced design needs.  
+Simple Markup Cleaner HTML or JSX.
+
+**Cons**  
+Slower for Prototyping Must write or select classes for every style.  
+Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
+Class Name Fatigue Naming everything is both art and burden.  
+No Built in Responsive Utilities Need to write media queries by hand.  
+Easier to Introduce Bugs Specificity wars, global side effects.
+
+---
+
+## Closing Thoughts
+
+The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
+
+Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
+
+Next up  
+Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
+Getting deep into server side Next.js and PostgreSQL  
+More reusable components, more data, and more transparency
+
+Thanks for reading  
+Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney
