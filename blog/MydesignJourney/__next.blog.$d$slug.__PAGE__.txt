@@ -18,7 +18,7 @@
 36:"$Sreact.suspense"
 :HL["/newPortfolio/images/gallery/loginregister.png","image"]
 :HL["/newPortfolio/images/gallery/dashboard.png","image"]
-0:{"buildId":"i-7Ko5T-EZPrczGkiJtgD","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/MydesignJourney","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/MydesignJourney\",\"sameAs\":[],\"headline\":\"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges\",\"description\":\"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-10\",\"dateModified\":\"2025-12-10\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 9, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"confessions-of-a-code-first-creator-who-isn-t-a-designer","children":"Confessions of a Code-First Creator (Who Isn't a Designer)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It might sound strange, but for me, putting creativity on digital paper—whether it's designing a website, painting, or drawing—has always been a struggle. Which is odd, because I consider myself a very creative person. That creativity shows up in all sorts of places: problem-solving software, coming up with clever workflows, or even my work as a sous chef, plating a dish. But something about UI/UX design? It just doesn't come naturally."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24"]}],"$L25","$L26","$L27"]}]}],"$L28"]}],["$L29"],"$L2a"]}],"loading":null,"isPartial":false}
+0:{"buildId":"4rvLEnec4SSYzPpVkGe4x","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/MydesignJourney","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/MydesignJourney\",\"sameAs\":[],\"headline\":\"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges\",\"description\":\"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-10\",\"dateModified\":\"2025-12-10\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 9, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"confessions-of-a-code-first-creator-who-isn-t-a-designer","children":"Confessions of a Code-First Creator (Who Isn't a Designer)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It might sound strange, but for me, putting creativity on digital paper—whether it's designing a website, painting, or drawing—has always been a struggle. Which is odd, because I consider myself a very creative person. That creativity shows up in all sorts of places: problem-solving software, coming up with clever workflows, or even my work as a sous chef, plating a dish. But something about UI/UX design? It just doesn't come naturally."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24"]}],"$L25","$L26","$L27"]}]}],"$L28"]}],["$L29"],"$L2a"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I don’t have formal design training or a background in art, and I suspect that’s part of the reason why it’s tough for me to know what will actually look good on a website. Still, I definitely see improvement every time I work on a new project, and that’s what matters. Progress, not perfection!"}]
 a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"login-and-register-stealing-with-pride","children":"Login & Register: Stealing with Pride"}]
 b:["$","img",null,{"src":"/newPortfolio/images/gallery/loginregister.png","alt":"Login/Register Logo"}]
@@ -48,7 +48,141 @@ f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"dashboar
 23:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
 24:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch"}]
 25:["$","$L2d",null,{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","url":"https://kedycatsudo.github.io/newPortfolio//blog/MydesignJourney"}]
-30:Tff8,
+30:T1a05,
+# Dashboard Complete
+
+Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
+
+---
+
+> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
+
+This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
+
+What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
+
+---
+
+## Structure: Two Columns, Many Components
+
+The dashboard splits into two main columns.
+
+
+### Left Sidebar (the "static anchor")
+
+1. MyFinance Logo  
+   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
+
+2. Sidebar Navigation  
+   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
+   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
+
+3. Recently Invested and Misc List  
+   Shows most recent investments by date.  
+   Displays "misc" purchases and their totals for the month.  
+   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
+   Both live inside the same container, built for reusability but visually pleasing.  
+   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
+
+---
+
+### The Main Content (the "dynamic hub")
+
+Greeting Container  
+Header and warm welcome message to users.
+![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
+
+Financial Snapshot Cards  
+One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
+Data includes: name, amount, date simple yet effective.
+
+![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
+![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
+
+
+Pie Chart  
+I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
+
+---
+
+![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
+
+---
+![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
+
+## Extra
+
+I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
+
+---
+
+## Realities of Learning Tailwind (vs. Plain CSS)
+
+I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
+
+The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
+The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
+
+I’m not anti Tailwind, just cautious  
+It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
+
+---
+
+## Tailwind CSS: Pros and Cons
+
+**Pros**  
+Speed Build layouts faster by composing utility classes; changes update in real time.  
+Consistency Enforces a design system via config and tokens.  
+Responsive by Default Mobile first breakpoints are straightforward.  
+Component Driven Encourages reusable UI blocks.  
+Scoped Styles No fear of class name collisions.
+
+**Cons**  
+Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
+Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
+Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
+Requires Tooling Not as portable as raw CSS without build setup.  
+Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
+
+---
+
+## Plain CSS: Pros and Cons
+
+**Pros**  
+Universal and Timeless No build tools required; works everywhere.  
+Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
+Total Control No abstraction in the way of unique or advanced design needs.  
+Simple Markup Cleaner HTML or JSX.
+
+**Cons**  
+Slower for Prototyping Must write or select classes for every style.  
+Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
+Class Name Fatigue Naming everything is both art and burden.  
+No Built in Responsive Utilities Need to write media queries by hand.  
+Easier to Introduce Bugs Specificity wars, global side effects.
+
+---
+
+## Closing Thoughts
+
+The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
+
+Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
+
+Next up  
+Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
+Getting deep into server side Next.js and PostgreSQL  
+More reusable components, more data, and more transparency
+
+Thanks for reading  
+Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney26:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L2e",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2f","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$30"},"thumbnail":true,"direction":"column"}],"$L31"]}]]}]
+27:["$","$L32",null,{}]
+28:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L33",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L34",null,{"fitHeight":true}]]}]
+29:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+2a:["$","$L35",null,{"children":["$","$36",null,{"name":"Next.MetadataOutlet","children":"$@37"}]}]
+38:Tff8,
 ## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
 
 Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
@@ -95,96 +229,5 @@ I’ll be posting regular updates and sharing everything I learn—mistakes incl
 
 Stay warm, and let’s keep building awesome things!
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog26:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L2e",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2f","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$30"},"thumbnail":true,"direction":"column"}],"$L31"]}]]}]
-27:["$","$L32",null,{}]
-28:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L33",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L34",null,{"fitHeight":true}]]}]
-29:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
-2a:["$","$L35",null,{"children":["$","$36",null,{"name":"Next.MetadataOutlet","children":"$@37"}]}]
-38:T16a9,
----
-
-## Frontend Design Wrapped 🎉 — MyFinance Dev Update
-
-I can hardly believe it’s only been 12 days since I started building MyFinance. (To be honest, it felt even longer for how much I processed in those days. The result? I really like where it landed MyFinance holds way more information and complexity compared to MealMatch, and I’ll get into why!)
-
-![MyFinance Logo](/newPortfolio/images/gallery/myfinancelogo.png)
-
----
-
-### Starting with System Design
-
-Before touching Figma, I mapped out backend schemas, data tables, data flows… basically all the structure from the ground up. As I moved into frontend design, some of those choices needed realignment—which just proves how closely backend and frontend play together. That’s what makes me proud to call myself a full stack developer now; I enjoy shaping both and seeing how each informs the other. Watching the logic (“bones”) and the interface (“skin”) come together, evolving in sync, is deeply satisfying—especially when it all just starts to make sense for this app’s unique needs.
-
-![Puzzle Logo](/newPortfolio/images/gallery/puzzle.jpg)
-
----
-
-### The Evolution (What I Had vs. What I Changed)
-
-Page by page, my design instincts grew. I kept asking myself: what do I really need to see (not just what would be “cool”)? I focused on showing crisp separations between information blocks—this is a data-driven app, after all, with not much imagery or fluff. Each block needed clear segmenting, so data is readable (and, dare I say, a little inviting?). By the final screen, I noticed I’d developed a consistent style for lists, inputs, and modals—so I looped back and updated the earlier pages for a unified MVP look.
-
----
-
-### The Finished Design (So Far)
-
-Here’s the current lineup of 5 main pages (and what changed):
-
-- **Login/Register**  
-  Totally refreshed with new input styles and containers. These now fit the background narrative and feel much more futuristic—so good, they’re almost “fun” to fill out!
-  
-  ![Login/Register](/newPortfolio/images/gallery/loginregister.png)
-
-- **Dashboard**  
-  Updated data blocks with my current design language. I plopped in new "side" blocks that display investments and miscellaneous spending for the current month—turns out, these were just what the page needed. Recent incomings and outgoings show up in up-to-date tables.
-  
-  ![Dashboard](/newPortfolio/images/gallery/dashboard.png)
-
-- **Incomes/Outcomes**  
-  These pages are basically the birthplace of the new style. At first, the content was there, but it looked bland. With a new component system and better background, both pages are way cleaner and actually nice to look at, no matter how much data you throw at them.  
-  ![Income/Outcome](/newPortfolio/images/gallery/incomesoutcomes.png)
-
-- **Investment**  
-  Here’s where things got really interesting. There’s a LOT more relevant data to surface than I first thought—assets, profit/loss, types, and more. I intentionally kept the scope tight so I wouldn’t overbuild, but re-used small components for new types of info. It’s also where I realized the importance of relational data: investments link to assets, returns, and user activity in ways a pure document database can’t easily handle. I started out building with MongoDB, but the deeper I went, the clearer it became—this project’s structure begs for a relational database. I’m now researching my options:  
-    - **PostgreSQL:** Handles relationships, powerful queries, open source, huge community.  
-    - **MySQL:** Mature, widespread, great performance, but not as flexible for JSON or modern types.  
-    - **Supabase:** Postgres-based with instant APIs/auth, but still a bit new for mission-critical stuff.  
-
-  I haven’t picked one yet, but diving into relational DBs makes this project even more valuable for me—I’m learning Next.js and TypeScript, then adding serious SQL design to my stack!
-
-  ![Investment](/newPortfolio/images/gallery/investment.png)
-
-- **Profile**  
-  The simplest page, showing only what I need from the user: username, email (for auth/comms), the reset date for their monthly statement, and base currency for future features.
-
-  ![Profile](/newPortfolio/images/gallery/profile.png)
-
----
-
-- **Modals for Editing Data:**  
-  There’s one main modal for editing, but it’s super reusable—swapping content as needed from page to page, styled for clarity and easy option selection or confirmation.
-
-- **A Bunch of Small, Reusable Components:**  
-  Core to keeping things DRY and maintainable.  
-  ![Components](/newPortfolio/images/gallery/component.png)
-
-- **Custom Buttons and Input Fields:**  
-  Unified style, with color feedback and clear affordances everywhere.
-
----
-
-In all honesty, designing for the large screen is now DONE—the structure is locked in, and every part fits just right. All that’s left is implementation, testing, and deployment. It feels wild to write that!
-
----
-
-### What’s Next?
-
-Much as I’d love to skip it, there’s no shipping a web app in 2025 that isn’t responsive. So mobile-first and tablet designs are next on my list. Once that's in place, I can finally dive deep into the codebase, start plugging in data, and let the real logic shine. I’m actually looking forward to untangling backend aggregates and complex queries with my new relational DB setup!
-
----
-
-Thanks so much for following along—every message and bit of feedback motivates me more! Stay tuned for mobile layouts and backend tales soon, and as always, I’d love to hear your thoughts or suggestions.
-
-Stay warm, happy holidays, and keep building! 🚀
-
-#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding31:["$","$L2f","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$38"},"thumbnail":true,"direction":"column"}]
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog31:["$","$L2f","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$38"},"thumbnail":true,"direction":"column"}]
 37:null

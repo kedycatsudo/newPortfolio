@@ -13,7 +13,147 @@
 :HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
 :HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-9:Tff8,
+9:T1a05,
+# Dashboard Complete
+
+Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
+
+---
+
+> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
+
+This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
+
+What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
+
+---
+
+## Structure: Two Columns, Many Components
+
+The dashboard splits into two main columns.
+
+
+### Left Sidebar (the "static anchor")
+
+1. MyFinance Logo  
+   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
+
+2. Sidebar Navigation  
+   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
+   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
+
+3. Recently Invested and Misc List  
+   Shows most recent investments by date.  
+   Displays "misc" purchases and their totals for the month.  
+   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
+   Both live inside the same container, built for reusability but visually pleasing.  
+   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
+
+---
+
+### The Main Content (the "dynamic hub")
+
+Greeting Container  
+Header and warm welcome message to users.
+![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
+
+Financial Snapshot Cards  
+One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
+Data includes: name, amount, date simple yet effective.
+
+![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
+![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
+
+
+Pie Chart  
+I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
+
+---
+
+![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
+
+---
+![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
+
+## Extra
+
+I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
+
+---
+
+## Realities of Learning Tailwind (vs. Plain CSS)
+
+I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
+
+The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
+The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
+
+I’m not anti Tailwind, just cautious  
+It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
+
+---
+
+## Tailwind CSS: Pros and Cons
+
+**Pros**  
+Speed Build layouts faster by composing utility classes; changes update in real time.  
+Consistency Enforces a design system via config and tokens.  
+Responsive by Default Mobile first breakpoints are straightforward.  
+Component Driven Encourages reusable UI blocks.  
+Scoped Styles No fear of class name collisions.
+
+**Cons**  
+Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
+Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
+Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
+Requires Tooling Not as portable as raw CSS without build setup.  
+Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
+
+---
+
+## Plain CSS: Pros and Cons
+
+**Pros**  
+Universal and Timeless No build tools required; works everywhere.  
+Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
+Total Control No abstraction in the way of unique or advanced design needs.  
+Simple Markup Cleaner HTML or JSX.
+
+**Cons**  
+Slower for Prototyping Must write or select classes for every style.  
+Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
+Class Name Fatigue Naming everything is both art and burden.  
+No Built in Responsive Utilities Need to write media queries by hand.  
+Easier to Introduce Bugs Specificity wars, global side effects.
+
+---
+
+## Closing Thoughts
+
+The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
+
+Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
+
+Next up  
+Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
+Getting deep into server side Next.js and PostgreSQL  
+More reusable components, more data, and more transparency
+
+Thanks for reading  
+Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney0:{"P":null,"b":"4rvLEnec4SSYzPpVkGe4x","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
+14:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
+19:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+1a:"$Sreact.suspense"
+1c:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"ViewportBoundary"]
+1e:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"MetadataBoundary"]
+21:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Providers"]
+22:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"RevealFx"]
+23:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Background"]
+24:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientFlex"]
+25:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Header"]
+12:Tff8,
 ## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
 
 Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
@@ -60,18 +200,134 @@ I’ll be posting regular updates and sharing everything I learn—mistakes incl
 
 Stay warm, and let’s keep building awesome things!
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog0:{"P":null,"b":"i-7Ko5T-EZPrczGkiJtgD","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
-14:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
-18:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
-19:"$Sreact.suspense"
-1b:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"ViewportBoundary"]
-1d:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"MetadataBoundary"]
-20:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Providers"]
-21:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"RevealFx"]
-22:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Background"]
-23:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientFlex"]
-24:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Header"]
-12:T16a9,
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #bloga:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$12"},"thumbnail":true,"direction":"column"}],"$L13"]}]
+b:["$","$L14",null,{"marginBottom":"l"}]
+c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Earlier posts"}]
+15:T120e,
+---
+
+## Progress Update: Conquering Frontend Fears 🚀
+
+As I mentioned before, frontend design has always felt a bit daunting for me. But this time around, working on MyFinance, I surprised myself—I’m genuinely happy with how things turned out. It’s rewarding to see real progress, and it’s proof that with time and iteration, you can absolutely improve your design skills, even if you don’t consider yourself a “designer.” Still, I have to admit, I’m excited to dive back into the code!
+
+### Why I Didn’t Skip the Design Step
+
+In past projects, I’ve been tempted to rush straight into development, putting off the visuals for later. This time, I forced myself to slow down and take the design process seriously, because:
+
+- **Most critical decisions happen here:** From how data should be structured, to what fields are actually needed, right down to choosing button styles and color palettes.
+- **Better design = better schemas:** Laying out the UI made me revisit and finalize all my schema fields. Even though I started with a rough MVP schema, working on the screens showed me gaps and refinements I wouldn’t have spotted otherwise.
+- **Iterating visually fuels better workflows:** Letting the design evolve alongside my data flow helped make the whole app more cohesive—not just in how it looks, but in how it works under the hood.
+
+---
+
+<img src="/newPortfolio/images/gallery/outcome-income.png" alt="Incomes and Outcomes pages screenshot" />
+
+---
+
+### What’s Ready So Far
+
+- **Incomes and Outcomes pages:**  
+  Clean, organized, and user-friendly. I spent extra effort making sure users always know where to find their data and how to interact with it—no more confusion or clutter.
+- **Clear component structure:**  
+  Each component is responsible for a single piece of data or UI, making the pages easy to read and navigate.
+- **Dynamic modals:**  
+  - Edit categories (for customizing how you see your finances)
+  - Edit entries (for both payments and earnings)
+- **Sidebar and side components:**  
+  For seamless navigation and contextual data views.
+- **Live data graph:**  
+  A visual snapshot of current financial status, always up to date.
+- **Reusability:**  
+  All of this is built from just five small, modular, and reusable components, keeping things maintainable as the project grows.
+
+---
+
+<img src="/newPortfolio/images/gallery/components.png" alt="Reusable Components" />
+
+---
+
+### The New Challenge: Investments Page
+
+Up next: tackling the Investments page!  
+This area is a bit more complex—there’s a lot of data to surface and plenty of details to get right. Here’s my plan:
+
+- **Map out all possible fields and relationships** for investments (assets, returns, performance over time, etc)
+- **Design flexible UI components** that can handle a variety of investment types and summary stats
+- **Keep the data highly readable and well separated** so users never feel overwhelmed
+- **Develop the backend logic** to support robust data aggregation and reporting
+
+It’s honestly exciting to see how much more there is to consider when the content is “money.” Compared to my previous project, MealMatch (which was a lot lighter on data), MyFinance is proving to be a fulfilling, challenging next step.
+
+---
+
+### What I’ve Learned (So Far)
+
+- **Don’t fear the design phase:** The more effort I put into it, the fewer issues I have during development.
+- **Schema-first doesn’t always mean UI-second:** Letting UI and data design evolve together makes for a more intuitive app.
+- **Bite-sized reusable components = clear code and clean layouts.**
+- **Good data flow planning pays off—** especially with complex domains like finance.
+- **Expect surprises:** As soon as you work with real (or realistic) data, new requirements always surface!
+
+---
+
+### Wrapping Up
+
+Thanks for following along—it means a lot. There’s still a long way to go, but seeing these pages come together (and learning so much in the process) has made the challenge completely worth it. I’m eager to finish the Investments page and then confront the backend complexities head-on.
+
+If you have any feedback, suggestions, or just want to talk about building finance apps (or design struggles!), drop me a message or a comment below. And if you’re interested in a deeper dive, I’ve written an article about this very journey on my blog—check it out! I’d love your thoughts.
+
+Stay warm, and have a fantastic holiday season! 🎄
+
+---
+
+#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWorkd:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17","$L18"]}]
+e:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true,"nonce":"$undefined"}]
+f:["$","$L19",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1b"}]}]
+10:["$","$1","h",{"children":[null,["$","$L1c",null,{"children":"$@1d"}],["$","div",null,{"hidden":true,"children":["$","$L1e",null,{"children":["$","$1a",null,{"name":"Next.Metadata","children":"$@1f"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+20:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$20"}}]}],["$","$L21",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L22",null,{"fill":true,"position":"absolute","children":["$","$L23",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L24",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L25",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L26","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L27","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L28"]}]}]]}]
+2d:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Row"]
+2e:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"IconButton"]
+29:T16a9,
 ---
 
 ## Frontend Design Wrapped 🎉 — MyFinance Dev Update
@@ -157,10 +413,8 @@ Thanks so much for following along—every message and bit of feedback motivates
 
 Stay warm, happy holidays, and keep building! 🚀
 
-#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuildinga:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$12"},"thumbnail":true,"direction":"column"}],"$L13"]}]
-b:["$","$L14",null,{"marginBottom":"l"}]
-c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Earlier posts"}]
-15:T1249,
+#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding13:["$","$L8","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$29"},"thumbnail":true,"direction":"column"}]
+2a:T1249,
 ---
 
 ## Confessions of a Code-First Creator (Who Isn't a Designer)
@@ -230,132 +484,8 @@ Thanks for reading—and have an awesome day!
 
 ---
 
-#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratchd:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17"]}]
-e:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true,"nonce":"$undefined"}]
-f:["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
-10:["$","$1","h",{"children":[null,["$","$L1b",null,{"children":"$@1c"}],["$","div",null,{"hidden":true,"children":["$","$L1d",null,{"children":["$","$19",null,{"name":"Next.Metadata","children":"$@1e"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-1f:T76b,
-              (function() {
-                try {
-                  const root = document.documentElement;
-                  const defaultTheme = 'system';
-                  
-                  // Set defaults from config
-                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
-                  
-                  // Apply default values
-                  Object.entries(config).forEach(([key, value]) => {
-                    root.setAttribute('data-' + key, value);
-                  });
-                  
-                  // Resolve theme
-                  const resolveTheme = (themeValue) => {
-                    if (!themeValue || themeValue === 'system') {
-                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                    }
-                    return themeValue;
-                  };
-                  
-                  // Apply saved theme
-                  const savedTheme = localStorage.getItem('data-theme');
-                  const resolvedTheme = resolveTheme(savedTheme);
-                  root.setAttribute('data-theme', resolvedTheme);
-                  
-                  // Apply any saved style overrides
-                  const styleKeys = Object.keys(config);
-                  styleKeys.forEach(key => {
-                    const value = localStorage.getItem('data-' + key);
-                    if (value) {
-                      root.setAttribute('data-' + key, value);
-                    }
-                  });
-                } catch (e) {
-                  console.error('Failed to initialize theme:', e);
-                  document.documentElement.setAttribute('data-theme', 'dark');
-                }
-              })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$1f"}}]}],["$","$L20",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L21",null,{"fill":true,"position":"absolute","children":["$","$L22",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L23",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L24",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L25","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L26","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L27"]}]}]]}]
-2b:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Row"]
-2c:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"IconButton"]
-28:T120e,
----
-
-## Progress Update: Conquering Frontend Fears 🚀
-
-As I mentioned before, frontend design has always felt a bit daunting for me. But this time around, working on MyFinance, I surprised myself—I’m genuinely happy with how things turned out. It’s rewarding to see real progress, and it’s proof that with time and iteration, you can absolutely improve your design skills, even if you don’t consider yourself a “designer.” Still, I have to admit, I’m excited to dive back into the code!
-
-### Why I Didn’t Skip the Design Step
-
-In past projects, I’ve been tempted to rush straight into development, putting off the visuals for later. This time, I forced myself to slow down and take the design process seriously, because:
-
-- **Most critical decisions happen here:** From how data should be structured, to what fields are actually needed, right down to choosing button styles and color palettes.
-- **Better design = better schemas:** Laying out the UI made me revisit and finalize all my schema fields. Even though I started with a rough MVP schema, working on the screens showed me gaps and refinements I wouldn’t have spotted otherwise.
-- **Iterating visually fuels better workflows:** Letting the design evolve alongside my data flow helped make the whole app more cohesive—not just in how it looks, but in how it works under the hood.
-
----
-
-<img src="/newPortfolio/images/gallery/outcome-income.png" alt="Incomes and Outcomes pages screenshot" />
-
----
-
-### What’s Ready So Far
-
-- **Incomes and Outcomes pages:**  
-  Clean, organized, and user-friendly. I spent extra effort making sure users always know where to find their data and how to interact with it—no more confusion or clutter.
-- **Clear component structure:**  
-  Each component is responsible for a single piece of data or UI, making the pages easy to read and navigate.
-- **Dynamic modals:**  
-  - Edit categories (for customizing how you see your finances)
-  - Edit entries (for both payments and earnings)
-- **Sidebar and side components:**  
-  For seamless navigation and contextual data views.
-- **Live data graph:**  
-  A visual snapshot of current financial status, always up to date.
-- **Reusability:**  
-  All of this is built from just five small, modular, and reusable components, keeping things maintainable as the project grows.
-
----
-
-<img src="/newPortfolio/images/gallery/components.png" alt="Reusable Components" />
-
----
-
-### The New Challenge: Investments Page
-
-Up next: tackling the Investments page!  
-This area is a bit more complex—there’s a lot of data to surface and plenty of details to get right. Here’s my plan:
-
-- **Map out all possible fields and relationships** for investments (assets, returns, performance over time, etc)
-- **Design flexible UI components** that can handle a variety of investment types and summary stats
-- **Keep the data highly readable and well separated** so users never feel overwhelmed
-- **Develop the backend logic** to support robust data aggregation and reporting
-
-It’s honestly exciting to see how much more there is to consider when the content is “money.” Compared to my previous project, MealMatch (which was a lot lighter on data), MyFinance is proving to be a fulfilling, challenging next step.
-
----
-
-### What I’ve Learned (So Far)
-
-- **Don’t fear the design phase:** The more effort I put into it, the fewer issues I have during development.
-- **Schema-first doesn’t always mean UI-second:** Letting UI and data design evolve together makes for a more intuitive app.
-- **Bite-sized reusable components = clear code and clean layouts.**
-- **Good data flow planning pays off—** especially with complex domains like finance.
-- **Expect surprises:** As soon as you work with real (or realistic) data, new requirements always surface!
-
----
-
-### Wrapping Up
-
-Thanks for following along—it means a lot. There’s still a long way to go, but seeing these pages come together (and learning so much in the process) has made the challenge completely worth it. I’m eager to finish the Investments page and then confront the backend complexities head-on.
-
-If you have any feedback, suggestions, or just want to talk about building finance apps (or design struggles!), drop me a message or a comment below. And if you’re interested in a deeper dive, I’ve written an article about this very journey on my blog—check it out! I’d love your thoughts.
-
-Stay warm, and have a fantastic holiday season! 🎄
-
----
-
-#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork13:["$","$L8","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$28"},"thumbnail":true,"direction":"column"}]
-29:Te17,
+#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch16:["$","$L8","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$2a"},"thumbnail":false,"direction":"$undefined"}]
+2b:Te17,
 ## Why Build MyFinance?
 
 A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance.
@@ -470,8 +600,8 @@ Development has begun, and I’ll be sharing updates on how the build goes, and 
 
 Thanks for reading—and wish me luck building MyFinance!
 
----16:["$","$L8","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$29"},"thumbnail":false,"direction":"$undefined"}]
-2a:T77d,
+---17:["$","$L8","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$2b"},"thumbnail":false,"direction":"$undefined"}]
+2c:T77d,
 ## About
 
 Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable.
@@ -523,11 +653,11 @@ I’ll be sharing more about my journey, tech experiments, and projects here. St
 
 ---
 
-Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!17:["$","$L8","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$2a"},"thumbnail":false,"direction":"$undefined"}]
-25:["$","$L4",null,{}]
-26:[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
-27:["$","$L2b",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L2b",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2025," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L2b",null,{"gap":"16","children":[["$","$L2c","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L2c","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L2c","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L2b",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-1c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-2d:I[27201,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"IconMark"]
-1e:[["$","title","0",{"children":"Writing about design and tech..."}],["$","meta","1",{"name":"description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about design and tech..."}],["$","meta","3",{"property":"og:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://kedycatsudo.github.io/newPortfolio/blog"}],["$","meta","5",{"property":"og:image","content":"https://kedycatsudo.github.io/newPortfolio/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","meta","6",{"property":"og:image:alt","content":"Writing about design and tech..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about design and tech..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://kedycatsudo.github.io/newPortfolio/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","link","12",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.433fb4fb.ico","sizes":"620x661","type":"image/x-icon"}],["$","$L2d","13",{}]]
-1a:null
+Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!18:["$","$L8","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$2c"},"thumbnail":false,"direction":"$undefined"}]
+26:["$","$L4",null,{}]
+27:[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
+28:["$","$L2d",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L2d",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2025," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L2d",null,{"gap":"16","children":[["$","$L2e","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L2e","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L2e","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L2d",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2f:I[27201,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"IconMark"]
+1f:[["$","title","0",{"children":"Writing about design and tech..."}],["$","meta","1",{"name":"description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about design and tech..."}],["$","meta","3",{"property":"og:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://kedycatsudo.github.io/newPortfolio/blog"}],["$","meta","5",{"property":"og:image","content":"https://kedycatsudo.github.io/newPortfolio/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","meta","6",{"property":"og:image:alt","content":"Writing about design and tech..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about design and tech..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://kedycatsudo.github.io/newPortfolio/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","link","12",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.433fb4fb.ico","sizes":"620x661","type":"image/x-icon"}],["$","$L2f","13",{}]]
+1b:null
