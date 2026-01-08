@@ -1,0 +1,413 @@
+1:"$Sreact.fragment"
+2:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Row"]
+3:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Column"]
+4:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],""]
+5:I[24379,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"SmartLink"]
+6:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
+7:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
+8:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
+36:I[97784,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"CodeBlock"]
+3a:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
+3b:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
+3c:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
+3d:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
+3e:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
+41:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
+42:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
+43:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
+44:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+45:"$Sreact.suspense"
+0:{"buildId":"0iw5Ab2WdTaBst9gIDWay","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/FirstContexts","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/FirstContexts\",\"sameAs\":[],\"headline\":\"Priceless learning and extremely satisfied code quality. It's all about consistency.\",\"description\":\"\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2026-01-08\",\"dateModified\":\"2026-01-08\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"January 7, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Priceless learning and extremely satisfied code quality. It's all about consistency."}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Priceless learning and extremely satisfied code quality. It's all about consistency.","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h1","id":"priceless-learning-and-extremely-satisfied-code-quality.-it-s-all-about-consistency.","children":"Priceless learning and extremely satisfied code quality. It's all about consistency."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-are-the-new-additions","children":"What are the new additions?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"user.ts types"}],["$","br",null,{}],"\n",["$","strong",null,{"children":"user.ts data"}],["$","br",null,{}],"\n",["$","strong",null,{"children":"AuthContex.tsx"}],["$","br",null,{}],"\n",["$","strong",null,{"children":"ModalContext.tsx"}],["$","br",null,{}],"\n",["$","strong",null,{"children":"ThemeContext.tsx"}],["$","br",null,{}],"\n",["$","strong",null,{"children":"AppModals.tsx"}]]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"what-did-i-have-to-figure-out","children":"What did I have to figure out?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I needed a way to keep user information accessible everywhere in the app. But I wanted more than just storing user info—I wanted to manage login, register, and user updates all together, so I could easily use them anywhere in my application. That’s how AuthContext came to life."}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f"]}],"$L30","$L31","$L32"]}]}],"$L33"]}],["$L34"],"$L35"]}],"loading":null,"isPartial":false}
+9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["I also realized I needed a modal that could handle ",["$","em",null,{"children":"any"}]," user feedback, not just special cases. My last project (MealMatch) taught me a lesson: creating a bunch of different modals leads to headaches. So, I wanted a solution that could handle all kinds of content and actions in ",["$","em",null,{"children":"one"}]," reusable modal. And that’s how AppModal was born."]}]
+a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Once I began thinking about information modals, I understood that I needed a ModalContext to control and display these modals with different content and buttons—sometimes confirm/cancel, sometimes just OK. ModalContext solved this elegantly."}]
+b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I wanted a simple way to add dark/light mode to the UI, so ThemeContext became the solution for toggling themes with one button anywhere in the site."}]
+c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"To make all this work, I needed a sample user and a clear definition for what a user object looks like. So I created data/user.ts and types/user.ts."}]
+d:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+e:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"explaining-my-code-how-does-everything-connect","children":"Explaining my code: How does everything connect?"}]
+f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"types-user.ts","children":"types/user.ts"}]
+10:["$","$L36",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"export interface User {\n  id: string;\n  username: string;\n  email: string;\n  monthlyCircleDate: string;\n  hashedPassword: string;\n}\n","language":"typescript","label":"Typescript"}],"copyButton":true}]
+11:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This file defines what a user looks like in my app—with id, username, email, monthlyCircleDate (for tracking), and the hashed password (very important for authentication)."}]
+12:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+13:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"data-user.ts","children":"data/user.ts"}]
+14:["$","$L36",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"import { User } from '@/types/user';\n\nexport const mockUser: User[] = [\n  {\n    id: 'u1',\n    username: 'kedycat',\n    email: 'kat@example.com',\n    monthlyCircleDate: '2024-01-01',\n    hashedPassword: '$2b$12$fakeBcryptHashForNow',\n  },\n];\n","language":"typescript","label":"Typescript"}],"copyButton":true}]
+15:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Why do I need this?",["$","br",null,{}],"\n","Since I don’t have a backend yet, I use mockUser to simulate a real user—makes development smoother and lets me test login/register logic."]}]
+16:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+17:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"authcontext.tsx","children":"AuthContext.tsx"}]
+37:Ta23,'use client'
+import React, { createContext, useContext, useState, ReactNode } from 'react'
+import { User } from '@/types/user'
+import { mockUser } from '@/data/user'
+
+type AuthContextType = {
+  currentUser: User | null
+  login: (username: string, password: string) => { success: boolean; message: string }
+  logout: () => void
+  register: (user: Omit<User, 'id' | 'hashedPassword'> & { password: string }) => {
+    success: boolean
+    message: string
+  }
+  isAuthenticated: boolean
+}
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined)
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [users, setUsers] = useState<User[]>(mockUser)
+  const [currentUser, setCurrentUser] = useState<User | null>(null)
+
+  // Login checks for a matching username and password in the mock users array.
+  function login(username: string, password: string) {
+    const user = users.find(u => u.username === username)
+    if (!user) {
+      return { success: false, message: 'User not found' }
+    }
+    // WARNING: This "password check" is just for the MVP. Real apps should always hash+salt and check server side!
+    if (user.hashedPassword !== password) {
+      return { success: false, message: 'Login failed. Incorrect password.' }
+    }
+    setCurrentUser(user)
+    return { success: true, message: 'Login successful.' }
+  }
+
+  // Logout wipes out the current user (logs out).
+  function logout() {
+    setCurrentUser(null)
+  }
+
+  // Register adds a new user, making sure the username and email are unique.
+  function register(newUser: Omit<User, 'id' | 'hashedPassword'> & { password: string }) {
+    if (users.some(u => u.username === newUser.username || u.email === newUser.email)) {
+      return { success: false, message: 'Username or email already exists.' }
+    }
+    const fakeHashed = newUser.password // For demo only!
+    const user: User = {
+      ...newUser,
+      id: 'user' + (users.length + 1),
+      hashedPassword: fakeHashed,
+    }
+    setUsers([...users, user])
+    setCurrentUser(user)
+    return { success: true, message: 'Registration successful' }
+  }
+
+  return (
+    <AuthContext.Provider
+      value={{
+        currentUser,
+        login,
+        logout,
+        register,
+        isAuthenticated: !!currentUser,
+      }}
+    >
+      {children}
+    </AuthContext.Provider>
+  )
+}
+
+// useAuth provides an easy way for any component to access login, logout, register, and user info.
+export function useAuth() {
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error('useAuth must be used under AuthProvider')
+  return ctx
+}
+18:["$","$L36",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$37","language":"typescript","label":"Typescript"}],"copyButton":true}]
+19:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Explanation:"}],["$","br",null,{}],"\n","AuthProvider wraps the app and lets me read or write user info from anywhere! Login, logout, and register become simple function calls. The user data lives in context, so I won’t need to pass it around with props.",["$","br",null,{}],"\n","For now, it uses mock data and fake password checking—real authentication always belongs on the server!"]}]
+1a:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+1b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"modalcontext.tsx","children":"ModalContext.tsx"}]
+38:T5ec,'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type ModalState = {
+  isOpen: boolean
+  message: string
+  onConfirm?: () => void
+  onCancel?: () => void
+  showConfirm?: boolean
+}
+
+type ModalContextType = {
+  modal: ModalState
+  showModal: (message: string) => void
+  showConfirmModal: (message: string, onConfirm: () => void, onCancel: () => void) => void
+  closeModal: () => void
+}
+
+const ModalContext = createContext<ModalContextType | undefined>(undefined)
+
+export function ModalProvider({ children }: { children: ReactNode }) {
+  const [modal, setModal] = useState<ModalState>({
+    isOpen: false,
+    message: '',
+    showConfirm: false,
+  })
+
+  // showModal opens a regular message-only modal.
+  function showModal(message: string) {
+    setModal({ isOpen: true, message, showConfirm: false })
+  }
+  // showConfirmModal opens a modal with confirm/cancel buttons and custom handlers.
+  function showConfirmModal(message: string, onConfirm: () => void, onCancel: () => void) {
+    setModal({ isOpen: true, message, showConfirm: true, onConfirm, onCancel })
+  }
+  // closeModal closes the modal.
+  function closeModal() {
+    setModal({ ...modal, isOpen: false })
+  }
+  return (
+    <ModalContext.Provider value={{ modal, showModal, showConfirmModal, closeModal }}>
+      {children}
+    </ModalContext.Provider>
+  )
+}
+
+export function useModal() {
+  const ctx = useContext(ModalContext)
+  if (!ctx) throw new Error('useModal must be used inside ModalProvider')
+  return ctx
+}
+1c:["$","$L36",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$38","language":"typescript","label":"Typescript"}],"copyButton":true}]
+1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Explanation:"}],["$","br",null,{}],"\n","ModalProvider lets me show modals from anywhere with functions: ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"showModal"}]," for info modals, ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"showConfirmModal"}]," for confirm/cancel modals.",["$","br",null,{}],"\n","Modal state and controls live in context, so UI stays organized and powerful."]}]
+1e:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+1f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"appmodals.tsx","children":"AppModals.tsx"}]
+39:T4c5,'use client'
+import { useModal } from '@/context/ModalContext'
+
+export default function AppModal() {
+  const { modal, closeModal } = useModal()
+
+  if (!modal.isOpen) return null
+
+  // Shows the modal UI when isOpen is true.
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+      <div className="bg-[#989899] rounded p-6 shadow-lg min-w-[250px] text-center">
+        <p className="mb-4">{modal.message}</p>
+        {modal.showConfirm ? (
+          <div className="flex gap-3 justify-center">
+            <button
+              className="bg-red-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onCancel?.()
+                closeModal()
+              }}>
+              Cancel
+            </button>
+            <button
+              className="bg-[#29388A]-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onConfirm?.()
+                closeModal()
+              }}>
+              Confirm
+            </button>
+          </div>
+        ) : (
+          <button className="bg-[#29388A] text-white p-2 rounded w-full" onClick={closeModal}>
+            OK
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+20:["$","$L36",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$39","language":"typescript","label":"Typescript"}],"copyButton":true}]
+21:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Explanation:"}],["$","br",null,{}],"\n","AppModal listens to the modal context and renders a visually appealing popup whenever ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"modal.isOpen"}]," is true.",["$","br",null,{}],"\n","It automatically offers confirm/cancel buttons if it’s a confirm modal, or just OK otherwise.",["$","br",null,{}],"\n","Thanks to ModalContext, I never need dozens of different modal components—just this one does it all!"]}]
+22:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+23:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"themecontext.tsx","children":"ThemeContext.tsx"}]
+24:["$","$L36",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"'use client'\nimport { createContext, useContext, useState, ReactNode } from 'react'\n\ntype Theme = 'light' | 'dark'\ntype ThemeContextType = {\n  theme: Theme\n  setTheme: (t: Theme) => void\n  toggleTheme: () => void\n}\n\nconst ThemeContext = createContext<ThemeContextType | undefined>(undefined)\n\nexport function ThemeProvider({ children }: { children: ReactNode }): JSX.Element {\n  const [theme, setTheme] = useState<Theme>('light')\n\n  function toggleTheme() {\n    setTheme(t => (t === 'light' ? 'dark' : 'light'))\n  }\n  return (\n    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>\n      {children}\n    </ThemeContext.Provider>\n  )\n}\n\nexport function useTheme() {\n  const ctx = useContext(ThemeContext)\n  if (!ctx) throw new Error('useTheme must be used inside ThemeProvider')\n  return ctx\n}\n","language":"typescript","label":"Typescript"}],"copyButton":true}]
+25:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Explanation:"}],["$","br",null,{}],"\n","ThemeProvider tracks the current theme (light or dark) and lets me swap modes from anywhere in the app.",["$","br",null,{}],"\n","Want to add a dark mode toggle? Just call ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"toggleTheme"}]," wherever I want the button to live.",["$","br",null,{}],"\n","Right now, this just changes a value—",["$","strong",null,{"children":"it’s not wired up to real dark mode styling yet"}]," since I still need to set up the CSS logic for dark colors."]}]
+26:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+27:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"how-does-the-data-flow-step-by-step","children":"How does the data flow step by step?"}]
+28:["$","$L3a",null,{"children":["\n",["$","$L3b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["$","strong",null,{"children":"I wrap my pages in the context providers (AuthProvider, ModalProvider, ThemeProvider) at the top level."}]}],"\n",["$","$L3b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["$","strong",null,{"children":"Any component can useAuth, useModal, or useTheme to get or set user, modal, or theme info."}]}],"\n",["$","$L3b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"When user interacts:"}],"\n",["$","$L3a",null,{"children":["\n",["$","$L3b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["Login or register: ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"useAuth().login()"}]," or ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"register()"}]," is called, state updates, and AuthContext lets all components “know” the current user."]}],"\n",["$","$L3b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["Show feedback: Call ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"useModal().showModal()"}]," or ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"showConfirmModal()"}]," to open a popup instantly. AppModal listens, shows the modal, and handles user actions."]}],"\n",["$","$L3b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["Toggle UI mode: Call ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"useTheme().toggleTheme()"}]," to switch between light and dark mode everywhere."]}],"\n"]}],"\n"]}],"\n",["$","$L3b",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["$","strong",null,{"children":"As these contexts update, my UI updates reactively and I never need to prop-drill or duplicate logic."}]}],"\n"]}]
+29:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+2a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-s-next","children":"What's next?"}]
+2b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"My next step is to build more contexts for the tons of data I need to show and edit throughout MyFinance—like incomes, outcomes, investments, and user profile. And I’ll be tackling more edit modals to make user data interactive and editable everywhere."}]
+2c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I’m genuinely excited to dive deep into SQL soon. This is going to level up the whole project. So I’ll keep learning and building, constantly improving my skills and sharing the journey."}]
+2d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Thank you so much for reading and joining me in this process!",["$","br",null,{}],"\n","If you have advice, questions, or just want to say hi, leave a comment on my linkedin post, always appreciated."]}]
+2e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Stay consistent, keep building, and have a wonderful day."}]
+2f:["$","pre",null,{"children":["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{}}]}]
+30:["$","$L3c",null,{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","url":"https://kedycatsudo.github.io/newPortfolio//blog/FirstContexts"}]
+3f:T1a05,
+# Dashboard Complete
+
+Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
+
+---
+
+> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
+
+This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
+
+What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
+
+---
+
+## Structure: Two Columns, Many Components
+
+The dashboard splits into two main columns.
+
+
+### Left Sidebar (the "static anchor")
+
+1. MyFinance Logo  
+   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
+
+2. Sidebar Navigation  
+   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
+   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
+
+3. Recently Invested and Misc List  
+   Shows most recent investments by date.  
+   Displays "misc" purchases and their totals for the month.  
+   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
+   Both live inside the same container, built for reusability but visually pleasing.  
+   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
+
+---
+
+### The Main Content (the "dynamic hub")
+
+Greeting Container  
+Header and warm welcome message to users.
+![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
+
+Financial Snapshot Cards  
+One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
+Data includes: name, amount, date simple yet effective.
+
+![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
+![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
+
+
+Pie Chart  
+I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
+
+---
+
+![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
+
+---
+![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
+
+## Extra
+
+I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
+
+---
+
+## Realities of Learning Tailwind (vs. Plain CSS)
+
+I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
+
+The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
+The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
+
+I’m not anti Tailwind, just cautious  
+It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
+
+---
+
+## Tailwind CSS: Pros and Cons
+
+**Pros**  
+Speed Build layouts faster by composing utility classes; changes update in real time.  
+Consistency Enforces a design system via config and tokens.  
+Responsive by Default Mobile first breakpoints are straightforward.  
+Component Driven Encourages reusable UI blocks.  
+Scoped Styles No fear of class name collisions.
+
+**Cons**  
+Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
+Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
+Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
+Requires Tooling Not as portable as raw CSS without build setup.  
+Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
+
+---
+
+## Plain CSS: Pros and Cons
+
+**Pros**  
+Universal and Timeless No build tools required; works everywhere.  
+Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
+Total Control No abstraction in the way of unique or advanced design needs.  
+Simple Markup Cleaner HTML or JSX.
+
+**Cons**  
+Slower for Prototyping Must write or select classes for every style.  
+Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
+Class Name Fatigue Naming everything is both art and burden.  
+No Built in Responsive Utilities Need to write media queries by hand.  
+Easier to Introduce Bugs Specificity wars, global side effects.
+
+---
+
+## Closing Thoughts
+
+The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
+
+Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
+
+Next up  
+Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
+Getting deep into server side Next.js and PostgreSQL  
+More reusable components, more data, and more transparency
+
+Thanks for reading  
+Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney31:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L3d",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L3e","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$3f"},"thumbnail":true,"direction":"column"}],"$L40"]}]]}]
+32:["$","$L41",null,{}]
+33:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L42",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L43",null,{"fitHeight":true}]]}]
+34:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+35:["$","$L44",null,{"children":["$","$45",null,{"name":"Next.MetadataOutlet","children":"$@46"}]}]
+47:Tff8,
+## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
+
+Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
+
+It turns out, the process is much smoother than I imagined. Within days, I went from blank screens to a snappy login and register system, all responsive and matching my design vision.
+
+![MyFinance Logo](/newPortfolio/images/gallery/login.png)
+
+### 🌐 Designing with Reusable Components
+
+Designing clean, responsive UIs with Tailwind CSS felt intimidating at first (not a design fan here 😅), but seeing everything come together on both desktop and mobile made it worth the effort. 
+
+What surprised me most was how easy it was to maintain consistency across the project once I set up my first truly responsive page and a few reusable components. After that, adapting the look and structure for other pages became almost effortless—no more rewriting the same CSS or re tweaking layouts! 
+
+Every element—buttons, inputs, containers—was built once and used everywhere, letting me focus on the bigger picture: how users will flow through the app and how data will move under the hood.
+
+### ⚡ The Magic of Next.js Routing
+
+Setting up the `/app` directory in Next.js made routing a breeze—no manual setup required! As someone who’s used to wiring up traditional routers and view logic by hand, it felt almost unreal to just drop a new file or folder into `/app` and have a working new route. 
+
+Now, with the frontend for login and registration pages in place and polished, I’m really looking forward to diving deeper into server side coding. I can't wait to explore things like authentication flows, data fetching with React Server Components, API routes, and real database connections.
+
+Honestly, the pace of development is way beyond what I expected going in. No wonder Next.js has become the go to for so many modern web apps!
+
+### ✨ Surprises & Learnings So Far
+
+- **Tailwind CSS isn’t just “another CSS framework”**: It made responsive design feel natural, not like an afterthought. I used to dread making layouts mobile friendly—now, I build with breakpoints from the start.
+- **Component driven design really pays off**: Once you have a toolbox of fields, forms, and containers, everything new is just composition.
+- **VSCode is my friend again**: I spend less time fighting with boilerplate and more time thinking about real features. 
+- **Frontend Backend are more connected than I thought**: Choices in form design and page structure are already shaping what data I’ll need and how I’ll store it.
+
+![MyFinance Logo](/newPortfolio/images/gallery/register.png)
+
+
+### 🛤️ What’s Next?
+
+With the core structure and authentication pages (login, register) done, my next step is to round out the rest of MyFinance’s main interface. I’ll be focusing on finishing up the frontends for the other essential pages: **dashboard, incomes, outcomes, investment, and profile**.
+
+I'm confident that building out these screens—from data tables to interactive components—will challenge me and deepen my skills in Tailwind CSS and the frontend capabilities of Next.js. Each new page is an opportunity to refine my design system, improve maintainability, and ensure consistency across the application.
+
+Once the UI is complete, I get to dive into my favorite part: the backend! I can't wait to architect relational flows, design efficient schemas, and bring MyFinance’s data to life using PostgreSQL and Next.js server-side features. 
+
+I’ll be posting regular updates and sharing everything I learn—mistakes included—so if you're interested in a transparent build process or want insights on working with these technologies, stay tuned!
+
+Stay warm, and let’s keep building awesome things!
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog40:["$","$L3e","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$47"},"thumbnail":true,"direction":"column"}]
+46:null

@@ -13,7 +13,7 @@ d:I[68027,[],"default"]
 :HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
 :HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"4rvLEnec4SSYzPpVkGe4x","c":["","blog","Myfinance-progress"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","Myfinance-progress","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"0iw5Ab2WdTaBst9gIDWay","c":["","blog","Myfinance-progress"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","Myfinance-progress","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 f:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Providers"]
 10:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Column"]
 11:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"RevealFx"]
@@ -72,8 +72,351 @@ e:T76b,
 21:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
 15:["$","$L4",null,{}]
 16:[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
-17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2025," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-22:T1a05,
+17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+22:T2da7,
+# Priceless learning and extremely satisfied code quality. It's all about consistency.
+
+Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects.
+
+## What are the new additions?
+
+**user.ts types**  
+**user.ts data**  
+**AuthContex.tsx**  
+**ModalContext.tsx**  
+**ThemeContext.tsx**  
+**AppModals.tsx**
+
+### What did I have to figure out?
+
+I needed a way to keep user information accessible everywhere in the app. But I wanted more than just storing user info—I wanted to manage login, register, and user updates all together, so I could easily use them anywhere in my application. That’s how AuthContext came to life.
+
+I also realized I needed a modal that could handle _any_ user feedback, not just special cases. My last project (MealMatch) taught me a lesson: creating a bunch of different modals leads to headaches. So, I wanted a solution that could handle all kinds of content and actions in _one_ reusable modal. And that’s how AppModal was born.
+
+Once I began thinking about information modals, I understood that I needed a ModalContext to control and display these modals with different content and buttons—sometimes confirm/cancel, sometimes just OK. ModalContext solved this elegantly.
+
+I wanted a simple way to add dark/light mode to the UI, so ThemeContext became the solution for toggling themes with one button anywhere in the site.
+
+To make all this work, I needed a sample user and a clear definition for what a user object looks like. So I created data/user.ts and types/user.ts.
+
+---
+
+## Explaining my code: How does everything connect?
+
+### types/user.ts
+
+```typescript
+export interface User {
+  id: string;
+  username: string;
+  email: string;
+  monthlyCircleDate: string;
+  hashedPassword: string;
+}
+```
+
+This file defines what a user looks like in my app—with id, username, email, monthlyCircleDate (for tracking), and the hashed password (very important for authentication).
+
+---
+
+### data/user.ts
+
+```typescript
+import { User } from '@/types/user';
+
+export const mockUser: User[] = [
+  {
+    id: 'u1',
+    username: 'kedycat',
+    email: 'kat@example.com',
+    monthlyCircleDate: '2024-01-01',
+    hashedPassword: '$2b$12$fakeBcryptHashForNow',
+  },
+];
+```
+
+Why do I need this?  
+Since I don’t have a backend yet, I use mockUser to simulate a real user—makes development smoother and lets me test login/register logic.
+
+---
+
+### AuthContext.tsx
+
+```typescript
+'use client'
+import React, { createContext, useContext, useState, ReactNode } from 'react'
+import { User } from '@/types/user'
+import { mockUser } from '@/data/user'
+
+type AuthContextType = {
+  currentUser: User | null
+  login: (username: string, password: string) => { success: boolean; message: string }
+  logout: () => void
+  register: (user: Omit<User, 'id' | 'hashedPassword'> & { password: string }) => {
+    success: boolean
+    message: string
+  }
+  isAuthenticated: boolean
+}
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined)
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [users, setUsers] = useState<User[]>(mockUser)
+  const [currentUser, setCurrentUser] = useState<User | null>(null)
+
+  // Login checks for a matching username and password in the mock users array.
+  function login(username: string, password: string) {
+    const user = users.find(u => u.username === username)
+    if (!user) {
+      return { success: false, message: 'User not found' }
+    }
+    // WARNING: This "password check" is just for the MVP. Real apps should always hash+salt and check server side!
+    if (user.hashedPassword !== password) {
+      return { success: false, message: 'Login failed. Incorrect password.' }
+    }
+    setCurrentUser(user)
+    return { success: true, message: 'Login successful.' }
+  }
+
+  // Logout wipes out the current user (logs out).
+  function logout() {
+    setCurrentUser(null)
+  }
+
+  // Register adds a new user, making sure the username and email are unique.
+  function register(newUser: Omit<User, 'id' | 'hashedPassword'> & { password: string }) {
+    if (users.some(u => u.username === newUser.username || u.email === newUser.email)) {
+      return { success: false, message: 'Username or email already exists.' }
+    }
+    const fakeHashed = newUser.password // For demo only!
+    const user: User = {
+      ...newUser,
+      id: 'user' + (users.length + 1),
+      hashedPassword: fakeHashed,
+    }
+    setUsers([...users, user])
+    setCurrentUser(user)
+    return { success: true, message: 'Registration successful' }
+  }
+
+  return (
+    <AuthContext.Provider
+      value={{
+        currentUser,
+        login,
+        logout,
+        register,
+        isAuthenticated: !!currentUser,
+      }}
+    >
+      {children}
+    </AuthContext.Provider>
+  )
+}
+
+// useAuth provides an easy way for any component to access login, logout, register, and user info.
+export function useAuth() {
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error('useAuth must be used under AuthProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+AuthProvider wraps the app and lets me read or write user info from anywhere! Login, logout, and register become simple function calls. The user data lives in context, so I won’t need to pass it around with props.  
+For now, it uses mock data and fake password checking—real authentication always belongs on the server!
+
+---
+
+### ModalContext.tsx
+
+```typescript
+'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type ModalState = {
+  isOpen: boolean
+  message: string
+  onConfirm?: () => void
+  onCancel?: () => void
+  showConfirm?: boolean
+}
+
+type ModalContextType = {
+  modal: ModalState
+  showModal: (message: string) => void
+  showConfirmModal: (message: string, onConfirm: () => void, onCancel: () => void) => void
+  closeModal: () => void
+}
+
+const ModalContext = createContext<ModalContextType | undefined>(undefined)
+
+export function ModalProvider({ children }: { children: ReactNode }) {
+  const [modal, setModal] = useState<ModalState>({
+    isOpen: false,
+    message: '',
+    showConfirm: false,
+  })
+
+  // showModal opens a regular message-only modal.
+  function showModal(message: string) {
+    setModal({ isOpen: true, message, showConfirm: false })
+  }
+  // showConfirmModal opens a modal with confirm/cancel buttons and custom handlers.
+  function showConfirmModal(message: string, onConfirm: () => void, onCancel: () => void) {
+    setModal({ isOpen: true, message, showConfirm: true, onConfirm, onCancel })
+  }
+  // closeModal closes the modal.
+  function closeModal() {
+    setModal({ ...modal, isOpen: false })
+  }
+  return (
+    <ModalContext.Provider value={{ modal, showModal, showConfirmModal, closeModal }}>
+      {children}
+    </ModalContext.Provider>
+  )
+}
+
+export function useModal() {
+  const ctx = useContext(ModalContext)
+  if (!ctx) throw new Error('useModal must be used inside ModalProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+ModalProvider lets me show modals from anywhere with functions: `showModal` for info modals, `showConfirmModal` for confirm/cancel modals.  
+Modal state and controls live in context, so UI stays organized and powerful.
+
+---
+
+### AppModals.tsx
+
+```typescript
+'use client'
+import { useModal } from '@/context/ModalContext'
+
+export default function AppModal() {
+  const { modal, closeModal } = useModal()
+
+  if (!modal.isOpen) return null
+
+  // Shows the modal UI when isOpen is true.
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+      <div className="bg-[#989899] rounded p-6 shadow-lg min-w-[250px] text-center">
+        <p className="mb-4">{modal.message}</p>
+        {modal.showConfirm ? (
+          <div className="flex gap-3 justify-center">
+            <button
+              className="bg-red-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onCancel?.()
+                closeModal()
+              }}>
+              Cancel
+            </button>
+            <button
+              className="bg-[#29388A]-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onConfirm?.()
+                closeModal()
+              }}>
+              Confirm
+            </button>
+          </div>
+        ) : (
+          <button className="bg-[#29388A] text-white p-2 rounded w-full" onClick={closeModal}>
+            OK
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+```
+
+**Explanation:**  
+AppModal listens to the modal context and renders a visually appealing popup whenever `modal.isOpen` is true.  
+It automatically offers confirm/cancel buttons if it’s a confirm modal, or just OK otherwise.  
+Thanks to ModalContext, I never need dozens of different modal components—just this one does it all!
+
+---
+
+### ThemeContext.tsx
+
+```typescript
+'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type Theme = 'light' | 'dark'
+type ThemeContextType = {
+  theme: Theme
+  setTheme: (t: Theme) => void
+  toggleTheme: () => void
+}
+
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
+
+export function ThemeProvider({ children }: { children: ReactNode }): JSX.Element {
+  const [theme, setTheme] = useState<Theme>('light')
+
+  function toggleTheme() {
+    setTheme(t => (t === 'light' ? 'dark' : 'light'))
+  }
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  )
+}
+
+export function useTheme() {
+  const ctx = useContext(ThemeContext)
+  if (!ctx) throw new Error('useTheme must be used inside ThemeProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+ThemeProvider tracks the current theme (light or dark) and lets me swap modes from anywhere in the app.  
+Want to add a dark mode toggle? Just call `toggleTheme` wherever I want the button to live.  
+Right now, this just changes a value—**it’s not wired up to real dark mode styling yet** since I still need to set up the CSS logic for dark colors.
+
+---
+
+## How does the data flow step by step?
+
+1. **I wrap my pages in the context providers (AuthProvider, ModalProvider, ThemeProvider) at the top level.**
+2. **Any component can useAuth, useModal, or useTheme to get or set user, modal, or theme info.**
+3. **When user interacts:**
+   - Login or register: `useAuth().login()` or `register()` is called, state updates, and AuthContext lets all components “know” the current user.
+   - Show feedback: Call `useModal().showModal()` or `showConfirmModal()` to open a popup instantly. AppModal listens, shows the modal, and handles user actions.
+   - Toggle UI mode: Call `useTheme().toggleTheme()` to switch between light and dark mode everywhere.
+4. **As these contexts update, my UI updates reactively and I never need to prop-drill or duplicate logic.**
+
+---
+
+## What's next?
+
+My next step is to build more contexts for the tons of data I need to show and edit throughout MyFinance—like incomes, outcomes, investments, and user profile. And I’ll be tackling more edit modals to make user data interactive and editable everywhere.
+
+I’m genuinely excited to dive deep into SQL soon. This is going to level up the whole project. So I’ll keep learning and building, constantly improving my skills and sharing the journey.
+
+Thank you so much for reading and joining me in this process!  
+If you have advice, questions, or just want to say hi, leave a comment on my linkedin post, always appreciated.
+
+Stay consistent, keep building, and have a wonderful day.
+
+```
+
+```
+5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/Myfinance-progress","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/Myfinance-progress\",\"sameAs\":[],\"headline\":\"MyFinance Progress: From Design Struggles to Clean Data Flow\",\"description\":\"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-24\",\"dateModified\":\"2025-12-24\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"December 23, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"MyFinance Progress: From Design Struggles to Clean Data Flow"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","textWrap":"$undefined","fontStyle":"italic"},"children":"Why pushing through the tricky parts of UI/UX made everything else easier"}]]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Progress: From Design Struggles to Clean Data Flow","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","url":"https://kedycatsudo.github.io/newPortfolio//blog/Myfinance-progress"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
+27:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
+28:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
+29:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
+26:T1a05,
 # Dashboard Complete
 
 Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
@@ -202,58 +545,7 @@ More reusable components, more data, and more transparency
 Thanks for reading  
 Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/Myfinance-progress","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/Myfinance-progress\",\"sameAs\":[],\"headline\":\"MyFinance Progress: From Design Struggles to Clean Data Flow\",\"description\":\"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-24\",\"dateModified\":\"2025-12-24\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"December 23, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"MyFinance Progress: From Design Struggles to Clean Data Flow"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","textWrap":"$undefined","fontStyle":"italic"},"children":"Why pushing through the tricky parts of UI/UX made everything else easier"}]]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Progress: From Design Struggles to Clean Data Flow","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","url":"https://kedycatsudo.github.io/newPortfolio//blog/Myfinance-progress"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
-27:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
-28:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
-29:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
-26:Tff8,
-## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
-
-Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
-
-It turns out, the process is much smoother than I imagined. Within days, I went from blank screens to a snappy login and register system, all responsive and matching my design vision.
-
-![MyFinance Logo](/newPortfolio/images/gallery/login.png)
-
-### 🌐 Designing with Reusable Components
-
-Designing clean, responsive UIs with Tailwind CSS felt intimidating at first (not a design fan here 😅), but seeing everything come together on both desktop and mobile made it worth the effort. 
-
-What surprised me most was how easy it was to maintain consistency across the project once I set up my first truly responsive page and a few reusable components. After that, adapting the look and structure for other pages became almost effortless—no more rewriting the same CSS or re tweaking layouts! 
-
-Every element—buttons, inputs, containers—was built once and used everywhere, letting me focus on the bigger picture: how users will flow through the app and how data will move under the hood.
-
-### ⚡ The Magic of Next.js Routing
-
-Setting up the `/app` directory in Next.js made routing a breeze—no manual setup required! As someone who’s used to wiring up traditional routers and view logic by hand, it felt almost unreal to just drop a new file or folder into `/app` and have a working new route. 
-
-Now, with the frontend for login and registration pages in place and polished, I’m really looking forward to diving deeper into server side coding. I can't wait to explore things like authentication flows, data fetching with React Server Components, API routes, and real database connections.
-
-Honestly, the pace of development is way beyond what I expected going in. No wonder Next.js has become the go to for so many modern web apps!
-
-### ✨ Surprises & Learnings So Far
-
-- **Tailwind CSS isn’t just “another CSS framework”**: It made responsive design feel natural, not like an afterthought. I used to dread making layouts mobile friendly—now, I build with breakpoints from the start.
-- **Component driven design really pays off**: Once you have a toolbox of fields, forms, and containers, everything new is just composition.
-- **VSCode is my friend again**: I spend less time fighting with boilerplate and more time thinking about real features. 
-- **Frontend Backend are more connected than I thought**: Choices in form design and page structure are already shaping what data I’ll need and how I’ll store it.
-
-![MyFinance Logo](/newPortfolio/images/gallery/register.png)
-
-
-### 🛤️ What’s Next?
-
-With the core structure and authentication pages (login, register) done, my next step is to round out the rest of MyFinance’s main interface. I’ll be focusing on finishing up the frontends for the other essential pages: **dashboard, incomes, outcomes, investment, and profile**.
-
-I'm confident that building out these screens—from data tables to interactive components—will challenge me and deepen my skills in Tailwind CSS and the frontend capabilities of Next.js. Each new page is an opportunity to refine my design system, improve maintainability, and ensure consistency across the application.
-
-Once the UI is complete, I get to dive into my favorite part: the backend! I can't wait to architect relational flows, design efficient schemas, and bring MyFinance’s data to life using PostgreSQL and Next.js server-side features. 
-
-I’ll be posting regular updates and sharing everything I learn—mistakes included—so if you're interested in a transparent build process or want insights on working with these technologies, stay tuned!
-
-Stay warm, and let’s keep building awesome things!
-
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog23:["$","$L21","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$26"},"thumbnail":true,"direction":"column"}]
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney23:["$","$L21","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$26"},"thumbnail":true,"direction":"column"}]
 24:["$","$L27",null,{}]
 25:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L18",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L28",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L29",null,{"fitHeight":true}]]}]
 2a:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]

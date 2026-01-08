@@ -17,7 +17,7 @@
 3d:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
 3e:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
 3f:"$Sreact.suspense"
-0:{"buildId":"4rvLEnec4SSYzPpVkGe4x","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/myfinance-intro","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/myfinance-intro\",\"sameAs\":[],\"headline\":\"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch\",\"description\":\"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-08\",\"dateModified\":\"2025-12-08\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 7, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"From Portfolio Launch to Solving My Own Real-World Problem"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-build-myfinance","children":"Why Build MyFinance?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Why am I so hyped about this one? Because for the first time, I’m building a solution for a real-world problem that I actually face every month. I’ve tried a bunch of finance apps, but most are either paid, overloaded with features I don’t need, or simply don’t fit the way I want to track things. I wanted something simple: to track my monthly income and expenses and keep my investments tidy—all in one dashboard."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"So, I decided to build my own tailored solution. And yes, MyFinance will be completely free!"}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c"]}],"$L2d","$L2e","$L2f"]}]}],"$L30"]}],["$L31"],"$L32"]}],"loading":null,"isPartial":false}
+0:{"buildId":"0iw5Ab2WdTaBst9gIDWay","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/myfinance-intro","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/myfinance-intro\",\"sameAs\":[],\"headline\":\"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch\",\"description\":\"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-08\",\"dateModified\":\"2025-12-08\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 7, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"From Portfolio Launch to Solving My Own Real-World Problem"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-build-myfinance","children":"Why Build MyFinance?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Why am I so hyped about this one? Because for the first time, I’m building a solution for a real-world problem that I actually face every month. I’ve tried a bunch of finance apps, but most are either paid, overloaded with features I don’t need, or simply don’t fit the way I want to track things. I wanted something simple: to track my monthly income and expenses and keep my investments tidy—all in one dashboard."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"So, I decided to build my own tailored solution. And yes, MyFinance will be completely free!"}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c"]}],"$L2d","$L2e","$L2f"]}]}],"$L30"]}],["$L31"],"$L32"]}],"loading":null,"isPartial":false}
 9:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
 a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"defining-the-project-scope-and-goals","children":"Defining the Project Scope & Goals"}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Project name:"}]," MyFinance"]}]
@@ -55,7 +55,351 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 2b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Thanks for reading—and wish me luck building MyFinance!"}]
 2c:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
 2d:["$","$L36",null,{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","url":"https://kedycatsudo.github.io/newPortfolio//blog/myfinance-intro"}]
-39:T1a05,
+39:T2da7,
+# Priceless learning and extremely satisfied code quality. It's all about consistency.
+
+Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects.
+
+## What are the new additions?
+
+**user.ts types**  
+**user.ts data**  
+**AuthContex.tsx**  
+**ModalContext.tsx**  
+**ThemeContext.tsx**  
+**AppModals.tsx**
+
+### What did I have to figure out?
+
+I needed a way to keep user information accessible everywhere in the app. But I wanted more than just storing user info—I wanted to manage login, register, and user updates all together, so I could easily use them anywhere in my application. That’s how AuthContext came to life.
+
+I also realized I needed a modal that could handle _any_ user feedback, not just special cases. My last project (MealMatch) taught me a lesson: creating a bunch of different modals leads to headaches. So, I wanted a solution that could handle all kinds of content and actions in _one_ reusable modal. And that’s how AppModal was born.
+
+Once I began thinking about information modals, I understood that I needed a ModalContext to control and display these modals with different content and buttons—sometimes confirm/cancel, sometimes just OK. ModalContext solved this elegantly.
+
+I wanted a simple way to add dark/light mode to the UI, so ThemeContext became the solution for toggling themes with one button anywhere in the site.
+
+To make all this work, I needed a sample user and a clear definition for what a user object looks like. So I created data/user.ts and types/user.ts.
+
+---
+
+## Explaining my code: How does everything connect?
+
+### types/user.ts
+
+```typescript
+export interface User {
+  id: string;
+  username: string;
+  email: string;
+  monthlyCircleDate: string;
+  hashedPassword: string;
+}
+```
+
+This file defines what a user looks like in my app—with id, username, email, monthlyCircleDate (for tracking), and the hashed password (very important for authentication).
+
+---
+
+### data/user.ts
+
+```typescript
+import { User } from '@/types/user';
+
+export const mockUser: User[] = [
+  {
+    id: 'u1',
+    username: 'kedycat',
+    email: 'kat@example.com',
+    monthlyCircleDate: '2024-01-01',
+    hashedPassword: '$2b$12$fakeBcryptHashForNow',
+  },
+];
+```
+
+Why do I need this?  
+Since I don’t have a backend yet, I use mockUser to simulate a real user—makes development smoother and lets me test login/register logic.
+
+---
+
+### AuthContext.tsx
+
+```typescript
+'use client'
+import React, { createContext, useContext, useState, ReactNode } from 'react'
+import { User } from '@/types/user'
+import { mockUser } from '@/data/user'
+
+type AuthContextType = {
+  currentUser: User | null
+  login: (username: string, password: string) => { success: boolean; message: string }
+  logout: () => void
+  register: (user: Omit<User, 'id' | 'hashedPassword'> & { password: string }) => {
+    success: boolean
+    message: string
+  }
+  isAuthenticated: boolean
+}
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined)
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [users, setUsers] = useState<User[]>(mockUser)
+  const [currentUser, setCurrentUser] = useState<User | null>(null)
+
+  // Login checks for a matching username and password in the mock users array.
+  function login(username: string, password: string) {
+    const user = users.find(u => u.username === username)
+    if (!user) {
+      return { success: false, message: 'User not found' }
+    }
+    // WARNING: This "password check" is just for the MVP. Real apps should always hash+salt and check server side!
+    if (user.hashedPassword !== password) {
+      return { success: false, message: 'Login failed. Incorrect password.' }
+    }
+    setCurrentUser(user)
+    return { success: true, message: 'Login successful.' }
+  }
+
+  // Logout wipes out the current user (logs out).
+  function logout() {
+    setCurrentUser(null)
+  }
+
+  // Register adds a new user, making sure the username and email are unique.
+  function register(newUser: Omit<User, 'id' | 'hashedPassword'> & { password: string }) {
+    if (users.some(u => u.username === newUser.username || u.email === newUser.email)) {
+      return { success: false, message: 'Username or email already exists.' }
+    }
+    const fakeHashed = newUser.password // For demo only!
+    const user: User = {
+      ...newUser,
+      id: 'user' + (users.length + 1),
+      hashedPassword: fakeHashed,
+    }
+    setUsers([...users, user])
+    setCurrentUser(user)
+    return { success: true, message: 'Registration successful' }
+  }
+
+  return (
+    <AuthContext.Provider
+      value={{
+        currentUser,
+        login,
+        logout,
+        register,
+        isAuthenticated: !!currentUser,
+      }}
+    >
+      {children}
+    </AuthContext.Provider>
+  )
+}
+
+// useAuth provides an easy way for any component to access login, logout, register, and user info.
+export function useAuth() {
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error('useAuth must be used under AuthProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+AuthProvider wraps the app and lets me read or write user info from anywhere! Login, logout, and register become simple function calls. The user data lives in context, so I won’t need to pass it around with props.  
+For now, it uses mock data and fake password checking—real authentication always belongs on the server!
+
+---
+
+### ModalContext.tsx
+
+```typescript
+'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type ModalState = {
+  isOpen: boolean
+  message: string
+  onConfirm?: () => void
+  onCancel?: () => void
+  showConfirm?: boolean
+}
+
+type ModalContextType = {
+  modal: ModalState
+  showModal: (message: string) => void
+  showConfirmModal: (message: string, onConfirm: () => void, onCancel: () => void) => void
+  closeModal: () => void
+}
+
+const ModalContext = createContext<ModalContextType | undefined>(undefined)
+
+export function ModalProvider({ children }: { children: ReactNode }) {
+  const [modal, setModal] = useState<ModalState>({
+    isOpen: false,
+    message: '',
+    showConfirm: false,
+  })
+
+  // showModal opens a regular message-only modal.
+  function showModal(message: string) {
+    setModal({ isOpen: true, message, showConfirm: false })
+  }
+  // showConfirmModal opens a modal with confirm/cancel buttons and custom handlers.
+  function showConfirmModal(message: string, onConfirm: () => void, onCancel: () => void) {
+    setModal({ isOpen: true, message, showConfirm: true, onConfirm, onCancel })
+  }
+  // closeModal closes the modal.
+  function closeModal() {
+    setModal({ ...modal, isOpen: false })
+  }
+  return (
+    <ModalContext.Provider value={{ modal, showModal, showConfirmModal, closeModal }}>
+      {children}
+    </ModalContext.Provider>
+  )
+}
+
+export function useModal() {
+  const ctx = useContext(ModalContext)
+  if (!ctx) throw new Error('useModal must be used inside ModalProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+ModalProvider lets me show modals from anywhere with functions: `showModal` for info modals, `showConfirmModal` for confirm/cancel modals.  
+Modal state and controls live in context, so UI stays organized and powerful.
+
+---
+
+### AppModals.tsx
+
+```typescript
+'use client'
+import { useModal } from '@/context/ModalContext'
+
+export default function AppModal() {
+  const { modal, closeModal } = useModal()
+
+  if (!modal.isOpen) return null
+
+  // Shows the modal UI when isOpen is true.
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+      <div className="bg-[#989899] rounded p-6 shadow-lg min-w-[250px] text-center">
+        <p className="mb-4">{modal.message}</p>
+        {modal.showConfirm ? (
+          <div className="flex gap-3 justify-center">
+            <button
+              className="bg-red-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onCancel?.()
+                closeModal()
+              }}>
+              Cancel
+            </button>
+            <button
+              className="bg-[#29388A]-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onConfirm?.()
+                closeModal()
+              }}>
+              Confirm
+            </button>
+          </div>
+        ) : (
+          <button className="bg-[#29388A] text-white p-2 rounded w-full" onClick={closeModal}>
+            OK
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+```
+
+**Explanation:**  
+AppModal listens to the modal context and renders a visually appealing popup whenever `modal.isOpen` is true.  
+It automatically offers confirm/cancel buttons if it’s a confirm modal, or just OK otherwise.  
+Thanks to ModalContext, I never need dozens of different modal components—just this one does it all!
+
+---
+
+### ThemeContext.tsx
+
+```typescript
+'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type Theme = 'light' | 'dark'
+type ThemeContextType = {
+  theme: Theme
+  setTheme: (t: Theme) => void
+  toggleTheme: () => void
+}
+
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
+
+export function ThemeProvider({ children }: { children: ReactNode }): JSX.Element {
+  const [theme, setTheme] = useState<Theme>('light')
+
+  function toggleTheme() {
+    setTheme(t => (t === 'light' ? 'dark' : 'light'))
+  }
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  )
+}
+
+export function useTheme() {
+  const ctx = useContext(ThemeContext)
+  if (!ctx) throw new Error('useTheme must be used inside ThemeProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+ThemeProvider tracks the current theme (light or dark) and lets me swap modes from anywhere in the app.  
+Want to add a dark mode toggle? Just call `toggleTheme` wherever I want the button to live.  
+Right now, this just changes a value—**it’s not wired up to real dark mode styling yet** since I still need to set up the CSS logic for dark colors.
+
+---
+
+## How does the data flow step by step?
+
+1. **I wrap my pages in the context providers (AuthProvider, ModalProvider, ThemeProvider) at the top level.**
+2. **Any component can useAuth, useModal, or useTheme to get or set user, modal, or theme info.**
+3. **When user interacts:**
+   - Login or register: `useAuth().login()` or `register()` is called, state updates, and AuthContext lets all components “know” the current user.
+   - Show feedback: Call `useModal().showModal()` or `showConfirmModal()` to open a popup instantly. AppModal listens, shows the modal, and handles user actions.
+   - Toggle UI mode: Call `useTheme().toggleTheme()` to switch between light and dark mode everywhere.
+4. **As these contexts update, my UI updates reactively and I never need to prop-drill or duplicate logic.**
+
+---
+
+## What's next?
+
+My next step is to build more contexts for the tons of data I need to show and edit throughout MyFinance—like incomes, outcomes, investments, and user profile. And I’ll be tackling more edit modals to make user data interactive and editable everywhere.
+
+I’m genuinely excited to dive deep into SQL soon. This is going to level up the whole project. So I’ll keep learning and building, constantly improving my skills and sharing the journey.
+
+Thank you so much for reading and joining me in this process!  
+If you have advice, questions, or just want to say hi, leave a comment on my linkedin post, always appreciated.
+
+Stay consistent, keep building, and have a wonderful day.
+
+```
+
+```
+2e:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L37",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L38","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$39"},"thumbnail":true,"direction":"column"}],"$L3a"]}]]}]
+2f:["$","$L3b",null,{}]
+30:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L3c",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L3d",null,{"fitHeight":true}]]}]
+31:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+32:["$","$L3e",null,{"children":["$","$3f",null,{"name":"Next.MetadataOutlet","children":"$@40"}]}]
+41:T1a05,
 # Dashboard Complete
 
 Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
@@ -184,57 +528,5 @@ More reusable components, more data, and more transparency
 Thanks for reading  
 Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney2e:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L37",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L38","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$39"},"thumbnail":true,"direction":"column"}],"$L3a"]}]]}]
-2f:["$","$L3b",null,{}]
-30:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L3c",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L3d",null,{"fitHeight":true}]]}]
-31:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
-32:["$","$L3e",null,{"children":["$","$3f",null,{"name":"Next.MetadataOutlet","children":"$@40"}]}]
-41:Tff8,
-## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
-
-Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
-
-It turns out, the process is much smoother than I imagined. Within days, I went from blank screens to a snappy login and register system, all responsive and matching my design vision.
-
-![MyFinance Logo](/newPortfolio/images/gallery/login.png)
-
-### 🌐 Designing with Reusable Components
-
-Designing clean, responsive UIs with Tailwind CSS felt intimidating at first (not a design fan here 😅), but seeing everything come together on both desktop and mobile made it worth the effort. 
-
-What surprised me most was how easy it was to maintain consistency across the project once I set up my first truly responsive page and a few reusable components. After that, adapting the look and structure for other pages became almost effortless—no more rewriting the same CSS or re tweaking layouts! 
-
-Every element—buttons, inputs, containers—was built once and used everywhere, letting me focus on the bigger picture: how users will flow through the app and how data will move under the hood.
-
-### ⚡ The Magic of Next.js Routing
-
-Setting up the `/app` directory in Next.js made routing a breeze—no manual setup required! As someone who’s used to wiring up traditional routers and view logic by hand, it felt almost unreal to just drop a new file or folder into `/app` and have a working new route. 
-
-Now, with the frontend for login and registration pages in place and polished, I’m really looking forward to diving deeper into server side coding. I can't wait to explore things like authentication flows, data fetching with React Server Components, API routes, and real database connections.
-
-Honestly, the pace of development is way beyond what I expected going in. No wonder Next.js has become the go to for so many modern web apps!
-
-### ✨ Surprises & Learnings So Far
-
-- **Tailwind CSS isn’t just “another CSS framework”**: It made responsive design feel natural, not like an afterthought. I used to dread making layouts mobile friendly—now, I build with breakpoints from the start.
-- **Component driven design really pays off**: Once you have a toolbox of fields, forms, and containers, everything new is just composition.
-- **VSCode is my friend again**: I spend less time fighting with boilerplate and more time thinking about real features. 
-- **Frontend Backend are more connected than I thought**: Choices in form design and page structure are already shaping what data I’ll need and how I’ll store it.
-
-![MyFinance Logo](/newPortfolio/images/gallery/register.png)
-
-
-### 🛤️ What’s Next?
-
-With the core structure and authentication pages (login, register) done, my next step is to round out the rest of MyFinance’s main interface. I’ll be focusing on finishing up the frontends for the other essential pages: **dashboard, incomes, outcomes, investment, and profile**.
-
-I'm confident that building out these screens—from data tables to interactive components—will challenge me and deepen my skills in Tailwind CSS and the frontend capabilities of Next.js. Each new page is an opportunity to refine my design system, improve maintainability, and ensure consistency across the application.
-
-Once the UI is complete, I get to dive into my favorite part: the backend! I can't wait to architect relational flows, design efficient schemas, and bring MyFinance’s data to life using PostgreSQL and Next.js server-side features. 
-
-I’ll be posting regular updates and sharing everything I learn—mistakes included—so if you're interested in a transparent build process or want insights on working with these technologies, stay tuned!
-
-Stay warm, and let’s keep building awesome things!
-
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog3a:["$","$L38","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$41"},"thumbnail":true,"direction":"column"}]
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney3a:["$","$L38","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$41"},"thumbnail":true,"direction":"column"}]
 40:null

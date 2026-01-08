@@ -67,7 +67,7 @@ WhatToWear is a full-stack application that helps users decide what to wear each
 
 ---
 
-This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.0:{"P":null,"b":"4rvLEnec4SSYzPpVkGe4x","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/\",\"sameAs\":[],\"headline\":\"Doruk Kocausta's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Full-Stack Web Developer\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Doruk%20Kocausta's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Building the Future of the Web "}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I’m Doruk, Full-Stack Web Developer focused on creating efficient, scalable and secure web apps. Welcome to my portfolio!"}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L8",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/newPortfolio/images/dorukAvatar.jpg","size":"l"}],"About – Doruk Kocausta"]}]}]}]]}]}],["$","$L5",null,{"translateY":"16","delay":0.6,"children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L9","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-02/wt_cover-02.png","/newPortfolio/images/projects/project-02/wt_cover-01.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}]]}]}],"$Lb","$Lc"]}],["$Ld"],"$Le"]}],{},null,false,false]},null,false,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true}
+This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.0:{"P":null,"b":"0iw5Ab2WdTaBst9gIDWay","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/\",\"sameAs\":[],\"headline\":\"Doruk Kocausta's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Full-Stack Web Developer\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Doruk%20Kocausta's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Building the Future of the Web "}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I’m Doruk, Full-Stack Web Developer focused on creating efficient, scalable and secure web apps. Welcome to my portfolio!"}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L8",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/newPortfolio/images/dorukAvatar.jpg","size":"l"}],"About – Doruk Kocausta"]}]}]}]]}]}],["$","$L5",null,{"translateY":"16","delay":0.6,"children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L9","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-02/wt_cover-02.png","/newPortfolio/images/projects/project-02/wt_cover-01.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}]]}]}],"$Lb","$Lc"]}],["$Ld"],"$Le"]}],{},null,false,false]},null,false,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true}
 11:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientGrid"]
 12:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"default"]
 16:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
@@ -80,7 +80,394 @@ This MDX entry documents the WhatToWear project, highlighting architecture, core
 21:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientFlex"]
 22:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Header"]
 23:I[39756,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
-13:T1a05,
+13:T2da7,
+# Priceless learning and extremely satisfied code quality. It's all about consistency.
+
+Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects.
+
+## What are the new additions?
+
+**user.ts types**  
+**user.ts data**  
+**AuthContex.tsx**  
+**ModalContext.tsx**  
+**ThemeContext.tsx**  
+**AppModals.tsx**
+
+### What did I have to figure out?
+
+I needed a way to keep user information accessible everywhere in the app. But I wanted more than just storing user info—I wanted to manage login, register, and user updates all together, so I could easily use them anywhere in my application. That’s how AuthContext came to life.
+
+I also realized I needed a modal that could handle _any_ user feedback, not just special cases. My last project (MealMatch) taught me a lesson: creating a bunch of different modals leads to headaches. So, I wanted a solution that could handle all kinds of content and actions in _one_ reusable modal. And that’s how AppModal was born.
+
+Once I began thinking about information modals, I understood that I needed a ModalContext to control and display these modals with different content and buttons—sometimes confirm/cancel, sometimes just OK. ModalContext solved this elegantly.
+
+I wanted a simple way to add dark/light mode to the UI, so ThemeContext became the solution for toggling themes with one button anywhere in the site.
+
+To make all this work, I needed a sample user and a clear definition for what a user object looks like. So I created data/user.ts and types/user.ts.
+
+---
+
+## Explaining my code: How does everything connect?
+
+### types/user.ts
+
+```typescript
+export interface User {
+  id: string;
+  username: string;
+  email: string;
+  monthlyCircleDate: string;
+  hashedPassword: string;
+}
+```
+
+This file defines what a user looks like in my app—with id, username, email, monthlyCircleDate (for tracking), and the hashed password (very important for authentication).
+
+---
+
+### data/user.ts
+
+```typescript
+import { User } from '@/types/user';
+
+export const mockUser: User[] = [
+  {
+    id: 'u1',
+    username: 'kedycat',
+    email: 'kat@example.com',
+    monthlyCircleDate: '2024-01-01',
+    hashedPassword: '$2b$12$fakeBcryptHashForNow',
+  },
+];
+```
+
+Why do I need this?  
+Since I don’t have a backend yet, I use mockUser to simulate a real user—makes development smoother and lets me test login/register logic.
+
+---
+
+### AuthContext.tsx
+
+```typescript
+'use client'
+import React, { createContext, useContext, useState, ReactNode } from 'react'
+import { User } from '@/types/user'
+import { mockUser } from '@/data/user'
+
+type AuthContextType = {
+  currentUser: User | null
+  login: (username: string, password: string) => { success: boolean; message: string }
+  logout: () => void
+  register: (user: Omit<User, 'id' | 'hashedPassword'> & { password: string }) => {
+    success: boolean
+    message: string
+  }
+  isAuthenticated: boolean
+}
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined)
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [users, setUsers] = useState<User[]>(mockUser)
+  const [currentUser, setCurrentUser] = useState<User | null>(null)
+
+  // Login checks for a matching username and password in the mock users array.
+  function login(username: string, password: string) {
+    const user = users.find(u => u.username === username)
+    if (!user) {
+      return { success: false, message: 'User not found' }
+    }
+    // WARNING: This "password check" is just for the MVP. Real apps should always hash+salt and check server side!
+    if (user.hashedPassword !== password) {
+      return { success: false, message: 'Login failed. Incorrect password.' }
+    }
+    setCurrentUser(user)
+    return { success: true, message: 'Login successful.' }
+  }
+
+  // Logout wipes out the current user (logs out).
+  function logout() {
+    setCurrentUser(null)
+  }
+
+  // Register adds a new user, making sure the username and email are unique.
+  function register(newUser: Omit<User, 'id' | 'hashedPassword'> & { password: string }) {
+    if (users.some(u => u.username === newUser.username || u.email === newUser.email)) {
+      return { success: false, message: 'Username or email already exists.' }
+    }
+    const fakeHashed = newUser.password // For demo only!
+    const user: User = {
+      ...newUser,
+      id: 'user' + (users.length + 1),
+      hashedPassword: fakeHashed,
+    }
+    setUsers([...users, user])
+    setCurrentUser(user)
+    return { success: true, message: 'Registration successful' }
+  }
+
+  return (
+    <AuthContext.Provider
+      value={{
+        currentUser,
+        login,
+        logout,
+        register,
+        isAuthenticated: !!currentUser,
+      }}
+    >
+      {children}
+    </AuthContext.Provider>
+  )
+}
+
+// useAuth provides an easy way for any component to access login, logout, register, and user info.
+export function useAuth() {
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error('useAuth must be used under AuthProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+AuthProvider wraps the app and lets me read or write user info from anywhere! Login, logout, and register become simple function calls. The user data lives in context, so I won’t need to pass it around with props.  
+For now, it uses mock data and fake password checking—real authentication always belongs on the server!
+
+---
+
+### ModalContext.tsx
+
+```typescript
+'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type ModalState = {
+  isOpen: boolean
+  message: string
+  onConfirm?: () => void
+  onCancel?: () => void
+  showConfirm?: boolean
+}
+
+type ModalContextType = {
+  modal: ModalState
+  showModal: (message: string) => void
+  showConfirmModal: (message: string, onConfirm: () => void, onCancel: () => void) => void
+  closeModal: () => void
+}
+
+const ModalContext = createContext<ModalContextType | undefined>(undefined)
+
+export function ModalProvider({ children }: { children: ReactNode }) {
+  const [modal, setModal] = useState<ModalState>({
+    isOpen: false,
+    message: '',
+    showConfirm: false,
+  })
+
+  // showModal opens a regular message-only modal.
+  function showModal(message: string) {
+    setModal({ isOpen: true, message, showConfirm: false })
+  }
+  // showConfirmModal opens a modal with confirm/cancel buttons and custom handlers.
+  function showConfirmModal(message: string, onConfirm: () => void, onCancel: () => void) {
+    setModal({ isOpen: true, message, showConfirm: true, onConfirm, onCancel })
+  }
+  // closeModal closes the modal.
+  function closeModal() {
+    setModal({ ...modal, isOpen: false })
+  }
+  return (
+    <ModalContext.Provider value={{ modal, showModal, showConfirmModal, closeModal }}>
+      {children}
+    </ModalContext.Provider>
+  )
+}
+
+export function useModal() {
+  const ctx = useContext(ModalContext)
+  if (!ctx) throw new Error('useModal must be used inside ModalProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+ModalProvider lets me show modals from anywhere with functions: `showModal` for info modals, `showConfirmModal` for confirm/cancel modals.  
+Modal state and controls live in context, so UI stays organized and powerful.
+
+---
+
+### AppModals.tsx
+
+```typescript
+'use client'
+import { useModal } from '@/context/ModalContext'
+
+export default function AppModal() {
+  const { modal, closeModal } = useModal()
+
+  if (!modal.isOpen) return null
+
+  // Shows the modal UI when isOpen is true.
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+      <div className="bg-[#989899] rounded p-6 shadow-lg min-w-[250px] text-center">
+        <p className="mb-4">{modal.message}</p>
+        {modal.showConfirm ? (
+          <div className="flex gap-3 justify-center">
+            <button
+              className="bg-red-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onCancel?.()
+                closeModal()
+              }}>
+              Cancel
+            </button>
+            <button
+              className="bg-[#29388A]-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onConfirm?.()
+                closeModal()
+              }}>
+              Confirm
+            </button>
+          </div>
+        ) : (
+          <button className="bg-[#29388A] text-white p-2 rounded w-full" onClick={closeModal}>
+            OK
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+```
+
+**Explanation:**  
+AppModal listens to the modal context and renders a visually appealing popup whenever `modal.isOpen` is true.  
+It automatically offers confirm/cancel buttons if it’s a confirm modal, or just OK otherwise.  
+Thanks to ModalContext, I never need dozens of different modal components—just this one does it all!
+
+---
+
+### ThemeContext.tsx
+
+```typescript
+'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type Theme = 'light' | 'dark'
+type ThemeContextType = {
+  theme: Theme
+  setTheme: (t: Theme) => void
+  toggleTheme: () => void
+}
+
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
+
+export function ThemeProvider({ children }: { children: ReactNode }): JSX.Element {
+  const [theme, setTheme] = useState<Theme>('light')
+
+  function toggleTheme() {
+    setTheme(t => (t === 'light' ? 'dark' : 'light'))
+  }
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  )
+}
+
+export function useTheme() {
+  const ctx = useContext(ThemeContext)
+  if (!ctx) throw new Error('useTheme must be used inside ThemeProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+ThemeProvider tracks the current theme (light or dark) and lets me swap modes from anywhere in the app.  
+Want to add a dark mode toggle? Just call `toggleTheme` wherever I want the button to live.  
+Right now, this just changes a value—**it’s not wired up to real dark mode styling yet** since I still need to set up the CSS logic for dark colors.
+
+---
+
+## How does the data flow step by step?
+
+1. **I wrap my pages in the context providers (AuthProvider, ModalProvider, ThemeProvider) at the top level.**
+2. **Any component can useAuth, useModal, or useTheme to get or set user, modal, or theme info.**
+3. **When user interacts:**
+   - Login or register: `useAuth().login()` or `register()` is called, state updates, and AuthContext lets all components “know” the current user.
+   - Show feedback: Call `useModal().showModal()` or `showConfirmModal()` to open a popup instantly. AppModal listens, shows the modal, and handles user actions.
+   - Toggle UI mode: Call `useTheme().toggleTheme()` to switch between light and dark mode everywhere.
+4. **As these contexts update, my UI updates reactively and I never need to prop-drill or duplicate logic.**
+
+---
+
+## What's next?
+
+My next step is to build more contexts for the tons of data I need to show and edit throughout MyFinance—like incomes, outcomes, investments, and user profile. And I’ll be tackling more edit modals to make user data interactive and editable everywhere.
+
+I’m genuinely excited to dive deep into SQL soon. This is going to level up the whole project. So I’ll keep learning and building, constantly improving my skills and sharing the journey.
+
+Thank you so much for reading and joining me in this process!  
+If you have advice, questions, or just want to say hi, leave a comment on my linkedin post, always appreciated.
+
+Stay consistent, keep building, and have a wonderful day.
+
+```
+
+```
+b:["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"48rem","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest from the blog"}]}],["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L11",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L12","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$13"},"thumbnail":false,"direction":"$undefined"}],"$L14"]}]}]]}],"$L15"]}]
+c:["$","$L16",null,{}]
+d:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true,"nonce":"$undefined"}]
+e:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
+f:["$","$1","h",{"children":[null,["$","$L1a",null,{"children":"$@1b"}],["$","div",null,{"hidden":true,"children":["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$@1d"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+1e:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$1e"}}]}],["$","$L1f",null,{"children":["$","$L3",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L20",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L21",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L22",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L23",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L24","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L25","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L26"]}]}]]}]
+28:I[37457,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
+29:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"IconButton"]
+27:T1a05,
 # Dashboard Complete
 
 Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
@@ -209,106 +596,11 @@ More reusable components, more data, and more transparency
 Thanks for reading  
 Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourneyb:["$","$L3",null,{"fillWidth":true,"gap":"24","marginBottom":"l","children":[["$","$L7",null,{"fillWidth":true,"paddingRight":"64","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"48rem","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}],["$","$L7",null,{"fillWidth":true,"gap":"24","marginTop":"40","s":{"direction":"column"},"children":[["$","$L7",null,{"flex":1,"paddingLeft":"l","paddingTop":"24","children":["$","h2",null,{"className":"font-display font-strong font-xs neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Latest from the blog"}]}],["$","$L7",null,{"flex":3,"paddingX":"20","children":["$","$L11",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L12","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$13"},"thumbnail":false,"direction":"$undefined"}],"$L14"]}]}]]}],"$L15"]}]
-c:["$","$L16",null,{}]
-d:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true,"nonce":"$undefined"}]
-e:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
-f:["$","$1","h",{"children":[null,["$","$L1a",null,{"children":"$@1b"}],["$","div",null,{"hidden":true,"children":["$","$L1c",null,{"children":["$","$18",null,{"name":"Next.Metadata","children":"$@1d"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-1e:T76b,
-              (function() {
-                try {
-                  const root = document.documentElement;
-                  const defaultTheme = 'system';
-                  
-                  // Set defaults from config
-                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
-                  
-                  // Apply default values
-                  Object.entries(config).forEach(([key, value]) => {
-                    root.setAttribute('data-' + key, value);
-                  });
-                  
-                  // Resolve theme
-                  const resolveTheme = (themeValue) => {
-                    if (!themeValue || themeValue === 'system') {
-                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                    }
-                    return themeValue;
-                  };
-                  
-                  // Apply saved theme
-                  const savedTheme = localStorage.getItem('data-theme');
-                  const resolvedTheme = resolveTheme(savedTheme);
-                  root.setAttribute('data-theme', resolvedTheme);
-                  
-                  // Apply any saved style overrides
-                  const styleKeys = Object.keys(config);
-                  styleKeys.forEach(key => {
-                    const value = localStorage.getItem('data-' + key);
-                    if (value) {
-                      root.setAttribute('data-' + key, value);
-                    }
-                  });
-                } catch (e) {
-                  console.error('Failed to initialize theme:', e);
-                  document.documentElement.setAttribute('data-theme', 'dark');
-                }
-              })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$1e"}}]}],["$","$L1f",null,{"children":["$","$L3",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L5",null,{"fill":true,"position":"absolute","children":["$","$L20",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L21",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L22",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L23",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L24","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L25","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L26"]}]}]]}]
-28:I[37457,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
-29:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"IconButton"]
-27:Tff8,
-## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
-
-Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
-
-It turns out, the process is much smoother than I imagined. Within days, I went from blank screens to a snappy login and register system, all responsive and matching my design vision.
-
-![MyFinance Logo](/newPortfolio/images/gallery/login.png)
-
-### 🌐 Designing with Reusable Components
-
-Designing clean, responsive UIs with Tailwind CSS felt intimidating at first (not a design fan here 😅), but seeing everything come together on both desktop and mobile made it worth the effort. 
-
-What surprised me most was how easy it was to maintain consistency across the project once I set up my first truly responsive page and a few reusable components. After that, adapting the look and structure for other pages became almost effortless—no more rewriting the same CSS or re tweaking layouts! 
-
-Every element—buttons, inputs, containers—was built once and used everywhere, letting me focus on the bigger picture: how users will flow through the app and how data will move under the hood.
-
-### ⚡ The Magic of Next.js Routing
-
-Setting up the `/app` directory in Next.js made routing a breeze—no manual setup required! As someone who’s used to wiring up traditional routers and view logic by hand, it felt almost unreal to just drop a new file or folder into `/app` and have a working new route. 
-
-Now, with the frontend for login and registration pages in place and polished, I’m really looking forward to diving deeper into server side coding. I can't wait to explore things like authentication flows, data fetching with React Server Components, API routes, and real database connections.
-
-Honestly, the pace of development is way beyond what I expected going in. No wonder Next.js has become the go to for so many modern web apps!
-
-### ✨ Surprises & Learnings So Far
-
-- **Tailwind CSS isn’t just “another CSS framework”**: It made responsive design feel natural, not like an afterthought. I used to dread making layouts mobile friendly—now, I build with breakpoints from the start.
-- **Component driven design really pays off**: Once you have a toolbox of fields, forms, and containers, everything new is just composition.
-- **VSCode is my friend again**: I spend less time fighting with boilerplate and more time thinking about real features. 
-- **Frontend Backend are more connected than I thought**: Choices in form design and page structure are already shaping what data I’ll need and how I’ll store it.
-
-![MyFinance Logo](/newPortfolio/images/gallery/register.png)
-
-
-### 🛤️ What’s Next?
-
-With the core structure and authentication pages (login, register) done, my next step is to round out the rest of MyFinance’s main interface. I’ll be focusing on finishing up the frontends for the other essential pages: **dashboard, incomes, outcomes, investment, and profile**.
-
-I'm confident that building out these screens—from data tables to interactive components—will challenge me and deepen my skills in Tailwind CSS and the frontend capabilities of Next.js. Each new page is an opportunity to refine my design system, improve maintainability, and ensure consistency across the application.
-
-Once the UI is complete, I get to dive into my favorite part: the backend! I can't wait to architect relational flows, design efficient schemas, and bring MyFinance’s data to life using PostgreSQL and Next.js server-side features. 
-
-I’ll be posting regular updates and sharing everything I learn—mistakes included—so if you're interested in a transparent build process or want insights on working with these technologies, stay tuned!
-
-Stay warm, and let’s keep building awesome things!
-
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog14:["$","$L12","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$27"},"thumbnail":false,"direction":"$undefined"}]
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney14:["$","$L12","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$27"},"thumbnail":false,"direction":"$undefined"}]
 15:["$","$L7",null,{"fillWidth":true,"paddingLeft":"64","horizontal":"end","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"48rem","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}]
 24:["$","$L28",null,{}]
 25:[["$","$L3",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
-26:["$","$L7",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L7",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2025," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L7",null,{"gap":"16","children":[["$","$L29","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L29","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L29","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L7",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+26:["$","$L7",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L7",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L7",null,{"gap":"16","children":[["$","$L29","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L29","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L29","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L7",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
 1b:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 2a:I[27201,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"IconMark"]
 1d:[["$","title","0",{"children":"Doruk Kocausta's Portfolio"}],["$","meta","1",{"name":"description","content":"Portfolio website showcasing my work as a Full-Stack Web Developer"}],["$","meta","2",{"property":"og:title","content":"Doruk Kocausta's Portfolio"}],["$","meta","3",{"property":"og:description","content":"Portfolio website showcasing my work as a Full-Stack Web Developer"}],["$","meta","4",{"property":"og:url","content":"https://kedycatsudo.github.io/newPortfolio/"}],["$","meta","5",{"property":"og:image","content":"https://kedycatsudo.github.io/newPortfolio/images/og/home.jpg"}],["$","meta","6",{"property":"og:image:alt","content":"Doruk Kocausta's Portfolio"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Doruk Kocausta's Portfolio"}],["$","meta","10",{"name":"twitter:description","content":"Portfolio website showcasing my work as a Full-Stack Web Developer"}],["$","meta","11",{"name":"twitter:image","content":"https://kedycatsudo.github.io/newPortfolio/images/og/home.jpg"}],["$","link","12",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.433fb4fb.ico","sizes":"620x661","type":"image/x-icon"}],["$","$L2a","13",{}]]
