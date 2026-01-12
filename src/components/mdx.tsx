@@ -1,6 +1,6 @@
-import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
-import React, { ReactNode } from "react";
-import { slugify as transliterate } from "transliteration";
+import { MDXRemote, MDXRemoteProps } from 'next-mdx-remote/rsc';
+import React, { ReactNode } from 'react';
+import { slugify as transliterate } from 'transliteration';
 
 import {
   Heading,
@@ -25,7 +25,7 @@ import {
   List,
   ListItem,
   Line,
-} from "@once-ui-system/core";
+} from '@once-ui-system/core';
 
 type CustomLinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string;
@@ -33,7 +33,7 @@ type CustomLinkProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
 };
 
 function CustomLink({ href, children, ...props }: CustomLinkProps) {
-  if (href.startsWith("/")) {
+  if (href.startsWith('/')) {
     return (
       <SmartLink href={href} {...props}>
         {children}
@@ -41,7 +41,7 @@ function CustomLink({ href, children, ...props }: CustomLinkProps) {
     );
   }
 
-  if (href.startsWith("#")) {
+  if (href.startsWith('#')) {
     return (
       <a href={href} {...props}>
         {children}
@@ -76,20 +76,26 @@ function createImage({ alt, src, ...props }: MediaProps & { src: string }) {
     />
   );
 }
-
-function slugify(str: string): string {
-  const strWithAnd = str.replace(/&/g, " and "); // Replace & with 'and'
+function slugify(str: unknown): string {
+  if (typeof str !== 'string') {
+    if (str == null) return '';
+    if (typeof str === 'number' || typeof str === 'boolean') return String(str);
+    if (Array.isArray(str)) return str.map(slugify).join('-');
+    // For React nodes or objects, fallback to empty string
+    return '';
+  }
+  const strWithAnd = str.replace(/&/g, ' and ');
   return transliterate(strWithAnd, {
     lowercase: true,
-    separator: "-", // Replace spaces with -
-  }).replace(/\-\-+/g, "-"); // Replace multiple - with single -
+    separator: '-',
+  }).replace(/\-\-+/g, '-');
 }
 
-function createHeading(as: "h1" | "h2" | "h3" | "h4" | "h5" | "h6") {
+function createHeading(as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6') {
   const CustomHeading = ({
     children,
     ...props
-  }: Omit<React.ComponentProps<typeof HeadingLink>, "as" | "id">) => {
+  }: Omit<React.ComponentProps<typeof HeadingLink>, 'as' | 'id'>) => {
     const slug = slugify(children as string);
     return (
       <HeadingLink marginTop="24" marginBottom="12" as={as} id={slug} {...props}>
@@ -106,7 +112,7 @@ function createHeading(as: "h1" | "h2" | "h3" | "h4" | "h5" | "h6") {
 function createParagraph({ children }: TextProps) {
   return (
     <Text
-      style={{ lineHeight: "175%" }}
+      style={{ lineHeight: '175%' }}
       variant="body-default-m"
       onBackground="neutral-medium"
       marginTop="8"
@@ -127,7 +133,7 @@ function createCodeBlock(props: any) {
     const { className, children } = props.children.props;
 
     // Extract language from className (format: language-xxx)
-    const language = className.replace("language-", "");
+    const language = className.replace('language-', '');
     const label = language.charAt(0).toUpperCase() + language.slice(1);
 
     return (
@@ -156,7 +162,7 @@ function createList({ children }: { children: ReactNode }) {
 
 function createListItem({ children }: { children: ReactNode }) {
   return (
-    <ListItem marginTop="4" marginBottom="8" style={{ lineHeight: "175%" }}>
+    <ListItem marginTop="4" marginBottom="8" style={{ lineHeight: '175%' }}>
       {children}
     </ListItem>
   );
@@ -172,12 +178,12 @@ function createHR() {
 
 const components = {
   p: createParagraph as any,
-  h1: createHeading("h1") as any,
-  h2: createHeading("h2") as any,
-  h3: createHeading("h3") as any,
-  h4: createHeading("h4") as any,
-  h5: createHeading("h5") as any,
-  h6: createHeading("h6") as any,
+  h1: createHeading('h1') as any,
+  h2: createHeading('h2') as any,
+  h3: createHeading('h3') as any,
+  h4: createHeading('h4') as any,
+  h5: createHeading('h5') as any,
+  h6: createHeading('h6') as any,
   img: createImage as any,
   a: CustomLink as any,
   code: createInlineCode as any,
