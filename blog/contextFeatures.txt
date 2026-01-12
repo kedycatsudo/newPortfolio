@@ -1,0 +1,747 @@
+1:"$Sreact.fragment"
+3:I[39756,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
+4:I[37457,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"default"]
+6:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"ViewportBoundary"]
+b:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","style"]
+:HL["/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","style"]
+:HL["/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","style"]
+:HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
+:HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"x0yuOwknTw9AyCWQqJd1x","c":["","blog","contextFeatures"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","contextFeatures","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Providers"]
+10:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Column"]
+11:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"RevealFx"]
+12:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Background"]
+13:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientFlex"]
+14:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Header"]
+e:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$e"}}]}],["$","$Lf",null,{"children":["$","$L10",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L11",null,{"fill":true,"position":"absolute","children":["$","$L12",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L13",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L14",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L15","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L16","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L17"]}]}]]}]
+18:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Row"]
+19:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"IconButton"]
+1a:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],""]
+1b:I[24379,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"SmartLink"]
+1c:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
+1d:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
+1f:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
+20:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
+21:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
+15:["$","$L4",null,{}]
+16:[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
+17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+22:T2da7,
+# Priceless learning and extremely satisfied code quality. It's all about consistency.
+
+Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects.
+
+## What are the new additions?
+
+**user.ts types**  
+**user.ts data**  
+**AuthContex.tsx**  
+**ModalContext.tsx**  
+**ThemeContext.tsx**  
+**AppModals.tsx**
+
+### What did I have to figure out?
+
+I needed a way to keep user information accessible everywhere in the app. But I wanted more than just storing user info—I wanted to manage login, register, and user updates all together, so I could easily use them anywhere in my application. That’s how AuthContext came to life.
+
+I also realized I needed a modal that could handle _any_ user feedback, not just special cases. My last project (MealMatch) taught me a lesson: creating a bunch of different modals leads to headaches. So, I wanted a solution that could handle all kinds of content and actions in _one_ reusable modal. And that’s how AppModal was born.
+
+Once I began thinking about information modals, I understood that I needed a ModalContext to control and display these modals with different content and buttons—sometimes confirm/cancel, sometimes just OK. ModalContext solved this elegantly.
+
+I wanted a simple way to add dark/light mode to the UI, so ThemeContext became the solution for toggling themes with one button anywhere in the site.
+
+To make all this work, I needed a sample user and a clear definition for what a user object looks like. So I created data/user.ts and types/user.ts.
+
+---
+
+## Explaining my code: How does everything connect?
+
+### types/user.ts
+
+```typescript
+export interface User {
+  id: string;
+  username: string;
+  email: string;
+  monthlyCircleDate: string;
+  hashedPassword: string;
+}
+```
+
+This file defines what a user looks like in my app—with id, username, email, monthlyCircleDate (for tracking), and the hashed password (very important for authentication).
+
+---
+
+### data/user.ts
+
+```typescript
+import { User } from '@/types/user';
+
+export const mockUser: User[] = [
+  {
+    id: 'u1',
+    username: 'kedycat',
+    email: 'kat@example.com',
+    monthlyCircleDate: '2024-01-01',
+    hashedPassword: '$2b$12$fakeBcryptHashForNow',
+  },
+];
+```
+
+Why do I need this?  
+Since I don’t have a backend yet, I use mockUser to simulate a real user—makes development smoother and lets me test login/register logic.
+
+---
+
+### AuthContext.tsx
+
+```typescript
+'use client'
+import React, { createContext, useContext, useState, ReactNode } from 'react'
+import { User } from '@/types/user'
+import { mockUser } from '@/data/user'
+
+type AuthContextType = {
+  currentUser: User | null
+  login: (username: string, password: string) => { success: boolean; message: string }
+  logout: () => void
+  register: (user: Omit<User, 'id' | 'hashedPassword'> & { password: string }) => {
+    success: boolean
+    message: string
+  }
+  isAuthenticated: boolean
+}
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined)
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [users, setUsers] = useState<User[]>(mockUser)
+  const [currentUser, setCurrentUser] = useState<User | null>(null)
+
+  // Login checks for a matching username and password in the mock users array.
+  function login(username: string, password: string) {
+    const user = users.find(u => u.username === username)
+    if (!user) {
+      return { success: false, message: 'User not found' }
+    }
+    // WARNING: This "password check" is just for the MVP. Real apps should always hash+salt and check server side!
+    if (user.hashedPassword !== password) {
+      return { success: false, message: 'Login failed. Incorrect password.' }
+    }
+    setCurrentUser(user)
+    return { success: true, message: 'Login successful.' }
+  }
+
+  // Logout wipes out the current user (logs out).
+  function logout() {
+    setCurrentUser(null)
+  }
+
+  // Register adds a new user, making sure the username and email are unique.
+  function register(newUser: Omit<User, 'id' | 'hashedPassword'> & { password: string }) {
+    if (users.some(u => u.username === newUser.username || u.email === newUser.email)) {
+      return { success: false, message: 'Username or email already exists.' }
+    }
+    const fakeHashed = newUser.password // For demo only!
+    const user: User = {
+      ...newUser,
+      id: 'user' + (users.length + 1),
+      hashedPassword: fakeHashed,
+    }
+    setUsers([...users, user])
+    setCurrentUser(user)
+    return { success: true, message: 'Registration successful' }
+  }
+
+  return (
+    <AuthContext.Provider
+      value={{
+        currentUser,
+        login,
+        logout,
+        register,
+        isAuthenticated: !!currentUser,
+      }}
+    >
+      {children}
+    </AuthContext.Provider>
+  )
+}
+
+// useAuth provides an easy way for any component to access login, logout, register, and user info.
+export function useAuth() {
+  const ctx = useContext(AuthContext)
+  if (!ctx) throw new Error('useAuth must be used under AuthProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+AuthProvider wraps the app and lets me read or write user info from anywhere! Login, logout, and register become simple function calls. The user data lives in context, so I won’t need to pass it around with props.  
+For now, it uses mock data and fake password checking—real authentication always belongs on the server!
+
+---
+
+### ModalContext.tsx
+
+```typescript
+'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type ModalState = {
+  isOpen: boolean
+  message: string
+  onConfirm?: () => void
+  onCancel?: () => void
+  showConfirm?: boolean
+}
+
+type ModalContextType = {
+  modal: ModalState
+  showModal: (message: string) => void
+  showConfirmModal: (message: string, onConfirm: () => void, onCancel: () => void) => void
+  closeModal: () => void
+}
+
+const ModalContext = createContext<ModalContextType | undefined>(undefined)
+
+export function ModalProvider({ children }: { children: ReactNode }) {
+  const [modal, setModal] = useState<ModalState>({
+    isOpen: false,
+    message: '',
+    showConfirm: false,
+  })
+
+  // showModal opens a regular message-only modal.
+  function showModal(message: string) {
+    setModal({ isOpen: true, message, showConfirm: false })
+  }
+  // showConfirmModal opens a modal with confirm/cancel buttons and custom handlers.
+  function showConfirmModal(message: string, onConfirm: () => void, onCancel: () => void) {
+    setModal({ isOpen: true, message, showConfirm: true, onConfirm, onCancel })
+  }
+  // closeModal closes the modal.
+  function closeModal() {
+    setModal({ ...modal, isOpen: false })
+  }
+  return (
+    <ModalContext.Provider value={{ modal, showModal, showConfirmModal, closeModal }}>
+      {children}
+    </ModalContext.Provider>
+  )
+}
+
+export function useModal() {
+  const ctx = useContext(ModalContext)
+  if (!ctx) throw new Error('useModal must be used inside ModalProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+ModalProvider lets me show modals from anywhere with functions: `showModal` for info modals, `showConfirmModal` for confirm/cancel modals.  
+Modal state and controls live in context, so UI stays organized and powerful.
+
+---
+
+### AppModals.tsx
+
+```typescript
+'use client'
+import { useModal } from '@/context/ModalContext'
+
+export default function AppModal() {
+  const { modal, closeModal } = useModal()
+
+  if (!modal.isOpen) return null
+
+  // Shows the modal UI when isOpen is true.
+  return (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+      <div className="bg-[#989899] rounded p-6 shadow-lg min-w-[250px] text-center">
+        <p className="mb-4">{modal.message}</p>
+        {modal.showConfirm ? (
+          <div className="flex gap-3 justify-center">
+            <button
+              className="bg-red-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onCancel?.()
+                closeModal()
+              }}>
+              Cancel
+            </button>
+            <button
+              className="bg-[#29388A]-600 text-white p-2 rounded"
+              onClick={() => {
+                modal.onConfirm?.()
+                closeModal()
+              }}>
+              Confirm
+            </button>
+          </div>
+        ) : (
+          <button className="bg-[#29388A] text-white p-2 rounded w-full" onClick={closeModal}>
+            OK
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+```
+
+**Explanation:**  
+AppModal listens to the modal context and renders a visually appealing popup whenever `modal.isOpen` is true.  
+It automatically offers confirm/cancel buttons if it’s a confirm modal, or just OK otherwise.  
+Thanks to ModalContext, I never need dozens of different modal components—just this one does it all!
+
+---
+
+### ThemeContext.tsx
+
+```typescript
+'use client'
+import { createContext, useContext, useState, ReactNode } from 'react'
+
+type Theme = 'light' | 'dark'
+type ThemeContextType = {
+  theme: Theme
+  setTheme: (t: Theme) => void
+  toggleTheme: () => void
+}
+
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
+
+export function ThemeProvider({ children }: { children: ReactNode }): JSX.Element {
+  const [theme, setTheme] = useState<Theme>('light')
+
+  function toggleTheme() {
+    setTheme(t => (t === 'light' ? 'dark' : 'light'))
+  }
+  return (
+    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  )
+}
+
+export function useTheme() {
+  const ctx = useContext(ThemeContext)
+  if (!ctx) throw new Error('useTheme must be used inside ThemeProvider')
+  return ctx
+}
+```
+
+**Explanation:**  
+ThemeProvider tracks the current theme (light or dark) and lets me swap modes from anywhere in the app.  
+Want to add a dark mode toggle? Just call `toggleTheme` wherever I want the button to live.  
+Right now, this just changes a value—**it’s not wired up to real dark mode styling yet** since I still need to set up the CSS logic for dark colors.
+
+---
+
+## How does the data flow step by step?
+
+1. **I wrap my pages in the context providers (AuthProvider, ModalProvider, ThemeProvider) at the top level.**
+2. **Any component can useAuth, useModal, or useTheme to get or set user, modal, or theme info.**
+3. **When user interacts:**
+   - Login or register: `useAuth().login()` or `register()` is called, state updates, and AuthContext lets all components “know” the current user.
+   - Show feedback: Call `useModal().showModal()` or `showConfirmModal()` to open a popup instantly. AppModal listens, shows the modal, and handles user actions.
+   - Toggle UI mode: Call `useTheme().toggleTheme()` to switch between light and dark mode everywhere.
+4. **As these contexts update, my UI updates reactively and I never need to prop-drill or duplicate logic.**
+
+---
+
+## What's next?
+
+My next step is to build more contexts for the tons of data I need to show and edit throughout MyFinance—like incomes, outcomes, investments, and user profile. And I’ll be tackling more edit modals to make user data interactive and editable everywhere.
+
+I’m genuinely excited to dive deep into SQL soon. This is going to level up the whole project. So I’ll keep learning and building, constantly improving my skills and sharing the journey.
+
+Thank you so much for reading and joining me in this process!  
+If you have advice, questions, or just want to say hi, leave a comment on my linkedin post, always appreciated.
+
+Stay consistent, keep building, and have a wonderful day.
+
+```
+
+```
+5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/contextFeatures","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/contextFeatures\",\"sameAs\":[],\"headline\":\"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring\",\"description\":\"\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2026-01-13\",\"dateModified\":\"2026-01-13\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"January 12, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","url":"https://kedycatsudo.github.io/newPortfolio//blog/contextFeatures"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
+27:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
+28:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
+29:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
+26:T1a05,
+# Dashboard Complete
+
+Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
+
+---
+
+> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
+
+This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
+
+What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
+
+---
+
+## Structure: Two Columns, Many Components
+
+The dashboard splits into two main columns.
+
+
+### Left Sidebar (the "static anchor")
+
+1. MyFinance Logo  
+   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
+
+2. Sidebar Navigation  
+   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
+   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
+
+3. Recently Invested and Misc List  
+   Shows most recent investments by date.  
+   Displays "misc" purchases and their totals for the month.  
+   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
+   Both live inside the same container, built for reusability but visually pleasing.  
+   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
+
+---
+
+### The Main Content (the "dynamic hub")
+
+Greeting Container  
+Header and warm welcome message to users.
+![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
+
+Financial Snapshot Cards  
+One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
+Data includes: name, amount, date simple yet effective.
+
+![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
+![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
+
+
+Pie Chart  
+I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
+
+---
+
+![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
+
+---
+![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
+
+## Extra
+
+I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
+
+---
+
+## Realities of Learning Tailwind (vs. Plain CSS)
+
+I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
+
+The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
+The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
+
+I’m not anti Tailwind, just cautious  
+It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
+
+---
+
+## Tailwind CSS: Pros and Cons
+
+**Pros**  
+Speed Build layouts faster by composing utility classes; changes update in real time.  
+Consistency Enforces a design system via config and tokens.  
+Responsive by Default Mobile first breakpoints are straightforward.  
+Component Driven Encourages reusable UI blocks.  
+Scoped Styles No fear of class name collisions.
+
+**Cons**  
+Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
+Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
+Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
+Requires Tooling Not as portable as raw CSS without build setup.  
+Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
+
+---
+
+## Plain CSS: Pros and Cons
+
+**Pros**  
+Universal and Timeless No build tools required; works everywhere.  
+Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
+Total Control No abstraction in the way of unique or advanced design needs.  
+Simple Markup Cleaner HTML or JSX.
+
+**Cons**  
+Slower for Prototyping Must write or select classes for every style.  
+Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
+Class Name Fatigue Naming everything is both art and burden.  
+No Built in Responsive Utilities Need to write media queries by hand.  
+Easier to Introduce Bugs Specificity wars, global side effects.
+
+---
+
+## Closing Thoughts
+
+The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
+
+Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
+
+Next up  
+Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
+Getting deep into server side Next.js and PostgreSQL  
+More reusable components, more data, and more transparency
+
+Thanks for reading  
+Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney23:["$","$L21","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$26"},"thumbnail":true,"direction":"column"}]
+24:["$","$L27",null,{}]
+25:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L18",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L28",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L29",null,{"fitHeight":true}]]}]
+2a:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
+2b:I[97784,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"CodeBlock"]
+2c:Taa7,'use client';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
+type DataKey = 'incomes' | 'outcomes' | 'investments';
+
+// Types import
+import { FinanceSource } from '@/types/finance';
+import { InvestmentSource } from '@/types/investments';
+
+type ContextDataMap = {
+  incomes: FinanceSource[];
+  outcomes: FinanceSource[];
+  investments: InvestmentSource[];
+};
+
+type FinanceGenericContextType<K extends DataKey> = {
+  data: ContextDataMap[K];
+  setData: React.Dispatch<React.SetStateAction<ContextDataMap[K]>>;
+  addSource: (source: ContextDataMap[K][number]) => void;
+  updateSource: (source: ContextDataMap[K][number]) => void;
+  removeSource: (sourceId: string) => void;
+  loading: boolean;
+  error: string | null;
+};
+
+function createGenericContext<K extends DataKey>(file: K) {
+  const Ctx = createContext<FinanceGenericContextType<K> | undefined>(undefined);
+
+  function Provider({ children }: { children: ReactNode }) {
+    const [data, setData] = useState<ContextDataMap[K]>([] as ContextDataMap[K]);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
+
+    useEffect(() => {
+      fetch(`/data/${file}.json`)
+        .then((res) => {
+          if (!res.ok) throw new Error(`Could not fetch /data/${file}.json`);
+          return res.json();
+        })
+        .then((data) => {
+          setData(data);
+          setLoading(false);
+        })
+        .catch((err) => {
+          setError(err.message || `Could not fetch /data/${file}.json`);
+          setData([] as ContextDataMap[K]);
+          setLoading(false);
+        });
+    }, [file]);
+
+    const addSource = (source: ContextDataMap[K][number]) =>
+      setData((prev) => [...prev, source] as ContextDataMap[K]);
+    const updateSource = (updated: ContextDataMap[K][number]) =>
+      setData((prev) => prev.map((s) => (s.id === updated.id ? updated : s)) as ContextDataMap[K]);
+    const removeSource = (sourceId: string) =>
+      setData((prev) => prev.filter((s) => s.id !== sourceId) as ContextDataMap[K]);
+
+    return (
+      <Ctx.Provider
+        value={{ data, setData, addSource, updateSource, removeSource, loading, error }}
+      >
+        {children}
+      </Ctx.Provider>
+    );
+  }
+
+  function useGeneric() {
+    const ctx = useContext(Ctx);
+    if (!ctx) throw new Error('Must be used inside Provider');
+    return ctx;
+  }
+
+  return [Provider, useGeneric] as const;
+}
+
+export const [IncomesProvider, useIncomesContext] = createGenericContext('incomes');
+export const [OutcomesProvider, useOutcomesContext] = createGenericContext('out
+comes');
+export const [InvestmentsProvider, useInvestmentsContext] = createGenericContext('investments');
+1e:[["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h1","id":"transparency-in-myfinance-refactoring","children":"Transparency in MyFinance Refactoring"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I’m really excited about this one—because, once again, I genuinely feel that I love what I’m doing."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Getting to this stage in my project didn’t just happen overnight. It’s a testament to my dedication, the effort I’ve poured in, and how much I want to grow in this field and make a real difference. I didn’t just start where I am now—there was an entire planning phase, wireframing, designing the UI in Figma, and tons of trial and error along the way. If you’re curious, you can see this journey unfold in my earlier articles."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"The point is, I’m committed to consistently improving myself, my skills, and my knowledge for something bigger. I can genuinely feel that growth happening."}],"\n",["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"so-here-s-what-i-ve-put-together-in-this-article.-i-hope-you-learn-something-new-or-enjoy-revisiting-the-journey-if-you-ve-been-along-for-the-ride-so-far.","children":"So, here’s what I’ve put together in this article. I hope you learn something new—or enjoy revisiting the journey if you’ve been along for the ride so far."}],"\n",["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"unified--for-all-data-types","children":["Unified ",["$","span",null,{"ref":"$undefined","className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"FinanceGenericContext"}]," for All Data Types"]}],"\n",["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"why-this-refactor","children":"Why This Refactor?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I had separate context logic for incomes, outcomes, and investments, but they all did the same thing: fetched from JSON, offered CRUD, exposed state. It was clean, but very repetitive. So I refactored into a single, generic context generator, making my app DRY and scalable."}],"\n",["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"my-actual-context-code","children":"My Actual Context Code"}],"\n",["$","$L2b",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$2c","language":"typescript","label":"Typescript"}],"copyButton":true}],"\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f"]
+2d:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}]
+2e:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"example-flattening-all-payments-or-investments","children":"Example: Flattening All Payments or Investments"}]
+2f:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"the-problem","children":"The Problem"}]
+30:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"I noticed I was repeating the same flatten/map/sort logic for incomes, outcomes, and investments. I wanted one function to DRY it up."}]
+31:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"my-utility-functions","children":"My Utility Functions"}]
+40:T427,// flattenPayments - for incomes and outcomes
+export function flattenPayments<
+  S extends { name: string; payments: P[] },
+  P extends { date: string | number },
+>(sources: S[]): (P & { sourceName: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.payments.map((p) => ({
+        ...p,
+        sourceName: src.name,
+      })),
+    )
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+// flattenInvestments - for investment data
+export function flattenInvestments<
+  S extends { name: string; type: string; items: I[] },
+  I extends { entryDate: string | number; exitDate?: string | null },
+>(sources: S[]): (I & { sourceName: string; sourceType: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.items.map((item) => ({
+        ...item,
+        sourceName: src.name,
+        sourceType: src.type,
+      })),
+    )
+    .sort((a, b) => {
+      const dateA = new Date(a.exitDate ?? a.entryDate).getTime();
+      const dateB = new Date(b.exitDate ?? b.entryDate).getTime();
+      return dateB - dateA;
+    });
+}
+32:["$","$L2b",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$40","language":"typescript","label":"Typescript"}],"copyButton":true}]
+33:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}]
+34:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"refactored-and-stable-recentsideinfo","children":"Refactored and Stable: RecentSideInfo"}]
+35:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"why","children":"Why"}]
+36:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"My old component had legacy types and a confusing interface left over from old work with. Now, it's crystal clear and straightforward."}]
+37:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"the-code","children":"The Code"}]
+41:T915,'use client';
+import React from 'react';
+import TotalRow from './TotalRow';
+
+type RecentSideInfoItem = {
+  name: string;
+  amount: number;
+  date: string | number;
+};
+
+type RecentSideInfoProps = {
+  header: string;
+  items: RecentSideInfoItem[];
+  className?: string;
+};
+
+export default function RecentSideInfo({ header, items, className = '' }: RecentSideInfoProps) {
+  const total = items.reduce((sum, item) => sum + Number(item.amount), 0);
+
+  return (
+    <div className={`flex-1 w-full ${className}`}>
+      <div className="w-full bg-[#3A4483]/75 rounded-[16px] p-1 flex flex-col items-center shadow-lg">
+        <h3 className="text-white font-bold text-l xs:text-xl mb-2 text-center">{header}</h3>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <div className="w-full flex flex-col">
+          {items.length === 0 && (
+            <div className="w-full text-center text-white opacity-60 py-5">No items</div>
+          )}
+          {items.map((item, idx) => (
+            <React.Fragment key={item.name + '-' + item.date}>
+              <div className="w-full flex flex-row justify-between items-center py-2 gap-1">
+                <span className="text-white">{item.name}</span>
+                <div className="flex flex-col md:flex-row">
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {Number(item.amount).toLocaleString(undefined, {
+                      minimumFractionDigits: 2,
+                    })}
+                    $
+                  </span>
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {item.date
+                      ? new Date(item.date).toLocaleDateString()
+                      : ''}
+                  </span>
+                </div>
+              </div>
+              {idx < items.length - 1 && (
+                <div className="h-0.5 bg-[#29388A] opacity-60 rounded"></div>
+              )}
+            </React.Fragment>
+          ))}
+        </div>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <TotalRow total={total} />
+      </div>
+    </div>
+  );
+}
+38:["$","$L2b",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$41","language":"typescript","label":"Typescript"}],"copyButton":true}]
+39:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}]
+3a:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"context-conversation-and-the-code-keep-them-synchronized","children":"Context, Conversation, and the Code: Keep Them Synchronized"}]
+3b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Lesson learned"}],":",["$","br",null,{}],"\n","Conversations are important for working through new solutions, but your code shouldn’t live only inside chat threads or sidebar notes. Your context and code snippets should be versioned, documented, and always attached to their explanation right here, in your repo or blog."]}]
+3c:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}]
+3d:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"conclusion-and-consistency","children":"Conclusion and Consistency"}]
+3e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["That’s why I post all these code explanations step by step under my blog and portfolio.",["$","br",null,{}],"\n","It helps me (and anyone who peeks in) track my reasoning, solutions, and improvements.",["$","br",null,{}],"\n","So going forward, I’ll always keep these paired: real conversation, real code, and real documentation—right by each other."]}]
+3f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Thanks for following along!"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+42:I[27201,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"IconMark"]
+c:[["$","title","0",{"children":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring"}],["$","meta","1",{"property":"og:title","content":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring"}],["$","meta","2",{"property":"og:url","content":"https://kedycatsudo.github.io/newPortfolio/blog/contextFeatures"}],["$","meta","3",{"property":"og:image","content":"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png"}],["$","meta","4",{"property":"og:image:alt","content":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring"}],["$","meta","8",{"name":"twitter:image","content":"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png"}],["$","link","9",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.433fb4fb.ico","sizes":"620x661","type":"image/x-icon"}],["$","$L42","10",{}]]
+8:null

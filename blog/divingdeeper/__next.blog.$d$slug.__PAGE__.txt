@@ -16,7 +16,7 @@
 2b:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
 2c:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
 2d:"$Sreact.suspense"
-0:{"buildId":"0iw5Ab2WdTaBst9gIDWay","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/divingdeeper","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/divingdeeper\",\"sameAs\":[],\"headline\":\"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone\",\"description\":\"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-27\",\"dateModified\":\"2025-12-27\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 26, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"How a fullstack learning journey is accelerating my app's first interactive screens"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"diving-deeper-into-next.js-tailwind-css-and-postgresql","children":"🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Just wrapped up building the first interactive pages for my web app, ",["$","strong",null,{"children":"MyFinance"}],", and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It turns out, the process is much smoother than I imagined. Within days, I went from blank screens to a snappy login and register system, all responsive and matching my design vision."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"$L9"}],"\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b"]}],"$L1c","$L1d","$L1e"]}]}],"$L1f"]}],["$L20"],"$L21"]}],"loading":null,"isPartial":false}
+0:{"buildId":"x0yuOwknTw9AyCWQqJd1x","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/divingdeeper","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/divingdeeper\",\"sameAs\":[],\"headline\":\"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone\",\"description\":\"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-27\",\"dateModified\":\"2025-12-27\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 26, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"How a fullstack learning journey is accelerating my app's first interactive screens"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"diving-deeper-into-next.js-tailwind-css-and-postgresql","children":"🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Just wrapped up building the first interactive pages for my web app, ",["$","strong",null,{"children":"MyFinance"}],", and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"It turns out, the process is much smoother than I imagined. Within days, I went from blank screens to a snappy login and register system, all responsive and matching my design vision."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"$L9"}],"\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b"]}],"$L1c","$L1d","$L1e"]}]}],"$L1f"]}],["$L20"],"$L21"]}],"loading":null,"isPartial":false}
 9:["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"MyFinance Logo","src":"/newPortfolio/images/gallery/login.png"}]
 a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"designing-with-reusable-components","children":"🌐 Designing with Reusable Components"}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Designing clean, responsive UIs with Tailwind CSS felt intimidating at first (not a design fan here 😅), but seeing everything come together on both desktop and mobile made it worth the effort."}]
@@ -37,7 +37,247 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 1a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Stay warm, and let’s keep building awesome things!"}]
 1b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog"}]
 1c:["$","$L24",null,{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","url":"https://kedycatsudo.github.io/newPortfolio//blog/divingdeeper"}]
-27:T2da7,
+27:T21cd,
+# Transparency in MyFinance Refactoring
+
+I’m really excited about this one—because, once again, I genuinely feel that I love what I’m doing.
+
+Getting to this stage in my project didn’t just happen overnight. It’s a testament to my dedication, the effort I’ve poured in, and how much I want to grow in this field and make a real difference. I didn’t just start where I am now—there was an entire planning phase, wireframing, designing the UI in Figma, and tons of trial and error along the way. If you’re curious, you can see this journey unfold in my earlier articles.
+
+The point is, I’m committed to consistently improving myself, my skills, and my knowledge for something bigger. I can genuinely feel that growth happening.
+
+## So, here’s what I’ve put together in this article. I hope you learn something new—or enjoy revisiting the journey if you’ve been along for the ride so far.
+
+## Unified `FinanceGenericContext` for All Data Types
+
+### Why This Refactor?
+
+I had separate context logic for incomes, outcomes, and investments, but they all did the same thing: fetched from JSON, offered CRUD, exposed state. It was clean, but very repetitive. So I refactored into a single, generic context generator, making my app DRY and scalable.
+
+### My Actual Context Code
+
+```typescript
+'use client';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
+type DataKey = 'incomes' | 'outcomes' | 'investments';
+
+// Types import
+import { FinanceSource } from '@/types/finance';
+import { InvestmentSource } from '@/types/investments';
+
+type ContextDataMap = {
+  incomes: FinanceSource[];
+  outcomes: FinanceSource[];
+  investments: InvestmentSource[];
+};
+
+type FinanceGenericContextType<K extends DataKey> = {
+  data: ContextDataMap[K];
+  setData: React.Dispatch<React.SetStateAction<ContextDataMap[K]>>;
+  addSource: (source: ContextDataMap[K][number]) => void;
+  updateSource: (source: ContextDataMap[K][number]) => void;
+  removeSource: (sourceId: string) => void;
+  loading: boolean;
+  error: string | null;
+};
+
+function createGenericContext<K extends DataKey>(file: K) {
+  const Ctx = createContext<FinanceGenericContextType<K> | undefined>(undefined);
+
+  function Provider({ children }: { children: ReactNode }) {
+    const [data, setData] = useState<ContextDataMap[K]>([] as ContextDataMap[K]);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
+
+    useEffect(() => {
+      fetch(`/data/${file}.json`)
+        .then((res) => {
+          if (!res.ok) throw new Error(`Could not fetch /data/${file}.json`);
+          return res.json();
+        })
+        .then((data) => {
+          setData(data);
+          setLoading(false);
+        })
+        .catch((err) => {
+          setError(err.message || `Could not fetch /data/${file}.json`);
+          setData([] as ContextDataMap[K]);
+          setLoading(false);
+        });
+    }, [file]);
+
+    const addSource = (source: ContextDataMap[K][number]) =>
+      setData((prev) => [...prev, source] as ContextDataMap[K]);
+    const updateSource = (updated: ContextDataMap[K][number]) =>
+      setData((prev) => prev.map((s) => (s.id === updated.id ? updated : s)) as ContextDataMap[K]);
+    const removeSource = (sourceId: string) =>
+      setData((prev) => prev.filter((s) => s.id !== sourceId) as ContextDataMap[K]);
+
+    return (
+      <Ctx.Provider
+        value={{ data, setData, addSource, updateSource, removeSource, loading, error }}
+      >
+        {children}
+      </Ctx.Provider>
+    );
+  }
+
+  function useGeneric() {
+    const ctx = useContext(Ctx);
+    if (!ctx) throw new Error('Must be used inside Provider');
+    return ctx;
+  }
+
+  return [Provider, useGeneric] as const;
+}
+
+export const [IncomesProvider, useIncomesContext] = createGenericContext('incomes');
+export const [OutcomesProvider, useOutcomesContext] = createGenericContext('out
+comes');
+export const [InvestmentsProvider, useInvestmentsContext] = createGenericContext('investments');
+```
+
+---
+
+## Example: Flattening All Payments or Investments
+
+### The Problem
+
+I noticed I was repeating the same flatten/map/sort logic for incomes, outcomes, and investments. I wanted one function to DRY it up.
+
+### My Utility Functions
+
+```typescript
+// flattenPayments - for incomes and outcomes
+export function flattenPayments<
+  S extends { name: string; payments: P[] },
+  P extends { date: string | number },
+>(sources: S[]): (P & { sourceName: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.payments.map((p) => ({
+        ...p,
+        sourceName: src.name,
+      })),
+    )
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+// flattenInvestments - for investment data
+export function flattenInvestments<
+  S extends { name: string; type: string; items: I[] },
+  I extends { entryDate: string | number; exitDate?: string | null },
+>(sources: S[]): (I & { sourceName: string; sourceType: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.items.map((item) => ({
+        ...item,
+        sourceName: src.name,
+        sourceType: src.type,
+      })),
+    )
+    .sort((a, b) => {
+      const dateA = new Date(a.exitDate ?? a.entryDate).getTime();
+      const dateB = new Date(b.exitDate ?? b.entryDate).getTime();
+      return dateB - dateA;
+    });
+}
+```
+
+---
+
+## Refactored and Stable: RecentSideInfo
+
+### Why
+
+My old component had legacy types and a confusing interface left over from old work with. Now, it's crystal clear and straightforward.
+
+### The Code
+
+```typescript
+'use client';
+import React from 'react';
+import TotalRow from './TotalRow';
+
+type RecentSideInfoItem = {
+  name: string;
+  amount: number;
+  date: string | number;
+};
+
+type RecentSideInfoProps = {
+  header: string;
+  items: RecentSideInfoItem[];
+  className?: string;
+};
+
+export default function RecentSideInfo({ header, items, className = '' }: RecentSideInfoProps) {
+  const total = items.reduce((sum, item) => sum + Number(item.amount), 0);
+
+  return (
+    <div className={`flex-1 w-full ${className}`}>
+      <div className="w-full bg-[#3A4483]/75 rounded-[16px] p-1 flex flex-col items-center shadow-lg">
+        <h3 className="text-white font-bold text-l xs:text-xl mb-2 text-center">{header}</h3>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <div className="w-full flex flex-col">
+          {items.length === 0 && (
+            <div className="w-full text-center text-white opacity-60 py-5">No items</div>
+          )}
+          {items.map((item, idx) => (
+            <React.Fragment key={item.name + '-' + item.date}>
+              <div className="w-full flex flex-row justify-between items-center py-2 gap-1">
+                <span className="text-white">{item.name}</span>
+                <div className="flex flex-col md:flex-row">
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {Number(item.amount).toLocaleString(undefined, {
+                      minimumFractionDigits: 2,
+                    })}
+                    $
+                  </span>
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {item.date
+                      ? new Date(item.date).toLocaleDateString()
+                      : ''}
+                  </span>
+                </div>
+              </div>
+              {idx < items.length - 1 && (
+                <div className="h-0.5 bg-[#29388A] opacity-60 rounded"></div>
+              )}
+            </React.Fragment>
+          ))}
+        </div>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <TotalRow total={total} />
+      </div>
+    </div>
+  );
+}
+```
+
+---
+
+## Context, Conversation, and the Code: Keep Them Synchronized
+
+**Lesson learned**:  
+Conversations are important for working through new solutions, but your code shouldn’t live only inside chat threads or sidebar notes. Your context and code snippets should be versioned, documented, and always attached to their explanation right here, in your repo or blog.
+
+---
+
+## Conclusion and Consistency
+
+That’s why I post all these code explanations step by step under my blog and portfolio.  
+It helps me (and anyone who peeks in) track my reasoning, solutions, and improvements.  
+So going forward, I’ll always keep these paired: real conversation, real code, and real documentation—right by each other.
+
+Thanks for following along!
+1d:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L25",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L26","contextFeatures",{"post":{"metadata":{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","subtitle":"","publishedAt":"2026-01-13","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"contextFeatures","content":"$27"},"thumbnail":true,"direction":"column"}],"$L28"]}]]}]
+1e:["$","$L29",null,{}]
+1f:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L2a",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L2b",null,{"fitHeight":true}]]}]
+20:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+21:["$","$L2c",null,{"children":["$","$2d",null,{"name":"Next.MetadataOutlet","children":"$@2e"}]}]
+2f:T2da7,
 # Priceless learning and extremely satisfied code quality. It's all about consistency.
 
 Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects.
@@ -376,139 +616,5 @@ Stay consistent, keep building, and have a wonderful day.
 ```
 
 ```
-1d:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L25",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L26","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$27"},"thumbnail":true,"direction":"column"}],"$L28"]}]]}]
-1e:["$","$L29",null,{}]
-1f:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L2a",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L2b",null,{"fitHeight":true}]]}]
-20:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
-21:["$","$L2c",null,{"children":["$","$2d",null,{"name":"Next.MetadataOutlet","children":"$@2e"}]}]
-2f:T1a05,
-# Dashboard Complete
-
-Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
-
----
-
-> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
-
-This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
-
-What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
-
----
-
-## Structure: Two Columns, Many Components
-
-The dashboard splits into two main columns.
-
-
-### Left Sidebar (the "static anchor")
-
-1. MyFinance Logo  
-   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
-
-2. Sidebar Navigation  
-   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
-   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
-
-3. Recently Invested and Misc List  
-   Shows most recent investments by date.  
-   Displays "misc" purchases and their totals for the month.  
-   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
-   Both live inside the same container, built for reusability but visually pleasing.  
-   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
-
----
-
-### The Main Content (the "dynamic hub")
-
-Greeting Container  
-Header and warm welcome message to users.
-![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
-
-Financial Snapshot Cards  
-One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
-Data includes: name, amount, date simple yet effective.
-
-![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
-![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
-
-
-Pie Chart  
-I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
-
----
-
-![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
-
----
-![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
-
-## Extra
-
-I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
-
----
-
-## Realities of Learning Tailwind (vs. Plain CSS)
-
-I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
-
-The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
-The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
-
-I’m not anti Tailwind, just cautious  
-It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
-
----
-
-## Tailwind CSS: Pros and Cons
-
-**Pros**  
-Speed Build layouts faster by composing utility classes; changes update in real time.  
-Consistency Enforces a design system via config and tokens.  
-Responsive by Default Mobile first breakpoints are straightforward.  
-Component Driven Encourages reusable UI blocks.  
-Scoped Styles No fear of class name collisions.
-
-**Cons**  
-Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
-Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
-Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
-Requires Tooling Not as portable as raw CSS without build setup.  
-Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
-
----
-
-## Plain CSS: Pros and Cons
-
-**Pros**  
-Universal and Timeless No build tools required; works everywhere.  
-Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
-Total Control No abstraction in the way of unique or advanced design needs.  
-Simple Markup Cleaner HTML or JSX.
-
-**Cons**  
-Slower for Prototyping Must write or select classes for every style.  
-Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
-Class Name Fatigue Naming everything is both art and burden.  
-No Built in Responsive Utilities Need to write media queries by hand.  
-Easier to Introduce Bugs Specificity wars, global side effects.
-
----
-
-## Closing Thoughts
-
-The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
-
-Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
-
-Next up  
-Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
-Getting deep into server side Next.js and PostgreSQL  
-More reusable components, more data, and more transparency
-
-Thanks for reading  
-Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
-
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney28:["$","$L26","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$2f"},"thumbnail":true,"direction":"column"}]
+28:["$","$L26","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$2f"},"thumbnail":true,"direction":"column"}]
 2e:null
