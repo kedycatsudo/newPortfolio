@@ -1,0 +1,377 @@
+---
+title: 'Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor'
+subtitle: ''
+summary: ''
+image: '/newPortfolio/images/gallery/myfinancelogo.png'
+publishedAt: '2026-01-15'
+tag: 'Learning Journey'
+---
+
+# Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor
+
+Another successful and efficient day in my frontend learning journey. I’m genuinely satisfied with the code I wrote and the new knowledge I picked up. There’s a lot I want to show and talk about today—so let’s dive right in!
+
+## What’s New?
+
+**New components:**
+
+- SourcesDetailsContainer
+- SourceContainer
+- PaymentsContainer
+- PaymentField
+
+These are nested in order, each taking their data from the parent, starting at page.tsx.
+
+**New skills gained:**
+
+- Typescript extension
+- Generic render prop pattern
+- Typescript type guards
+
+---
+
+## Challenge: Passing Multiple Data Types Through a Nested Component Tree
+
+The original problem was how to send two different types of data to deeply nested child components. My first approach—using separate components for each data type—wouldn't be scalable or reusable. And that’s not the habit I want to cultivate as a professional developer.
+
+After some research, I discovered TypeScript’s extension abilities. I reworked my first child to look like this:
+
+```jsx
+type SourcesDetailsContainerProps<T extends { id: string }> = {
+  header: string
+  items: T[]
+  renderSource: (item: T, open: boolean, onClick: () => void) => React.ReactNode
+}
+```
+
+Now SourcesDetailsContainer expects a header, an array of items (any shape, as long as each has an id), and a function (renderSource) that tells it how to render each item. This approach makes the component highly reusable with different data and data types.
+
+**Example usage:**
+
+```jsx
+<div className="flex flex-col w-full">
+  <SourcesDetailsContainer
+    header="Income Sources"
+    items={incomes}
+    renderSource={(item, open, onClick) => (
+      <SourceContainer key={item.id} item={item} open={open} onClick={onClick} />
+    )}
+  />
+</div>
+```
+
+---
+
+## The Generic Render Prop Pattern
+
+That solved passing data to the first child, but my tree is nested four levels deep—each nested component needed to access and work with its own slice of the data without getting tangled up in prop drilling or constantly sending data back up to the parent.
+
+The solution: the **render prop** pattern.
+
+- The parent (page.tsx) controls exactly how each item is rendered by providing a function (renderSource).
+- SourcesDetailsContainer just calls this function for each item.
+- This lets you use whatever child component you want downstream, and pass any props you like.
+
+Deeply nested children are handled gracefully. When you call `<SourceContainer ... />` in the parent, you’re placing that child inside the render tree for each item. Within SourceContainer, you can have as many levels of nested components as you want (for example, SourceContainer might render PaymentsContainer, which renders PaymentField, etc.).
+
+You don’t need to “reach in” to call deeply nested children from the parent; you only specify the immediate child in your renderSource function, and that component handles its own children.
+
+---
+
+## Why You Can't Directly Render Nested Children from the Parent
+
+React’s tree is one-way! The parent can choose which child (immediate or generic) is rendered, but it can’t inject a nested grandchild into an arbitrary spot inside a lower-level component (unless you use further render props or slots).
+
+If you want to customize deeper children, you can pass another render prop or function down yet another level.
+
+**Example:**
+
+```jsx
+<SourceContainer
+  ...
+  renderPayment={(payment, open, onClick) => (
+    <PaymentsContainer payment={payment} open={open} onClick={onClick} />
+  )}
+/>
+```
+
+Now SourceContainer calls renderPayment for each payment.
+
+---
+
+## The Final Implementation: Scalable, Maintainable, Dynamic
+
+Here’s the full code for these components below (minus hyphens, for system compatibility):
+
+### SourcesDetailsContainer
+
+```jsx
+'use client'
+import { useState } from 'react'
+
+type SourcesDetailsContainerProps<T extends { id: string }> = {
+  header: string
+  items: T[]
+  renderSource: (item: T, open: boolean, onClick: () => void) => React.ReactNode
+}
+
+export default function SourcesDetailsContainer<T extends { id: string }>({
+  header,
+  items,
+  renderSource,
+}: SourcesDetailsContainerProps<T>) {
+  const [openSources, setOpenSources] = useState<{ [id: string]: boolean }>({})
+
+  return (
+    <div className="flex flex-col rounded bg-[#989899] opacity-75 items-center gap-2 px-1">
+      <h1 className="text-2xl xs:text-3xl text-[#29388A] font-bold">{header}</h1>
+      {items.map(item =>
+        renderSource(item, !!openSources[item.id], () =>
+          setOpenSources(prev => ({ ...prev, [item.id]: !prev[item.id] }))
+        )
+      )}
+    </div>
+  )
+}
+```
+
+---
+
+### Type Guards in SourceContainer
+
+To decide which kind of data each source represents, I use a typescript type guard like this:
+
+```tsx
+function isFinanceSource(a: FinanceSource | InvestmentSource): a is FinanceSource {
+  return 'payments' in a;
+}
+```
+
+If the object has a payments property, TypeScript knows it's FinanceSource.
+
+This TypeScript feature is incredibly useful for writing maintainable, type-safe code. It lets you write if-else blocks like this for rendering different data sets:
+
+```tsx
+if (isFinanceSource(item)) {
+  // For incomes/outcomes
+  title = item.sourceName;
+  datasInfo = [
+    { id: 1, infoPair: 'Description', data: item.description ?? '' },
+    {
+      id: 2,
+      infoPair: 'Monthly cycle amount',
+      data:
+        item.payments
+          .filter((p) => p.loop)
+          .reduce((sum, p) => sum + p.amount, 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 3,
+      infoPair: 'Current amount for this month',
+      data:
+        item.payments
+          .reduce((sum, p) => sum + p.amount, 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 4,
+      infoPair: 'Average monthly total payment',
+      data:
+        (
+          item.payments.reduce((sum, p) => sum + p.amount, 0) / (item.payments.length || 1)
+        ).toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+  ];
+  dataPayments = item.payments;
+} else if (isInvestmentSource(item)) {
+  // For investments
+  title = item.name ?? '';
+  datasInfo = [
+    { id: 1, infoPair: 'Description', data: item.description ?? '' },
+    {
+      id: 2,
+      infoPair: 'Total Invested Amount',
+      data:
+        item.items
+          .reduce((sum, i) => sum + Number(i.investedAmount ?? 0), 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 3,
+      infoPair: 'Total Number of Assets',
+      data: item.items.length,
+    },
+    {
+      id: 4,
+      infoPair: 'Closed Positions (count)',
+      data: item.items.filter((i) => i.status === 'closed').length,
+    },
+    {
+      id: 5,
+      infoPair: 'Open Positions (count)',
+      data: item.items.filter((i) => i.status === 'open').length,
+    },
+    {
+      id: 6,
+      infoPair: 'Total Profit/Loss (closed)',
+      data:
+        item.items
+          .filter((i) => i.status === 'closed')
+          .reduce((sum, i) => sum + Number(i.resultAmount ?? 0), 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 7,
+      infoPair: 'Average Invested per Asset',
+      data:
+        (item.items.length > 0
+          ? item.items.reduce((sum, i) => sum + Number(i.investedAmount ?? 0), 0) /
+            item.items.length
+          : 0
+        ).toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+  ];
+  dataPayments = item.items;
+}
+```
+
+---
+
+### Rendering Payments Within SourceContainer
+
+```jsx
+{
+  open && (
+    <div className="mt-2 p-3 rounded transition-all">
+      {dataPayments.map((payment) => (
+        <PaymentsContainer
+          key={payment.id}
+          payment={payment}
+          open={!!openPayments[payment.id]}
+          onClick={() =>
+            setOpenPayments((prev) => ({
+              ...prev,
+              [payment.id]: !prev[payment.id],
+            }))
+          }
+        />
+      ))}
+    </div>
+  );
+}
+```
+
+---
+
+### PaymentsContainer with Type Guards
+
+This component chooses which type of fields to display for each payment/investment item.
+
+```tsx
+type PaymentsContainerProps = {
+  payment: FinancePayment | InvestmentItem;
+  open: boolean;
+  onClick: () => void;
+};
+
+// Type guards for dynamic rendering
+function isFinancePayment(p: FinancePayment | InvestmentItem): p is FinancePayment {
+  return 'status' in p && 'loop' in p;
+}
+function isInvestmentItem(p: FinancePayment | InvestmentItem): p is InvestmentItem {
+  return 'assetName' in p && 'term' in p;
+}
+
+export default function PaymentsContainer({ payment, open, onClick }: PaymentsContainerProps) {
+  const financeFieldLabels: { [K in keyof FinancePayment]?: string } = {
+    name: 'Name',
+    type: 'Type',
+    amount: 'Amount',
+    date: 'Date',
+    loop: 'Loop',
+    status: 'Status',
+  };
+
+  const investmentFieldLabels: { [K in keyof InvestmentItem]?: string } = {
+    assetName: 'Asset Name',
+    term: 'Term',
+    investedAmount: 'Invested Amount',
+    entryDate: 'Entry Date',
+    exitDate: 'Exit Date',
+    result: 'Result',
+    resultAmount: 'Result Amount',
+    status: 'Status',
+  };
+
+  const fields: [string, string][] = isFinancePayment(payment)
+    ? Object.entries(financeFieldLabels)
+    : Object.entries(investmentFieldLabels);
+
+  return (
+    <div>
+      {open && (
+        <div>
+          {fields.map(([field, label]) => {
+            // @ts-ignore: Index dynamic field
+            const value = payment[field];
+            let displayValue =
+              typeof value === 'boolean'
+                ? value
+                  ? 'Yes'
+                  : 'No'
+                : field === 'amount' || field === 'investedAmount' || field === 'resultAmount'
+                  ? value != null
+                    ? `${Number(value).toLocaleString(undefined, { minimumFractionDigits: 2 })} $`
+                    : '--'
+                  : value != null
+                    ? String(value)
+                    : '--';
+
+            return <PaymentField key={field} field={label!} name={displayValue} />;
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+```
+
+---
+
+### PaymentField Component
+
+This is the final child, a simple reusable display for field label and value.
+
+```jsx
+'use client';
+type PaymentFieldProps = {
+  field: string;
+  name: string | number | boolean | null;
+};
+
+export default function PaymentField({ field, name }: PaymentFieldProps) {
+  return (
+    <div className="flex gap-2 items-center my-0.5 overflow-x-auto">
+      <span className="font-bold text-[#a9deff] whitespace-nowrap">{field}:</span>
+      <span className="text-white break-all">
+        {name !== null && name !== undefined ? String(name) : '--'}
+      </span>
+    </div>
+  );
+}
+```
+
+---
+
+## Outcome and Reflections
+
+Now I have a fully reusable, scalable, and maintainable family of four nested components for all my app’s pages and data types. This was an incredibly strong learning experience in frontend engineering, and I’m really happy because I’m now one more step closer to starting backend and database work.
+
+I’d love to hear your thoughts—feel free to leave a comment on my LinkedIn post, or just say hi!
+
+---
+
+**Hashtags:**
+
+#nextjs #reactjs #typescript #frontenddevelopment #webdevelopment #softwareengineering #renderprops #typeguard #scalablecode #maintainablecode #codingjourney #learningjourney #developercommunity #growthmindset #fullstackdevelopment #personalproject
