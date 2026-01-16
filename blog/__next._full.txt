@@ -13,7 +13,387 @@
 :HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
 :HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-9:T21cd,
+9:T2d33,
+# Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor
+
+Another successful and efficient day in my frontend learning journey. I’m genuinely satisfied with the code I wrote and the new knowledge I picked up. There’s a lot I want to show and talk about today—so let’s dive right in!
+
+## What’s New?
+
+**New components:**
+
+- SourcesDetailsContainer
+- SourceContainer
+- PaymentsContainer
+- PaymentField
+
+These are nested in order, each taking their data from the parent, starting at page.tsx.
+
+**New skills gained:**
+
+- Typescript extension
+- Generic render prop pattern
+- Typescript type guards
+
+---
+
+## Challenge: Passing Multiple Data Types Through a Nested Component Tree
+
+The original problem was how to send two different types of data to deeply nested child components. My first approach—using separate components for each data type—wouldn't be scalable or reusable. And that’s not the habit I want to cultivate as a professional developer.
+
+After some research, I discovered TypeScript’s extension abilities. I reworked my first child to look like this:
+
+```jsx
+type SourcesDetailsContainerProps<T extends { id: string }> = {
+  header: string
+  items: T[]
+  renderSource: (item: T, open: boolean, onClick: () => void) => React.ReactNode
+}
+```
+
+Now SourcesDetailsContainer expects a header, an array of items (any shape, as long as each has an id), and a function (renderSource) that tells it how to render each item. This approach makes the component highly reusable with different data and data types.
+
+**Example usage:**
+
+```jsx
+<div className="flex flex-col w-full">
+  <SourcesDetailsContainer
+    header="Income Sources"
+    items={incomes}
+    renderSource={(item, open, onClick) => (
+      <SourceContainer key={item.id} item={item} open={open} onClick={onClick} />
+    )}
+  />
+</div>
+```
+
+---
+
+## The Generic Render Prop Pattern
+
+That solved passing data to the first child, but my tree is nested four levels deep—each nested component needed to access and work with its own slice of the data without getting tangled up in prop drilling or constantly sending data back up to the parent.
+
+The solution: the **render prop** pattern.
+
+- The parent (page.tsx) controls exactly how each item is rendered by providing a function (renderSource).
+- SourcesDetailsContainer just calls this function for each item.
+- This lets you use whatever child component you want downstream, and pass any props you like.
+
+Deeply nested children are handled gracefully. When you call `<SourceContainer ... />` in the parent, you’re placing that child inside the render tree for each item. Within SourceContainer, you can have as many levels of nested components as you want (for example, SourceContainer might render PaymentsContainer, which renders PaymentField, etc.).
+
+You don’t need to “reach in” to call deeply nested children from the parent; you only specify the immediate child in your renderSource function, and that component handles its own children.
+
+---
+
+## Why You Can't Directly Render Nested Children from the Parent
+
+React’s tree is one-way! The parent can choose which child (immediate or generic) is rendered, but it can’t inject a nested grandchild into an arbitrary spot inside a lower-level component (unless you use further render props or slots).
+
+If you want to customize deeper children, you can pass another render prop or function down yet another level.
+
+**Example:**
+
+```jsx
+<SourceContainer
+  ...
+  renderPayment={(payment, open, onClick) => (
+    <PaymentsContainer payment={payment} open={open} onClick={onClick} />
+  )}
+/>
+```
+
+Now SourceContainer calls renderPayment for each payment.
+
+---
+
+## The Final Implementation: Scalable, Maintainable, Dynamic
+
+Here’s the full code for these components below (minus hyphens, for system compatibility):
+
+### SourcesDetailsContainer
+
+```jsx
+'use client'
+import { useState } from 'react'
+
+type SourcesDetailsContainerProps<T extends { id: string }> = {
+  header: string
+  items: T[]
+  renderSource: (item: T, open: boolean, onClick: () => void) => React.ReactNode
+}
+
+export default function SourcesDetailsContainer<T extends { id: string }>({
+  header,
+  items,
+  renderSource,
+}: SourcesDetailsContainerProps<T>) {
+  const [openSources, setOpenSources] = useState<{ [id: string]: boolean }>({})
+
+  return (
+    <div className="flex flex-col rounded bg-[#989899] opacity-75 items-center gap-2 px-1">
+      <h1 className="text-2xl xs:text-3xl text-[#29388A] font-bold">{header}</h1>
+      {items.map(item =>
+        renderSource(item, !!openSources[item.id], () =>
+          setOpenSources(prev => ({ ...prev, [item.id]: !prev[item.id] }))
+        )
+      )}
+    </div>
+  )
+}
+```
+
+---
+
+### Type Guards in SourceContainer
+
+To decide which kind of data each source represents, I use a typescript type guard like this:
+
+```tsx
+function isFinanceSource(a: FinanceSource | InvestmentSource): a is FinanceSource {
+  return 'payments' in a;
+}
+```
+
+If the object has a payments property, TypeScript knows it's FinanceSource.
+
+This TypeScript feature is incredibly useful for writing maintainable, type-safe code. It lets you write if-else blocks like this for rendering different data sets:
+
+```tsx
+if (isFinanceSource(item)) {
+  // For incomes/outcomes
+  title = item.sourceName;
+  datasInfo = [
+    { id: 1, infoPair: 'Description', data: item.description ?? '' },
+    {
+      id: 2,
+      infoPair: 'Monthly cycle amount',
+      data:
+        item.payments
+          .filter((p) => p.loop)
+          .reduce((sum, p) => sum + p.amount, 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 3,
+      infoPair: 'Current amount for this month',
+      data:
+        item.payments
+          .reduce((sum, p) => sum + p.amount, 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 4,
+      infoPair: 'Average monthly total payment',
+      data:
+        (
+          item.payments.reduce((sum, p) => sum + p.amount, 0) / (item.payments.length || 1)
+        ).toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+  ];
+  dataPayments = item.payments;
+} else if (isInvestmentSource(item)) {
+  // For investments
+  title = item.name ?? '';
+  datasInfo = [
+    { id: 1, infoPair: 'Description', data: item.description ?? '' },
+    {
+      id: 2,
+      infoPair: 'Total Invested Amount',
+      data:
+        item.items
+          .reduce((sum, i) => sum + Number(i.investedAmount ?? 0), 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 3,
+      infoPair: 'Total Number of Assets',
+      data: item.items.length,
+    },
+    {
+      id: 4,
+      infoPair: 'Closed Positions (count)',
+      data: item.items.filter((i) => i.status === 'closed').length,
+    },
+    {
+      id: 5,
+      infoPair: 'Open Positions (count)',
+      data: item.items.filter((i) => i.status === 'open').length,
+    },
+    {
+      id: 6,
+      infoPair: 'Total Profit/Loss (closed)',
+      data:
+        item.items
+          .filter((i) => i.status === 'closed')
+          .reduce((sum, i) => sum + Number(i.resultAmount ?? 0), 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 7,
+      infoPair: 'Average Invested per Asset',
+      data:
+        (item.items.length > 0
+          ? item.items.reduce((sum, i) => sum + Number(i.investedAmount ?? 0), 0) /
+            item.items.length
+          : 0
+        ).toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+  ];
+  dataPayments = item.items;
+}
+```
+
+---
+
+### Rendering Payments Within SourceContainer
+
+```jsx
+{
+  open && (
+    <div className="mt-2 p-3 rounded transition-all">
+      {dataPayments.map((payment) => (
+        <PaymentsContainer
+          key={payment.id}
+          payment={payment}
+          open={!!openPayments[payment.id]}
+          onClick={() =>
+            setOpenPayments((prev) => ({
+              ...prev,
+              [payment.id]: !prev[payment.id],
+            }))
+          }
+        />
+      ))}
+    </div>
+  );
+}
+```
+
+---
+
+### PaymentsContainer with Type Guards
+
+This component chooses which type of fields to display for each payment/investment item.
+
+```tsx
+type PaymentsContainerProps = {
+  payment: FinancePayment | InvestmentItem;
+  open: boolean;
+  onClick: () => void;
+};
+
+// Type guards for dynamic rendering
+function isFinancePayment(p: FinancePayment | InvestmentItem): p is FinancePayment {
+  return 'status' in p && 'loop' in p;
+}
+function isInvestmentItem(p: FinancePayment | InvestmentItem): p is InvestmentItem {
+  return 'assetName' in p && 'term' in p;
+}
+
+export default function PaymentsContainer({ payment, open, onClick }: PaymentsContainerProps) {
+  const financeFieldLabels: { [K in keyof FinancePayment]?: string } = {
+    name: 'Name',
+    type: 'Type',
+    amount: 'Amount',
+    date: 'Date',
+    loop: 'Loop',
+    status: 'Status',
+  };
+
+  const investmentFieldLabels: { [K in keyof InvestmentItem]?: string } = {
+    assetName: 'Asset Name',
+    term: 'Term',
+    investedAmount: 'Invested Amount',
+    entryDate: 'Entry Date',
+    exitDate: 'Exit Date',
+    result: 'Result',
+    resultAmount: 'Result Amount',
+    status: 'Status',
+  };
+
+  const fields: [string, string][] = isFinancePayment(payment)
+    ? Object.entries(financeFieldLabels)
+    : Object.entries(investmentFieldLabels);
+
+  return (
+    <div>
+      {open && (
+        <div>
+          {fields.map(([field, label]) => {
+            // @ts-ignore: Index dynamic field
+            const value = payment[field];
+            let displayValue =
+              typeof value === 'boolean'
+                ? value
+                  ? 'Yes'
+                  : 'No'
+                : field === 'amount' || field === 'investedAmount' || field === 'resultAmount'
+                  ? value != null
+                    ? `${Number(value).toLocaleString(undefined, { minimumFractionDigits: 2 })} $`
+                    : '--'
+                  : value != null
+                    ? String(value)
+                    : '--';
+
+            return <PaymentField key={field} field={label!} name={displayValue} />;
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+```
+
+---
+
+### PaymentField Component
+
+This is the final child, a simple reusable display for field label and value.
+
+```jsx
+'use client';
+type PaymentFieldProps = {
+  field: string;
+  name: string | number | boolean | null;
+};
+
+export default function PaymentField({ field, name }: PaymentFieldProps) {
+  return (
+    <div className="flex gap-2 items-center my-0.5 overflow-x-auto">
+      <span className="font-bold text-[#a9deff] whitespace-nowrap">{field}:</span>
+      <span className="text-white break-all">
+        {name !== null && name !== undefined ? String(name) : '--'}
+      </span>
+    </div>
+  );
+}
+```
+
+---
+
+## Outcome and Reflections
+
+Now I have a fully reusable, scalable, and maintainable family of four nested components for all my app’s pages and data types. This was an incredibly strong learning experience in frontend engineering, and I’m really happy because I’m now one more step closer to starting backend and database work.
+
+I’d love to hear your thoughts—feel free to leave a comment on my LinkedIn post, or just say hi!
+
+---
+
+**Hashtags:**
+
+#nextjs #reactjs #typescript #frontenddevelopment #webdevelopment #softwareengineering #renderprops #typeguard #scalablecode #maintainablecode #codingjourney #learningjourney #developercommunity #growthmindset #fullstackdevelopment #personalproject
+0:{"P":null,"b":"XCFBD2ZTC9GUuuggtTQWB","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","masteringFrontend",{"post":{"metadata":{"title":"Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor","subtitle":"","publishedAt":"2026-01-15","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"masteringFrontend","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
+14:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
+1c:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+1f:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"ViewportBoundary"]
+21:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"MetadataBoundary"]
+24:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Providers"]
+25:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"RevealFx"]
+26:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Background"]
+27:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientFlex"]
+28:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Header"]
+12:T21cd,
 # Transparency in MyFinance Refactoring
 
 I’m really excited about this one—because, once again, I genuinely feel that I love what I’m doing.
@@ -248,18 +628,186 @@ It helps me (and anyone who peeks in) track my reasoning, solutions, and improve
 So going forward, I’ll always keep these paired: real conversation, real code, and real documentation—right by each other.
 
 Thanks for following along!
-0:{"P":null,"b":"x0yuOwknTw9AyCWQqJd1x","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","contextFeatures",{"post":{"metadata":{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","subtitle":"","publishedAt":"2026-01-13","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"contextFeatures","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
-14:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
-1b:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
-1c:"$Sreact.suspense"
-1e:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"ViewportBoundary"]
-20:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"MetadataBoundary"]
-23:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Providers"]
-24:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"RevealFx"]
-25:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Background"]
-26:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientFlex"]
-27:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Header"]
-12:T2da7,
+a:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","contextFeatures",{"post":{"metadata":{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","subtitle":"","publishedAt":"2026-01-13","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"contextFeatures","content":"$12"},"thumbnail":true,"direction":"column"}],"$L13"]}]
+b:["$","$L14",null,{"marginBottom":"l"}]
+c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Earlier posts"}]
+15:T1a05,
+# Dashboard Complete
+
+Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
+
+---
+
+> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
+
+This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
+
+What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
+
+---
+
+## Structure: Two Columns, Many Components
+
+The dashboard splits into two main columns.
+
+
+### Left Sidebar (the "static anchor")
+
+1. MyFinance Logo  
+   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
+
+2. Sidebar Navigation  
+   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
+   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
+
+3. Recently Invested and Misc List  
+   Shows most recent investments by date.  
+   Displays "misc" purchases and their totals for the month.  
+   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
+   Both live inside the same container, built for reusability but visually pleasing.  
+   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
+
+---
+
+### The Main Content (the "dynamic hub")
+
+Greeting Container  
+Header and warm welcome message to users.
+![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
+
+Financial Snapshot Cards  
+One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
+Data includes: name, amount, date simple yet effective.
+
+![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
+![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
+
+
+Pie Chart  
+I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
+
+---
+
+![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
+
+---
+![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
+
+## Extra
+
+I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
+
+---
+
+## Realities of Learning Tailwind (vs. Plain CSS)
+
+I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
+
+The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
+The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
+
+I’m not anti Tailwind, just cautious  
+It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
+
+---
+
+## Tailwind CSS: Pros and Cons
+
+**Pros**  
+Speed Build layouts faster by composing utility classes; changes update in real time.  
+Consistency Enforces a design system via config and tokens.  
+Responsive by Default Mobile first breakpoints are straightforward.  
+Component Driven Encourages reusable UI blocks.  
+Scoped Styles No fear of class name collisions.
+
+**Cons**  
+Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
+Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
+Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
+Requires Tooling Not as portable as raw CSS without build setup.  
+Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
+
+---
+
+## Plain CSS: Pros and Cons
+
+**Pros**  
+Universal and Timeless No build tools required; works everywhere.  
+Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
+Total Control No abstraction in the way of unique or advanced design needs.  
+Simple Markup Cleaner HTML or JSX.
+
+**Cons**  
+Slower for Prototyping Must write or select classes for every style.  
+Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
+Class Name Fatigue Naming everything is both art and burden.  
+No Built in Responsive Utilities Need to write media queries by hand.  
+Easier to Introduce Bugs Specificity wars, global side effects.
+
+---
+
+## Closing Thoughts
+
+The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
+
+Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
+
+Next up  
+Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
+Getting deep into server side Next.js and PostgreSQL  
+More reusable components, more data, and more transparency
+
+Thanks for reading  
+Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourneyd:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17","$L18","$L19","$L1a","$L1b"]}]
+e:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true,"nonce":"$undefined"}]
+f:["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]
+10:["$","$1","h",{"children":[null,["$","$L1f",null,{"children":"$@20"}],["$","div",null,{"hidden":true,"children":["$","$L21",null,{"children":["$","$1d",null,{"name":"Next.Metadata","children":"$@22"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+23:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$23"}}]}],["$","$L24",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L25",null,{"fill":true,"position":"absolute","children":["$","$L26",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L27",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L28",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L29","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L2a","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L2b"]}]}]]}]
+33:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Row"]
+34:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"IconButton"]
+2c:T2da7,
 # Priceless learning and extremely satisfied code quality. It's all about consistency.
 
 Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects.
@@ -598,10 +1146,8 @@ Stay consistent, keep building, and have a wonderful day.
 ```
 
 ```
-a:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$12"},"thumbnail":true,"direction":"column"}],"$L13"]}]
-b:["$","$L14",null,{"marginBottom":"l"}]
-c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Earlier posts"}]
-15:Tff8,
+13:["$","$L8","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$2c"},"thumbnail":true,"direction":"column"}]
+2d:Tff8,
 ## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
 
 Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
@@ -648,184 +1194,8 @@ I’ll be posting regular updates and sharing everything I learn—mistakes incl
 
 Stay warm, and let’s keep building awesome things!
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blogd:["$","$L7",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$15"},"thumbnail":false,"direction":"$undefined"}],"$L16","$L17","$L18","$L19","$L1a"]}]
-e:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true,"nonce":"$undefined"}]
-f:["$","$L1b",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
-10:["$","$1","h",{"children":[null,["$","$L1e",null,{"children":"$@1f"}],["$","div",null,{"hidden":true,"children":["$","$L20",null,{"children":["$","$1c",null,{"name":"Next.Metadata","children":"$@21"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-22:T76b,
-              (function() {
-                try {
-                  const root = document.documentElement;
-                  const defaultTheme = 'system';
-                  
-                  // Set defaults from config
-                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
-                  
-                  // Apply default values
-                  Object.entries(config).forEach(([key, value]) => {
-                    root.setAttribute('data-' + key, value);
-                  });
-                  
-                  // Resolve theme
-                  const resolveTheme = (themeValue) => {
-                    if (!themeValue || themeValue === 'system') {
-                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-                    }
-                    return themeValue;
-                  };
-                  
-                  // Apply saved theme
-                  const savedTheme = localStorage.getItem('data-theme');
-                  const resolvedTheme = resolveTheme(savedTheme);
-                  root.setAttribute('data-theme', resolvedTheme);
-                  
-                  // Apply any saved style overrides
-                  const styleKeys = Object.keys(config);
-                  styleKeys.forEach(key => {
-                    const value = localStorage.getItem('data-' + key);
-                    if (value) {
-                      root.setAttribute('data-' + key, value);
-                    }
-                  });
-                } catch (e) {
-                  console.error('Failed to initialize theme:', e);
-                  document.documentElement.setAttribute('data-theme', 'dark');
-                }
-              })();
-            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$22"}}]}],["$","$L23",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L24",null,{"fill":true,"position":"absolute","children":["$","$L25",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L26",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L27",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L28","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L29","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L2a"]}]}]]}]
-31:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Row"]
-32:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"IconButton"]
-2b:T1a05,
-# Dashboard Complete
-
-Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
-
----
-
-> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
-
-This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
-
-What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
-
----
-
-## Structure: Two Columns, Many Components
-
-The dashboard splits into two main columns.
-
-
-### Left Sidebar (the "static anchor")
-
-1. MyFinance Logo  
-   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
-
-2. Sidebar Navigation  
-   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
-   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
-
-3. Recently Invested and Misc List  
-   Shows most recent investments by date.  
-   Displays "misc" purchases and their totals for the month.  
-   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
-   Both live inside the same container, built for reusability but visually pleasing.  
-   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
-
----
-
-### The Main Content (the "dynamic hub")
-
-Greeting Container  
-Header and warm welcome message to users.
-![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
-
-Financial Snapshot Cards  
-One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
-Data includes: name, amount, date simple yet effective.
-
-![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
-![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
-
-
-Pie Chart  
-I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
-
----
-
-![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
-
----
-![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
-
-## Extra
-
-I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
-
----
-
-## Realities of Learning Tailwind (vs. Plain CSS)
-
-I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
-
-The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
-The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
-
-I’m not anti Tailwind, just cautious  
-It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
-
----
-
-## Tailwind CSS: Pros and Cons
-
-**Pros**  
-Speed Build layouts faster by composing utility classes; changes update in real time.  
-Consistency Enforces a design system via config and tokens.  
-Responsive by Default Mobile first breakpoints are straightforward.  
-Component Driven Encourages reusable UI blocks.  
-Scoped Styles No fear of class name collisions.
-
-**Cons**  
-Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
-Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
-Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
-Requires Tooling Not as portable as raw CSS without build setup.  
-Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
-
----
-
-## Plain CSS: Pros and Cons
-
-**Pros**  
-Universal and Timeless No build tools required; works everywhere.  
-Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
-Total Control No abstraction in the way of unique or advanced design needs.  
-Simple Markup Cleaner HTML or JSX.
-
-**Cons**  
-Slower for Prototyping Must write or select classes for every style.  
-Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
-Class Name Fatigue Naming everything is both art and burden.  
-No Built in Responsive Utilities Need to write media queries by hand.  
-Easier to Introduce Bugs Specificity wars, global side effects.
-
----
-
-## Closing Thoughts
-
-The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
-
-Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
-
-Next up  
-Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
-Getting deep into server side Next.js and PostgreSQL  
-More reusable components, more data, and more transparency
-
-Thanks for reading  
-Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
-
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney13:["$","$L8","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$2b"},"thumbnail":true,"direction":"column"}]
-2c:T16a9,
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog16:["$","$L8","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$2d"},"thumbnail":false,"direction":"$undefined"}]
+2e:T16a9,
 ---
 
 ## Frontend Design Wrapped 🎉 — MyFinance Dev Update
@@ -911,8 +1281,8 @@ Thanks so much for following along—every message and bit of feedback motivates
 
 Stay warm, happy holidays, and keep building! 🚀
 
-#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding16:["$","$L8","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$2c"},"thumbnail":false,"direction":"$undefined"}]
-2d:T120e,
+#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding17:["$","$L8","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$2e"},"thumbnail":false,"direction":"$undefined"}]
+2f:T120e,
 ---
 
 ## Progress Update: Conquering Frontend Fears 🚀
@@ -989,8 +1359,8 @@ Stay warm, and have a fantastic holiday season! 🎄
 
 ---
 
-#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork17:["$","$L8","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$2d"},"thumbnail":false,"direction":"$undefined"}]
-2e:T1249,
+#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork18:["$","$L8","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$2f"},"thumbnail":false,"direction":"$undefined"}]
+30:T1249,
 ---
 
 ## Confessions of a Code-First Creator (Who Isn't a Designer)
@@ -1060,8 +1430,8 @@ Thanks for reading—and have an awesome day!
 
 ---
 
-#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch18:["$","$L8","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$2e"},"thumbnail":false,"direction":"$undefined"}]
-2f:Te17,
+#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch19:["$","$L8","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$30"},"thumbnail":false,"direction":"$undefined"}]
+31:Te17,
 ## Why Build MyFinance?
 
 A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance.
@@ -1176,8 +1546,8 @@ Development has begun, and I’ll be sharing updates on how the build goes, and 
 
 Thanks for reading—and wish me luck building MyFinance!
 
----19:["$","$L8","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$2f"},"thumbnail":false,"direction":"$undefined"}]
-30:T77d,
+---1a:["$","$L8","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$31"},"thumbnail":false,"direction":"$undefined"}]
+32:T77d,
 ## About
 
 Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable.
@@ -1229,11 +1599,11 @@ I’ll be sharing more about my journey, tech experiments, and projects here. St
 
 ---
 
-Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!1a:["$","$L8","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$30"},"thumbnail":false,"direction":"$undefined"}]
-28:["$","$L4",null,{}]
-29:[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
-2a:["$","$L31",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L31",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L31",null,{"gap":"16","children":[["$","$L32","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L32","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L32","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L31",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-1f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-33:I[27201,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"IconMark"]
-21:[["$","title","0",{"children":"Writing about design and tech..."}],["$","meta","1",{"name":"description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about design and tech..."}],["$","meta","3",{"property":"og:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://kedycatsudo.github.io/newPortfolio/blog"}],["$","meta","5",{"property":"og:image","content":"https://kedycatsudo.github.io/newPortfolio/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","meta","6",{"property":"og:image:alt","content":"Writing about design and tech..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about design and tech..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://kedycatsudo.github.io/newPortfolio/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","link","12",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.433fb4fb.ico","sizes":"620x661","type":"image/x-icon"}],["$","$L33","13",{}]]
-1d:null
+Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!1b:["$","$L8","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$32"},"thumbnail":false,"direction":"$undefined"}]
+29:["$","$L4",null,{}]
+2a:[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
+2b:["$","$L33",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L33",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L33",null,{"gap":"16","children":[["$","$L34","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L34","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L34","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L33",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+20:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+35:I[27201,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"IconMark"]
+22:[["$","title","0",{"children":"Writing about design and tech..."}],["$","meta","1",{"name":"description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about design and tech..."}],["$","meta","3",{"property":"og:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://kedycatsudo.github.io/newPortfolio/blog"}],["$","meta","5",{"property":"og:image","content":"https://kedycatsudo.github.io/newPortfolio/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","meta","6",{"property":"og:image:alt","content":"Writing about design and tech..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about design and tech..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Doruk Kocausta has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://kedycatsudo.github.io/newPortfolio/api/og/generate?title=Writing%20about%20design%20and%20tech..."}],["$","link","12",{"rel":"icon","href":"/newPortfolio/favicon.ico?favicon.433fb4fb.ico","sizes":"620x661","type":"image/x-icon"}],["$","$L35","13",{}]]
+1e:null
