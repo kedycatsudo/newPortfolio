@@ -1,0 +1,398 @@
+---
+title: 'From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components'
+subtitle: ''
+summary: ''
+image: '/newPortfolio/images/gallery/myfinancelogo.png'
+publishedAt: '2026-01-21'
+tag: 'Learning Journey'
+---
+
+# From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components
+
+Alright, let’s be honest—what you imagine will take one day can easily take three or four. That’s what happened this week. Planning, the first implementation, realizing my code was turning into spaghetti, then finally refactoring and modularizing everything—it turned into a marathon. Add a salary job and, well, life under capitalism, and four days are gone. But I have zero regrets, because what I learned was absolutely worth it.
+
+In this article, I’ll walk you through every step as I untangle my Edit Modal from a monster file into a suite of focused, elegant components. It’s night and day. You’ll see every file, every abstraction, and exactly how (and why) I pulled it off.
+
+*(All the code and logic you’ll see here started as one big file: `EditSourceModal.tsx`. Now, it’s organized freedom. Trust me, the difference is huge.)*
+
+---
+
+## What Did I End Up With?
+
+**New files/components:**
+
+- **EditSourceModal.tsx** (the parent, controls modal logic and orchestration)
+- **AccordionItem.tsx** (shows each payment/investment in an accordion, with fields)
+- **constants/fieldConfig.ts** (`PAYMENT_FIELDS` and `ITEM_FIELDS` describe all editable fields)
+- **FieldInput.tsx** (super basic, dumb and generic input/selector component)
+
+### The best part:  
+Now when I open each in a separate VS Code pane I can understand the logic chain, top to bottom, at a glance. Maintainability is real!
+
+---
+
+## EditSourceModal.tsx – The Orchestrator
+
+First, the prop types for clarity:
+
+```tsx
+type EditSourceModalProps = {
+  open: boolean;
+  source: FinanceSource | InvestmentSource;
+  onClose: () => void;
+  onSubmit: (updated: FinanceSource | InvestmentSource) => void;
+};
+```
+
+### Internal State
+
+```tsx
+const [localSource, setLocalSource] = useState<FinanceSource | InvestmentSource>(source);
+const [openItemAccordions, setOpenItemAccordions] = useState<{ [id: string]: boolean }>({});
+const [errors, setErrors] = useState<{ [field: string]: string }>({});
+```
+- `localSource`: Holds what I’m currently editing.
+- `openItemAccordions`: Which accordion(s) are open.
+- `errors`: Error messages keyed by field.
+
+### useEffect for Reset
+
+```tsx
+useEffect(() => {
+  setLocalSource(source);
+  setOpenItemAccordions({});
+  setErrors({});
+}, [source, open]);
+```
+Cleans everything up when data changes or the modal opens/closes.
+
+### useEffect for Scroll Lock
+
+```tsx
+useEffect(() => {
+  if (open) document.body.style.overflow = 'hidden';
+  else document.body.style.overflow = '';
+  return () => {
+    document.body.style.overflow = '';
+  };
+}, [open]);
+if (!open) return null;
+```
+Major UX win: disables scroll behind the modal.
+
+---
+
+### Input/Edit Handlers
+
+```tsx
+const handleItemInput = (itemId: string, field: any, value: any) => {
+  const arrKey = isFinanceSource(localSource) ? 'payments' : 'items';
+  setLocalSource(prev => ({
+    ...prev,
+    [arrKey]: (prev as any)[arrKey].map((itm: any) =>
+      itm.id === itemId ? { ...itm, [field]: value } : itm,
+    ),
+  }) as any);
+};
+```
+
+- Decides if we’re editing "payments" or "items."
+- Finds the one we're editing (via `id`), and updates just that field.
+
+```tsx
+const handleSourceInput = (field: string, value: any) => {
+  setLocalSource(prev => ({ ...prev, [field]: value }) as any);
+};
+```
+
+- Updates a top-level field without touching others.
+
+#### Validation logic
+
+```tsx
+function validate() {
+  const err: Record<string, string> = {};
+  if (!localSource.sourceName?.trim()) err.sourceName = 'Source name required';
+  const items = isFinanceSource(localSource)
+    ? localSource.payments
+    : isInvestmentSource(localSource)
+      ? localSource.items
+      : [];
+  for (const item of items) {
+    if ('name' in item && !item.name?.trim()) err[`item.${item.id}.name`] = 'Name required';
+    if ('assetName' in item && !item.assetName?.trim())
+      err[`item.${item.id}.assetName`] = 'Asset name required';
+  }
+  setErrors(err);
+  return Object.keys(err).length === 0;
+}
+```
+- Checks that required fields are present (MVP-level, but ready to extend!).
+
+#### Submit Handler
+
+```tsx
+const handleSubmit = () => {
+  if (validate()) {
+    onSubmit?.(localSource);
+    onClose();
+  }
+};
+```
+
+---
+
+### The Source Fields
+
+To avoid hardcoding, I set up an array describing the fields for the modal "header":
+
+```tsx
+const sourceFields = [
+  { label: 'Source Name', field: 'sourceName', value: localSource.sourceName, err: errors.sourceName },
+  ...(localSource.description !== undefined
+    ? [{ label: 'Description', field: 'description', value: localSource.description }]
+    : []),
+  ...(localSource.date !== undefined
+    ? [{ label: 'Date', field: 'date', value: localSource.date, type: 'date' }]
+    : []),
+];
+```
+
+Which gets rendered as:
+
+```tsx
+<h2 className="text-2xl font-bold mb-2 text-[#29388A] text-center">
+  Edit "{localSource.sourceName}"
+</h2>
+{sourceFields.map(f => (
+  <FieldInput
+    key={f.field}
+    label={f.label}
+    type={f.type}
+    value={f.value}
+    onChange={v => handleSourceInput(f.field ?? '', v)}
+    err={f.err}
+  />
+))}
+```
+
+---
+
+## constants/fieldConfig.ts – All Fields Centralized
+
+I keep payment and investment item fields here for clarity and maintainability.
+
+```tsx
+export const PAYMENT_FIELDS = [
+  { field: "name", label: "Name" },
+  { field: "type", label: "Type" },
+  { field: "amount", label: "Amount", type: "number" },
+  { field: "date", label: "Date", type: "date" },
+  { field: "loop", label: "Loop", type: "checkbox" },
+  { field: "status", label: "Payment Status", enumOptions: ["coming", "paid"] }
+];
+
+export const ITEM_FIELDS = [
+  { field: "assetName", label: "Asset Name" },
+  { field: "term", label: "Term", enumOptions: ["short", "middle", "long"] },
+  { field: "investedAmount", label: "Invested Amount", type: "number" },
+  { field: "entryDate", label: "Entry Date", type: "date" },
+  { field: "exitDate", label: "Exit Date", type: "date" },
+  { field: "result", label: "Result", enumOptions: ["none", "profit", "loss"] },
+  { field: "resultAmount", label: "Result Amount", type: "number" },
+  { field: "status", label: "Status", enumOptions: ["open", "closed"] }
+];
+```
+Any change here flows everywhere.
+
+---
+
+## FieldInput.tsx – A Simple, Dumb Field Component
+
+```tsx
+type FieldInputProps = {
+  label: string;
+  type?: string;
+  value: any;
+  onChange: (v: any) => void;
+  enumOptions?: string[];
+  err?: string;
+};
+
+export default function FieldInput({label, type, value, onChange, enumOptions, err}: FieldInputProps) {
+  if (enumOptions) return (
+    <label>
+      <span className="block">{label}</span>
+      <select
+        value={value}
+        onChange={e=>onChange(e.target.value)}
+        className="rounded border px-2 py-1 mt-1 w-full text-black"
+      >
+        {enumOptions.map(opt => <option key={opt} value={opt}>{opt}</option>)}
+      </select>
+      {err && <span className="text-red-500 text-xs">{err}</span>}
+    </label>
+  );
+  if (type === 'checkbox') return (
+    <label className="flex items-center gap-1">
+      <span className="block">{label}</span>
+      <input type="checkbox" checked={!!value} onChange={e=>onChange(e.target.checked)}/>
+    </label>
+  );
+  return (
+    <label className="block">
+      <span className="block">{label}</span>
+      <input
+        type={type||'text'}
+        value={type==='date' && value ? String(value).slice(0,10) : (value ?? '')}
+        onChange={e => onChange(
+          type==='number' ? Number(e.target.value)
+          : type==='checkbox' ? e.target.checked
+          : e.target.value
+        )}
+        className="rounded border px-2 py-1 mt-1 w-full text-black"
+      />
+      {err && <span className="text-red-500 text-xs">{err}</span>}
+    </label>
+  );
+}
+```
+- Handles selects, checkboxes, text, numbers, dates—just unite data and logic.
+- Shows an error if needed.
+
+---
+
+## AccordionItem.tsx – All The Heavy Lifting, None of the Spaghetti
+
+```tsx
+type AccordionItemProps = {
+  item: Record<string, any>;
+  fieldConfig: {
+    field: string;
+    label: string;
+    type?: string;
+    enumOptions?: string[];
+  }[];
+  itemTypeKey: string;
+  isOpen: boolean;
+  toggleOpen: () => void;
+  handleItemInput: (itemId: string, field: string, value: any) => void;
+  errors?: Record<string, string>;
+};
+
+export default function AccordionItem({
+  item,
+  fieldConfig,
+  itemTypeKey,
+  isOpen,
+  toggleOpen,
+  handleItemInput,
+  errors,
+}: AccordionItemProps) {
+  return (
+    <div className={`border-4 border-[#29388A] rounded px-2 py-2 transition-all cursor-pointer ${isOpen ? 'bg-[#3A4483]/75 text-white' : 'text-[#29388A]'}`}>
+      <div onClick={toggleOpen} className="flex flex-row justify-between items-center">
+        <span> {'name' in item ? item.name : item.assetName}</span>
+        <span className="text-sm text-gray-500">{isOpen ? '▼' : '▶'}</span>
+      </div>
+      {isOpen && (
+        <div className="mt-2 flex flex-col gap-2">
+          {fieldConfig.map((f) =>
+            f.field === 'id' ? null : (
+              <FieldInput
+                key={f.field}
+                label={f.label}
+                type={f.type}
+                enumOptions={f.enumOptions}
+                value={item[f.field]}
+                onChange={v => handleItemInput(item.id, f.field, v)}
+                err={errors?.[`${itemTypeKey}.${item.id}.${f.field}`]}
+              />
+            )
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+```
+- No matter what shape the data becomes, this will render/expand/collapse and edit each field correctly.
+- One clear file—not hundreds of repetitive lines for every possible field.
+
+---
+
+## Main Modal Use: Bringing It All Together
+
+```tsx
+{isFinanceSource(localSource) &&
+  localSource.payments &&
+  localSource.payments.map(payment => (
+    <AccordionItem
+      key={payment.id}
+      item={payment}
+      fieldConfig={PAYMENT_FIELDS}
+      itemTypeKey="payment"
+      isOpen={!!openItemAccordions[payment.id]}
+      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [payment.id]: !prev[payment.id] }))}
+      handleItemInput={handleItemInput}
+      errors={errors}
+    />
+  ))
+}
+{isInvestmentSource(localSource) &&
+  localSource.items &&
+  localSource.items.map(item => (
+    <AccordionItem
+      key={item.id}
+      item={item}
+      fieldConfig={ITEM_FIELDS}
+      itemTypeKey="item"
+      isOpen={!!openItemAccordions[item.id]}
+      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [item.id]: !prev[item.id] }))}
+      handleItemInput={handleItemInput}
+      errors={errors}
+    />
+  ))
+}
+```
+
+All arrays map cleanly, and handlers/configs are passed in for complete flexibility. No repeated code, just reusable legos.
+
+---
+
+## Clean Modal Controls
+
+```tsx
+<div className="flex justify-end gap-2 mt-4">
+  <button
+    onClick={onClose}
+    className="px-4 py-2 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 font-semibold"
+  >
+    Cancel
+  </button>
+  <button
+    onClick={handleSubmit}
+    className="px-4 py-2 rounded bg-[#29388A] text-white hover:bg-blue-800 font-semibold"
+  >
+    Submit
+  </button>
+</div>
+```
+They do only what they need to, with zero drama.
+
+---
+
+## Final Reflections
+
+Before the cleanup, this was a hot mess: one file, hundreds of lines, nearly impossible to trace. Now, thanks to focused components and field configs, I can extend and maintain everything with confidence. I can add or change fields, validation, or UI behaviors without ever touching 200 lines at once—maybe just 10, in the right place.
+
+**Maintainability is gold.**  
+This process cemented how much TypeScript + React + good planning = massive time and sanity savings. Don’t be afraid to modularize—even if it feels like “extra work.” It always pays off.
+
+---
+
+If you enjoyed this, found it useful, or have feedback, please share a comment! I’ll keep learning, building, and sharing—onward and upward!
+
+---
+
+#react #nextjs #typescript #refactor #frontend #webdevelopment #modal #forms #learningjourney #components #scalable #maintainable #ui #personalproject
