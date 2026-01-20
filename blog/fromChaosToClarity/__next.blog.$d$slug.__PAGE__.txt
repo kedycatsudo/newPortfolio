@@ -1,0 +1,794 @@
+1:"$Sreact.fragment"
+2:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Row"]
+3:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Column"]
+4:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],""]
+5:I[24379,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"SmartLink"]
+6:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
+7:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
+8:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
+51:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
+52:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
+53:I[97784,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"CodeBlock"]
+56:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
+57:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
+58:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
+5b:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
+5c:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
+5d:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
+5e:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+5f:"$Sreact.suspense"
+0:{"buildId":"ZTR-QyPFYa7bdygSgsI7O","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/fromChaosToClarity","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/fromChaosToClarity\",\"sameAs\":[],\"headline\":\"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components\",\"description\":\"\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2026-01-21\",\"dateModified\":\"2026-01-21\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"January 20, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h1","id":"from-chaos-to-clarity-how-i-refactored-my-edit-modal-into-maintainable-scalable-react-components","children":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Alright, let’s be honest—what you imagine will take one day can easily take three or four. That’s what happened this week. Planning, the first implementation, realizing my code was turning into spaghetti, then finally refactoring and modularizing everything—it turned into a marathon. Add a salary job and, well, life under capitalism, and four days are gone. But I have zero regrets, because what I learned was absolutely worth it."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"In this article, I’ll walk you through every step as I untangle my Edit Modal from a monster file into a suite of focused, elegant components. It’s night and day. You’ll see every file, every abstraction, and exactly how (and why) I pulled it off."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","em",null,{"children":["(All the code and logic you’ll see here started as one big file: ","$L9",". Now, it’s organized freedom. Trust me, the difference is huge.)"]}]}],"\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49","\n","$L4a"]}],"$L4b","$L4c","$L4d"]}]}],"$L4e"]}],["$L4f"],"$L50"]}],"loading":null,"isPartial":false}
+9:["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"EditSourceModal.tsx"}]
+a:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+b:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"what-did-i-end-up-with","children":"What Did I End Up With?"}]
+c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","strong",null,{"children":"New files/components:"}]}]
+d:["$","$L51",null,{"children":["\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"EditSourceModal.tsx"}]," (the parent, controls modal logic and orchestration)"]}],"\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"AccordionItem.tsx"}]," (shows each payment/investment in an accordion, with fields)"]}],"\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"constants/fieldConfig.ts"}]," (",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"PAYMENT_FIELDS"}]," and ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"ITEM_FIELDS"}]," describe all editable fields)"]}],"\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"FieldInput.tsx"}]," (super basic, dumb and generic input/selector component)"]}],"\n"]}]
+e:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"the-best-part","children":"The best part:"}]
+f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Now when I open each in a separate VS Code pane I can understand the logic chain, top to bottom, at a glance. Maintainability is real!"}]
+10:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+11:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"editsourcemodal.tsx-the-orchestrator","children":"EditSourceModal.tsx – The Orchestrator"}]
+12:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"First, the prop types for clarity:"}]
+13:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"type EditSourceModalProps = {\n  open: boolean;\n  source: FinanceSource | InvestmentSource;\n  onClose: () => void;\n  onSubmit: (updated: FinanceSource | InvestmentSource) => void;\n};\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+14:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"internal-state","children":"Internal State"}]
+15:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"const [localSource, setLocalSource] = useState<FinanceSource | InvestmentSource>(source);\nconst [openItemAccordions, setOpenItemAccordions] = useState<{ [id: string]: boolean }>({});\nconst [errors, setErrors] = useState<{ [field: string]: string }>({});\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+16:["$","$L51",null,{"children":["\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"localSource"}],": Holds what I’m currently editing."]}],"\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"openItemAccordions"}],": Which accordion(s) are open."]}],"\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"errors"}],": Error messages keyed by field."]}],"\n"]}]
+17:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"useeffect-for-reset","children":"useEffect for Reset"}]
+18:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"useEffect(() => {\n  setLocalSource(source);\n  setOpenItemAccordions({});\n  setErrors({});\n}, [source, open]);\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+19:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Cleans everything up when data changes or the modal opens/closes."}]
+1a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"useeffect-for-scroll-lock","children":"useEffect for Scroll Lock"}]
+1b:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"useEffect(() => {\n  if (open) document.body.style.overflow = 'hidden';\n  else document.body.style.overflow = '';\n  return () => {\n    document.body.style.overflow = '';\n  };\n}, [open]);\nif (!open) return null;\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+1c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Major UX win: disables scroll behind the modal."}]
+1d:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+1e:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"input-edit-handlers","children":"Input/Edit Handlers"}]
+1f:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"const handleItemInput = (itemId: string, field: any, value: any) => {\n  const arrKey = isFinanceSource(localSource) ? 'payments' : 'items';\n  setLocalSource(prev => ({\n    ...prev,\n    [arrKey]: (prev as any)[arrKey].map((itm: any) =>\n      itm.id === itemId ? { ...itm, [field]: value } : itm,\n    ),\n  }) as any);\n};\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+20:["$","$L51",null,{"children":["\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Decides if we’re editing \"payments\" or \"items.\""}],"\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["Finds the one we're editing (via ",["$","span",null,{"className":"display-inline-flex position-relative px-4 py-1 neutral-background-alpha-weak neutral-border-alpha-medium border-solid border-1 radius-s align-center fit font-code InlineCode-module-scss-module__VeMgoW__inlineCode ","style":{},"children":"id"}],"), and updates just that field."]}],"\n"]}]
+21:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"const handleSourceInput = (field: string, value: any) => {\n  setLocalSource(prev => ({ ...prev, [field]: value }) as any);\n};\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+22:["$","$L51",null,{"children":["\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Updates a top-level field without touching others."}],"\n"]}]
+23:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h4","id":"validation-logic","children":"Validation logic"}]
+24:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"function validate() {\n  const err: Record<string, string> = {};\n  if (!localSource.sourceName?.trim()) err.sourceName = 'Source name required';\n  const items = isFinanceSource(localSource)\n    ? localSource.payments\n    : isInvestmentSource(localSource)\n      ? localSource.items\n      : [];\n  for (const item of items) {\n    if ('name' in item && !item.name?.trim()) err[`item.${item.id}.name`] = 'Name required';\n    if ('assetName' in item && !item.assetName?.trim())\n      err[`item.${item.id}.assetName`] = 'Asset name required';\n  }\n  setErrors(err);\n  return Object.keys(err).length === 0;\n}\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+25:["$","$L51",null,{"children":["\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Checks that required fields are present (MVP-level, but ready to extend!)."}],"\n"]}]
+26:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h4","id":"submit-handler","children":"Submit Handler"}]
+27:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"const handleSubmit = () => {\n  if (validate()) {\n    onSubmit?.(localSource);\n    onClose();\n  }\n};\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+28:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+29:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"the-source-fields","children":"The Source Fields"}]
+2a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"To avoid hardcoding, I set up an array describing the fields for the modal \"header\":"}]
+2b:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"const sourceFields = [\n  { label: 'Source Name', field: 'sourceName', value: localSource.sourceName, err: errors.sourceName },\n  ...(localSource.description !== undefined\n    ? [{ label: 'Description', field: 'description', value: localSource.description }]\n    : []),\n  ...(localSource.date !== undefined\n    ? [{ label: 'Date', field: 'date', value: localSource.date, type: 'date' }]\n    : []),\n];\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+2c:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Which gets rendered as:"}]
+2d:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"<h2 className=\"text-2xl font-bold mb-2 text-[#29388A] text-center\">\n  Edit \"{localSource.sourceName}\"\n</h2>\n{sourceFields.map(f => (\n  <FieldInput\n    key={f.field}\n    label={f.label}\n    type={f.type}\n    value={f.value}\n    onChange={v => handleSourceInput(f.field ?? '', v)}\n    err={f.err}\n  />\n))}\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+2e:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+2f:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"constants-fieldconfig.ts-all-fields-centralized","children":"constants/fieldConfig.ts – All Fields Centralized"}]
+30:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I keep payment and investment item fields here for clarity and maintainability."}]
+31:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"export const PAYMENT_FIELDS = [\n  { field: \"name\", label: \"Name\" },\n  { field: \"type\", label: \"Type\" },\n  { field: \"amount\", label: \"Amount\", type: \"number\" },\n  { field: \"date\", label: \"Date\", type: \"date\" },\n  { field: \"loop\", label: \"Loop\", type: \"checkbox\" },\n  { field: \"status\", label: \"Payment Status\", enumOptions: [\"coming\", \"paid\"] }\n];\n\nexport const ITEM_FIELDS = [\n  { field: \"assetName\", label: \"Asset Name\" },\n  { field: \"term\", label: \"Term\", enumOptions: [\"short\", \"middle\", \"long\"] },\n  { field: \"investedAmount\", label: \"Invested Amount\", type: \"number\" },\n  { field: \"entryDate\", label: \"Entry Date\", type: \"date\" },\n  { field: \"exitDate\", label: \"Exit Date\", type: \"date\" },\n  { field: \"result\", label: \"Result\", enumOptions: [\"none\", \"profit\", \"loss\"] },\n  { field: \"resultAmount\", label: \"Result Amount\", type: \"number\" },\n  { field: \"status\", label: \"Status\", enumOptions: [\"open\", \"closed\"] }\n];\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+32:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Any change here flows everywhere."}]
+33:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+34:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"fieldinput.tsx-a-simple-dumb-field-component","children":"FieldInput.tsx – A Simple, Dumb Field Component"}]
+54:T5b3,type FieldInputProps = {
+  label: string;
+  type?: string;
+  value: any;
+  onChange: (v: any) => void;
+  enumOptions?: string[];
+  err?: string;
+};
+
+export default function FieldInput({label, type, value, onChange, enumOptions, err}: FieldInputProps) {
+  if (enumOptions) return (
+    <label>
+      <span className="block">{label}</span>
+      <select
+        value={value}
+        onChange={e=>onChange(e.target.value)}
+        className="rounded border px-2 py-1 mt-1 w-full text-black"
+      >
+        {enumOptions.map(opt => <option key={opt} value={opt}>{opt}</option>)}
+      </select>
+      {err && <span className="text-red-500 text-xs">{err}</span>}
+    </label>
+  );
+  if (type === 'checkbox') return (
+    <label className="flex items-center gap-1">
+      <span className="block">{label}</span>
+      <input type="checkbox" checked={!!value} onChange={e=>onChange(e.target.checked)}/>
+    </label>
+  );
+  return (
+    <label className="block">
+      <span className="block">{label}</span>
+      <input
+        type={type||'text'}
+        value={type==='date' && value ? String(value).slice(0,10) : (value ?? '')}
+        onChange={e => onChange(
+          type==='number' ? Number(e.target.value)
+          : type==='checkbox' ? e.target.checked
+          : e.target.value
+        )}
+        className="rounded border px-2 py-1 mt-1 w-full text-black"
+      />
+      {err && <span className="text-red-500 text-xs">{err}</span>}
+    </label>
+  );
+}
+35:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$54","language":"tsx","label":"Tsx"}],"copyButton":true}]
+36:["$","$L51",null,{"children":["\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Handles selects, checkboxes, text, numbers, dates—just unite data and logic."}],"\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Shows an error if needed."}],"\n"]}]
+37:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+38:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"accordionitem.tsx-all-the-heavy-lifting-none-of-the-spaghetti","children":"AccordionItem.tsx – All The Heavy Lifting, None of the Spaghetti"}]
+55:T5d1,type AccordionItemProps = {
+  item: Record<string, any>;
+  fieldConfig: {
+    field: string;
+    label: string;
+    type?: string;
+    enumOptions?: string[];
+  }[];
+  itemTypeKey: string;
+  isOpen: boolean;
+  toggleOpen: () => void;
+  handleItemInput: (itemId: string, field: string, value: any) => void;
+  errors?: Record<string, string>;
+};
+
+export default function AccordionItem({
+  item,
+  fieldConfig,
+  itemTypeKey,
+  isOpen,
+  toggleOpen,
+  handleItemInput,
+  errors,
+}: AccordionItemProps) {
+  return (
+    <div className={`border-4 border-[#29388A] rounded px-2 py-2 transition-all cursor-pointer ${isOpen ? 'bg-[#3A4483]/75 text-white' : 'text-[#29388A]'}`}>
+      <div onClick={toggleOpen} className="flex flex-row justify-between items-center">
+        <span> {'name' in item ? item.name : item.assetName}</span>
+        <span className="text-sm text-gray-500">{isOpen ? '▼' : '▶'}</span>
+      </div>
+      {isOpen && (
+        <div className="mt-2 flex flex-col gap-2">
+          {fieldConfig.map((f) =>
+            f.field === 'id' ? null : (
+              <FieldInput
+                key={f.field}
+                label={f.label}
+                type={f.type}
+                enumOptions={f.enumOptions}
+                value={item[f.field]}
+                onChange={v => handleItemInput(item.id, f.field, v)}
+                err={errors?.[`${itemTypeKey}.${item.id}.${f.field}`]}
+              />
+            )
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+39:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"$55","language":"tsx","label":"Tsx"}],"copyButton":true}]
+3a:["$","$L51",null,{"children":["\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"No matter what shape the data becomes, this will render/expand/collapse and edit each field correctly."}],"\n",["$","$L52",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"One clear file—not hundreds of repetitive lines for every possible field."}],"\n"]}]
+3b:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+3c:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"main-modal-use-bringing-it-all-together","children":"Main Modal Use: Bringing It All Together"}]
+3d:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"{isFinanceSource(localSource) &&\n  localSource.payments &&\n  localSource.payments.map(payment => (\n    <AccordionItem\n      key={payment.id}\n      item={payment}\n      fieldConfig={PAYMENT_FIELDS}\n      itemTypeKey=\"payment\"\n      isOpen={!!openItemAccordions[payment.id]}\n      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [payment.id]: !prev[payment.id] }))}\n      handleItemInput={handleItemInput}\n      errors={errors}\n    />\n  ))\n}\n{isInvestmentSource(localSource) &&\n  localSource.items &&\n  localSource.items.map(item => (\n    <AccordionItem\n      key={item.id}\n      item={item}\n      fieldConfig={ITEM_FIELDS}\n      itemTypeKey=\"item\"\n      isOpen={!!openItemAccordions[item.id]}\n      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [item.id]: !prev[item.id] }))}\n      handleItemInput={handleItemInput}\n      errors={errors}\n    />\n  ))\n}\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+3e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"All arrays map cleanly, and handlers/configs are passed in for complete flexibility. No repeated code, just reusable legos."}]
+3f:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+40:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"clean-modal-controls","children":"Clean Modal Controls"}]
+41:["$","$L53",null,{"marginTop":"8","marginBottom":"16","codes":[{"code":"<div className=\"flex justify-end gap-2 mt-4\">\n  <button\n    onClick={onClose}\n    className=\"px-4 py-2 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 font-semibold\"\n  >\n    Cancel\n  </button>\n  <button\n    onClick={handleSubmit}\n    className=\"px-4 py-2 rounded bg-[#29388A] text-white hover:bg-blue-800 font-semibold\"\n  >\n    Submit\n  </button>\n</div>\n","language":"tsx","label":"Tsx"}],"copyButton":true}]
+42:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"They do only what they need to, with zero drama."}]
+43:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+44:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"final-reflections","children":"Final Reflections"}]
+45:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Before the cleanup, this was a hot mess: one file, hundreds of lines, nearly impossible to trace. Now, thanks to focused components and field configs, I can extend and maintain everything with confidence. I can add or change fields, validation, or UI behaviors without ever touching 200 lines at once—maybe just 10, in the right place."}]
+46:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Maintainability is gold."}],["$","br",null,{}],"\n","This process cemented how much TypeScript + React + good planning = massive time and sanity savings. Don’t be afraid to modularize—even if it feels like “extra work.” It always pays off."]}]
+47:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+48:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"If you enjoyed this, found it useful, or have feedback, please share a comment! I’ll keep learning, building, and sharing—onward and upward!"}]
+49:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
+4a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"#react #nextjs #typescript #refactor #frontend #webdevelopment #modal #forms #learningjourney #components #scalable #maintainable #ui #personalproject"}]
+4b:["$","$L56",null,{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","url":"https://kedycatsudo.github.io/newPortfolio//blog/fromChaosToClarity"}]
+59:T2d33,
+# Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor
+
+Another successful and efficient day in my frontend learning journey. I’m genuinely satisfied with the code I wrote and the new knowledge I picked up. There’s a lot I want to show and talk about today—so let’s dive right in!
+
+## What’s New?
+
+**New components:**
+
+- SourcesDetailsContainer
+- SourceContainer
+- PaymentsContainer
+- PaymentField
+
+These are nested in order, each taking their data from the parent, starting at page.tsx.
+
+**New skills gained:**
+
+- Typescript extension
+- Generic render prop pattern
+- Typescript type guards
+
+---
+
+## Challenge: Passing Multiple Data Types Through a Nested Component Tree
+
+The original problem was how to send two different types of data to deeply nested child components. My first approach—using separate components for each data type—wouldn't be scalable or reusable. And that’s not the habit I want to cultivate as a professional developer.
+
+After some research, I discovered TypeScript’s extension abilities. I reworked my first child to look like this:
+
+```jsx
+type SourcesDetailsContainerProps<T extends { id: string }> = {
+  header: string
+  items: T[]
+  renderSource: (item: T, open: boolean, onClick: () => void) => React.ReactNode
+}
+```
+
+Now SourcesDetailsContainer expects a header, an array of items (any shape, as long as each has an id), and a function (renderSource) that tells it how to render each item. This approach makes the component highly reusable with different data and data types.
+
+**Example usage:**
+
+```jsx
+<div className="flex flex-col w-full">
+  <SourcesDetailsContainer
+    header="Income Sources"
+    items={incomes}
+    renderSource={(item, open, onClick) => (
+      <SourceContainer key={item.id} item={item} open={open} onClick={onClick} />
+    )}
+  />
+</div>
+```
+
+---
+
+## The Generic Render Prop Pattern
+
+That solved passing data to the first child, but my tree is nested four levels deep—each nested component needed to access and work with its own slice of the data without getting tangled up in prop drilling or constantly sending data back up to the parent.
+
+The solution: the **render prop** pattern.
+
+- The parent (page.tsx) controls exactly how each item is rendered by providing a function (renderSource).
+- SourcesDetailsContainer just calls this function for each item.
+- This lets you use whatever child component you want downstream, and pass any props you like.
+
+Deeply nested children are handled gracefully. When you call `<SourceContainer ... />` in the parent, you’re placing that child inside the render tree for each item. Within SourceContainer, you can have as many levels of nested components as you want (for example, SourceContainer might render PaymentsContainer, which renders PaymentField, etc.).
+
+You don’t need to “reach in” to call deeply nested children from the parent; you only specify the immediate child in your renderSource function, and that component handles its own children.
+
+---
+
+## Why You Can't Directly Render Nested Children from the Parent
+
+React’s tree is one-way! The parent can choose which child (immediate or generic) is rendered, but it can’t inject a nested grandchild into an arbitrary spot inside a lower-level component (unless you use further render props or slots).
+
+If you want to customize deeper children, you can pass another render prop or function down yet another level.
+
+**Example:**
+
+```jsx
+<SourceContainer
+  ...
+  renderPayment={(payment, open, onClick) => (
+    <PaymentsContainer payment={payment} open={open} onClick={onClick} />
+  )}
+/>
+```
+
+Now SourceContainer calls renderPayment for each payment.
+
+---
+
+## The Final Implementation: Scalable, Maintainable, Dynamic
+
+Here’s the full code for these components below (minus hyphens, for system compatibility):
+
+### SourcesDetailsContainer
+
+```jsx
+'use client'
+import { useState } from 'react'
+
+type SourcesDetailsContainerProps<T extends { id: string }> = {
+  header: string
+  items: T[]
+  renderSource: (item: T, open: boolean, onClick: () => void) => React.ReactNode
+}
+
+export default function SourcesDetailsContainer<T extends { id: string }>({
+  header,
+  items,
+  renderSource,
+}: SourcesDetailsContainerProps<T>) {
+  const [openSources, setOpenSources] = useState<{ [id: string]: boolean }>({})
+
+  return (
+    <div className="flex flex-col rounded bg-[#989899] opacity-75 items-center gap-2 px-1">
+      <h1 className="text-2xl xs:text-3xl text-[#29388A] font-bold">{header}</h1>
+      {items.map(item =>
+        renderSource(item, !!openSources[item.id], () =>
+          setOpenSources(prev => ({ ...prev, [item.id]: !prev[item.id] }))
+        )
+      )}
+    </div>
+  )
+}
+```
+
+---
+
+### Type Guards in SourceContainer
+
+To decide which kind of data each source represents, I use a typescript type guard like this:
+
+```tsx
+function isFinanceSource(a: FinanceSource | InvestmentSource): a is FinanceSource {
+  return 'payments' in a;
+}
+```
+
+If the object has a payments property, TypeScript knows it's FinanceSource.
+
+This TypeScript feature is incredibly useful for writing maintainable, type-safe code. It lets you write if-else blocks like this for rendering different data sets:
+
+```tsx
+if (isFinanceSource(item)) {
+  // For incomes/outcomes
+  title = item.sourceName;
+  datasInfo = [
+    { id: 1, infoPair: 'Description', data: item.description ?? '' },
+    {
+      id: 2,
+      infoPair: 'Monthly cycle amount',
+      data:
+        item.payments
+          .filter((p) => p.loop)
+          .reduce((sum, p) => sum + p.amount, 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 3,
+      infoPair: 'Current amount for this month',
+      data:
+        item.payments
+          .reduce((sum, p) => sum + p.amount, 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 4,
+      infoPair: 'Average monthly total payment',
+      data:
+        (
+          item.payments.reduce((sum, p) => sum + p.amount, 0) / (item.payments.length || 1)
+        ).toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+  ];
+  dataPayments = item.payments;
+} else if (isInvestmentSource(item)) {
+  // For investments
+  title = item.name ?? '';
+  datasInfo = [
+    { id: 1, infoPair: 'Description', data: item.description ?? '' },
+    {
+      id: 2,
+      infoPair: 'Total Invested Amount',
+      data:
+        item.items
+          .reduce((sum, i) => sum + Number(i.investedAmount ?? 0), 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 3,
+      infoPair: 'Total Number of Assets',
+      data: item.items.length,
+    },
+    {
+      id: 4,
+      infoPair: 'Closed Positions (count)',
+      data: item.items.filter((i) => i.status === 'closed').length,
+    },
+    {
+      id: 5,
+      infoPair: 'Open Positions (count)',
+      data: item.items.filter((i) => i.status === 'open').length,
+    },
+    {
+      id: 6,
+      infoPair: 'Total Profit/Loss (closed)',
+      data:
+        item.items
+          .filter((i) => i.status === 'closed')
+          .reduce((sum, i) => sum + Number(i.resultAmount ?? 0), 0)
+          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+    {
+      id: 7,
+      infoPair: 'Average Invested per Asset',
+      data:
+        (item.items.length > 0
+          ? item.items.reduce((sum, i) => sum + Number(i.investedAmount ?? 0), 0) /
+            item.items.length
+          : 0
+        ).toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
+    },
+  ];
+  dataPayments = item.items;
+}
+```
+
+---
+
+### Rendering Payments Within SourceContainer
+
+```jsx
+{
+  open && (
+    <div className="mt-2 p-3 rounded transition-all">
+      {dataPayments.map((payment) => (
+        <PaymentsContainer
+          key={payment.id}
+          payment={payment}
+          open={!!openPayments[payment.id]}
+          onClick={() =>
+            setOpenPayments((prev) => ({
+              ...prev,
+              [payment.id]: !prev[payment.id],
+            }))
+          }
+        />
+      ))}
+    </div>
+  );
+}
+```
+
+---
+
+### PaymentsContainer with Type Guards
+
+This component chooses which type of fields to display for each payment/investment item.
+
+```tsx
+type PaymentsContainerProps = {
+  payment: FinancePayment | InvestmentItem;
+  open: boolean;
+  onClick: () => void;
+};
+
+// Type guards for dynamic rendering
+function isFinancePayment(p: FinancePayment | InvestmentItem): p is FinancePayment {
+  return 'status' in p && 'loop' in p;
+}
+function isInvestmentItem(p: FinancePayment | InvestmentItem): p is InvestmentItem {
+  return 'assetName' in p && 'term' in p;
+}
+
+export default function PaymentsContainer({ payment, open, onClick }: PaymentsContainerProps) {
+  const financeFieldLabels: { [K in keyof FinancePayment]?: string } = {
+    name: 'Name',
+    type: 'Type',
+    amount: 'Amount',
+    date: 'Date',
+    loop: 'Loop',
+    status: 'Status',
+  };
+
+  const investmentFieldLabels: { [K in keyof InvestmentItem]?: string } = {
+    assetName: 'Asset Name',
+    term: 'Term',
+    investedAmount: 'Invested Amount',
+    entryDate: 'Entry Date',
+    exitDate: 'Exit Date',
+    result: 'Result',
+    resultAmount: 'Result Amount',
+    status: 'Status',
+  };
+
+  const fields: [string, string][] = isFinancePayment(payment)
+    ? Object.entries(financeFieldLabels)
+    : Object.entries(investmentFieldLabels);
+
+  return (
+    <div>
+      {open && (
+        <div>
+          {fields.map(([field, label]) => {
+            // @ts-ignore: Index dynamic field
+            const value = payment[field];
+            let displayValue =
+              typeof value === 'boolean'
+                ? value
+                  ? 'Yes'
+                  : 'No'
+                : field === 'amount' || field === 'investedAmount' || field === 'resultAmount'
+                  ? value != null
+                    ? `${Number(value).toLocaleString(undefined, { minimumFractionDigits: 2 })} $`
+                    : '--'
+                  : value != null
+                    ? String(value)
+                    : '--';
+
+            return <PaymentField key={field} field={label!} name={displayValue} />;
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+```
+
+---
+
+### PaymentField Component
+
+This is the final child, a simple reusable display for field label and value.
+
+```jsx
+'use client';
+type PaymentFieldProps = {
+  field: string;
+  name: string | number | boolean | null;
+};
+
+export default function PaymentField({ field, name }: PaymentFieldProps) {
+  return (
+    <div className="flex gap-2 items-center my-0.5 overflow-x-auto">
+      <span className="font-bold text-[#a9deff] whitespace-nowrap">{field}:</span>
+      <span className="text-white break-all">
+        {name !== null && name !== undefined ? String(name) : '--'}
+      </span>
+    </div>
+  );
+}
+```
+
+---
+
+## Outcome and Reflections
+
+Now I have a fully reusable, scalable, and maintainable family of four nested components for all my app’s pages and data types. This was an incredibly strong learning experience in frontend engineering, and I’m really happy because I’m now one more step closer to starting backend and database work.
+
+I’d love to hear your thoughts—feel free to leave a comment on my LinkedIn post, or just say hi!
+
+---
+
+**Hashtags:**
+
+#nextjs #reactjs #typescript #frontenddevelopment #webdevelopment #softwareengineering #renderprops #typeguard #scalablecode #maintainablecode #codingjourney #learningjourney #developercommunity #growthmindset #fullstackdevelopment #personalproject
+4c:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L57",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L58","masteringFrontend",{"post":{"metadata":{"title":"Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor","subtitle":"","publishedAt":"2026-01-15","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"masteringFrontend","content":"$59"},"thumbnail":true,"direction":"column"}],"$L5a"]}]]}]
+4d:["$","$L5b",null,{}]
+4e:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L5c",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L5d",null,{"fitHeight":true}]]}]
+4f:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+50:["$","$L5e",null,{"children":["$","$5f",null,{"name":"Next.MetadataOutlet","children":"$@60"}]}]
+61:T21cd,
+# Transparency in MyFinance Refactoring
+
+I’m really excited about this one—because, once again, I genuinely feel that I love what I’m doing.
+
+Getting to this stage in my project didn’t just happen overnight. It’s a testament to my dedication, the effort I’ve poured in, and how much I want to grow in this field and make a real difference. I didn’t just start where I am now—there was an entire planning phase, wireframing, designing the UI in Figma, and tons of trial and error along the way. If you’re curious, you can see this journey unfold in my earlier articles.
+
+The point is, I’m committed to consistently improving myself, my skills, and my knowledge for something bigger. I can genuinely feel that growth happening.
+
+## So, here’s what I’ve put together in this article. I hope you learn something new—or enjoy revisiting the journey if you’ve been along for the ride so far.
+
+## Unified `FinanceGenericContext` for All Data Types
+
+### Why This Refactor?
+
+I had separate context logic for incomes, outcomes, and investments, but they all did the same thing: fetched from JSON, offered CRUD, exposed state. It was clean, but very repetitive. So I refactored into a single, generic context generator, making my app DRY and scalable.
+
+### My Actual Context Code
+
+```typescript
+'use client';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
+type DataKey = 'incomes' | 'outcomes' | 'investments';
+
+// Types import
+import { FinanceSource } from '@/types/finance';
+import { InvestmentSource } from '@/types/investments';
+
+type ContextDataMap = {
+  incomes: FinanceSource[];
+  outcomes: FinanceSource[];
+  investments: InvestmentSource[];
+};
+
+type FinanceGenericContextType<K extends DataKey> = {
+  data: ContextDataMap[K];
+  setData: React.Dispatch<React.SetStateAction<ContextDataMap[K]>>;
+  addSource: (source: ContextDataMap[K][number]) => void;
+  updateSource: (source: ContextDataMap[K][number]) => void;
+  removeSource: (sourceId: string) => void;
+  loading: boolean;
+  error: string | null;
+};
+
+function createGenericContext<K extends DataKey>(file: K) {
+  const Ctx = createContext<FinanceGenericContextType<K> | undefined>(undefined);
+
+  function Provider({ children }: { children: ReactNode }) {
+    const [data, setData] = useState<ContextDataMap[K]>([] as ContextDataMap[K]);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
+
+    useEffect(() => {
+      fetch(`/data/${file}.json`)
+        .then((res) => {
+          if (!res.ok) throw new Error(`Could not fetch /data/${file}.json`);
+          return res.json();
+        })
+        .then((data) => {
+          setData(data);
+          setLoading(false);
+        })
+        .catch((err) => {
+          setError(err.message || `Could not fetch /data/${file}.json`);
+          setData([] as ContextDataMap[K]);
+          setLoading(false);
+        });
+    }, [file]);
+
+    const addSource = (source: ContextDataMap[K][number]) =>
+      setData((prev) => [...prev, source] as ContextDataMap[K]);
+    const updateSource = (updated: ContextDataMap[K][number]) =>
+      setData((prev) => prev.map((s) => (s.id === updated.id ? updated : s)) as ContextDataMap[K]);
+    const removeSource = (sourceId: string) =>
+      setData((prev) => prev.filter((s) => s.id !== sourceId) as ContextDataMap[K]);
+
+    return (
+      <Ctx.Provider
+        value={{ data, setData, addSource, updateSource, removeSource, loading, error }}
+      >
+        {children}
+      </Ctx.Provider>
+    );
+  }
+
+  function useGeneric() {
+    const ctx = useContext(Ctx);
+    if (!ctx) throw new Error('Must be used inside Provider');
+    return ctx;
+  }
+
+  return [Provider, useGeneric] as const;
+}
+
+export const [IncomesProvider, useIncomesContext] = createGenericContext('incomes');
+export const [OutcomesProvider, useOutcomesContext] = createGenericContext('out
+comes');
+export const [InvestmentsProvider, useInvestmentsContext] = createGenericContext('investments');
+```
+
+---
+
+## Example: Flattening All Payments or Investments
+
+### The Problem
+
+I noticed I was repeating the same flatten/map/sort logic for incomes, outcomes, and investments. I wanted one function to DRY it up.
+
+### My Utility Functions
+
+```typescript
+// flattenPayments - for incomes and outcomes
+export function flattenPayments<
+  S extends { name: string; payments: P[] },
+  P extends { date: string | number },
+>(sources: S[]): (P & { sourceName: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.payments.map((p) => ({
+        ...p,
+        sourceName: src.name,
+      })),
+    )
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+// flattenInvestments - for investment data
+export function flattenInvestments<
+  S extends { name: string; type: string; items: I[] },
+  I extends { entryDate: string | number; exitDate?: string | null },
+>(sources: S[]): (I & { sourceName: string; sourceType: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.items.map((item) => ({
+        ...item,
+        sourceName: src.name,
+        sourceType: src.type,
+      })),
+    )
+    .sort((a, b) => {
+      const dateA = new Date(a.exitDate ?? a.entryDate).getTime();
+      const dateB = new Date(b.exitDate ?? b.entryDate).getTime();
+      return dateB - dateA;
+    });
+}
+```
+
+---
+
+## Refactored and Stable: RecentSideInfo
+
+### Why
+
+My old component had legacy types and a confusing interface left over from old work with. Now, it's crystal clear and straightforward.
+
+### The Code
+
+```typescript
+'use client';
+import React from 'react';
+import TotalRow from './TotalRow';
+
+type RecentSideInfoItem = {
+  name: string;
+  amount: number;
+  date: string | number;
+};
+
+type RecentSideInfoProps = {
+  header: string;
+  items: RecentSideInfoItem[];
+  className?: string;
+};
+
+export default function RecentSideInfo({ header, items, className = '' }: RecentSideInfoProps) {
+  const total = items.reduce((sum, item) => sum + Number(item.amount), 0);
+
+  return (
+    <div className={`flex-1 w-full ${className}`}>
+      <div className="w-full bg-[#3A4483]/75 rounded-[16px] p-1 flex flex-col items-center shadow-lg">
+        <h3 className="text-white font-bold text-l xs:text-xl mb-2 text-center">{header}</h3>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <div className="w-full flex flex-col">
+          {items.length === 0 && (
+            <div className="w-full text-center text-white opacity-60 py-5">No items</div>
+          )}
+          {items.map((item, idx) => (
+            <React.Fragment key={item.name + '-' + item.date}>
+              <div className="w-full flex flex-row justify-between items-center py-2 gap-1">
+                <span className="text-white">{item.name}</span>
+                <div className="flex flex-col md:flex-row">
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {Number(item.amount).toLocaleString(undefined, {
+                      minimumFractionDigits: 2,
+                    })}
+                    $
+                  </span>
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {item.date
+                      ? new Date(item.date).toLocaleDateString()
+                      : ''}
+                  </span>
+                </div>
+              </div>
+              {idx < items.length - 1 && (
+                <div className="h-0.5 bg-[#29388A] opacity-60 rounded"></div>
+              )}
+            </React.Fragment>
+          ))}
+        </div>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <TotalRow total={total} />
+      </div>
+    </div>
+  );
+}
+```
+
+---
+
+## Context, Conversation, and the Code: Keep Them Synchronized
+
+**Lesson learned**:  
+Conversations are important for working through new solutions, but your code shouldn’t live only inside chat threads or sidebar notes. Your context and code snippets should be versioned, documented, and always attached to their explanation right here, in your repo or blog.
+
+---
+
+## Conclusion and Consistency
+
+That’s why I post all these code explanations step by step under my blog and portfolio.  
+It helps me (and anyone who peeks in) track my reasoning, solutions, and improvements.  
+So going forward, I’ll always keep these paired: real conversation, real code, and real documentation—right by each other.
+
+Thanks for following along!
+5a:["$","$L58","contextFeatures",{"post":{"metadata":{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","subtitle":"","publishedAt":"2026-01-13","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"contextFeatures","content":"$61"},"thumbnail":true,"direction":"column"}]
+60:null

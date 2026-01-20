@@ -4,9 +4,400 @@
 4:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientGrid"]
 5:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"default"]
 f:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
-17:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
-18:"$Sreact.suspense"
-6:T2d33,
+18:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+19:"$Sreact.suspense"
+6:T2f19,
+# From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components
+
+Alright, let’s be honest—what you imagine will take one day can easily take three or four. That’s what happened this week. Planning, the first implementation, realizing my code was turning into spaghetti, then finally refactoring and modularizing everything—it turned into a marathon. Add a salary job and, well, life under capitalism, and four days are gone. But I have zero regrets, because what I learned was absolutely worth it.
+
+In this article, I’ll walk you through every step as I untangle my Edit Modal from a monster file into a suite of focused, elegant components. It’s night and day. You’ll see every file, every abstraction, and exactly how (and why) I pulled it off.
+
+*(All the code and logic you’ll see here started as one big file: `EditSourceModal.tsx`. Now, it’s organized freedom. Trust me, the difference is huge.)*
+
+---
+
+## What Did I End Up With?
+
+**New files/components:**
+
+- **EditSourceModal.tsx** (the parent, controls modal logic and orchestration)
+- **AccordionItem.tsx** (shows each payment/investment in an accordion, with fields)
+- **constants/fieldConfig.ts** (`PAYMENT_FIELDS` and `ITEM_FIELDS` describe all editable fields)
+- **FieldInput.tsx** (super basic, dumb and generic input/selector component)
+
+### The best part:  
+Now when I open each in a separate VS Code pane I can understand the logic chain, top to bottom, at a glance. Maintainability is real!
+
+---
+
+## EditSourceModal.tsx – The Orchestrator
+
+First, the prop types for clarity:
+
+```tsx
+type EditSourceModalProps = {
+  open: boolean;
+  source: FinanceSource | InvestmentSource;
+  onClose: () => void;
+  onSubmit: (updated: FinanceSource | InvestmentSource) => void;
+};
+```
+
+### Internal State
+
+```tsx
+const [localSource, setLocalSource] = useState<FinanceSource | InvestmentSource>(source);
+const [openItemAccordions, setOpenItemAccordions] = useState<{ [id: string]: boolean }>({});
+const [errors, setErrors] = useState<{ [field: string]: string }>({});
+```
+- `localSource`: Holds what I’m currently editing.
+- `openItemAccordions`: Which accordion(s) are open.
+- `errors`: Error messages keyed by field.
+
+### useEffect for Reset
+
+```tsx
+useEffect(() => {
+  setLocalSource(source);
+  setOpenItemAccordions({});
+  setErrors({});
+}, [source, open]);
+```
+Cleans everything up when data changes or the modal opens/closes.
+
+### useEffect for Scroll Lock
+
+```tsx
+useEffect(() => {
+  if (open) document.body.style.overflow = 'hidden';
+  else document.body.style.overflow = '';
+  return () => {
+    document.body.style.overflow = '';
+  };
+}, [open]);
+if (!open) return null;
+```
+Major UX win: disables scroll behind the modal.
+
+---
+
+### Input/Edit Handlers
+
+```tsx
+const handleItemInput = (itemId: string, field: any, value: any) => {
+  const arrKey = isFinanceSource(localSource) ? 'payments' : 'items';
+  setLocalSource(prev => ({
+    ...prev,
+    [arrKey]: (prev as any)[arrKey].map((itm: any) =>
+      itm.id === itemId ? { ...itm, [field]: value } : itm,
+    ),
+  }) as any);
+};
+```
+
+- Decides if we’re editing "payments" or "items."
+- Finds the one we're editing (via `id`), and updates just that field.
+
+```tsx
+const handleSourceInput = (field: string, value: any) => {
+  setLocalSource(prev => ({ ...prev, [field]: value }) as any);
+};
+```
+
+- Updates a top-level field without touching others.
+
+#### Validation logic
+
+```tsx
+function validate() {
+  const err: Record<string, string> = {};
+  if (!localSource.sourceName?.trim()) err.sourceName = 'Source name required';
+  const items = isFinanceSource(localSource)
+    ? localSource.payments
+    : isInvestmentSource(localSource)
+      ? localSource.items
+      : [];
+  for (const item of items) {
+    if ('name' in item && !item.name?.trim()) err[`item.${item.id}.name`] = 'Name required';
+    if ('assetName' in item && !item.assetName?.trim())
+      err[`item.${item.id}.assetName`] = 'Asset name required';
+  }
+  setErrors(err);
+  return Object.keys(err).length === 0;
+}
+```
+- Checks that required fields are present (MVP-level, but ready to extend!).
+
+#### Submit Handler
+
+```tsx
+const handleSubmit = () => {
+  if (validate()) {
+    onSubmit?.(localSource);
+    onClose();
+  }
+};
+```
+
+---
+
+### The Source Fields
+
+To avoid hardcoding, I set up an array describing the fields for the modal "header":
+
+```tsx
+const sourceFields = [
+  { label: 'Source Name', field: 'sourceName', value: localSource.sourceName, err: errors.sourceName },
+  ...(localSource.description !== undefined
+    ? [{ label: 'Description', field: 'description', value: localSource.description }]
+    : []),
+  ...(localSource.date !== undefined
+    ? [{ label: 'Date', field: 'date', value: localSource.date, type: 'date' }]
+    : []),
+];
+```
+
+Which gets rendered as:
+
+```tsx
+<h2 className="text-2xl font-bold mb-2 text-[#29388A] text-center">
+  Edit "{localSource.sourceName}"
+</h2>
+{sourceFields.map(f => (
+  <FieldInput
+    key={f.field}
+    label={f.label}
+    type={f.type}
+    value={f.value}
+    onChange={v => handleSourceInput(f.field ?? '', v)}
+    err={f.err}
+  />
+))}
+```
+
+---
+
+## constants/fieldConfig.ts – All Fields Centralized
+
+I keep payment and investment item fields here for clarity and maintainability.
+
+```tsx
+export const PAYMENT_FIELDS = [
+  { field: "name", label: "Name" },
+  { field: "type", label: "Type" },
+  { field: "amount", label: "Amount", type: "number" },
+  { field: "date", label: "Date", type: "date" },
+  { field: "loop", label: "Loop", type: "checkbox" },
+  { field: "status", label: "Payment Status", enumOptions: ["coming", "paid"] }
+];
+
+export const ITEM_FIELDS = [
+  { field: "assetName", label: "Asset Name" },
+  { field: "term", label: "Term", enumOptions: ["short", "middle", "long"] },
+  { field: "investedAmount", label: "Invested Amount", type: "number" },
+  { field: "entryDate", label: "Entry Date", type: "date" },
+  { field: "exitDate", label: "Exit Date", type: "date" },
+  { field: "result", label: "Result", enumOptions: ["none", "profit", "loss"] },
+  { field: "resultAmount", label: "Result Amount", type: "number" },
+  { field: "status", label: "Status", enumOptions: ["open", "closed"] }
+];
+```
+Any change here flows everywhere.
+
+---
+
+## FieldInput.tsx – A Simple, Dumb Field Component
+
+```tsx
+type FieldInputProps = {
+  label: string;
+  type?: string;
+  value: any;
+  onChange: (v: any) => void;
+  enumOptions?: string[];
+  err?: string;
+};
+
+export default function FieldInput({label, type, value, onChange, enumOptions, err}: FieldInputProps) {
+  if (enumOptions) return (
+    <label>
+      <span className="block">{label}</span>
+      <select
+        value={value}
+        onChange={e=>onChange(e.target.value)}
+        className="rounded border px-2 py-1 mt-1 w-full text-black"
+      >
+        {enumOptions.map(opt => <option key={opt} value={opt}>{opt}</option>)}
+      </select>
+      {err && <span className="text-red-500 text-xs">{err}</span>}
+    </label>
+  );
+  if (type === 'checkbox') return (
+    <label className="flex items-center gap-1">
+      <span className="block">{label}</span>
+      <input type="checkbox" checked={!!value} onChange={e=>onChange(e.target.checked)}/>
+    </label>
+  );
+  return (
+    <label className="block">
+      <span className="block">{label}</span>
+      <input
+        type={type||'text'}
+        value={type==='date' && value ? String(value).slice(0,10) : (value ?? '')}
+        onChange={e => onChange(
+          type==='number' ? Number(e.target.value)
+          : type==='checkbox' ? e.target.checked
+          : e.target.value
+        )}
+        className="rounded border px-2 py-1 mt-1 w-full text-black"
+      />
+      {err && <span className="text-red-500 text-xs">{err}</span>}
+    </label>
+  );
+}
+```
+- Handles selects, checkboxes, text, numbers, dates—just unite data and logic.
+- Shows an error if needed.
+
+---
+
+## AccordionItem.tsx – All The Heavy Lifting, None of the Spaghetti
+
+```tsx
+type AccordionItemProps = {
+  item: Record<string, any>;
+  fieldConfig: {
+    field: string;
+    label: string;
+    type?: string;
+    enumOptions?: string[];
+  }[];
+  itemTypeKey: string;
+  isOpen: boolean;
+  toggleOpen: () => void;
+  handleItemInput: (itemId: string, field: string, value: any) => void;
+  errors?: Record<string, string>;
+};
+
+export default function AccordionItem({
+  item,
+  fieldConfig,
+  itemTypeKey,
+  isOpen,
+  toggleOpen,
+  handleItemInput,
+  errors,
+}: AccordionItemProps) {
+  return (
+    <div className={`border-4 border-[#29388A] rounded px-2 py-2 transition-all cursor-pointer ${isOpen ? 'bg-[#3A4483]/75 text-white' : 'text-[#29388A]'}`}>
+      <div onClick={toggleOpen} className="flex flex-row justify-between items-center">
+        <span> {'name' in item ? item.name : item.assetName}</span>
+        <span className="text-sm text-gray-500">{isOpen ? '▼' : '▶'}</span>
+      </div>
+      {isOpen && (
+        <div className="mt-2 flex flex-col gap-2">
+          {fieldConfig.map((f) =>
+            f.field === 'id' ? null : (
+              <FieldInput
+                key={f.field}
+                label={f.label}
+                type={f.type}
+                enumOptions={f.enumOptions}
+                value={item[f.field]}
+                onChange={v => handleItemInput(item.id, f.field, v)}
+                err={errors?.[`${itemTypeKey}.${item.id}.${f.field}`]}
+              />
+            )
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+```
+- No matter what shape the data becomes, this will render/expand/collapse and edit each field correctly.
+- One clear file—not hundreds of repetitive lines for every possible field.
+
+---
+
+## Main Modal Use: Bringing It All Together
+
+```tsx
+{isFinanceSource(localSource) &&
+  localSource.payments &&
+  localSource.payments.map(payment => (
+    <AccordionItem
+      key={payment.id}
+      item={payment}
+      fieldConfig={PAYMENT_FIELDS}
+      itemTypeKey="payment"
+      isOpen={!!openItemAccordions[payment.id]}
+      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [payment.id]: !prev[payment.id] }))}
+      handleItemInput={handleItemInput}
+      errors={errors}
+    />
+  ))
+}
+{isInvestmentSource(localSource) &&
+  localSource.items &&
+  localSource.items.map(item => (
+    <AccordionItem
+      key={item.id}
+      item={item}
+      fieldConfig={ITEM_FIELDS}
+      itemTypeKey="item"
+      isOpen={!!openItemAccordions[item.id]}
+      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [item.id]: !prev[item.id] }))}
+      handleItemInput={handleItemInput}
+      errors={errors}
+    />
+  ))
+}
+```
+
+All arrays map cleanly, and handlers/configs are passed in for complete flexibility. No repeated code, just reusable legos.
+
+---
+
+## Clean Modal Controls
+
+```tsx
+<div className="flex justify-end gap-2 mt-4">
+  <button
+    onClick={onClose}
+    className="px-4 py-2 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 font-semibold"
+  >
+    Cancel
+  </button>
+  <button
+    onClick={handleSubmit}
+    className="px-4 py-2 rounded bg-[#29388A] text-white hover:bg-blue-800 font-semibold"
+  >
+    Submit
+  </button>
+</div>
+```
+They do only what they need to, with zero drama.
+
+---
+
+## Final Reflections
+
+Before the cleanup, this was a hot mess: one file, hundreds of lines, nearly impossible to trace. Now, thanks to focused components and field configs, I can extend and maintain everything with confidence. I can add or change fields, validation, or UI behaviors without ever touching 200 lines at once—maybe just 10, in the right place.
+
+**Maintainability is gold.**  
+This process cemented how much TypeScript + React + good planning = massive time and sanity savings. Don’t be afraid to modularize—even if it feels like “extra work.” It always pays off.
+
+---
+
+If you enjoyed this, found it useful, or have feedback, please share a comment! I’ll keep learning, building, and sharing—onward and upward!
+
+---
+
+#react #nextjs #typescript #refactor #frontend #webdevelopment #modal #forms #learningjourney #components #scalable #maintainable #ui #personalproject
+0:{"buildId":"ZTR-QyPFYa7bdygSgsI7O","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"s":{"columns":1},"columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","fromChaosToClarity",{"post":{"metadata":{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","subtitle":"","publishedAt":"2026-01-21","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"fromChaosToClarity","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9","$La"]}]]}],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+d:T2d33,
 # Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor
 
 Another successful and efficient day in my frontend learning journey. I’m genuinely satisfied with the code I wrote and the new knowledge I picked up. There’s a lot I want to show and talk about today—so let’s dive right in!
@@ -375,378 +766,10 @@ I’d love to hear your thoughts—feel free to leave a comment on my LinkedIn p
 **Hashtags:**
 
 #nextjs #reactjs #typescript #frontenddevelopment #webdevelopment #softwareengineering #renderprops #typeguard #scalablecode #maintainablecode #codingjourney #learningjourney #developercommunity #growthmindset #fullstackdevelopment #personalproject
-0:{"buildId":"XCFBD2ZTC9GUuuggtTQWB","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"s":{"columns":1},"columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","masteringFrontend",{"post":{"metadata":{"title":"Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor","subtitle":"","publishedAt":"2026-01-15","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"masteringFrontend","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9","$La"]}]]}],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
-d:T21cd,
-# Transparency in MyFinance Refactoring
-
-I’m really excited about this one—because, once again, I genuinely feel that I love what I’m doing.
-
-Getting to this stage in my project didn’t just happen overnight. It’s a testament to my dedication, the effort I’ve poured in, and how much I want to grow in this field and make a real difference. I didn’t just start where I am now—there was an entire planning phase, wireframing, designing the UI in Figma, and tons of trial and error along the way. If you’re curious, you can see this journey unfold in my earlier articles.
-
-The point is, I’m committed to consistently improving myself, my skills, and my knowledge for something bigger. I can genuinely feel that growth happening.
-
-## So, here’s what I’ve put together in this article. I hope you learn something new—or enjoy revisiting the journey if you’ve been along for the ride so far.
-
-## Unified `FinanceGenericContext` for All Data Types
-
-### Why This Refactor?
-
-I had separate context logic for incomes, outcomes, and investments, but they all did the same thing: fetched from JSON, offered CRUD, exposed state. It was clean, but very repetitive. So I refactored into a single, generic context generator, making my app DRY and scalable.
-
-### My Actual Context Code
-
-```typescript
-'use client';
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-
-type DataKey = 'incomes' | 'outcomes' | 'investments';
-
-// Types import
-import { FinanceSource } from '@/types/finance';
-import { InvestmentSource } from '@/types/investments';
-
-type ContextDataMap = {
-  incomes: FinanceSource[];
-  outcomes: FinanceSource[];
-  investments: InvestmentSource[];
-};
-
-type FinanceGenericContextType<K extends DataKey> = {
-  data: ContextDataMap[K];
-  setData: React.Dispatch<React.SetStateAction<ContextDataMap[K]>>;
-  addSource: (source: ContextDataMap[K][number]) => void;
-  updateSource: (source: ContextDataMap[K][number]) => void;
-  removeSource: (sourceId: string) => void;
-  loading: boolean;
-  error: string | null;
-};
-
-function createGenericContext<K extends DataKey>(file: K) {
-  const Ctx = createContext<FinanceGenericContextType<K> | undefined>(undefined);
-
-  function Provider({ children }: { children: ReactNode }) {
-    const [data, setData] = useState<ContextDataMap[K]>([] as ContextDataMap[K]);
-    const [loading, setLoading] = useState<boolean>(true);
-    const [error, setError] = useState<string | null>(null);
-
-    useEffect(() => {
-      fetch(`/data/${file}.json`)
-        .then((res) => {
-          if (!res.ok) throw new Error(`Could not fetch /data/${file}.json`);
-          return res.json();
-        })
-        .then((data) => {
-          setData(data);
-          setLoading(false);
-        })
-        .catch((err) => {
-          setError(err.message || `Could not fetch /data/${file}.json`);
-          setData([] as ContextDataMap[K]);
-          setLoading(false);
-        });
-    }, [file]);
-
-    const addSource = (source: ContextDataMap[K][number]) =>
-      setData((prev) => [...prev, source] as ContextDataMap[K]);
-    const updateSource = (updated: ContextDataMap[K][number]) =>
-      setData((prev) => prev.map((s) => (s.id === updated.id ? updated : s)) as ContextDataMap[K]);
-    const removeSource = (sourceId: string) =>
-      setData((prev) => prev.filter((s) => s.id !== sourceId) as ContextDataMap[K]);
-
-    return (
-      <Ctx.Provider
-        value={{ data, setData, addSource, updateSource, removeSource, loading, error }}
-      >
-        {children}
-      </Ctx.Provider>
-    );
-  }
-
-  function useGeneric() {
-    const ctx = useContext(Ctx);
-    if (!ctx) throw new Error('Must be used inside Provider');
-    return ctx;
-  }
-
-  return [Provider, useGeneric] as const;
-}
-
-export const [IncomesProvider, useIncomesContext] = createGenericContext('incomes');
-export const [OutcomesProvider, useOutcomesContext] = createGenericContext('out
-comes');
-export const [InvestmentsProvider, useInvestmentsContext] = createGenericContext('investments');
-```
-
----
-
-## Example: Flattening All Payments or Investments
-
-### The Problem
-
-I noticed I was repeating the same flatten/map/sort logic for incomes, outcomes, and investments. I wanted one function to DRY it up.
-
-### My Utility Functions
-
-```typescript
-// flattenPayments - for incomes and outcomes
-export function flattenPayments<
-  S extends { name: string; payments: P[] },
-  P extends { date: string | number },
->(sources: S[]): (P & { sourceName: string })[] {
-  return sources
-    .flatMap((src) =>
-      src.payments.map((p) => ({
-        ...p,
-        sourceName: src.name,
-      })),
-    )
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
-
-// flattenInvestments - for investment data
-export function flattenInvestments<
-  S extends { name: string; type: string; items: I[] },
-  I extends { entryDate: string | number; exitDate?: string | null },
->(sources: S[]): (I & { sourceName: string; sourceType: string })[] {
-  return sources
-    .flatMap((src) =>
-      src.items.map((item) => ({
-        ...item,
-        sourceName: src.name,
-        sourceType: src.type,
-      })),
-    )
-    .sort((a, b) => {
-      const dateA = new Date(a.exitDate ?? a.entryDate).getTime();
-      const dateB = new Date(b.exitDate ?? b.entryDate).getTime();
-      return dateB - dateA;
-    });
-}
-```
-
----
-
-## Refactored and Stable: RecentSideInfo
-
-### Why
-
-My old component had legacy types and a confusing interface left over from old work with. Now, it's crystal clear and straightforward.
-
-### The Code
-
-```typescript
-'use client';
-import React from 'react';
-import TotalRow from './TotalRow';
-
-type RecentSideInfoItem = {
-  name: string;
-  amount: number;
-  date: string | number;
-};
-
-type RecentSideInfoProps = {
-  header: string;
-  items: RecentSideInfoItem[];
-  className?: string;
-};
-
-export default function RecentSideInfo({ header, items, className = '' }: RecentSideInfoProps) {
-  const total = items.reduce((sum, item) => sum + Number(item.amount), 0);
-
-  return (
-    <div className={`flex-1 w-full ${className}`}>
-      <div className="w-full bg-[#3A4483]/75 rounded-[16px] p-1 flex flex-col items-center shadow-lg">
-        <h3 className="text-white font-bold text-l xs:text-xl mb-2 text-center">{header}</h3>
-        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
-        <div className="w-full flex flex-col">
-          {items.length === 0 && (
-            <div className="w-full text-center text-white opacity-60 py-5">No items</div>
-          )}
-          {items.map((item, idx) => (
-            <React.Fragment key={item.name + '-' + item.date}>
-              <div className="w-full flex flex-row justify-between items-center py-2 gap-1">
-                <span className="text-white">{item.name}</span>
-                <div className="flex flex-col md:flex-row">
-                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
-                    {Number(item.amount).toLocaleString(undefined, {
-                      minimumFractionDigits: 2,
-                    })}
-                    $
-                  </span>
-                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
-                    {item.date
-                      ? new Date(item.date).toLocaleDateString()
-                      : ''}
-                  </span>
-                </div>
-              </div>
-              {idx < items.length - 1 && (
-                <div className="h-0.5 bg-[#29388A] opacity-60 rounded"></div>
-              )}
-            </React.Fragment>
-          ))}
-        </div>
-        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
-        <TotalRow total={total} />
-      </div>
-    </div>
-  );
-}
-```
-
----
-
-## Context, Conversation, and the Code: Keep Them Synchronized
-
-**Lesson learned**:  
-Conversations are important for working through new solutions, but your code shouldn’t live only inside chat threads or sidebar notes. Your context and code snippets should be versioned, documented, and always attached to their explanation right here, in your repo or blog.
-
----
-
-## Conclusion and Consistency
-
-That’s why I post all these code explanations step by step under my blog and portfolio.  
-It helps me (and anyone who peeks in) track my reasoning, solutions, and improvements.  
-So going forward, I’ll always keep these paired: real conversation, real code, and real documentation—right by each other.
-
-Thanks for following along!
-7:["$","$L4",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","contextFeatures",{"post":{"metadata":{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","subtitle":"","publishedAt":"2026-01-13","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"contextFeatures","content":"$d"},"thumbnail":true,"direction":"column"}],"$Le"]}]
+7:["$","$L4",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","masteringFrontend",{"post":{"metadata":{"title":"Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor","subtitle":"","publishedAt":"2026-01-15","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"masteringFrontend","content":"$d"},"thumbnail":true,"direction":"column"}],"$Le"]}]
 8:["$","$Lf",null,{"marginBottom":"l"}]
 9:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textWrap":"balance"},"children":"Earlier posts"}]
-10:T1a05,
-# Dashboard Complete
-
-Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
-
----
-
-> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
-
-This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
-
-What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
-
----
-
-## Structure: Two Columns, Many Components
-
-The dashboard splits into two main columns.
-
-
-### Left Sidebar (the "static anchor")
-
-1. MyFinance Logo  
-   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
-
-2. Sidebar Navigation  
-   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
-   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
-
-3. Recently Invested and Misc List  
-   Shows most recent investments by date.  
-   Displays "misc" purchases and their totals for the month.  
-   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
-   Both live inside the same container, built for reusability but visually pleasing.  
-   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
-
----
-
-### The Main Content (the "dynamic hub")
-
-Greeting Container  
-Header and warm welcome message to users.
-![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
-
-Financial Snapshot Cards  
-One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
-Data includes: name, amount, date simple yet effective.
-
-![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
-![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
-
-
-Pie Chart  
-I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
-
----
-
-![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
-
----
-![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
-
-## Extra
-
-I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
-
----
-
-## Realities of Learning Tailwind (vs. Plain CSS)
-
-I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
-
-The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
-The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
-
-I’m not anti Tailwind, just cautious  
-It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
-
----
-
-## Tailwind CSS: Pros and Cons
-
-**Pros**  
-Speed Build layouts faster by composing utility classes; changes update in real time.  
-Consistency Enforces a design system via config and tokens.  
-Responsive by Default Mobile first breakpoints are straightforward.  
-Component Driven Encourages reusable UI blocks.  
-Scoped Styles No fear of class name collisions.
-
-**Cons**  
-Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
-Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
-Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
-Requires Tooling Not as portable as raw CSS without build setup.  
-Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
-
----
-
-## Plain CSS: Pros and Cons
-
-**Pros**  
-Universal and Timeless No build tools required; works everywhere.  
-Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
-Total Control No abstraction in the way of unique or advanced design needs.  
-Simple Markup Cleaner HTML or JSX.
-
-**Cons**  
-Slower for Prototyping Must write or select classes for every style.  
-Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
-Class Name Fatigue Naming everything is both art and burden.  
-No Built in Responsive Utilities Need to write media queries by hand.  
-Easier to Introduce Bugs Specificity wars, global side effects.
-
----
-
-## Closing Thoughts
-
-The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
-
-Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
-
-Next up  
-Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
-Getting deep into server side Next.js and PostgreSQL  
-More reusable components, more data, and more transparency
-
-Thanks for reading  
-Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
-
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourneya:["$","$L4",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$10"},"thumbnail":false}],"$L11","$L12","$L13","$L14","$L15","$L16"]}]
-b:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true}]
-c:["$","$L17",null,{"children":["$","$18",null,{"name":"Next.MetadataOutlet","children":"$@19"}]}]
-1a:T2da7,
+10:T2da7,
 # Priceless learning and extremely satisfied code quality. It's all about consistency.
 
 Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects.
@@ -1085,8 +1108,376 @@ Stay consistent, keep building, and have a wonderful day.
 ```
 
 ```
-e:["$","$L5","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$1a"},"thumbnail":true,"direction":"column"}]
-1b:Tff8,
+a:["$","$L4",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$10"},"thumbnail":false}],"$L11","$L12","$L13","$L14","$L15","$L16","$L17"]}]
+b:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true}]
+c:["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
+1b:T21cd,
+# Transparency in MyFinance Refactoring
+
+I’m really excited about this one—because, once again, I genuinely feel that I love what I’m doing.
+
+Getting to this stage in my project didn’t just happen overnight. It’s a testament to my dedication, the effort I’ve poured in, and how much I want to grow in this field and make a real difference. I didn’t just start where I am now—there was an entire planning phase, wireframing, designing the UI in Figma, and tons of trial and error along the way. If you’re curious, you can see this journey unfold in my earlier articles.
+
+The point is, I’m committed to consistently improving myself, my skills, and my knowledge for something bigger. I can genuinely feel that growth happening.
+
+## So, here’s what I’ve put together in this article. I hope you learn something new—or enjoy revisiting the journey if you’ve been along for the ride so far.
+
+## Unified `FinanceGenericContext` for All Data Types
+
+### Why This Refactor?
+
+I had separate context logic for incomes, outcomes, and investments, but they all did the same thing: fetched from JSON, offered CRUD, exposed state. It was clean, but very repetitive. So I refactored into a single, generic context generator, making my app DRY and scalable.
+
+### My Actual Context Code
+
+```typescript
+'use client';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
+type DataKey = 'incomes' | 'outcomes' | 'investments';
+
+// Types import
+import { FinanceSource } from '@/types/finance';
+import { InvestmentSource } from '@/types/investments';
+
+type ContextDataMap = {
+  incomes: FinanceSource[];
+  outcomes: FinanceSource[];
+  investments: InvestmentSource[];
+};
+
+type FinanceGenericContextType<K extends DataKey> = {
+  data: ContextDataMap[K];
+  setData: React.Dispatch<React.SetStateAction<ContextDataMap[K]>>;
+  addSource: (source: ContextDataMap[K][number]) => void;
+  updateSource: (source: ContextDataMap[K][number]) => void;
+  removeSource: (sourceId: string) => void;
+  loading: boolean;
+  error: string | null;
+};
+
+function createGenericContext<K extends DataKey>(file: K) {
+  const Ctx = createContext<FinanceGenericContextType<K> | undefined>(undefined);
+
+  function Provider({ children }: { children: ReactNode }) {
+    const [data, setData] = useState<ContextDataMap[K]>([] as ContextDataMap[K]);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
+
+    useEffect(() => {
+      fetch(`/data/${file}.json`)
+        .then((res) => {
+          if (!res.ok) throw new Error(`Could not fetch /data/${file}.json`);
+          return res.json();
+        })
+        .then((data) => {
+          setData(data);
+          setLoading(false);
+        })
+        .catch((err) => {
+          setError(err.message || `Could not fetch /data/${file}.json`);
+          setData([] as ContextDataMap[K]);
+          setLoading(false);
+        });
+    }, [file]);
+
+    const addSource = (source: ContextDataMap[K][number]) =>
+      setData((prev) => [...prev, source] as ContextDataMap[K]);
+    const updateSource = (updated: ContextDataMap[K][number]) =>
+      setData((prev) => prev.map((s) => (s.id === updated.id ? updated : s)) as ContextDataMap[K]);
+    const removeSource = (sourceId: string) =>
+      setData((prev) => prev.filter((s) => s.id !== sourceId) as ContextDataMap[K]);
+
+    return (
+      <Ctx.Provider
+        value={{ data, setData, addSource, updateSource, removeSource, loading, error }}
+      >
+        {children}
+      </Ctx.Provider>
+    );
+  }
+
+  function useGeneric() {
+    const ctx = useContext(Ctx);
+    if (!ctx) throw new Error('Must be used inside Provider');
+    return ctx;
+  }
+
+  return [Provider, useGeneric] as const;
+}
+
+export const [IncomesProvider, useIncomesContext] = createGenericContext('incomes');
+export const [OutcomesProvider, useOutcomesContext] = createGenericContext('out
+comes');
+export const [InvestmentsProvider, useInvestmentsContext] = createGenericContext('investments');
+```
+
+---
+
+## Example: Flattening All Payments or Investments
+
+### The Problem
+
+I noticed I was repeating the same flatten/map/sort logic for incomes, outcomes, and investments. I wanted one function to DRY it up.
+
+### My Utility Functions
+
+```typescript
+// flattenPayments - for incomes and outcomes
+export function flattenPayments<
+  S extends { name: string; payments: P[] },
+  P extends { date: string | number },
+>(sources: S[]): (P & { sourceName: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.payments.map((p) => ({
+        ...p,
+        sourceName: src.name,
+      })),
+    )
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+// flattenInvestments - for investment data
+export function flattenInvestments<
+  S extends { name: string; type: string; items: I[] },
+  I extends { entryDate: string | number; exitDate?: string | null },
+>(sources: S[]): (I & { sourceName: string; sourceType: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.items.map((item) => ({
+        ...item,
+        sourceName: src.name,
+        sourceType: src.type,
+      })),
+    )
+    .sort((a, b) => {
+      const dateA = new Date(a.exitDate ?? a.entryDate).getTime();
+      const dateB = new Date(b.exitDate ?? b.entryDate).getTime();
+      return dateB - dateA;
+    });
+}
+```
+
+---
+
+## Refactored and Stable: RecentSideInfo
+
+### Why
+
+My old component had legacy types and a confusing interface left over from old work with. Now, it's crystal clear and straightforward.
+
+### The Code
+
+```typescript
+'use client';
+import React from 'react';
+import TotalRow from './TotalRow';
+
+type RecentSideInfoItem = {
+  name: string;
+  amount: number;
+  date: string | number;
+};
+
+type RecentSideInfoProps = {
+  header: string;
+  items: RecentSideInfoItem[];
+  className?: string;
+};
+
+export default function RecentSideInfo({ header, items, className = '' }: RecentSideInfoProps) {
+  const total = items.reduce((sum, item) => sum + Number(item.amount), 0);
+
+  return (
+    <div className={`flex-1 w-full ${className}`}>
+      <div className="w-full bg-[#3A4483]/75 rounded-[16px] p-1 flex flex-col items-center shadow-lg">
+        <h3 className="text-white font-bold text-l xs:text-xl mb-2 text-center">{header}</h3>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <div className="w-full flex flex-col">
+          {items.length === 0 && (
+            <div className="w-full text-center text-white opacity-60 py-5">No items</div>
+          )}
+          {items.map((item, idx) => (
+            <React.Fragment key={item.name + '-' + item.date}>
+              <div className="w-full flex flex-row justify-between items-center py-2 gap-1">
+                <span className="text-white">{item.name}</span>
+                <div className="flex flex-col md:flex-row">
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {Number(item.amount).toLocaleString(undefined, {
+                      minimumFractionDigits: 2,
+                    })}
+                    $
+                  </span>
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {item.date
+                      ? new Date(item.date).toLocaleDateString()
+                      : ''}
+                  </span>
+                </div>
+              </div>
+              {idx < items.length - 1 && (
+                <div className="h-0.5 bg-[#29388A] opacity-60 rounded"></div>
+              )}
+            </React.Fragment>
+          ))}
+        </div>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <TotalRow total={total} />
+      </div>
+    </div>
+  );
+}
+```
+
+---
+
+## Context, Conversation, and the Code: Keep Them Synchronized
+
+**Lesson learned**:  
+Conversations are important for working through new solutions, but your code shouldn’t live only inside chat threads or sidebar notes. Your context and code snippets should be versioned, documented, and always attached to their explanation right here, in your repo or blog.
+
+---
+
+## Conclusion and Consistency
+
+That’s why I post all these code explanations step by step under my blog and portfolio.  
+It helps me (and anyone who peeks in) track my reasoning, solutions, and improvements.  
+So going forward, I’ll always keep these paired: real conversation, real code, and real documentation—right by each other.
+
+Thanks for following along!
+e:["$","$L5","contextFeatures",{"post":{"metadata":{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","subtitle":"","publishedAt":"2026-01-13","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"contextFeatures","content":"$1b"},"thumbnail":true,"direction":"column"}]
+1c:T1a05,
+# Dashboard Complete
+
+Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
+
+---
+
+> "If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together."
+
+This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that "aha" feeling after hours of wrangling with a new framework Nothing better.
+
+What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically.
+
+---
+
+## Structure: Two Columns, Many Components
+
+The dashboard splits into two main columns.
+
+
+### Left Sidebar (the "static anchor")
+
+1. MyFinance Logo  
+   Originally planned as a square. Five minutes in, slipped up and made it round turned out I love it that way, and kept the happy accident
+
+2. Sidebar Navigation  
+   Below the logo, a clean navigation list for all pages in the app. It highlights the active page and reacts on hover or click.  
+   ![MyFinance updated logo](/newPortfolio/images/gallery/updatedLogo.png)
+
+3. Recently Invested and Misc List  
+   Shows most recent investments by date.  
+   Displays "misc" purchases and their totals for the month.  
+   (Note: I noticed I'm accidentally showing trade prices directly my planned structure was different. Adding a fix for that on my to do)  
+   Both live inside the same container, built for reusability but visually pleasing.  
+   ![MyFinance recently invesated and miscs container](/newPortfolio/images/gallery/recentInvMisc.png)
+
+---
+
+### The Main Content (the "dynamic hub")
+
+Greeting Container  
+Header and warm welcome message to users.
+![MyFinance greeting message and header](/newPortfolio/images/gallery/greetingMessage.png)
+
+Financial Snapshot Cards  
+One reusable component, four different data uses (current outcomes, current incomes, recent outcomes, recent incomes).  
+Data includes: name, amount, date simple yet effective.
+
+![MyFinance updated logo](/newPortfolio/images/gallery/currentOutIn.png)
+![MyFinance updated logo](/newPortfolio/images/gallery/recentInOut.png)
+
+
+Pie Chart  
+I’ll be honest I didn’t hand code this from scratch. I leaned on AI help to quickly build a dynamic pie chart. Sometimes, time is better spent on broader logic rather than chart SVG parsing. The result Something beautiful and informative.
+
+---
+
+![MyFinance updated logo](/newPortfolio/images/gallery/pieChart.png)
+
+---
+![MyFinance updated logo](/newPortfolio/images/gallery/wholeview.png)
+
+## Extra
+
+I also added a time and date widget in the top right corner (absolutely positioned and now included globally via or app or layout.tsx). It’s a small touch, but I love the way it adds polish
+
+---
+
+## Realities of Learning Tailwind (vs. Plain CSS)
+
+I won’t sugarcoat it: Tailwind CSS felt weird at first. As someone used to vanilla CSS, looking at utility classes everywhere felt like working with puzzle pieces faced the wrong way.
+
+The struggle: Every time I wanted to tweak a layout, I’d have to refer to the documentation, test, and try again. It slowed me down but only at first.  
+The breakthrough: After my first finished component, the rest came together way more quickly. Like learning any language, once the vocabulary clicked, fluency followed.
+
+I’m not anti Tailwind, just cautious  
+It really does speed up building UIs and maintaining consistency, especially for teams or fast iteration. But I still see value in knowing plain CSS deeply. In my blog post, I dig into the tradeoffs
+
+---
+
+## Tailwind CSS: Pros and Cons
+
+**Pros**  
+Speed Build layouts faster by composing utility classes; changes update in real time.  
+Consistency Enforces a design system via config and tokens.  
+Responsive by Default Mobile first breakpoints are straightforward.  
+Component Driven Encourages reusable UI blocks.  
+Scoped Styles No fear of class name collisions.
+
+**Cons**  
+Steeper Learning Curve at First Need to memorize new class patterns (or consult docs frequently)  
+Messy Looking Markup HTML or JSX can get cluttered, especially for complex designs.  
+Can Obscure CSS Fundamentals New devs might never learn the "why" behind the layout.  
+Requires Tooling Not as portable as raw CSS without build setup.  
+Less Control (sometimes) For highly custom animations or edge cases, you still need to drop into custom CSS.
+
+---
+
+## Plain CSS: Pros and Cons
+
+**Pros**  
+Universal and Timeless No build tools required; works everywhere.  
+Deep Understanding Forces you to really learn layout, specificity, and inheritance.  
+Total Control No abstraction in the way of unique or advanced design needs.  
+Simple Markup Cleaner HTML or JSX.
+
+**Cons**  
+Slower for Prototyping Must write or select classes for every style.  
+Risk of Spaghetti Large projects get messy without strong naming conventions or BEM/OOCSS.  
+Class Name Fatigue Naming everything is both art and burden.  
+No Built in Responsive Utilities Need to write media queries by hand.  
+Easier to Introduce Bugs Specificity wars, global side effects.
+
+---
+
+## Closing Thoughts
+
+The Dashboard page was more than a design exercise—it was a lesson in learning out loud, iterating fast, and not fearing mistakes. You really do learn by doing, by making errors and fixing them, and by shipping even when it isn't perfect.
+
+Tailwind CSS challenged my habits, but it also gave me new tools (and appreciation for utility first workflow). I still think a combo of deep CSS knowledge and smart tools is the best path forward for any frontend dev.
+
+Next up  
+Finishing up the UI for all main pages (incomes, outcomes, investments, profile)  
+Getting deep into server side Next.js and PostgreSQL  
+More reusable components, more data, and more transparency
+
+Thanks for reading  
+Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
+
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney11:["$","$L5","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$1c"},"thumbnail":false}]
+1d:Tff8,
 ## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
 
 Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
@@ -1133,8 +1524,8 @@ I’ll be posting regular updates and sharing everything I learn—mistakes incl
 
 Stay warm, and let’s keep building awesome things!
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog11:["$","$L5","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$1b"},"thumbnail":false}]
-1c:T16a9,
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog12:["$","$L5","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$1d"},"thumbnail":false}]
+1e:T16a9,
 ---
 
 ## Frontend Design Wrapped 🎉 — MyFinance Dev Update
@@ -1220,8 +1611,8 @@ Thanks so much for following along—every message and bit of feedback motivates
 
 Stay warm, happy holidays, and keep building! 🚀
 
-#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding12:["$","$L5","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$1c"},"thumbnail":false}]
-1d:T120e,
+#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding13:["$","$L5","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$1e"},"thumbnail":false}]
+1f:T120e,
 ---
 
 ## Progress Update: Conquering Frontend Fears 🚀
@@ -1298,8 +1689,8 @@ Stay warm, and have a fantastic holiday season! 🎄
 
 ---
 
-#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork13:["$","$L5","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$1d"},"thumbnail":false}]
-1e:T1249,
+#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork14:["$","$L5","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$1f"},"thumbnail":false}]
+20:T1249,
 ---
 
 ## Confessions of a Code-First Creator (Who Isn't a Designer)
@@ -1369,8 +1760,8 @@ Thanks for reading—and have an awesome day!
 
 ---
 
-#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch14:["$","$L5","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$1e"},"thumbnail":false}]
-1f:Te17,
+#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch15:["$","$L5","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$20"},"thumbnail":false}]
+21:Te17,
 ## Why Build MyFinance?
 
 A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance.
@@ -1485,8 +1876,8 @@ Development has begun, and I’ll be sharing updates on how the build goes, and 
 
 Thanks for reading—and wish me luck building MyFinance!
 
----15:["$","$L5","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$1f"},"thumbnail":false}]
-20:T77d,
+---16:["$","$L5","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$21"},"thumbnail":false}]
+22:T77d,
 ## About
 
 Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable.
@@ -1538,5 +1929,5 @@ I’ll be sharing more about my journey, tech experiments, and projects here. St
 
 ---
 
-Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!16:["$","$L5","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$20"},"thumbnail":false}]
-19:null
+Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!17:["$","$L5","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$22"},"thumbnail":false}]
+1a:null

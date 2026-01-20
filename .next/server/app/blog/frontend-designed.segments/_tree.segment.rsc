@@ -1,8 +1,0 @@
-:HL["/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
-:HL["/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","style"]
-:HL["/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","style"]
-:HL["/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","style"]
-:HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
-:HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"buildId":"XCFBD2ZTC9GUuuggtTQWB","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"blog","paramType":null,"paramKey":"blog","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"frontend-designed","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
