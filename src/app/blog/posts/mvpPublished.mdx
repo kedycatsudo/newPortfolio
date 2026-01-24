@@ -1,0 +1,169 @@
+---
+title: "I Was the Customer: The Full-Stack Journey of Building MyFinance"
+subtitle: ""
+summary: ""
+image: "/newPortfolio/images/gallery/myfinancelogo.png"
+publishedAt: "2026-01-25"
+tag: "Learning Journey"
+---
+
+# I Was the Customer: The Full-Stack Journey of Building MyFinance
+
+I can't tell you how much I enjoyed working on this project. It was a remarkable learning experience and a hands-on opportunity to dive into new technologies like Tailwind CSS, Next.js, and TypeScript.
+
+I also had the chance to work with different branches and manage them just like in a real-world project. Honestly, I’m proud—not just because the MVP is finished, but also because:
+
+- I was the designer (and you can probably tell, hahah! I mentioned in a previous article that I’m not a designer, but I actually like how it turned out).
+- I was the system architect.
+- I was the junior dev.
+- I was the senior dev.
+- I was the project manager.
+- I was the QA tester.
+- More importantly, I **WAS THE CUSTOMER**.
+
+You might wonder why I wrote "I WAS THE CUSTOMER" in all caps. To explain that, we need to roll all the way back to where it started—how I decided to build this project. Stay with me, just read and enjoy.
+
+---
+
+## How Did Everything Start?
+
+It was a couple of months ago. I had just finished my new portfolio website and was considering my next move:
+
+- Do another personal portfolio project, or  
+- Start job hunting
+
+I thought long and hard about those two options—listing pros, cons, and possible consequences. And I decided to create another project **before** I started job hunting.
+
+### Why?
+
+I really wanted to make this career transition as soon as possible, but I realized I actually wasn’t ready. The roles I’m aiming for are backend-heavy, but I didn’t have real hands-on experience with relational databases. I had worked with MongoDB, but that’s non-relational. And I know for sure that the companies I’m targeting—even for junior backend roles—are going to expect database experience.
+
+That’s when I started thinking: what could I build with enough real data to create solid relational database tables?
+
+It didn’t take me long to realize “money” is a *perfect* candidate. Think about it: almost everything in life involves money, so the data value is huge and the scope is broad.
+
+This idea pushed me to look at what I actually needed to make my life easier. I started investigating what I was struggling to manage and keep track of. Because life is data, and if you don’t manage it, you lose it.
+
+Everything came together: my big data is money, my demand is to track what my life needs—and the answer was right in front of me. A financial tracking application for myself.
+
+Also, I’d been browsing tons of apps for personal finance management and never found one that fit my needs. On top of that—they weren’t even free?!  
+Like, whaaat?!  
+I’m an open source Linux software engineer. Don’t tell me I can’t get something I need if I don’t pay for it!
+
+The name “MyFinance” immediately popped into my head. I loved it.
+
+---
+
+## Thinking Things Through—Before Even Creating the Repo
+
+Think. Think. Think…
+
+I knew my database would be PostgreSQL—no decision needed there.  
+But what about the tech stack?
+
+I wanted to add something new to my skill set: another framework, more useful tools, more data. I decided to go with Next.js and TypeScript. I’d just built my portfolio site with them, and I wanted to go even deeper.
+
+Alright, I had the framework and database.  
+What next?
+
+Design!
+
+I really didn’t want to use plain CSS, but I could learn a modern CSS system with new tech and still stick to the project’s purpose. So, I picked Tailwind CSS.
+
+Here’s the final stack:
+- **Design:** Tailwind CSS
+- **Frontend framework:** Next.js
+- **Database:** PostgreSQL (via Prisma)
+- **Backend:** Nest.js—yet another framework I wanted to learn, and it works brilliantly with PostgreSQL and Prisma.
+
+---
+
+## Stack Ready. What Next?
+
+On my last project, I started with the UI and moved to the backend later, only to find I had to completely rewire a ton of frontend logic to match the backend design. That was painful. This time, I’d heard that designing the backend system upfront saves a ton of time, so I decided to work out the data architecture *before* touching UI.
+
+---
+
+## System Design: Two Weeks with Nothing but a Blank Txt File
+
+Just me and an empty text file.
+
+I thought, and thought, some more. Writing down every idea, every question, every possible scenario. Categorized, analyzed, picked apart: Why? Where? How will I get that data?  
+- What are my backbones?
+- How does data flow?
+- Decisions, buttons, forms, JSON files, file architecture, dead ends, loops, mappings, contexts, users… you name it.
+I ended up with eight files, and reread them countless times—until there was nothing more to process. I needed some UI!
+
+---
+
+## Figuring Out the UI in Figma
+
+This was my least favorite part. I’m definitely **not** a designer. Not because their job is less important—if anything, it’s the opposite! It’d be disrespectful for me to claim “I can design.” But, just for fun, here are a few snapshots from my Figma, and then we’ll compare them with the MVP.
+
+![Figma design 1](/newPortfolio/images/gallery/figma1.png)
+![Figma design 2](/newPortfolio/images/gallery/figma2.png)
+![Figma design 3](/newPortfolio/images/gallery/figma3.png)
+
+---
+
+## Finally, VS Code!
+
+I finally fired up VS Code, created the repo, and just started writing.
+
+Page by page, then refactoring, then components, and another round of refactoring. I remembered all those backend rewrites from my last project, but this time, frontend changes came much easier—thanks to building with the data flow in mind.
+
+I created contexts, helpers, layouts—slowly piecing everything together.
+
+---
+
+## Unexpected Technical Issue
+
+Remember, I said I wore every hat, including junior dev? Here’s proof:
+
+A week ago, I was trying to publish an article for my blog. Instead of running `sudo rm -r ./*`, I wrote `sudo rm -r /*`.  
+*Yeah.*  
+The feeling when you realize files are disappearing from **root** is hard to describe. I jumped for ctrl+c, but it was too late. The damage was done.
+
+My laptop got weird, slowed down, then went dark. I couldn’t even see the console screen, so no way to recover anything.
+
+Remember, I was the senior dev too? So, I did what a senior dev does—reinstalled Linux, everything gone. Silence.
+
+But I’d pushed my repos and branches just before. Cold-blooded, methodical, no shaking hands. Mad, maybe! But head down, job to do.
+
+Did I mention I love Kobe Bryant? His ambition and will to win—incredible. That’s what I try to channel: the Black Mamba mentality. I win. That’s my job.
+
+Pulled my repos, checked every branch, blog, project. Everything was there. Back on track.
+
+I love staying static. Like Ice Age—no emotion. Maybe I picked that up working as a chef, spending six hours serving customers, knowing there’s four more to go. You put your head down. You finish the job.
+
+---
+
+## And the Last Touches
+
+.env file set up for `assetPrefix` and `basePath`—super useful for Next.js and GitHub Pages.  
+And just like that: published! MyFinance MVP is live on GitHub Pages. If you’re interested, here’s the link: [link]
+
+---
+
+## What I have on my hand now. Lets compare with the deisgn that i made 
+
+![MVP 1](/newPortfolio/images/gallery/myfinance1.png)
+![MVP 2](/newPortfolio/images/gallery/myfinance2.png)
+![MVP 3](/newPortfolio/images/gallery/myfinance3.png)
+![MVP 4](/newPortfolio/images/gallery/myfinance4.png)
+![MVP 5](/newPortfolio/images/gallery/myfinance5.png)
+![MVP 6](/newPortfolio/images/gallery/myfinance6.png)
+![MVP 7](/newPortfolio/images/gallery/myfinance7.png)
+
+
+## What’s Next?
+
+More learning, more databases. I’ll move to PostgreSQL and Prisma on the backend, and integrate them into this project. Lots of late nights and snow where I live—stay warm, stay safe, and I’ll see you in the next one.
+
+---
+
+If you made it this far—thanks for reading! Your feedback is always welcome.
+
+---
+
+#react #nextjs #typescript #tailwindcss #learningjourney #fullstack #personalproject #postgresql #nestjs #blackmambamentality
