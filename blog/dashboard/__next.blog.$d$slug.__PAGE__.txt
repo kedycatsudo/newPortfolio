@@ -16,7 +16,7 @@
 3f:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
 40:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
 41:"$Sreact.suspense"
-0:{"buildId":"ZTR-QyPFYa7bdygSgsI7O","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/dashboard","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/dashboard\",\"sameAs\":[],\"headline\":\"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard\",\"description\":\"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-28\",\"dateModified\":\"2025-12-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 27, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"How doing it the hard way (and some AI help) made me a better Next.js dev"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h1","id":"dashboard-complete","children":"Dashboard Complete"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out."}],"\n",["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","blockquote",null,{"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"\"If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together.\""}],"\n"]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f"]}],"$L30","$L31","$L32"]}]}],"$L33"]}],["$L34"],"$L35"]}],"loading":null,"isPartial":false}
+0:{"buildId":"jqWEP_6D6-p6AOaHIIgYB","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/dashboard","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/dashboard\",\"sameAs\":[],\"headline\":\"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard\",\"description\":\"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-28\",\"dateModified\":\"2025-12-28\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 27, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"How doing it the hard way (and some AI help) made me a better Next.js dev"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h1","id":"dashboard-complete","children":"Dashboard Complete"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out."}],"\n",["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","blockquote",null,{"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"\"If patience is the key, the place you’re looking for the answer should be the keyhole. They open new worlds together.\""}],"\n"]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f"]}],"$L30","$L31","$L32"]}]}],"$L33"]}],["$L34"],"$L35"]}],"loading":null,"isPartial":false}
 9:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"This dashboard was a true practice in patience, trial and error, and learning in public. I’m teaching myself the full stack here, with no tutorials just official docs, Stack Overflow, and sheer stubbornness. Don’t get me wrong, tutorials are great for many people, but let’s be real: once you’ve learned how the web works under the hood, you get more out of putting in the legwork. Earning that \"aha\" feeling after hours of wrangling with a new framework Nothing better."}]
 a:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"What seemed impossible just a week ago became manageable by just getting my hands dirty and trusting the process. No overplanning, just starting and letting the design evolve organically."}]
 b:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
@@ -57,7 +57,173 @@ f:["$","$L36",null,{"children":["\n",["$","$L37",null,{"marginTop":"4","marginBo
 2e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Thanks for reading",["$","br",null,{}],"\n","Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building"]}]
 2f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney"}]
 30:["$","$L38",null,{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","url":"https://kedycatsudo.github.io/newPortfolio//blog/dashboard"}]
-3b:T2f19,
+3b:T1f71,
+# I Was the Customer: The Full-Stack Journey of Building MyFinance
+
+I can't tell you how much I enjoyed working on this project. It was a remarkable learning experience and a hands-on opportunity to dive into new technologies like Tailwind CSS, Next.js, and TypeScript.
+
+I also had the chance to work with different branches and manage them just like in a real-world project. Honestly, I’m proud—not just because the MVP is finished, but also because:
+
+- I was the designer (and you can probably tell, hahah! I mentioned in a previous article that I’m not a designer, but I actually like how it turned out).
+- I was the system architect.
+- I was the junior dev.
+- I was the senior dev.
+- I was the project manager.
+- I was the QA tester.
+- More importantly, I **WAS THE CUSTOMER**.
+
+You might wonder why I wrote "I WAS THE CUSTOMER" in all caps. To explain that, we need to roll all the way back to where it started—how I decided to build this project. Stay with me, just read and enjoy.
+
+---
+
+## How Did Everything Start?
+
+It was a couple of months ago. I had just finished my new portfolio website and was considering my next move:
+
+- Do another personal portfolio project, or  
+- Start job hunting
+
+I thought long and hard about those two options—listing pros, cons, and possible consequences. And I decided to create another project **before** I started job hunting.
+
+### Why?
+
+I really wanted to make this career transition as soon as possible, but I realized I actually wasn’t ready. The roles I’m aiming for are backend-heavy, but I didn’t have real hands-on experience with relational databases. I had worked with MongoDB, but that’s non-relational. And I know for sure that the companies I’m targeting—even for junior backend roles—are going to expect database experience.
+
+That’s when I started thinking: what could I build with enough real data to create solid relational database tables?
+
+It didn’t take me long to realize “money” is a *perfect* candidate. Think about it: almost everything in life involves money, so the data value is huge and the scope is broad.
+
+This idea pushed me to look at what I actually needed to make my life easier. I started investigating what I was struggling to manage and keep track of. Because life is data, and if you don’t manage it, you lose it.
+
+Everything came together: my big data is money, my demand is to track what my life needs—and the answer was right in front of me. A financial tracking application for myself.
+
+Also, I’d been browsing tons of apps for personal finance management and never found one that fit my needs. On top of that—they weren’t even free?!  
+Like, whaaat?!  
+I’m an open source Linux software engineer. Don’t tell me I can’t get something I need if I don’t pay for it!
+
+The name “MyFinance” immediately popped into my head. I loved it.
+
+---
+
+## Thinking Things Through—Before Even Creating the Repo
+
+Think. Think. Think…
+
+I knew my database would be PostgreSQL—no decision needed there.  
+But what about the tech stack?
+
+I wanted to add something new to my skill set: another framework, more useful tools, more data. I decided to go with Next.js and TypeScript. I’d just built my portfolio site with them, and I wanted to go even deeper.
+
+Alright, I had the framework and database.  
+What next?
+
+Design!
+
+I really didn’t want to use plain CSS, but I could learn a modern CSS system with new tech and still stick to the project’s purpose. So, I picked Tailwind CSS.
+
+Here’s the final stack:
+- **Design:** Tailwind CSS
+- **Frontend framework:** Next.js
+- **Database:** PostgreSQL (via Prisma)
+- **Backend:** Nest.js—yet another framework I wanted to learn, and it works brilliantly with PostgreSQL and Prisma.
+
+---
+
+## Stack Ready. What Next?
+
+On my last project, I started with the UI and moved to the backend later, only to find I had to completely rewire a ton of frontend logic to match the backend design. That was painful. This time, I’d heard that designing the backend system upfront saves a ton of time, so I decided to work out the data architecture *before* touching UI.
+
+---
+
+## System Design: Two Weeks with Nothing but a Blank Txt File
+
+Just me and an empty text file.
+
+I thought, and thought, some more. Writing down every idea, every question, every possible scenario. Categorized, analyzed, picked apart: Why? Where? How will I get that data?  
+- What are my backbones?
+- How does data flow?
+- Decisions, buttons, forms, JSON files, file architecture, dead ends, loops, mappings, contexts, users… you name it.
+I ended up with eight files, and reread them countless times—until there was nothing more to process. I needed some UI!
+
+---
+
+## Figuring Out the UI in Figma
+
+This was my least favorite part. I’m definitely **not** a designer. Not because their job is less important—if anything, it’s the opposite! It’d be disrespectful for me to claim “I can design.” But, just for fun, here are a few snapshots from my Figma, and then we’ll compare them with the MVP.
+
+![Figma design 1](/newPortfolio/images/gallery/figma1.png)
+![Figma design 2](/newPortfolio/images/gallery/figma2.png)
+![Figma design 3](/newPortfolio/images/gallery/figma3.png)
+
+---
+
+## Finally, VS Code!
+
+I finally fired up VS Code, created the repo, and just started writing.
+
+Page by page, then refactoring, then components, and another round of refactoring. I remembered all those backend rewrites from my last project, but this time, frontend changes came much easier—thanks to building with the data flow in mind.
+
+I created contexts, helpers, layouts—slowly piecing everything together.
+
+---
+
+## Unexpected Technical Issue
+
+Remember, I said I wore every hat, including junior dev? Here’s proof:
+
+A week ago, I was trying to publish an article for my blog. Instead of running `sudo rm -r ./*`, I wrote `sudo rm -r /*`.  
+*Yeah.*  
+The feeling when you realize files are disappearing from **root** is hard to describe. I jumped for ctrl+c, but it was too late. The damage was done.
+
+My laptop got weird, slowed down, then went dark. I couldn’t even see the console screen, so no way to recover anything.
+
+Remember, I was the senior dev too? So, I did what a senior dev does—reinstalled Linux, everything gone. Silence.
+
+But I’d pushed my repos and branches just before. Cold-blooded, methodical, no shaking hands. Mad, maybe! But head down, job to do.
+
+Did I mention I love Kobe Bryant? His ambition and will to win—incredible. That’s what I try to channel: the Black Mamba mentality. I win. That’s my job.
+
+Pulled my repos, checked every branch, blog, project. Everything was there. Back on track.
+
+I love staying static. Like Ice Age—no emotion. Maybe I picked that up working as a chef, spending six hours serving customers, knowing there’s four more to go. You put your head down. You finish the job.
+
+---
+
+## And the Last Touches
+
+.env file set up for `assetPrefix` and `basePath`—super useful for Next.js and GitHub Pages.  
+And just like that: published! MyFinance MVP is live on GitHub Pages. If you’re interested, here’s the link: [link]
+
+---
+
+## What I have on my hand now. Lets compare with the deisgn that i made 
+
+![MVP 1](/newPortfolio/images/gallery/myfinance1.png)
+![MVP 2](/newPortfolio/images/gallery/myfinance2.png)
+![MVP 3](/newPortfolio/images/gallery/myfinance3.png)
+![MVP 4](/newPortfolio/images/gallery/myfinance4.png)
+![MVP 5](/newPortfolio/images/gallery/myfinance5.png)
+![MVP 6](/newPortfolio/images/gallery/myfinance6.png)
+![MVP 7](/newPortfolio/images/gallery/myfinance7.png)
+
+
+## What’s Next?
+
+More learning, more databases. I’ll move to PostgreSQL and Prisma on the backend, and integrate them into this project. Lots of late nights and snow where I live—stay warm, stay safe, and I’ll see you in the next one.
+
+---
+
+If you made it this far—thanks for reading! Your feedback is always welcome.
+
+---
+
+#react #nextjs #typescript #tailwindcss #learningjourney #fullstack #personalproject #postgresql #nestjs #blackmambamentality
+31:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L39",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L3a","mvpPublished",{"post":{"metadata":{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","subtitle":"","publishedAt":"2026-01-25","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"mvpPublished","content":"$3b"},"thumbnail":true,"direction":"column"}],"$L3c"]}]]}]
+32:["$","$L3d",null,{}]
+33:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L3e",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L3f",null,{"fitHeight":true}]]}]
+34:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+35:["$","$L40",null,{"children":["$","$41",null,{"name":"Next.MetadataOutlet","children":"$@42"}]}]
+43:T2f19,
 # From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components
 
 Alright, let’s be honest—what you imagine will take one day can easily take three or four. That’s what happened this week. Planning, the first implementation, realizing my code was turning into spaghetti, then finally refactoring and modularizing everything—it turned into a marathon. Add a salary job and, well, life under capitalism, and four days are gone. But I have zero regrets, because what I learned was absolutely worth it.
@@ -447,379 +613,5 @@ If you enjoyed this, found it useful, or have feedback, please share a comment! 
 ---
 
 #react #nextjs #typescript #refactor #frontend #webdevelopment #modal #forms #learningjourney #components #scalable #maintainable #ui #personalproject
-31:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L39",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L3a","fromChaosToClarity",{"post":{"metadata":{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","subtitle":"","publishedAt":"2026-01-21","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"fromChaosToClarity","content":"$3b"},"thumbnail":true,"direction":"column"}],"$L3c"]}]]}]
-32:["$","$L3d",null,{}]
-33:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L3e",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L3f",null,{"fitHeight":true}]]}]
-34:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
-35:["$","$L40",null,{"children":["$","$41",null,{"name":"Next.MetadataOutlet","children":"$@42"}]}]
-43:T2d33,
-# Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor
-
-Another successful and efficient day in my frontend learning journey. I’m genuinely satisfied with the code I wrote and the new knowledge I picked up. There’s a lot I want to show and talk about today—so let’s dive right in!
-
-## What’s New?
-
-**New components:**
-
-- SourcesDetailsContainer
-- SourceContainer
-- PaymentsContainer
-- PaymentField
-
-These are nested in order, each taking their data from the parent, starting at page.tsx.
-
-**New skills gained:**
-
-- Typescript extension
-- Generic render prop pattern
-- Typescript type guards
-
----
-
-## Challenge: Passing Multiple Data Types Through a Nested Component Tree
-
-The original problem was how to send two different types of data to deeply nested child components. My first approach—using separate components for each data type—wouldn't be scalable or reusable. And that’s not the habit I want to cultivate as a professional developer.
-
-After some research, I discovered TypeScript’s extension abilities. I reworked my first child to look like this:
-
-```jsx
-type SourcesDetailsContainerProps<T extends { id: string }> = {
-  header: string
-  items: T[]
-  renderSource: (item: T, open: boolean, onClick: () => void) => React.ReactNode
-}
-```
-
-Now SourcesDetailsContainer expects a header, an array of items (any shape, as long as each has an id), and a function (renderSource) that tells it how to render each item. This approach makes the component highly reusable with different data and data types.
-
-**Example usage:**
-
-```jsx
-<div className="flex flex-col w-full">
-  <SourcesDetailsContainer
-    header="Income Sources"
-    items={incomes}
-    renderSource={(item, open, onClick) => (
-      <SourceContainer key={item.id} item={item} open={open} onClick={onClick} />
-    )}
-  />
-</div>
-```
-
----
-
-## The Generic Render Prop Pattern
-
-That solved passing data to the first child, but my tree is nested four levels deep—each nested component needed to access and work with its own slice of the data without getting tangled up in prop drilling or constantly sending data back up to the parent.
-
-The solution: the **render prop** pattern.
-
-- The parent (page.tsx) controls exactly how each item is rendered by providing a function (renderSource).
-- SourcesDetailsContainer just calls this function for each item.
-- This lets you use whatever child component you want downstream, and pass any props you like.
-
-Deeply nested children are handled gracefully. When you call `<SourceContainer ... />` in the parent, you’re placing that child inside the render tree for each item. Within SourceContainer, you can have as many levels of nested components as you want (for example, SourceContainer might render PaymentsContainer, which renders PaymentField, etc.).
-
-You don’t need to “reach in” to call deeply nested children from the parent; you only specify the immediate child in your renderSource function, and that component handles its own children.
-
----
-
-## Why You Can't Directly Render Nested Children from the Parent
-
-React’s tree is one-way! The parent can choose which child (immediate or generic) is rendered, but it can’t inject a nested grandchild into an arbitrary spot inside a lower-level component (unless you use further render props or slots).
-
-If you want to customize deeper children, you can pass another render prop or function down yet another level.
-
-**Example:**
-
-```jsx
-<SourceContainer
-  ...
-  renderPayment={(payment, open, onClick) => (
-    <PaymentsContainer payment={payment} open={open} onClick={onClick} />
-  )}
-/>
-```
-
-Now SourceContainer calls renderPayment for each payment.
-
----
-
-## The Final Implementation: Scalable, Maintainable, Dynamic
-
-Here’s the full code for these components below (minus hyphens, for system compatibility):
-
-### SourcesDetailsContainer
-
-```jsx
-'use client'
-import { useState } from 'react'
-
-type SourcesDetailsContainerProps<T extends { id: string }> = {
-  header: string
-  items: T[]
-  renderSource: (item: T, open: boolean, onClick: () => void) => React.ReactNode
-}
-
-export default function SourcesDetailsContainer<T extends { id: string }>({
-  header,
-  items,
-  renderSource,
-}: SourcesDetailsContainerProps<T>) {
-  const [openSources, setOpenSources] = useState<{ [id: string]: boolean }>({})
-
-  return (
-    <div className="flex flex-col rounded bg-[#989899] opacity-75 items-center gap-2 px-1">
-      <h1 className="text-2xl xs:text-3xl text-[#29388A] font-bold">{header}</h1>
-      {items.map(item =>
-        renderSource(item, !!openSources[item.id], () =>
-          setOpenSources(prev => ({ ...prev, [item.id]: !prev[item.id] }))
-        )
-      )}
-    </div>
-  )
-}
-```
-
----
-
-### Type Guards in SourceContainer
-
-To decide which kind of data each source represents, I use a typescript type guard like this:
-
-```tsx
-function isFinanceSource(a: FinanceSource | InvestmentSource): a is FinanceSource {
-  return 'payments' in a;
-}
-```
-
-If the object has a payments property, TypeScript knows it's FinanceSource.
-
-This TypeScript feature is incredibly useful for writing maintainable, type-safe code. It lets you write if-else blocks like this for rendering different data sets:
-
-```tsx
-if (isFinanceSource(item)) {
-  // For incomes/outcomes
-  title = item.sourceName;
-  datasInfo = [
-    { id: 1, infoPair: 'Description', data: item.description ?? '' },
-    {
-      id: 2,
-      infoPair: 'Monthly cycle amount',
-      data:
-        item.payments
-          .filter((p) => p.loop)
-          .reduce((sum, p) => sum + p.amount, 0)
-          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
-    },
-    {
-      id: 3,
-      infoPair: 'Current amount for this month',
-      data:
-        item.payments
-          .reduce((sum, p) => sum + p.amount, 0)
-          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
-    },
-    {
-      id: 4,
-      infoPair: 'Average monthly total payment',
-      data:
-        (
-          item.payments.reduce((sum, p) => sum + p.amount, 0) / (item.payments.length || 1)
-        ).toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
-    },
-  ];
-  dataPayments = item.payments;
-} else if (isInvestmentSource(item)) {
-  // For investments
-  title = item.name ?? '';
-  datasInfo = [
-    { id: 1, infoPair: 'Description', data: item.description ?? '' },
-    {
-      id: 2,
-      infoPair: 'Total Invested Amount',
-      data:
-        item.items
-          .reduce((sum, i) => sum + Number(i.investedAmount ?? 0), 0)
-          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
-    },
-    {
-      id: 3,
-      infoPair: 'Total Number of Assets',
-      data: item.items.length,
-    },
-    {
-      id: 4,
-      infoPair: 'Closed Positions (count)',
-      data: item.items.filter((i) => i.status === 'closed').length,
-    },
-    {
-      id: 5,
-      infoPair: 'Open Positions (count)',
-      data: item.items.filter((i) => i.status === 'open').length,
-    },
-    {
-      id: 6,
-      infoPair: 'Total Profit/Loss (closed)',
-      data:
-        item.items
-          .filter((i) => i.status === 'closed')
-          .reduce((sum, i) => sum + Number(i.resultAmount ?? 0), 0)
-          .toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
-    },
-    {
-      id: 7,
-      infoPair: 'Average Invested per Asset',
-      data:
-        (item.items.length > 0
-          ? item.items.reduce((sum, i) => sum + Number(i.investedAmount ?? 0), 0) /
-            item.items.length
-          : 0
-        ).toLocaleString(undefined, { minimumFractionDigits: 2 }) + '$',
-    },
-  ];
-  dataPayments = item.items;
-}
-```
-
----
-
-### Rendering Payments Within SourceContainer
-
-```jsx
-{
-  open && (
-    <div className="mt-2 p-3 rounded transition-all">
-      {dataPayments.map((payment) => (
-        <PaymentsContainer
-          key={payment.id}
-          payment={payment}
-          open={!!openPayments[payment.id]}
-          onClick={() =>
-            setOpenPayments((prev) => ({
-              ...prev,
-              [payment.id]: !prev[payment.id],
-            }))
-          }
-        />
-      ))}
-    </div>
-  );
-}
-```
-
----
-
-### PaymentsContainer with Type Guards
-
-This component chooses which type of fields to display for each payment/investment item.
-
-```tsx
-type PaymentsContainerProps = {
-  payment: FinancePayment | InvestmentItem;
-  open: boolean;
-  onClick: () => void;
-};
-
-// Type guards for dynamic rendering
-function isFinancePayment(p: FinancePayment | InvestmentItem): p is FinancePayment {
-  return 'status' in p && 'loop' in p;
-}
-function isInvestmentItem(p: FinancePayment | InvestmentItem): p is InvestmentItem {
-  return 'assetName' in p && 'term' in p;
-}
-
-export default function PaymentsContainer({ payment, open, onClick }: PaymentsContainerProps) {
-  const financeFieldLabels: { [K in keyof FinancePayment]?: string } = {
-    name: 'Name',
-    type: 'Type',
-    amount: 'Amount',
-    date: 'Date',
-    loop: 'Loop',
-    status: 'Status',
-  };
-
-  const investmentFieldLabels: { [K in keyof InvestmentItem]?: string } = {
-    assetName: 'Asset Name',
-    term: 'Term',
-    investedAmount: 'Invested Amount',
-    entryDate: 'Entry Date',
-    exitDate: 'Exit Date',
-    result: 'Result',
-    resultAmount: 'Result Amount',
-    status: 'Status',
-  };
-
-  const fields: [string, string][] = isFinancePayment(payment)
-    ? Object.entries(financeFieldLabels)
-    : Object.entries(investmentFieldLabels);
-
-  return (
-    <div>
-      {open && (
-        <div>
-          {fields.map(([field, label]) => {
-            // @ts-ignore: Index dynamic field
-            const value = payment[field];
-            let displayValue =
-              typeof value === 'boolean'
-                ? value
-                  ? 'Yes'
-                  : 'No'
-                : field === 'amount' || field === 'investedAmount' || field === 'resultAmount'
-                  ? value != null
-                    ? `${Number(value).toLocaleString(undefined, { minimumFractionDigits: 2 })} $`
-                    : '--'
-                  : value != null
-                    ? String(value)
-                    : '--';
-
-            return <PaymentField key={field} field={label!} name={displayValue} />;
-          })}
-        </div>
-      )}
-    </div>
-  );
-}
-```
-
----
-
-### PaymentField Component
-
-This is the final child, a simple reusable display for field label and value.
-
-```jsx
-'use client';
-type PaymentFieldProps = {
-  field: string;
-  name: string | number | boolean | null;
-};
-
-export default function PaymentField({ field, name }: PaymentFieldProps) {
-  return (
-    <div className="flex gap-2 items-center my-0.5 overflow-x-auto">
-      <span className="font-bold text-[#a9deff] whitespace-nowrap">{field}:</span>
-      <span className="text-white break-all">
-        {name !== null && name !== undefined ? String(name) : '--'}
-      </span>
-    </div>
-  );
-}
-```
-
----
-
-## Outcome and Reflections
-
-Now I have a fully reusable, scalable, and maintainable family of four nested components for all my app’s pages and data types. This was an incredibly strong learning experience in frontend engineering, and I’m really happy because I’m now one more step closer to starting backend and database work.
-
-I’d love to hear your thoughts—feel free to leave a comment on my LinkedIn post, or just say hi!
-
----
-
-**Hashtags:**
-
-#nextjs #reactjs #typescript #frontenddevelopment #webdevelopment #softwareengineering #renderprops #typeguard #scalablecode #maintainablecode #codingjourney #learningjourney #developercommunity #growthmindset #fullstackdevelopment #personalproject
-3c:["$","$L3a","masteringFrontend",{"post":{"metadata":{"title":"Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor","subtitle":"","publishedAt":"2026-01-15","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"masteringFrontend","content":"$43"},"thumbnail":true,"direction":"column"}]
+3c:["$","$L3a","fromChaosToClarity",{"post":{"metadata":{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","subtitle":"","publishedAt":"2026-01-21","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"fromChaosToClarity","content":"$43"},"thumbnail":true,"direction":"column"}]
 42:null

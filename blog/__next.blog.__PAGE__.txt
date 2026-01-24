@@ -4,9 +4,171 @@
 4:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"ClientGrid"]
 5:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"default"]
 f:I[3847,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js"],"Mailchimp"]
-18:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
-19:"$Sreact.suspense"
-6:T2f19,
+19:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
+1a:"$Sreact.suspense"
+6:T1f71,
+# I Was the Customer: The Full-Stack Journey of Building MyFinance
+
+I can't tell you how much I enjoyed working on this project. It was a remarkable learning experience and a hands-on opportunity to dive into new technologies like Tailwind CSS, Next.js, and TypeScript.
+
+I also had the chance to work with different branches and manage them just like in a real-world project. Honestly, I’m proud—not just because the MVP is finished, but also because:
+
+- I was the designer (and you can probably tell, hahah! I mentioned in a previous article that I’m not a designer, but I actually like how it turned out).
+- I was the system architect.
+- I was the junior dev.
+- I was the senior dev.
+- I was the project manager.
+- I was the QA tester.
+- More importantly, I **WAS THE CUSTOMER**.
+
+You might wonder why I wrote "I WAS THE CUSTOMER" in all caps. To explain that, we need to roll all the way back to where it started—how I decided to build this project. Stay with me, just read and enjoy.
+
+---
+
+## How Did Everything Start?
+
+It was a couple of months ago. I had just finished my new portfolio website and was considering my next move:
+
+- Do another personal portfolio project, or  
+- Start job hunting
+
+I thought long and hard about those two options—listing pros, cons, and possible consequences. And I decided to create another project **before** I started job hunting.
+
+### Why?
+
+I really wanted to make this career transition as soon as possible, but I realized I actually wasn’t ready. The roles I’m aiming for are backend-heavy, but I didn’t have real hands-on experience with relational databases. I had worked with MongoDB, but that’s non-relational. And I know for sure that the companies I’m targeting—even for junior backend roles—are going to expect database experience.
+
+That’s when I started thinking: what could I build with enough real data to create solid relational database tables?
+
+It didn’t take me long to realize “money” is a *perfect* candidate. Think about it: almost everything in life involves money, so the data value is huge and the scope is broad.
+
+This idea pushed me to look at what I actually needed to make my life easier. I started investigating what I was struggling to manage and keep track of. Because life is data, and if you don’t manage it, you lose it.
+
+Everything came together: my big data is money, my demand is to track what my life needs—and the answer was right in front of me. A financial tracking application for myself.
+
+Also, I’d been browsing tons of apps for personal finance management and never found one that fit my needs. On top of that—they weren’t even free?!  
+Like, whaaat?!  
+I’m an open source Linux software engineer. Don’t tell me I can’t get something I need if I don’t pay for it!
+
+The name “MyFinance” immediately popped into my head. I loved it.
+
+---
+
+## Thinking Things Through—Before Even Creating the Repo
+
+Think. Think. Think…
+
+I knew my database would be PostgreSQL—no decision needed there.  
+But what about the tech stack?
+
+I wanted to add something new to my skill set: another framework, more useful tools, more data. I decided to go with Next.js and TypeScript. I’d just built my portfolio site with them, and I wanted to go even deeper.
+
+Alright, I had the framework and database.  
+What next?
+
+Design!
+
+I really didn’t want to use plain CSS, but I could learn a modern CSS system with new tech and still stick to the project’s purpose. So, I picked Tailwind CSS.
+
+Here’s the final stack:
+- **Design:** Tailwind CSS
+- **Frontend framework:** Next.js
+- **Database:** PostgreSQL (via Prisma)
+- **Backend:** Nest.js—yet another framework I wanted to learn, and it works brilliantly with PostgreSQL and Prisma.
+
+---
+
+## Stack Ready. What Next?
+
+On my last project, I started with the UI and moved to the backend later, only to find I had to completely rewire a ton of frontend logic to match the backend design. That was painful. This time, I’d heard that designing the backend system upfront saves a ton of time, so I decided to work out the data architecture *before* touching UI.
+
+---
+
+## System Design: Two Weeks with Nothing but a Blank Txt File
+
+Just me and an empty text file.
+
+I thought, and thought, some more. Writing down every idea, every question, every possible scenario. Categorized, analyzed, picked apart: Why? Where? How will I get that data?  
+- What are my backbones?
+- How does data flow?
+- Decisions, buttons, forms, JSON files, file architecture, dead ends, loops, mappings, contexts, users… you name it.
+I ended up with eight files, and reread them countless times—until there was nothing more to process. I needed some UI!
+
+---
+
+## Figuring Out the UI in Figma
+
+This was my least favorite part. I’m definitely **not** a designer. Not because their job is less important—if anything, it’s the opposite! It’d be disrespectful for me to claim “I can design.” But, just for fun, here are a few snapshots from my Figma, and then we’ll compare them with the MVP.
+
+![Figma design 1](/newPortfolio/images/gallery/figma1.png)
+![Figma design 2](/newPortfolio/images/gallery/figma2.png)
+![Figma design 3](/newPortfolio/images/gallery/figma3.png)
+
+---
+
+## Finally, VS Code!
+
+I finally fired up VS Code, created the repo, and just started writing.
+
+Page by page, then refactoring, then components, and another round of refactoring. I remembered all those backend rewrites from my last project, but this time, frontend changes came much easier—thanks to building with the data flow in mind.
+
+I created contexts, helpers, layouts—slowly piecing everything together.
+
+---
+
+## Unexpected Technical Issue
+
+Remember, I said I wore every hat, including junior dev? Here’s proof:
+
+A week ago, I was trying to publish an article for my blog. Instead of running `sudo rm -r ./*`, I wrote `sudo rm -r /*`.  
+*Yeah.*  
+The feeling when you realize files are disappearing from **root** is hard to describe. I jumped for ctrl+c, but it was too late. The damage was done.
+
+My laptop got weird, slowed down, then went dark. I couldn’t even see the console screen, so no way to recover anything.
+
+Remember, I was the senior dev too? So, I did what a senior dev does—reinstalled Linux, everything gone. Silence.
+
+But I’d pushed my repos and branches just before. Cold-blooded, methodical, no shaking hands. Mad, maybe! But head down, job to do.
+
+Did I mention I love Kobe Bryant? His ambition and will to win—incredible. That’s what I try to channel: the Black Mamba mentality. I win. That’s my job.
+
+Pulled my repos, checked every branch, blog, project. Everything was there. Back on track.
+
+I love staying static. Like Ice Age—no emotion. Maybe I picked that up working as a chef, spending six hours serving customers, knowing there’s four more to go. You put your head down. You finish the job.
+
+---
+
+## And the Last Touches
+
+.env file set up for `assetPrefix` and `basePath`—super useful for Next.js and GitHub Pages.  
+And just like that: published! MyFinance MVP is live on GitHub Pages. If you’re interested, here’s the link: [link]
+
+---
+
+## What I have on my hand now. Lets compare with the deisgn that i made 
+
+![MVP 1](/newPortfolio/images/gallery/myfinance1.png)
+![MVP 2](/newPortfolio/images/gallery/myfinance2.png)
+![MVP 3](/newPortfolio/images/gallery/myfinance3.png)
+![MVP 4](/newPortfolio/images/gallery/myfinance4.png)
+![MVP 5](/newPortfolio/images/gallery/myfinance5.png)
+![MVP 6](/newPortfolio/images/gallery/myfinance6.png)
+![MVP 7](/newPortfolio/images/gallery/myfinance7.png)
+
+
+## What’s Next?
+
+More learning, more databases. I’ll move to PostgreSQL and Prisma on the backend, and integrate them into this project. Lots of late nights and snow where I live—stay warm, stay safe, and I’ll see you in the next one.
+
+---
+
+If you made it this far—thanks for reading! Your feedback is always welcome.
+
+---
+
+#react #nextjs #typescript #tailwindcss #learningjourney #fullstack #personalproject #postgresql #nestjs #blackmambamentality
+0:{"buildId":"jqWEP_6D6-p6AOaHIIgYB","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"s":{"columns":1},"columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","mvpPublished",{"post":{"metadata":{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","subtitle":"","publishedAt":"2026-01-25","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"mvpPublished","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9","$La"]}]]}],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
+d:T2f19,
 # From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components
 
 Alright, let’s be honest—what you imagine will take one day can easily take three or four. That’s what happened this week. Planning, the first implementation, realizing my code was turning into spaghetti, then finally refactoring and modularizing everything—it turned into a marathon. Add a salary job and, well, life under capitalism, and four days are gone. But I have zero regrets, because what I learned was absolutely worth it.
@@ -396,8 +558,248 @@ If you enjoyed this, found it useful, or have feedback, please share a comment! 
 ---
 
 #react #nextjs #typescript #refactor #frontend #webdevelopment #modal #forms #learningjourney #components #scalable #maintainable #ui #personalproject
-0:{"buildId":"ZTR-QyPFYa7bdygSgsI7O","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog\",\"sameAs\":[],\"headline\":\"Writing about design and tech...\",\"description\":\"Read what Doruk Kocausta has been up to recently\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Writing%20about%20design%20and%20tech...\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textWrap":"balance"},"children":"Writing about design and tech..."}],["$","$L2",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L4",null,{"s":{"columns":1},"columns":"1","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","fromChaosToClarity",{"post":{"metadata":{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","subtitle":"","publishedAt":"2026-01-21","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"fromChaosToClarity","content":"$6"},"thumbnail":true}]]}],"$L7","$L8","$L9","$La"]}]]}],["$Lb"],"$Lc"]}],"loading":null,"isPartial":false}
-d:T2d33,
+7:["$","$L4",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","fromChaosToClarity",{"post":{"metadata":{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","subtitle":"","publishedAt":"2026-01-21","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"fromChaosToClarity","content":"$d"},"thumbnail":true,"direction":"column"}],"$Le"]}]
+8:["$","$Lf",null,{"marginBottom":"l"}]
+9:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textWrap":"balance"},"children":"Earlier posts"}]
+10:T21cd,
+# Transparency in MyFinance Refactoring
+
+I’m really excited about this one—because, once again, I genuinely feel that I love what I’m doing.
+
+Getting to this stage in my project didn’t just happen overnight. It’s a testament to my dedication, the effort I’ve poured in, and how much I want to grow in this field and make a real difference. I didn’t just start where I am now—there was an entire planning phase, wireframing, designing the UI in Figma, and tons of trial and error along the way. If you’re curious, you can see this journey unfold in my earlier articles.
+
+The point is, I’m committed to consistently improving myself, my skills, and my knowledge for something bigger. I can genuinely feel that growth happening.
+
+## So, here’s what I’ve put together in this article. I hope you learn something new—or enjoy revisiting the journey if you’ve been along for the ride so far.
+
+## Unified `FinanceGenericContext` for All Data Types
+
+### Why This Refactor?
+
+I had separate context logic for incomes, outcomes, and investments, but they all did the same thing: fetched from JSON, offered CRUD, exposed state. It was clean, but very repetitive. So I refactored into a single, generic context generator, making my app DRY and scalable.
+
+### My Actual Context Code
+
+```typescript
+'use client';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
+type DataKey = 'incomes' | 'outcomes' | 'investments';
+
+// Types import
+import { FinanceSource } from '@/types/finance';
+import { InvestmentSource } from '@/types/investments';
+
+type ContextDataMap = {
+  incomes: FinanceSource[];
+  outcomes: FinanceSource[];
+  investments: InvestmentSource[];
+};
+
+type FinanceGenericContextType<K extends DataKey> = {
+  data: ContextDataMap[K];
+  setData: React.Dispatch<React.SetStateAction<ContextDataMap[K]>>;
+  addSource: (source: ContextDataMap[K][number]) => void;
+  updateSource: (source: ContextDataMap[K][number]) => void;
+  removeSource: (sourceId: string) => void;
+  loading: boolean;
+  error: string | null;
+};
+
+function createGenericContext<K extends DataKey>(file: K) {
+  const Ctx = createContext<FinanceGenericContextType<K> | undefined>(undefined);
+
+  function Provider({ children }: { children: ReactNode }) {
+    const [data, setData] = useState<ContextDataMap[K]>([] as ContextDataMap[K]);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
+
+    useEffect(() => {
+      fetch(`/data/${file}.json`)
+        .then((res) => {
+          if (!res.ok) throw new Error(`Could not fetch /data/${file}.json`);
+          return res.json();
+        })
+        .then((data) => {
+          setData(data);
+          setLoading(false);
+        })
+        .catch((err) => {
+          setError(err.message || `Could not fetch /data/${file}.json`);
+          setData([] as ContextDataMap[K]);
+          setLoading(false);
+        });
+    }, [file]);
+
+    const addSource = (source: ContextDataMap[K][number]) =>
+      setData((prev) => [...prev, source] as ContextDataMap[K]);
+    const updateSource = (updated: ContextDataMap[K][number]) =>
+      setData((prev) => prev.map((s) => (s.id === updated.id ? updated : s)) as ContextDataMap[K]);
+    const removeSource = (sourceId: string) =>
+      setData((prev) => prev.filter((s) => s.id !== sourceId) as ContextDataMap[K]);
+
+    return (
+      <Ctx.Provider
+        value={{ data, setData, addSource, updateSource, removeSource, loading, error }}
+      >
+        {children}
+      </Ctx.Provider>
+    );
+  }
+
+  function useGeneric() {
+    const ctx = useContext(Ctx);
+    if (!ctx) throw new Error('Must be used inside Provider');
+    return ctx;
+  }
+
+  return [Provider, useGeneric] as const;
+}
+
+export const [IncomesProvider, useIncomesContext] = createGenericContext('incomes');
+export const [OutcomesProvider, useOutcomesContext] = createGenericContext('out
+comes');
+export const [InvestmentsProvider, useInvestmentsContext] = createGenericContext('investments');
+```
+
+---
+
+## Example: Flattening All Payments or Investments
+
+### The Problem
+
+I noticed I was repeating the same flatten/map/sort logic for incomes, outcomes, and investments. I wanted one function to DRY it up.
+
+### My Utility Functions
+
+```typescript
+// flattenPayments - for incomes and outcomes
+export function flattenPayments<
+  S extends { name: string; payments: P[] },
+  P extends { date: string | number },
+>(sources: S[]): (P & { sourceName: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.payments.map((p) => ({
+        ...p,
+        sourceName: src.name,
+      })),
+    )
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+// flattenInvestments - for investment data
+export function flattenInvestments<
+  S extends { name: string; type: string; items: I[] },
+  I extends { entryDate: string | number; exitDate?: string | null },
+>(sources: S[]): (I & { sourceName: string; sourceType: string })[] {
+  return sources
+    .flatMap((src) =>
+      src.items.map((item) => ({
+        ...item,
+        sourceName: src.name,
+        sourceType: src.type,
+      })),
+    )
+    .sort((a, b) => {
+      const dateA = new Date(a.exitDate ?? a.entryDate).getTime();
+      const dateB = new Date(b.exitDate ?? b.entryDate).getTime();
+      return dateB - dateA;
+    });
+}
+```
+
+---
+
+## Refactored and Stable: RecentSideInfo
+
+### Why
+
+My old component had legacy types and a confusing interface left over from old work with. Now, it's crystal clear and straightforward.
+
+### The Code
+
+```typescript
+'use client';
+import React from 'react';
+import TotalRow from './TotalRow';
+
+type RecentSideInfoItem = {
+  name: string;
+  amount: number;
+  date: string | number;
+};
+
+type RecentSideInfoProps = {
+  header: string;
+  items: RecentSideInfoItem[];
+  className?: string;
+};
+
+export default function RecentSideInfo({ header, items, className = '' }: RecentSideInfoProps) {
+  const total = items.reduce((sum, item) => sum + Number(item.amount), 0);
+
+  return (
+    <div className={`flex-1 w-full ${className}`}>
+      <div className="w-full bg-[#3A4483]/75 rounded-[16px] p-1 flex flex-col items-center shadow-lg">
+        <h3 className="text-white font-bold text-l xs:text-xl mb-2 text-center">{header}</h3>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <div className="w-full flex flex-col">
+          {items.length === 0 && (
+            <div className="w-full text-center text-white opacity-60 py-5">No items</div>
+          )}
+          {items.map((item, idx) => (
+            <React.Fragment key={item.name + '-' + item.date}>
+              <div className="w-full flex flex-row justify-between items-center py-2 gap-1">
+                <span className="text-white">{item.name}</span>
+                <div className="flex flex-col md:flex-row">
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {Number(item.amount).toLocaleString(undefined, {
+                      minimumFractionDigits: 2,
+                    })}
+                    $
+                  </span>
+                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
+                    {item.date
+                      ? new Date(item.date).toLocaleDateString()
+                      : ''}
+                  </span>
+                </div>
+              </div>
+              {idx < items.length - 1 && (
+                <div className="h-0.5 bg-[#29388A] opacity-60 rounded"></div>
+              )}
+            </React.Fragment>
+          ))}
+        </div>
+        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
+        <TotalRow total={total} />
+      </div>
+    </div>
+  );
+}
+```
+
+---
+
+## Context, Conversation, and the Code: Keep Them Synchronized
+
+**Lesson learned**:  
+Conversations are important for working through new solutions, but your code shouldn’t live only inside chat threads or sidebar notes. Your context and code snippets should be versioned, documented, and always attached to their explanation right here, in your repo or blog.
+
+---
+
+## Conclusion and Consistency
+
+That’s why I post all these code explanations step by step under my blog and portfolio.  
+It helps me (and anyone who peeks in) track my reasoning, solutions, and improvements.  
+So going forward, I’ll always keep these paired: real conversation, real code, and real documentation—right by each other.
+
+Thanks for following along!
+a:["$","$L4",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","contextFeatures",{"post":{"metadata":{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","subtitle":"","publishedAt":"2026-01-13","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"contextFeatures","content":"$10"},"thumbnail":false}],"$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18"]}]
+b:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true}]
+c:["$","$L19",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1b"}]}]
+1c:T2d33,
 # Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor
 
 Another successful and efficient day in my frontend learning journey. I’m genuinely satisfied with the code I wrote and the new knowledge I picked up. There’s a lot I want to show and talk about today—so let’s dive right in!
@@ -766,10 +1168,8 @@ I’d love to hear your thoughts—feel free to leave a comment on my LinkedIn p
 **Hashtags:**
 
 #nextjs #reactjs #typescript #frontenddevelopment #webdevelopment #softwareengineering #renderprops #typeguard #scalablecode #maintainablecode #codingjourney #learningjourney #developercommunity #growthmindset #fullstackdevelopment #personalproject
-7:["$","$L4",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","masteringFrontend",{"post":{"metadata":{"title":"Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor","subtitle":"","publishedAt":"2026-01-15","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"masteringFrontend","content":"$d"},"thumbnail":true,"direction":"column"}],"$Le"]}]
-8:["$","$Lf",null,{"marginBottom":"l"}]
-9:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textWrap":"balance"},"children":"Earlier posts"}]
-10:T2da7,
+e:["$","$L5","masteringFrontend",{"post":{"metadata":{"title":"Render Props, Type Guards, and Strong Scalability: Lessons from MyFinance Component Refactor","subtitle":"","publishedAt":"2026-01-15","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"masteringFrontend","content":"$1c"},"thumbnail":true,"direction":"column"}]
+1d:T2da7,
 # Priceless learning and extremely satisfied code quality. It's all about consistency.
 
 Hello everyone! Last time I shared an update about the MyFinance project, my frontend design was ready for the logic part. A lot has changed since then, so here’s a deep dive into what’s new, what I had to figure out, and how everything connects.
@@ -1108,246 +1508,8 @@ Stay consistent, keep building, and have a wonderful day.
 ```
 
 ```
-a:["$","$L4",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L5","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$10"},"thumbnail":false}],"$L11","$L12","$L13","$L14","$L15","$L16","$L17"]}]
-b:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/c3ecf3fb8ef5f43d.js","async":true}]
-c:["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
-1b:T21cd,
-# Transparency in MyFinance Refactoring
-
-I’m really excited about this one—because, once again, I genuinely feel that I love what I’m doing.
-
-Getting to this stage in my project didn’t just happen overnight. It’s a testament to my dedication, the effort I’ve poured in, and how much I want to grow in this field and make a real difference. I didn’t just start where I am now—there was an entire planning phase, wireframing, designing the UI in Figma, and tons of trial and error along the way. If you’re curious, you can see this journey unfold in my earlier articles.
-
-The point is, I’m committed to consistently improving myself, my skills, and my knowledge for something bigger. I can genuinely feel that growth happening.
-
-## So, here’s what I’ve put together in this article. I hope you learn something new—or enjoy revisiting the journey if you’ve been along for the ride so far.
-
-## Unified `FinanceGenericContext` for All Data Types
-
-### Why This Refactor?
-
-I had separate context logic for incomes, outcomes, and investments, but they all did the same thing: fetched from JSON, offered CRUD, exposed state. It was clean, but very repetitive. So I refactored into a single, generic context generator, making my app DRY and scalable.
-
-### My Actual Context Code
-
-```typescript
-'use client';
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-
-type DataKey = 'incomes' | 'outcomes' | 'investments';
-
-// Types import
-import { FinanceSource } from '@/types/finance';
-import { InvestmentSource } from '@/types/investments';
-
-type ContextDataMap = {
-  incomes: FinanceSource[];
-  outcomes: FinanceSource[];
-  investments: InvestmentSource[];
-};
-
-type FinanceGenericContextType<K extends DataKey> = {
-  data: ContextDataMap[K];
-  setData: React.Dispatch<React.SetStateAction<ContextDataMap[K]>>;
-  addSource: (source: ContextDataMap[K][number]) => void;
-  updateSource: (source: ContextDataMap[K][number]) => void;
-  removeSource: (sourceId: string) => void;
-  loading: boolean;
-  error: string | null;
-};
-
-function createGenericContext<K extends DataKey>(file: K) {
-  const Ctx = createContext<FinanceGenericContextType<K> | undefined>(undefined);
-
-  function Provider({ children }: { children: ReactNode }) {
-    const [data, setData] = useState<ContextDataMap[K]>([] as ContextDataMap[K]);
-    const [loading, setLoading] = useState<boolean>(true);
-    const [error, setError] = useState<string | null>(null);
-
-    useEffect(() => {
-      fetch(`/data/${file}.json`)
-        .then((res) => {
-          if (!res.ok) throw new Error(`Could not fetch /data/${file}.json`);
-          return res.json();
-        })
-        .then((data) => {
-          setData(data);
-          setLoading(false);
-        })
-        .catch((err) => {
-          setError(err.message || `Could not fetch /data/${file}.json`);
-          setData([] as ContextDataMap[K]);
-          setLoading(false);
-        });
-    }, [file]);
-
-    const addSource = (source: ContextDataMap[K][number]) =>
-      setData((prev) => [...prev, source] as ContextDataMap[K]);
-    const updateSource = (updated: ContextDataMap[K][number]) =>
-      setData((prev) => prev.map((s) => (s.id === updated.id ? updated : s)) as ContextDataMap[K]);
-    const removeSource = (sourceId: string) =>
-      setData((prev) => prev.filter((s) => s.id !== sourceId) as ContextDataMap[K]);
-
-    return (
-      <Ctx.Provider
-        value={{ data, setData, addSource, updateSource, removeSource, loading, error }}
-      >
-        {children}
-      </Ctx.Provider>
-    );
-  }
-
-  function useGeneric() {
-    const ctx = useContext(Ctx);
-    if (!ctx) throw new Error('Must be used inside Provider');
-    return ctx;
-  }
-
-  return [Provider, useGeneric] as const;
-}
-
-export const [IncomesProvider, useIncomesContext] = createGenericContext('incomes');
-export const [OutcomesProvider, useOutcomesContext] = createGenericContext('out
-comes');
-export const [InvestmentsProvider, useInvestmentsContext] = createGenericContext('investments');
-```
-
----
-
-## Example: Flattening All Payments or Investments
-
-### The Problem
-
-I noticed I was repeating the same flatten/map/sort logic for incomes, outcomes, and investments. I wanted one function to DRY it up.
-
-### My Utility Functions
-
-```typescript
-// flattenPayments - for incomes and outcomes
-export function flattenPayments<
-  S extends { name: string; payments: P[] },
-  P extends { date: string | number },
->(sources: S[]): (P & { sourceName: string })[] {
-  return sources
-    .flatMap((src) =>
-      src.payments.map((p) => ({
-        ...p,
-        sourceName: src.name,
-      })),
-    )
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
-
-// flattenInvestments - for investment data
-export function flattenInvestments<
-  S extends { name: string; type: string; items: I[] },
-  I extends { entryDate: string | number; exitDate?: string | null },
->(sources: S[]): (I & { sourceName: string; sourceType: string })[] {
-  return sources
-    .flatMap((src) =>
-      src.items.map((item) => ({
-        ...item,
-        sourceName: src.name,
-        sourceType: src.type,
-      })),
-    )
-    .sort((a, b) => {
-      const dateA = new Date(a.exitDate ?? a.entryDate).getTime();
-      const dateB = new Date(b.exitDate ?? b.entryDate).getTime();
-      return dateB - dateA;
-    });
-}
-```
-
----
-
-## Refactored and Stable: RecentSideInfo
-
-### Why
-
-My old component had legacy types and a confusing interface left over from old work with. Now, it's crystal clear and straightforward.
-
-### The Code
-
-```typescript
-'use client';
-import React from 'react';
-import TotalRow from './TotalRow';
-
-type RecentSideInfoItem = {
-  name: string;
-  amount: number;
-  date: string | number;
-};
-
-type RecentSideInfoProps = {
-  header: string;
-  items: RecentSideInfoItem[];
-  className?: string;
-};
-
-export default function RecentSideInfo({ header, items, className = '' }: RecentSideInfoProps) {
-  const total = items.reduce((sum, item) => sum + Number(item.amount), 0);
-
-  return (
-    <div className={`flex-1 w-full ${className}`}>
-      <div className="w-full bg-[#3A4483]/75 rounded-[16px] p-1 flex flex-col items-center shadow-lg">
-        <h3 className="text-white font-bold text-l xs:text-xl mb-2 text-center">{header}</h3>
-        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
-        <div className="w-full flex flex-col">
-          {items.length === 0 && (
-            <div className="w-full text-center text-white opacity-60 py-5">No items</div>
-          )}
-          {items.map((item, idx) => (
-            <React.Fragment key={item.name + '-' + item.date}>
-              <div className="w-full flex flex-row justify-between items-center py-2 gap-1">
-                <span className="text-white">{item.name}</span>
-                <div className="flex flex-col md:flex-row">
-                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
-                    {Number(item.amount).toLocaleString(undefined, {
-                      minimumFractionDigits: 2,
-                    })}
-                    $
-                  </span>
-                  <span className="mt-0.5 bg-[#29388A] bg-opacity-60 border border-[#29388A] rounded px-2 py-0.5 font-bold text-[#a9deff] text-s xs:text-xl shadow-inner">
-                    {item.date
-                      ? new Date(item.date).toLocaleDateString()
-                      : ''}
-                  </span>
-                </div>
-              </div>
-              {idx < items.length - 1 && (
-                <div className="h-0.5 bg-[#29388A] opacity-60 rounded"></div>
-              )}
-            </React.Fragment>
-          ))}
-        </div>
-        <div className="w-full h-1 my-2 bg-[#29388A] rounded" />
-        <TotalRow total={total} />
-      </div>
-    </div>
-  );
-}
-```
-
----
-
-## Context, Conversation, and the Code: Keep Them Synchronized
-
-**Lesson learned**:  
-Conversations are important for working through new solutions, but your code shouldn’t live only inside chat threads or sidebar notes. Your context and code snippets should be versioned, documented, and always attached to their explanation right here, in your repo or blog.
-
----
-
-## Conclusion and Consistency
-
-That’s why I post all these code explanations step by step under my blog and portfolio.  
-It helps me (and anyone who peeks in) track my reasoning, solutions, and improvements.  
-So going forward, I’ll always keep these paired: real conversation, real code, and real documentation—right by each other.
-
-Thanks for following along!
-e:["$","$L5","contextFeatures",{"post":{"metadata":{"title":"Every Conversation Saved, But Where's My Code? Transparency in MyFinance Refactoring","subtitle":"","publishedAt":"2026-01-13","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"contextFeatures","content":"$1b"},"thumbnail":true,"direction":"column"}]
-1c:T1a05,
+11:["$","$L5","FirstContexts",{"post":{"metadata":{"title":"Priceless learning and extremely satisfied code quality. It's all about consistency.","subtitle":"","publishedAt":"2026-01-08","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"FirstContexts","content":"$1d"},"thumbnail":false}]
+1e:T1a05,
 # Dashboard Complete
 
 Hello friends! Sorry for the gap since my last post Christmas, life, and a few too many presents kept me busy (who knew vacation would feel like a second job ). But in between chaos and celebration, I finally wrapped up the dashboard page for MyFinance. And I’ll be honest: I’m really happy with how it turned out.
@@ -1476,8 +1638,8 @@ More reusable components, more data, and more transparency
 Thanks for reading  
 Leave a comment if you’ve wrestled with Tailwind vs. CSS, or if there’s a UI or UX puzzle you think I should tackle next. Stay warm, and keep building
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney11:["$","$L5","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$1c"},"thumbnail":false}]
-1d:Tff8,
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #FullStack #IndieHacker #ReactJS #DashboardDesign #ProgressUpdate #CodingJourney12:["$","$L5","dashboard",{"post":{"metadata":{"title":"Patience, Practice, and a Dash of Tailwind: Building the MyFinance Dashboard","subtitle":"How doing it the hard way (and some AI help) made me a better Next.js dev","publishedAt":"2025-12-28","summary":"Building the MyFinance dashboard UI taught me the power of iteration, documentation, and a new way to see CSS. Here’s what broke, what worked, and what I’d do again.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"dashboard","content":"$1e"},"thumbnail":false}]
+1f:Tff8,
 ## 🚀 Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL!
 
 Just wrapped up building the first interactive pages for my web app, **MyFinance**, and I have to say—I'm blown away by the development speed Next.js offers. Coming from zero experience with Next.js, Tailwind CSS, and PostgreSQL, I expected the learning curve would slow me down. 
@@ -1524,8 +1686,8 @@ I’ll be posting regular updates and sharing everything I learn—mistakes incl
 
 Stay warm, and let’s keep building awesome things!
 
-#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog12:["$","$L5","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$1d"},"thumbnail":false}]
-1e:T16a9,
+#Nextjs #TailwindCSS #PostgreSQL #WebDevelopment #MyFinance #LearningJourney #OpenToWork #FullStackWeb #blog13:["$","$L5","divingdeeper",{"post":{"metadata":{"title":"Diving Deeper into Next.js, Tailwind CSS, and PostgreSQL: MyFinance Frontend Milestone","subtitle":"How a fullstack learning journey is accelerating my app's first interactive screens","publishedAt":"2025-12-27","summary":"Reflection on building modern, responsive UIs as a Next.js beginner. The surprise joy of fast iteration, reusable components, and how a strong foundation makes each next step easier. Plus—server side excitement, and what's next.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"divingdeeper","content":"$1f"},"thumbnail":false}]
+20:T16a9,
 ---
 
 ## Frontend Design Wrapped 🎉 — MyFinance Dev Update
@@ -1611,8 +1773,8 @@ Thanks so much for following along—every message and bit of feedback motivates
 
 Stay warm, happy holidays, and keep building! 🚀
 
-#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding13:["$","$L5","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$1e"},"thumbnail":false}]
-1f:T120e,
+#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding14:["$","$L5","frontend-designed",{"post":{"metadata":{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","subtitle":"A full-stack journey, UI growth, and planning my next (relational!) backend moves","publishedAt":"2025-12-26","summary":"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"frontend-designed","content":"$20"},"thumbnail":false}]
+21:T120e,
 ---
 
 ## Progress Update: Conquering Frontend Fears 🚀
@@ -1689,8 +1851,8 @@ Stay warm, and have a fantastic holiday season! 🎄
 
 ---
 
-#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork14:["$","$L5","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$1f"},"thumbnail":false}]
-20:T1249,
+#MyFinance #WebDevelopment #BuildInPublic #DevJourney #Frontend #Backend #React #TypeScript #PersonalProject #LearningByDoing #ShowYourWork15:["$","$L5","Myfinance-progress",{"post":{"metadata":{"title":"MyFinance Progress: From Design Struggles to Clean Data Flow","subtitle":"Why pushing through the tricky parts of UI/UX made everything else easier","publishedAt":"2025-12-24","summary":"An honest look at my latest progress building MyFinance: tackling design, refining data schemas, and preparing for backend complexity. Insights, hurdles, and real talk from a code-first creator.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"Myfinance-progress","content":"$21"},"thumbnail":false}]
+22:T1249,
 ---
 
 ## Confessions of a Code-First Creator (Who Isn't a Designer)
@@ -1760,8 +1922,8 @@ Thanks for reading—and have an awesome day!
 
 ---
 
-#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch15:["$","$L5","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$20"},"thumbnail":false}]
-21:Te17,
+#ShowYourWork #LearningInPublic #MyFinance #FrontendJourney #DesignStruggles #SideProject #NextJS #TypeScript #BuildingFromScratch16:["$","$L5","MydesignJourney",{"post":{"metadata":{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","subtitle":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way","publishedAt":"2025-12-10","summary":"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"MydesignJourney","content":"$22"},"thumbnail":false}]
+23:Te17,
 ## Why Build MyFinance?
 
 A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance.
@@ -1876,8 +2038,8 @@ Development has begun, and I’ll be sharing updates on how the build goes, and 
 
 Thanks for reading—and wish me luck building MyFinance!
 
----16:["$","$L5","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$21"},"thumbnail":false}]
-22:T77d,
+---17:["$","$L5","myfinance-intro",{"post":{"metadata":{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","subtitle":"From Portfolio Launch to Solving My Own Real-World Problem","publishedAt":"2025-12-08","summary":"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Side Project","team":[],"link":""},"slug":"myfinance-intro","content":"$23"},"thumbnail":false}]
+24:T77d,
 ## About
 
 Welcome to my new portfolio! I built this site using the Magic Portfolio template by Once UI, powered by Next.js. It’s MDX-based, SEO-friendly, responsive for any screen, and easily customizable.
@@ -1929,5 +2091,5 @@ I’ll be sharing more about my journey, tech experiments, and projects here. St
 
 ---
 
-Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!17:["$","$L5","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$22"},"thumbnail":false}]
-1a:null
+Thanks for checking out my portfolio. Feel free to use and adapt this setup for your own site!18:["$","$L5","quick-start",{"post":{"metadata":{"title":"Launching My New Portfolio","subtitle":"How I built a modern developer website using Magic Portfolio, Next.js, and Once UI","publishedAt":"2025-11-27","summary":"A look at the tech stack, resources, and steps I used to create my new portfolio — and how you can do it too.","image":"/newPortfolio/images/gallery/image.png","images":[],"tag":"Personal Portfolio","team":[],"link":""},"slug":"quick-start","content":"$24"},"thumbnail":false}]
+1b:null
