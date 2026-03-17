@@ -1,22 +1,22 @@
 1:"$Sreact.fragment"
-2:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Row"]
-3:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Column"]
-4:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],""]
-5:I[24379,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"SmartLink"]
-6:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
-7:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
-8:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
-25:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
-26:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
-2b:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
-2c:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
-2d:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
-30:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
-31:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
-32:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
+2:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Row"]
+3:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Column"]
+4:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],""]
+5:I[24379,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"SmartLink"]
+6:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
+7:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
+8:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
+25:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
+26:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
+2b:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
+2c:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
+2d:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
+30:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
+31:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
+32:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
 33:I[97367,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/1a476e30dee46234.js"],"OutletBoundary"]
 34:"$Sreact.suspense"
-0:{"buildId":"jqWEP_6D6-p6AOaHIIgYB","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/frontend-designed","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/frontend-designed\",\"sameAs\":[],\"headline\":\"MyFinance Frontend Designed: From System Schemas to User-Ready Screens\",\"description\":\"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-26\",\"dateModified\":\"2025-12-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 25, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"A full-stack journey, UI growth, and planning my next (relational!) backend moves"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"frontend-design-wrapped-myfinance-dev-update","children":"Frontend Design Wrapped 🎉 — MyFinance Dev Update"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I can hardly believe it’s only been 12 days since I started building MyFinance. (To be honest, it felt even longer for how much I processed in those days. The result? I really like where it landed MyFinance holds way more information and complexity compared to MealMatch, and I’ll get into why!)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"MyFinance Logo","src":"/newPortfolio/images/gallery/myfinancelogo.png"}]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e"]}],"$L1f","$L20","$L21"]}]}],"$L22"]}],["$L23"],"$L24"]}],"loading":null,"isPartial":false}
+0:{"buildId":"yEv6rGT5-CIdsZjlXaBrd","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/frontend-designed","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/frontend-designed\",\"sameAs\":[],\"headline\":\"MyFinance Frontend Designed: From System Schemas to User-Ready Screens\",\"description\":\"Final reflections on wrapping the large-screen Figma designs for MyFinance. Honest thoughts on visual style, component choices, and why backend and frontend design go hand in hand—plus my database crossroads.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-26\",\"dateModified\":\"2025-12-26\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"December 25, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","fontStyle":"italic"},"children":"A full-stack journey, UI growth, and planning my next (relational!) backend moves"}]]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Doruk Kocausta"}]]}]}],["$","$L7",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"frontend-design-wrapped-myfinance-dev-update","children":"Frontend Design Wrapped 🎉 — MyFinance Dev Update"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I can hardly believe it’s only been 12 days since I started building MyFinance. (To be honest, it felt even longer for how much I processed in those days. The result? I really like where it landed MyFinance holds way more information and complexity compared to MealMatch, and I’ll get into why!)"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"MyFinance Logo","src":"/newPortfolio/images/gallery/myfinancelogo.png"}]}],"\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e"]}],"$L1f","$L20","$L21"]}]}],"$L22"]}],["$L23"],"$L24"]}],"loading":null,"isPartial":false}
 9:["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}]}]
 a:["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"starting-with-system-design","children":"Starting with System Design"}]
 b:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Before touching Figma, I mapped out backend schemas, data tables, data flows… basically all the structure from the ground up. As I moved into frontend design, some of those choices needed realignment—which just proves how closely backend and frontend play together. That’s what makes me proud to call myself a full stack developer now; I enjoy shaping both and seeing how each informs the other. Watching the logic (“bones”) and the interface (“skin”) come together, evolving in sync, is deeply satisfying—especially when it all just starts to make sense for this app’s unique needs."}]
@@ -40,7 +40,133 @@ f:["$","span",null,{"className":"font-body font-default font-m neutral-on-backgr
 1d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Stay warm, happy holidays, and keep building! 🚀"}]
 1e:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"#MyFinance #SideProject #FrontendDesign #ProgressUpdate #WebDevelopment #Figma #NextJS #LearningInPublic #RelationalDatabases #FullStack #KeepBuilding"}]
 1f:["$","$L2b",null,{"title":"MyFinance Frontend Designed: From System Schemas to User-Ready Screens","url":"https://kedycatsudo.github.io/newPortfolio//blog/frontend-designed"}]
-2e:T1f71,
+2e:T1ed8,
+# MyFinance is Up and Running
+
+Last night around 3:30 AM, I finished deployment for MyFinance. I really wanted to write this article with fresh feelings, but today I realized that the feeling is still fresh like last night. I’m not going to be humble about this because there was true dedication and, yeah, some suffering—but at the end of that suffering, the prize was big. I loved every line of code, every piece of thought for MyFinance, and honestly, I even love writing about the project and its details. Hope everybody who reads this article enjoys it too.
+
+## How It Started
+
+I was thinking about one more side project that would go in my portfolio next to MealMatch. After some brainstorming, it didn’t take me too long to create this idea. I wanted to focus on backend this time instead of frontend. So I knew I would need a lot of data. Then I checked what problem I personally have that I could solve with a project. Turns out I really needed a financial tracking system for myself. I know, I know, there are millions of them ready to use. But guess what:
+
+- They’re not free.
+- If some are free, they're not satisfying my needs.
+- The paid ones have a ton of features I don’t even know why exist.
+- Also, don’t tell somebody who truly believes in open source.
+
+So, my rules were set. It had to be free—or as close as possible. But I needed even more motivation to start a new project. I decided to set a challenge for myself, to make it interesting. I decided to learn:
+
+- Next.js 
+- Nest.js
+- PostgreSQL
+- TypeScript
+- Vercel and Render for deployment
+
+Now that I caught my own attention, I wanted to dive deep into the project, but I knew I needed to make a lot of decisions before writing a single line of code.
+
+---
+
+## Build Different This Time
+
+On my last project, MealMatch, I started from the frontend. What did I do?
+
+- Planned frontend components before any data flow or backend architecture
+- Designed everything on Figma
+- Started and finished the frontend first
+- Then started and finished the backend
+
+Separately, things looked fine, right? But the moment I started to connect the two... the errors were intense. I had to change a lot on the backend, and let me tell you, it was a pain in the ass. Still, I finished and deployed successfully. If you’re interested, it’s running here: [MealMatch](https://mealmatch.online/).
+
+This time, I started from the database.
+
+- Learned PostgreSQL from scratch
+- Created my database
+- Made manual tests for database tables
+- Then I built the data flow and backend architecture
+- I planned for 5 days, just writing in a plain text file, scribbling my thoughts: What do I need? Where is it coming from? How is data created and transferred end to end? Thoughts led to more thoughts and the creation was intense. And I truly loved every second of it.
+
+When the plan was ready, I finally started creating my frontend components. With the data flow already mapped out, building the frontend was so much easier. I designed in Figma, it looked okay for a start—and I knew it would improve over time. Because this time, I didn’t need to change my backend or database. I just needed to adjust my frontend to fit my backend structure. I could feel it was going to be much easier than MealMatch. It was already running much more smoothly.
+
+Pay attention: I think I was around day 12 without having written any code, but my plan was rock solid. Like Lincoln said:  
+“If I had 24 hours to chop down a tree, I'd spend 23 hours sharpening my axe.”  
+That’s exactly what I did. I made sure the plan was done before I even opened VSCode.
+
+---
+
+## Finally Jump Into VSCode
+
+Alright, let’s be honest. I like planning and writing, but what I love is seeing VSCode with thousands of lines of code.
+
+I started creating my frontend components with Next.js.  
+I had a bit of Next.js experience from my portfolio website—the one you’re reading now—which wasn't from scratch but adapted from Vercel’s open source starter.  
+Next.js was easy enough, but learning and writing with TypeScript took me a minute. But I learned and implemented it successfully, and, no lie, TypeScript is amazing. Fixes a ton of type errors for you so you don’t have to deal with them later. Still, I know I need more practice with TypeScript and plain JavaScript. Especially TypeScript. It took me 2 months to publish the first frontend MVP (with GitHub Pages). I think I wrote about that earlier, two articles back.
+
+Quickly, I jumped to building the database. Tech stack: already decided.
+
+- Learned PostgreSQL
+- Created database and tables
+
+This part wasn’t too hard—I already had university experience working on a registration system as a junior dev.
+
+Then, I started building the backend with Nest.js.  
+I couldn’t believe how fast the production was. Everything is ready to use for a developer’s needs:
+
+- Guards  
+- Authentication  
+- Services  
+- Modules  
+- Controllers
+
+You just create your logic and connect the modules. If you’ve worked with Express.js before Nest.js, you know what I'm talking about, and you’ll love how quick it is. It took me about a month. Being honest, that’s impressive. Building the backend with Express.js in MealMatch took almost 2.5 months—I had to do everything by hand.
+
+Not too long ago, I finished connecting frontend and backend. It was easier than I thought, because Next.js and Nest.js work so well together. Plus, I’d anticipated most of the issues well ahead—3 months ago when I planned this out, I saw the problems before they even appeared and fixed them. Don’t get me wrong, this project still had its fair share of errors and headaches, ha! I could write another article just about the all-nighters spent refactoring data types or deleting whole database tables with Prisma. But that’s not for this article.
+
+Last night, I wrapped up lint and TypeScript errors, then started looking into deployment. I knew I was using Vercel for frontend, but what about the backend and DB? So, I did what we all do: researched till my eyes glazed over.
+
+Decided to use Neon for the DB and Render for backend.  
+Their free tiers are generous and reliable.
+
+I learned quickly how to deploy on both. Honestly, I expected way more problems—stuff like “no errors but data isn’t getting fetched” or weird connection issues. But here’s the reality:  
+Render’s free plan goes to sleep after 15 minutes of inactivity. So, if nobody’s used the backend in a while, your first login/register might take 45 seconds to a minute. Be patient! After that, it’s smooth as butter.
+
+Because I planned MyFinance so carefully, deployment only threw a couple of errors my way. One was CORS—just forgot to allow it for the investments page. No biggie, fixed in a sec. Otherwise, backend ran smooth on the first try.
+
+I know, I’ve talked a lot, but this is the way I review my own projects:  
+Documented articles, posts, mini info blogs.
+
+Now if anybody’s curious from my LinkedIn, they can check my site, read these articles, and see how and why I built what I did.  
+Hope you enjoy the article—and honestly, if not, I don’t care that much. I love this project and my articles about it. But feel free to give me feedback on LinkedIn; I love feedback, I consume it like crazy, and I’ll always keep learning new things.
+
+---
+
+## What’s Next?
+
+Before I finish, a sneak peek at my next project:  
+My own AI agent running on my local computer.
+
+Ollama has AI models you can download, use, and even fine-tune on your own little dataset—think ChatGPT, but local.
+
+You need domain-specific data. So, what to build?
+
+- Cyber security agent  
+- Financial adviser agent  
+- Trading agent  
+- Coding agent  
+- Business agent  
+- You name it, I’ll create it
+
+Alright, another project done and dusted, successfully implemented and running smooth.  
+I’ll see you on the next one.
+20:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L2c",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2d","myfinanceUpRunning",{"post":{"metadata":{"title":"MyFinance is Up and Running","subtitle":"","publishedAt":"2026-03-16","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"myfinanceUpRunning","content":"$2e"},"thumbnail":true,"direction":"column"}],"$L2f"]}]]}]
+21:["$","$L30",null,{}]
+22:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L31",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L32",null,{"fitHeight":true}]]}]
+23:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
+24:["$","$L33",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
+27:["$","$L26",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Supabase:"}]," Postgres-based with instant APIs/auth, but still a bit new for mission-critical stuff."]}]
+28:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I haven’t picked one yet, but diving into relational DBs makes this project even more valuable for me—I’m learning Next.js and TypeScript, then adding serious SQL design to my stack!"}]
+29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"Investment","src":"/newPortfolio/images/gallery/investment.png"}]}]
+2a:["$","$L26",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Profile"}],["$","br",null,{}],"\n","The simplest page, showing only what I need from the user: username, email (for auth/comms), the reset date for their monthly statement, and base currency for future features."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"Profile","src":"/newPortfolio/images/gallery/profile.png"}]}],"\n"]}]
+36:T1f71,
 # I Was the Customer: The Full-Stack Journey of Building MyFinance
 
 I can't tell you how much I enjoyed working on this project. It was a remarkable learning experience and a hands-on opportunity to dive into new technologies like Tailwind CSS, Next.js, and TypeScript.
@@ -201,404 +327,5 @@ If you made it this far—thanks for reading! Your feedback is always welcome.
 ---
 
 #react #nextjs #typescript #tailwindcss #learningjourney #fullstack #personalproject #postgresql #nestjs #blackmambamentality
-20:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minHeight":"var(--static-space-1)","height":"var(--static-space-1)"}}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Recent posts"}],["$","$L2c",null,{"s":{"columns":1},"columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L2d","mvpPublished",{"post":{"metadata":{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","subtitle":"","publishedAt":"2026-01-25","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"mvpPublished","content":"$2e"},"thumbnail":true,"direction":"column"}],"$L2f"]}]]}]
-21:["$","$L30",null,{}]
-22:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L2",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L31",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L32",null,{"fitHeight":true}]]}]
-23:["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true}]
-24:["$","$L33",null,{"children":["$","$34",null,{"name":"Next.MetadataOutlet","children":"$@35"}]}]
-27:["$","$L26",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Supabase:"}]," Postgres-based with instant APIs/auth, but still a bit new for mission-critical stuff."]}]
-28:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"I haven’t picked one yet, but diving into relational DBs makes this project even more valuable for me—I’m learning Next.js and TypeScript, then adding serious SQL design to my stack!"}]
-29:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"Investment","src":"/newPortfolio/images/gallery/investment.png"}]}]
-2a:["$","$L26",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":["\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":[["$","strong",null,{"children":"Profile"}],["$","br",null,{}],"\n","The simplest page, showing only what I need from the user: username, email (for auth/comms), the reset date for their monthly statement, and base currency for future features."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["$","$L7",null,{"marginTop":"8","marginBottom":"16","enlarge":true,"radius":"m","border":"neutral-alpha-medium","sizes":"(max-width: 960px) 100vw, 960px","alt":"Profile","src":"/newPortfolio/images/gallery/profile.png"}]}],"\n"]}]
-36:T2f19,
-# From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components
-
-Alright, let’s be honest—what you imagine will take one day can easily take three or four. That’s what happened this week. Planning, the first implementation, realizing my code was turning into spaghetti, then finally refactoring and modularizing everything—it turned into a marathon. Add a salary job and, well, life under capitalism, and four days are gone. But I have zero regrets, because what I learned was absolutely worth it.
-
-In this article, I’ll walk you through every step as I untangle my Edit Modal from a monster file into a suite of focused, elegant components. It’s night and day. You’ll see every file, every abstraction, and exactly how (and why) I pulled it off.
-
-*(All the code and logic you’ll see here started as one big file: `EditSourceModal.tsx`. Now, it’s organized freedom. Trust me, the difference is huge.)*
-
----
-
-## What Did I End Up With?
-
-**New files/components:**
-
-- **EditSourceModal.tsx** (the parent, controls modal logic and orchestration)
-- **AccordionItem.tsx** (shows each payment/investment in an accordion, with fields)
-- **constants/fieldConfig.ts** (`PAYMENT_FIELDS` and `ITEM_FIELDS` describe all editable fields)
-- **FieldInput.tsx** (super basic, dumb and generic input/selector component)
-
-### The best part:  
-Now when I open each in a separate VS Code pane I can understand the logic chain, top to bottom, at a glance. Maintainability is real!
-
----
-
-## EditSourceModal.tsx – The Orchestrator
-
-First, the prop types for clarity:
-
-```tsx
-type EditSourceModalProps = {
-  open: boolean;
-  source: FinanceSource | InvestmentSource;
-  onClose: () => void;
-  onSubmit: (updated: FinanceSource | InvestmentSource) => void;
-};
-```
-
-### Internal State
-
-```tsx
-const [localSource, setLocalSource] = useState<FinanceSource | InvestmentSource>(source);
-const [openItemAccordions, setOpenItemAccordions] = useState<{ [id: string]: boolean }>({});
-const [errors, setErrors] = useState<{ [field: string]: string }>({});
-```
-- `localSource`: Holds what I’m currently editing.
-- `openItemAccordions`: Which accordion(s) are open.
-- `errors`: Error messages keyed by field.
-
-### useEffect for Reset
-
-```tsx
-useEffect(() => {
-  setLocalSource(source);
-  setOpenItemAccordions({});
-  setErrors({});
-}, [source, open]);
-```
-Cleans everything up when data changes or the modal opens/closes.
-
-### useEffect for Scroll Lock
-
-```tsx
-useEffect(() => {
-  if (open) document.body.style.overflow = 'hidden';
-  else document.body.style.overflow = '';
-  return () => {
-    document.body.style.overflow = '';
-  };
-}, [open]);
-if (!open) return null;
-```
-Major UX win: disables scroll behind the modal.
-
----
-
-### Input/Edit Handlers
-
-```tsx
-const handleItemInput = (itemId: string, field: any, value: any) => {
-  const arrKey = isFinanceSource(localSource) ? 'payments' : 'items';
-  setLocalSource(prev => ({
-    ...prev,
-    [arrKey]: (prev as any)[arrKey].map((itm: any) =>
-      itm.id === itemId ? { ...itm, [field]: value } : itm,
-    ),
-  }) as any);
-};
-```
-
-- Decides if we’re editing "payments" or "items."
-- Finds the one we're editing (via `id`), and updates just that field.
-
-```tsx
-const handleSourceInput = (field: string, value: any) => {
-  setLocalSource(prev => ({ ...prev, [field]: value }) as any);
-};
-```
-
-- Updates a top-level field without touching others.
-
-#### Validation logic
-
-```tsx
-function validate() {
-  const err: Record<string, string> = {};
-  if (!localSource.sourceName?.trim()) err.sourceName = 'Source name required';
-  const items = isFinanceSource(localSource)
-    ? localSource.payments
-    : isInvestmentSource(localSource)
-      ? localSource.items
-      : [];
-  for (const item of items) {
-    if ('name' in item && !item.name?.trim()) err[`item.${item.id}.name`] = 'Name required';
-    if ('assetName' in item && !item.assetName?.trim())
-      err[`item.${item.id}.assetName`] = 'Asset name required';
-  }
-  setErrors(err);
-  return Object.keys(err).length === 0;
-}
-```
-- Checks that required fields are present (MVP-level, but ready to extend!).
-
-#### Submit Handler
-
-```tsx
-const handleSubmit = () => {
-  if (validate()) {
-    onSubmit?.(localSource);
-    onClose();
-  }
-};
-```
-
----
-
-### The Source Fields
-
-To avoid hardcoding, I set up an array describing the fields for the modal "header":
-
-```tsx
-const sourceFields = [
-  { label: 'Source Name', field: 'sourceName', value: localSource.sourceName, err: errors.sourceName },
-  ...(localSource.description !== undefined
-    ? [{ label: 'Description', field: 'description', value: localSource.description }]
-    : []),
-  ...(localSource.date !== undefined
-    ? [{ label: 'Date', field: 'date', value: localSource.date, type: 'date' }]
-    : []),
-];
-```
-
-Which gets rendered as:
-
-```tsx
-<h2 className="text-2xl font-bold mb-2 text-[#29388A] text-center">
-  Edit "{localSource.sourceName}"
-</h2>
-{sourceFields.map(f => (
-  <FieldInput
-    key={f.field}
-    label={f.label}
-    type={f.type}
-    value={f.value}
-    onChange={v => handleSourceInput(f.field ?? '', v)}
-    err={f.err}
-  />
-))}
-```
-
----
-
-## constants/fieldConfig.ts – All Fields Centralized
-
-I keep payment and investment item fields here for clarity and maintainability.
-
-```tsx
-export const PAYMENT_FIELDS = [
-  { field: "name", label: "Name" },
-  { field: "type", label: "Type" },
-  { field: "amount", label: "Amount", type: "number" },
-  { field: "date", label: "Date", type: "date" },
-  { field: "loop", label: "Loop", type: "checkbox" },
-  { field: "status", label: "Payment Status", enumOptions: ["coming", "paid"] }
-];
-
-export const ITEM_FIELDS = [
-  { field: "assetName", label: "Asset Name" },
-  { field: "term", label: "Term", enumOptions: ["short", "middle", "long"] },
-  { field: "investedAmount", label: "Invested Amount", type: "number" },
-  { field: "entryDate", label: "Entry Date", type: "date" },
-  { field: "exitDate", label: "Exit Date", type: "date" },
-  { field: "result", label: "Result", enumOptions: ["none", "profit", "loss"] },
-  { field: "resultAmount", label: "Result Amount", type: "number" },
-  { field: "status", label: "Status", enumOptions: ["open", "closed"] }
-];
-```
-Any change here flows everywhere.
-
----
-
-## FieldInput.tsx – A Simple, Dumb Field Component
-
-```tsx
-type FieldInputProps = {
-  label: string;
-  type?: string;
-  value: any;
-  onChange: (v: any) => void;
-  enumOptions?: string[];
-  err?: string;
-};
-
-export default function FieldInput({label, type, value, onChange, enumOptions, err}: FieldInputProps) {
-  if (enumOptions) return (
-    <label>
-      <span className="block">{label}</span>
-      <select
-        value={value}
-        onChange={e=>onChange(e.target.value)}
-        className="rounded border px-2 py-1 mt-1 w-full text-black"
-      >
-        {enumOptions.map(opt => <option key={opt} value={opt}>{opt}</option>)}
-      </select>
-      {err && <span className="text-red-500 text-xs">{err}</span>}
-    </label>
-  );
-  if (type === 'checkbox') return (
-    <label className="flex items-center gap-1">
-      <span className="block">{label}</span>
-      <input type="checkbox" checked={!!value} onChange={e=>onChange(e.target.checked)}/>
-    </label>
-  );
-  return (
-    <label className="block">
-      <span className="block">{label}</span>
-      <input
-        type={type||'text'}
-        value={type==='date' && value ? String(value).slice(0,10) : (value ?? '')}
-        onChange={e => onChange(
-          type==='number' ? Number(e.target.value)
-          : type==='checkbox' ? e.target.checked
-          : e.target.value
-        )}
-        className="rounded border px-2 py-1 mt-1 w-full text-black"
-      />
-      {err && <span className="text-red-500 text-xs">{err}</span>}
-    </label>
-  );
-}
-```
-- Handles selects, checkboxes, text, numbers, dates—just unite data and logic.
-- Shows an error if needed.
-
----
-
-## AccordionItem.tsx – All The Heavy Lifting, None of the Spaghetti
-
-```tsx
-type AccordionItemProps = {
-  item: Record<string, any>;
-  fieldConfig: {
-    field: string;
-    label: string;
-    type?: string;
-    enumOptions?: string[];
-  }[];
-  itemTypeKey: string;
-  isOpen: boolean;
-  toggleOpen: () => void;
-  handleItemInput: (itemId: string, field: string, value: any) => void;
-  errors?: Record<string, string>;
-};
-
-export default function AccordionItem({
-  item,
-  fieldConfig,
-  itemTypeKey,
-  isOpen,
-  toggleOpen,
-  handleItemInput,
-  errors,
-}: AccordionItemProps) {
-  return (
-    <div className={`border-4 border-[#29388A] rounded px-2 py-2 transition-all cursor-pointer ${isOpen ? 'bg-[#3A4483]/75 text-white' : 'text-[#29388A]'}`}>
-      <div onClick={toggleOpen} className="flex flex-row justify-between items-center">
-        <span> {'name' in item ? item.name : item.assetName}</span>
-        <span className="text-sm text-gray-500">{isOpen ? '▼' : '▶'}</span>
-      </div>
-      {isOpen && (
-        <div className="mt-2 flex flex-col gap-2">
-          {fieldConfig.map((f) =>
-            f.field === 'id' ? null : (
-              <FieldInput
-                key={f.field}
-                label={f.label}
-                type={f.type}
-                enumOptions={f.enumOptions}
-                value={item[f.field]}
-                onChange={v => handleItemInput(item.id, f.field, v)}
-                err={errors?.[`${itemTypeKey}.${item.id}.${f.field}`]}
-              />
-            )
-          )}
-        </div>
-      )}
-    </div>
-  );
-}
-```
-- No matter what shape the data becomes, this will render/expand/collapse and edit each field correctly.
-- One clear file—not hundreds of repetitive lines for every possible field.
-
----
-
-## Main Modal Use: Bringing It All Together
-
-```tsx
-{isFinanceSource(localSource) &&
-  localSource.payments &&
-  localSource.payments.map(payment => (
-    <AccordionItem
-      key={payment.id}
-      item={payment}
-      fieldConfig={PAYMENT_FIELDS}
-      itemTypeKey="payment"
-      isOpen={!!openItemAccordions[payment.id]}
-      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [payment.id]: !prev[payment.id] }))}
-      handleItemInput={handleItemInput}
-      errors={errors}
-    />
-  ))
-}
-{isInvestmentSource(localSource) &&
-  localSource.items &&
-  localSource.items.map(item => (
-    <AccordionItem
-      key={item.id}
-      item={item}
-      fieldConfig={ITEM_FIELDS}
-      itemTypeKey="item"
-      isOpen={!!openItemAccordions[item.id]}
-      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [item.id]: !prev[item.id] }))}
-      handleItemInput={handleItemInput}
-      errors={errors}
-    />
-  ))
-}
-```
-
-All arrays map cleanly, and handlers/configs are passed in for complete flexibility. No repeated code, just reusable legos.
-
----
-
-## Clean Modal Controls
-
-```tsx
-<div className="flex justify-end gap-2 mt-4">
-  <button
-    onClick={onClose}
-    className="px-4 py-2 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 font-semibold"
-  >
-    Cancel
-  </button>
-  <button
-    onClick={handleSubmit}
-    className="px-4 py-2 rounded bg-[#29388A] text-white hover:bg-blue-800 font-semibold"
-  >
-    Submit
-  </button>
-</div>
-```
-They do only what they need to, with zero drama.
-
----
-
-## Final Reflections
-
-Before the cleanup, this was a hot mess: one file, hundreds of lines, nearly impossible to trace. Now, thanks to focused components and field configs, I can extend and maintain everything with confidence. I can add or change fields, validation, or UI behaviors without ever touching 200 lines at once—maybe just 10, in the right place.
-
-**Maintainability is gold.**  
-This process cemented how much TypeScript + React + good planning = massive time and sanity savings. Don’t be afraid to modularize—even if it feels like “extra work.” It always pays off.
-
----
-
-If you enjoyed this, found it useful, or have feedback, please share a comment! I’ll keep learning, building, and sharing—onward and upward!
-
----
-
-#react #nextjs #typescript #refactor #frontend #webdevelopment #modal #forms #learningjourney #components #scalable #maintainable #ui #personalproject
-2f:["$","$L2d","fromChaosToClarity",{"post":{"metadata":{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","subtitle":"","publishedAt":"2026-01-21","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"fromChaosToClarity","content":"$36"},"thumbnail":true,"direction":"column"}]
+2f:["$","$L2d","mvpPublished",{"post":{"metadata":{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","subtitle":"","publishedAt":"2026-01-25","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"mvpPublished","content":"$36"},"thumbnail":true,"direction":"column"}]
 35:null

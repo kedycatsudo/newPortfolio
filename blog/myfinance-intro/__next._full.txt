@@ -13,13 +13,13 @@ d:I[68027,[],"default"]
 :HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
 :HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"jqWEP_6D6-p6AOaHIIgYB","c":["","blog","myfinance-intro"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","myfinance-intro","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
-f:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Providers"]
-10:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Column"]
-11:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"RevealFx"]
-12:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Background"]
-13:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientFlex"]
-14:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Header"]
+0:{"P":null,"b":"yEv6rGT5-CIdsZjlXaBrd","c":["","blog","myfinance-intro"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","myfinance-intro","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/48b36dded242243f.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/6e7703b840071812.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/4c25d240ef55c323.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[30824,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Providers"]
+10:I[73323,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Column"]
+11:I[21971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"RevealFx"]
+12:I[94412,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Background"]
+13:I[21247,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientFlex"]
+14:I[2971,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Header"]
 e:T76b,
               (function() {
                 try {
@@ -61,19 +61,140 @@ e:T76b,
                 }
               })();
             2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$e"}}]}],["$","$Lf",null,{"children":["$","$L10",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L11",null,{"fill":true,"position":"absolute","children":["$","$L12",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L13",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L14",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L15","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$L16","forbidden":"$undefined","unauthorized":"$undefined"}]}]}],"$L17"]}]}]]}]
-18:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Row"]
-19:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"IconButton"]
-1a:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],""]
-1b:I[24379,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"SmartLink"]
-1c:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
-1d:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
-1f:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
-20:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
-21:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
+18:I[78454,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Row"]
+19:I[98229,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"IconButton"]
+1a:I[79520,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],""]
+1b:I[24379,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"SmartLink"]
+1c:I[45250,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Avatar"]
+1d:I[98382,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Media"]
+1f:I[48588,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ShareSection"]
+20:I[96470,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ClientGrid"]
+21:I[14360,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"default"]
 15:["$","$L4",null,{}]
 16:[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
 17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-22:T1f71,
+22:T1ed8,
+# MyFinance is Up and Running
+
+Last night around 3:30 AM, I finished deployment for MyFinance. I really wanted to write this article with fresh feelings, but today I realized that the feeling is still fresh like last night. I’m not going to be humble about this because there was true dedication and, yeah, some suffering—but at the end of that suffering, the prize was big. I loved every line of code, every piece of thought for MyFinance, and honestly, I even love writing about the project and its details. Hope everybody who reads this article enjoys it too.
+
+## How It Started
+
+I was thinking about one more side project that would go in my portfolio next to MealMatch. After some brainstorming, it didn’t take me too long to create this idea. I wanted to focus on backend this time instead of frontend. So I knew I would need a lot of data. Then I checked what problem I personally have that I could solve with a project. Turns out I really needed a financial tracking system for myself. I know, I know, there are millions of them ready to use. But guess what:
+
+- They’re not free.
+- If some are free, they're not satisfying my needs.
+- The paid ones have a ton of features I don’t even know why exist.
+- Also, don’t tell somebody who truly believes in open source.
+
+So, my rules were set. It had to be free—or as close as possible. But I needed even more motivation to start a new project. I decided to set a challenge for myself, to make it interesting. I decided to learn:
+
+- Next.js 
+- Nest.js
+- PostgreSQL
+- TypeScript
+- Vercel and Render for deployment
+
+Now that I caught my own attention, I wanted to dive deep into the project, but I knew I needed to make a lot of decisions before writing a single line of code.
+
+---
+
+## Build Different This Time
+
+On my last project, MealMatch, I started from the frontend. What did I do?
+
+- Planned frontend components before any data flow or backend architecture
+- Designed everything on Figma
+- Started and finished the frontend first
+- Then started and finished the backend
+
+Separately, things looked fine, right? But the moment I started to connect the two... the errors were intense. I had to change a lot on the backend, and let me tell you, it was a pain in the ass. Still, I finished and deployed successfully. If you’re interested, it’s running here: [MealMatch](https://mealmatch.online/).
+
+This time, I started from the database.
+
+- Learned PostgreSQL from scratch
+- Created my database
+- Made manual tests for database tables
+- Then I built the data flow and backend architecture
+- I planned for 5 days, just writing in a plain text file, scribbling my thoughts: What do I need? Where is it coming from? How is data created and transferred end to end? Thoughts led to more thoughts and the creation was intense. And I truly loved every second of it.
+
+When the plan was ready, I finally started creating my frontend components. With the data flow already mapped out, building the frontend was so much easier. I designed in Figma, it looked okay for a start—and I knew it would improve over time. Because this time, I didn’t need to change my backend or database. I just needed to adjust my frontend to fit my backend structure. I could feel it was going to be much easier than MealMatch. It was already running much more smoothly.
+
+Pay attention: I think I was around day 12 without having written any code, but my plan was rock solid. Like Lincoln said:  
+“If I had 24 hours to chop down a tree, I'd spend 23 hours sharpening my axe.”  
+That’s exactly what I did. I made sure the plan was done before I even opened VSCode.
+
+---
+
+## Finally Jump Into VSCode
+
+Alright, let’s be honest. I like planning and writing, but what I love is seeing VSCode with thousands of lines of code.
+
+I started creating my frontend components with Next.js.  
+I had a bit of Next.js experience from my portfolio website—the one you’re reading now—which wasn't from scratch but adapted from Vercel’s open source starter.  
+Next.js was easy enough, but learning and writing with TypeScript took me a minute. But I learned and implemented it successfully, and, no lie, TypeScript is amazing. Fixes a ton of type errors for you so you don’t have to deal with them later. Still, I know I need more practice with TypeScript and plain JavaScript. Especially TypeScript. It took me 2 months to publish the first frontend MVP (with GitHub Pages). I think I wrote about that earlier, two articles back.
+
+Quickly, I jumped to building the database. Tech stack: already decided.
+
+- Learned PostgreSQL
+- Created database and tables
+
+This part wasn’t too hard—I already had university experience working on a registration system as a junior dev.
+
+Then, I started building the backend with Nest.js.  
+I couldn’t believe how fast the production was. Everything is ready to use for a developer’s needs:
+
+- Guards  
+- Authentication  
+- Services  
+- Modules  
+- Controllers
+
+You just create your logic and connect the modules. If you’ve worked with Express.js before Nest.js, you know what I'm talking about, and you’ll love how quick it is. It took me about a month. Being honest, that’s impressive. Building the backend with Express.js in MealMatch took almost 2.5 months—I had to do everything by hand.
+
+Not too long ago, I finished connecting frontend and backend. It was easier than I thought, because Next.js and Nest.js work so well together. Plus, I’d anticipated most of the issues well ahead—3 months ago when I planned this out, I saw the problems before they even appeared and fixed them. Don’t get me wrong, this project still had its fair share of errors and headaches, ha! I could write another article just about the all-nighters spent refactoring data types or deleting whole database tables with Prisma. But that’s not for this article.
+
+Last night, I wrapped up lint and TypeScript errors, then started looking into deployment. I knew I was using Vercel for frontend, but what about the backend and DB? So, I did what we all do: researched till my eyes glazed over.
+
+Decided to use Neon for the DB and Render for backend.  
+Their free tiers are generous and reliable.
+
+I learned quickly how to deploy on both. Honestly, I expected way more problems—stuff like “no errors but data isn’t getting fetched” or weird connection issues. But here’s the reality:  
+Render’s free plan goes to sleep after 15 minutes of inactivity. So, if nobody’s used the backend in a while, your first login/register might take 45 seconds to a minute. Be patient! After that, it’s smooth as butter.
+
+Because I planned MyFinance so carefully, deployment only threw a couple of errors my way. One was CORS—just forgot to allow it for the investments page. No biggie, fixed in a sec. Otherwise, backend ran smooth on the first try.
+
+I know, I’ve talked a lot, but this is the way I review my own projects:  
+Documented articles, posts, mini info blogs.
+
+Now if anybody’s curious from my LinkedIn, they can check my site, read these articles, and see how and why I built what I did.  
+Hope you enjoy the article—and honestly, if not, I don’t care that much. I love this project and my articles about it. But feel free to give me feedback on LinkedIn; I love feedback, I consume it like crazy, and I’ll always keep learning new things.
+
+---
+
+## What’s Next?
+
+Before I finish, a sneak peek at my next project:  
+My own AI agent running on my local computer.
+
+Ollama has AI models you can download, use, and even fine-tune on your own little dataset—think ChatGPT, but local.
+
+You need domain-specific data. So, what to build?
+
+- Cyber security agent  
+- Financial adviser agent  
+- Trading agent  
+- Coding agent  
+- Business agent  
+- You name it, I’ll create it
+
+Alright, another project done and dusted, successfully implemented and running smooth.  
+I’ll see you on the next one.
+5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/myfinance-intro","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/myfinance-intro\",\"sameAs\":[],\"headline\":\"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch\",\"description\":\"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-08\",\"dateModified\":\"2025-12-08\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"December 7, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","textWrap":"$undefined","fontStyle":"italic"},"children":"From Portfolio Launch to Solving My Own Real-World Problem"}]]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","url":"https://kedycatsudo.github.io/newPortfolio//blog/myfinance-intro"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","myfinanceUpRunning",{"post":{"metadata":{"title":"MyFinance is Up and Running","subtitle":"","publishedAt":"2026-03-16","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"myfinanceUpRunning","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
+27:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
+28:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
+29:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
+26:T1f71,
 # I Was the Customer: The Full-Stack Journey of Building MyFinance
 
 I can't tell you how much I enjoyed working on this project. It was a remarkable learning experience and a hands-on opportunity to dive into new technologies like Tailwind CSS, Next.js, and TypeScript.
@@ -234,408 +355,14 @@ If you made it this far—thanks for reading! Your feedback is always welcome.
 ---
 
 #react #nextjs #typescript #tailwindcss #learningjourney #fullstack #personalproject #postgresql #nestjs #blackmambamentality
-5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/myfinance-intro","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/myfinance-intro\",\"sameAs\":[],\"headline\":\"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch\",\"description\":\"Why and how I started building MyFinance—a custom, entirely free tool to track income, expenses, and investments in one place.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-08\",\"dateModified\":\"2025-12-08\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"December 7, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","textWrap":"$undefined","fontStyle":"italic"},"children":"From Portfolio Launch to Solving My Own Real-World Problem"}]]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"Introducing MyFinance: Building a Personal Finance & Investment Tracker from Scratch","url":"https://kedycatsudo.github.io/newPortfolio//blog/myfinance-intro"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","mvpPublished",{"post":{"metadata":{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","subtitle":"","publishedAt":"2026-01-25","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"mvpPublished","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
-27:I[88654,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ScrollToHash"]
-28:I[41118,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"Icon"]
-29:I[5649,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingNav"]
-26:T2f19,
-# From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components
-
-Alright, let’s be honest—what you imagine will take one day can easily take three or four. That’s what happened this week. Planning, the first implementation, realizing my code was turning into spaghetti, then finally refactoring and modularizing everything—it turned into a marathon. Add a salary job and, well, life under capitalism, and four days are gone. But I have zero regrets, because what I learned was absolutely worth it.
-
-In this article, I’ll walk you through every step as I untangle my Edit Modal from a monster file into a suite of focused, elegant components. It’s night and day. You’ll see every file, every abstraction, and exactly how (and why) I pulled it off.
-
-*(All the code and logic you’ll see here started as one big file: `EditSourceModal.tsx`. Now, it’s organized freedom. Trust me, the difference is huge.)*
-
----
-
-## What Did I End Up With?
-
-**New files/components:**
-
-- **EditSourceModal.tsx** (the parent, controls modal logic and orchestration)
-- **AccordionItem.tsx** (shows each payment/investment in an accordion, with fields)
-- **constants/fieldConfig.ts** (`PAYMENT_FIELDS` and `ITEM_FIELDS` describe all editable fields)
-- **FieldInput.tsx** (super basic, dumb and generic input/selector component)
-
-### The best part:  
-Now when I open each in a separate VS Code pane I can understand the logic chain, top to bottom, at a glance. Maintainability is real!
-
----
-
-## EditSourceModal.tsx – The Orchestrator
-
-First, the prop types for clarity:
-
-```tsx
-type EditSourceModalProps = {
-  open: boolean;
-  source: FinanceSource | InvestmentSource;
-  onClose: () => void;
-  onSubmit: (updated: FinanceSource | InvestmentSource) => void;
-};
-```
-
-### Internal State
-
-```tsx
-const [localSource, setLocalSource] = useState<FinanceSource | InvestmentSource>(source);
-const [openItemAccordions, setOpenItemAccordions] = useState<{ [id: string]: boolean }>({});
-const [errors, setErrors] = useState<{ [field: string]: string }>({});
-```
-- `localSource`: Holds what I’m currently editing.
-- `openItemAccordions`: Which accordion(s) are open.
-- `errors`: Error messages keyed by field.
-
-### useEffect for Reset
-
-```tsx
-useEffect(() => {
-  setLocalSource(source);
-  setOpenItemAccordions({});
-  setErrors({});
-}, [source, open]);
-```
-Cleans everything up when data changes or the modal opens/closes.
-
-### useEffect for Scroll Lock
-
-```tsx
-useEffect(() => {
-  if (open) document.body.style.overflow = 'hidden';
-  else document.body.style.overflow = '';
-  return () => {
-    document.body.style.overflow = '';
-  };
-}, [open]);
-if (!open) return null;
-```
-Major UX win: disables scroll behind the modal.
-
----
-
-### Input/Edit Handlers
-
-```tsx
-const handleItemInput = (itemId: string, field: any, value: any) => {
-  const arrKey = isFinanceSource(localSource) ? 'payments' : 'items';
-  setLocalSource(prev => ({
-    ...prev,
-    [arrKey]: (prev as any)[arrKey].map((itm: any) =>
-      itm.id === itemId ? { ...itm, [field]: value } : itm,
-    ),
-  }) as any);
-};
-```
-
-- Decides if we’re editing "payments" or "items."
-- Finds the one we're editing (via `id`), and updates just that field.
-
-```tsx
-const handleSourceInput = (field: string, value: any) => {
-  setLocalSource(prev => ({ ...prev, [field]: value }) as any);
-};
-```
-
-- Updates a top-level field without touching others.
-
-#### Validation logic
-
-```tsx
-function validate() {
-  const err: Record<string, string> = {};
-  if (!localSource.sourceName?.trim()) err.sourceName = 'Source name required';
-  const items = isFinanceSource(localSource)
-    ? localSource.payments
-    : isInvestmentSource(localSource)
-      ? localSource.items
-      : [];
-  for (const item of items) {
-    if ('name' in item && !item.name?.trim()) err[`item.${item.id}.name`] = 'Name required';
-    if ('assetName' in item && !item.assetName?.trim())
-      err[`item.${item.id}.assetName`] = 'Asset name required';
-  }
-  setErrors(err);
-  return Object.keys(err).length === 0;
-}
-```
-- Checks that required fields are present (MVP-level, but ready to extend!).
-
-#### Submit Handler
-
-```tsx
-const handleSubmit = () => {
-  if (validate()) {
-    onSubmit?.(localSource);
-    onClose();
-  }
-};
-```
-
----
-
-### The Source Fields
-
-To avoid hardcoding, I set up an array describing the fields for the modal "header":
-
-```tsx
-const sourceFields = [
-  { label: 'Source Name', field: 'sourceName', value: localSource.sourceName, err: errors.sourceName },
-  ...(localSource.description !== undefined
-    ? [{ label: 'Description', field: 'description', value: localSource.description }]
-    : []),
-  ...(localSource.date !== undefined
-    ? [{ label: 'Date', field: 'date', value: localSource.date, type: 'date' }]
-    : []),
-];
-```
-
-Which gets rendered as:
-
-```tsx
-<h2 className="text-2xl font-bold mb-2 text-[#29388A] text-center">
-  Edit "{localSource.sourceName}"
-</h2>
-{sourceFields.map(f => (
-  <FieldInput
-    key={f.field}
-    label={f.label}
-    type={f.type}
-    value={f.value}
-    onChange={v => handleSourceInput(f.field ?? '', v)}
-    err={f.err}
-  />
-))}
-```
-
----
-
-## constants/fieldConfig.ts – All Fields Centralized
-
-I keep payment and investment item fields here for clarity and maintainability.
-
-```tsx
-export const PAYMENT_FIELDS = [
-  { field: "name", label: "Name" },
-  { field: "type", label: "Type" },
-  { field: "amount", label: "Amount", type: "number" },
-  { field: "date", label: "Date", type: "date" },
-  { field: "loop", label: "Loop", type: "checkbox" },
-  { field: "status", label: "Payment Status", enumOptions: ["coming", "paid"] }
-];
-
-export const ITEM_FIELDS = [
-  { field: "assetName", label: "Asset Name" },
-  { field: "term", label: "Term", enumOptions: ["short", "middle", "long"] },
-  { field: "investedAmount", label: "Invested Amount", type: "number" },
-  { field: "entryDate", label: "Entry Date", type: "date" },
-  { field: "exitDate", label: "Exit Date", type: "date" },
-  { field: "result", label: "Result", enumOptions: ["none", "profit", "loss"] },
-  { field: "resultAmount", label: "Result Amount", type: "number" },
-  { field: "status", label: "Status", enumOptions: ["open", "closed"] }
-];
-```
-Any change here flows everywhere.
-
----
-
-## FieldInput.tsx – A Simple, Dumb Field Component
-
-```tsx
-type FieldInputProps = {
-  label: string;
-  type?: string;
-  value: any;
-  onChange: (v: any) => void;
-  enumOptions?: string[];
-  err?: string;
-};
-
-export default function FieldInput({label, type, value, onChange, enumOptions, err}: FieldInputProps) {
-  if (enumOptions) return (
-    <label>
-      <span className="block">{label}</span>
-      <select
-        value={value}
-        onChange={e=>onChange(e.target.value)}
-        className="rounded border px-2 py-1 mt-1 w-full text-black"
-      >
-        {enumOptions.map(opt => <option key={opt} value={opt}>{opt}</option>)}
-      </select>
-      {err && <span className="text-red-500 text-xs">{err}</span>}
-    </label>
-  );
-  if (type === 'checkbox') return (
-    <label className="flex items-center gap-1">
-      <span className="block">{label}</span>
-      <input type="checkbox" checked={!!value} onChange={e=>onChange(e.target.checked)}/>
-    </label>
-  );
-  return (
-    <label className="block">
-      <span className="block">{label}</span>
-      <input
-        type={type||'text'}
-        value={type==='date' && value ? String(value).slice(0,10) : (value ?? '')}
-        onChange={e => onChange(
-          type==='number' ? Number(e.target.value)
-          : type==='checkbox' ? e.target.checked
-          : e.target.value
-        )}
-        className="rounded border px-2 py-1 mt-1 w-full text-black"
-      />
-      {err && <span className="text-red-500 text-xs">{err}</span>}
-    </label>
-  );
-}
-```
-- Handles selects, checkboxes, text, numbers, dates—just unite data and logic.
-- Shows an error if needed.
-
----
-
-## AccordionItem.tsx – All The Heavy Lifting, None of the Spaghetti
-
-```tsx
-type AccordionItemProps = {
-  item: Record<string, any>;
-  fieldConfig: {
-    field: string;
-    label: string;
-    type?: string;
-    enumOptions?: string[];
-  }[];
-  itemTypeKey: string;
-  isOpen: boolean;
-  toggleOpen: () => void;
-  handleItemInput: (itemId: string, field: string, value: any) => void;
-  errors?: Record<string, string>;
-};
-
-export default function AccordionItem({
-  item,
-  fieldConfig,
-  itemTypeKey,
-  isOpen,
-  toggleOpen,
-  handleItemInput,
-  errors,
-}: AccordionItemProps) {
-  return (
-    <div className={`border-4 border-[#29388A] rounded px-2 py-2 transition-all cursor-pointer ${isOpen ? 'bg-[#3A4483]/75 text-white' : 'text-[#29388A]'}`}>
-      <div onClick={toggleOpen} className="flex flex-row justify-between items-center">
-        <span> {'name' in item ? item.name : item.assetName}</span>
-        <span className="text-sm text-gray-500">{isOpen ? '▼' : '▶'}</span>
-      </div>
-      {isOpen && (
-        <div className="mt-2 flex flex-col gap-2">
-          {fieldConfig.map((f) =>
-            f.field === 'id' ? null : (
-              <FieldInput
-                key={f.field}
-                label={f.label}
-                type={f.type}
-                enumOptions={f.enumOptions}
-                value={item[f.field]}
-                onChange={v => handleItemInput(item.id, f.field, v)}
-                err={errors?.[`${itemTypeKey}.${item.id}.${f.field}`]}
-              />
-            )
-          )}
-        </div>
-      )}
-    </div>
-  );
-}
-```
-- No matter what shape the data becomes, this will render/expand/collapse and edit each field correctly.
-- One clear file—not hundreds of repetitive lines for every possible field.
-
----
-
-## Main Modal Use: Bringing It All Together
-
-```tsx
-{isFinanceSource(localSource) &&
-  localSource.payments &&
-  localSource.payments.map(payment => (
-    <AccordionItem
-      key={payment.id}
-      item={payment}
-      fieldConfig={PAYMENT_FIELDS}
-      itemTypeKey="payment"
-      isOpen={!!openItemAccordions[payment.id]}
-      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [payment.id]: !prev[payment.id] }))}
-      handleItemInput={handleItemInput}
-      errors={errors}
-    />
-  ))
-}
-{isInvestmentSource(localSource) &&
-  localSource.items &&
-  localSource.items.map(item => (
-    <AccordionItem
-      key={item.id}
-      item={item}
-      fieldConfig={ITEM_FIELDS}
-      itemTypeKey="item"
-      isOpen={!!openItemAccordions[item.id]}
-      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [item.id]: !prev[item.id] }))}
-      handleItemInput={handleItemInput}
-      errors={errors}
-    />
-  ))
-}
-```
-
-All arrays map cleanly, and handlers/configs are passed in for complete flexibility. No repeated code, just reusable legos.
-
----
-
-## Clean Modal Controls
-
-```tsx
-<div className="flex justify-end gap-2 mt-4">
-  <button
-    onClick={onClose}
-    className="px-4 py-2 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 font-semibold"
-  >
-    Cancel
-  </button>
-  <button
-    onClick={handleSubmit}
-    className="px-4 py-2 rounded bg-[#29388A] text-white hover:bg-blue-800 font-semibold"
-  >
-    Submit
-  </button>
-</div>
-```
-They do only what they need to, with zero drama.
-
----
-
-## Final Reflections
-
-Before the cleanup, this was a hot mess: one file, hundreds of lines, nearly impossible to trace. Now, thanks to focused components and field configs, I can extend and maintain everything with confidence. I can add or change fields, validation, or UI behaviors without ever touching 200 lines at once—maybe just 10, in the right place.
-
-**Maintainability is gold.**  
-This process cemented how much TypeScript + React + good planning = massive time and sanity savings. Don’t be afraid to modularize—even if it feels like “extra work.” It always pays off.
-
----
-
-If you enjoyed this, found it useful, or have feedback, please share a comment! I’ll keep learning, building, and sharing—onward and upward!
-
----
-
-#react #nextjs #typescript #refactor #frontend #webdevelopment #modal #forms #learningjourney #components #scalable #maintainable #ui #personalproject
-23:["$","$L21","fromChaosToClarity",{"post":{"metadata":{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","subtitle":"","publishedAt":"2026-01-21","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"fromChaosToClarity","content":"$26"},"thumbnail":true,"direction":"column"}]
+23:["$","$L21","mvpPublished",{"post":{"metadata":{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","subtitle":"","publishedAt":"2026-01-25","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"mvpPublished","content":"$26"},"thumbnail":true,"direction":"column"}]
 24:["$","$L27",null,{}]
 25:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L18",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L28",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L29",null,{"fitHeight":true}]]}]
-2a:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
-2b:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
-2c:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
+2a:I[11052,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"HeadingLink"]
+2b:I[36122,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"List"]
+2c:I[26935,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"ListItem"]
 1e:[["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"why-build-myfinance","children":"Why Build MyFinance?"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"A couple weeks ago, after launching my new portfolio website, I shared that I’d be starting a project that genuinely excites me. This is it: MyFinance."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Why am I so hyped about this one? Because for the first time, I’m building a solution for a real-world problem that I actually face every month. I’ve tried a bunch of finance apps, but most are either paid, overloaded with features I don’t need, or simply don’t fit the way I want to track things. I wanted something simple: to track my monthly income and expenses and keep my investments tidy—all in one dashboard."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"So, I decided to build my own tailored solution. And yes, MyFinance will be completely free!"}],"\n",["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}],"\n",["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"defining-the-project-scope-and-goals","children":"Defining the Project Scope & Goals"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"Project name:"}]," MyFinance"]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":[["$","strong",null,{"children":"The goal:"}]," Let users (including myself!) easily track income, expenses, and investments with custom categories, see profit or loss each month, and export statements as neat PDFs."]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["$","strong",null,{"children":"MVP Features:"}]}],"\n",["$","$L2b",null,{"children":["\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Personal sign up & login for privacy"}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Default and custom categories for income/expenses"}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Add/edit income and expense entries"}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Track investments (profit/loss per asset)"}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Monthly summary & one-click PDF exports"}],"\n"]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["$","strong",null,{"children":"Out of scope (for now):"}]}],"\n",["$","$L2b",null,{"children":["\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Bank integrations"}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Cross-account transfers"}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Net worth tracking"}],"\n",["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Mobile app"}],"\n","$L2d","\n"]}],"\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f","\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47","\n","$L48","\n","$L49"]
-4a:I[97784,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/4a9c76e2a1b09db0.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"CodeBlock"]
+4a:I[97784,["/newPortfolio/_next/static/chunks/ff1a16fafef87110.js","/newPortfolio/_next/static/chunks/40e549f30e38bf92.js","/newPortfolio/_next/static/chunks/52ccd9bb74f30947.js","/newPortfolio/_next/static/chunks/48b36dded242243f.js","/newPortfolio/_next/static/chunks/6e7703b840071812.js","/newPortfolio/_next/static/chunks/4c25d240ef55c323.js"],"CodeBlock"]
 2d:["$","$L2c",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Payments/subscriptions"}]
 2e:["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}]}]
 2f:["$","$L2a",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"planning-data-flow-and-architecture","children":"Planning Data Flow & Architecture"}]
