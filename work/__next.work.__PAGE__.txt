@@ -2,8 +2,8 @@
 2:I[273323,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"Column"]
 3:I[479520,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],""]
 4:I[474855,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"ProjectCard"]
-d:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
-e:"$Sreact.suspense"
+b:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
 5:Tc73,
 ## Overview
 
@@ -55,8 +55,8 @@ e:"$Sreact.suspense"
 
 ---
 
-This MDX entry documents the **MyFinance** project—showcasing its technical architecture, features, and cloud-native deployment approach for modern personal finance management.0:{"buildId":"LAgT6bUPnCXPB_SDW6XTe","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/work\",\"sameAs\":[],\"headline\":\"Projects – Doruk Kocausta\",\"description\":\"Design and dev projects by Doruk Kocausta\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Projects%20%E2%80%93%20Doruk%20Kocausta\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Doruk Kocausta"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","My-Finance-personal-finance-tracker",{"priority":true,"href":"/work/My-Finance-personal-finance-tracker","images":["/newPortfolio/images/projects/project-04/myfinance1.png","/newPortfolio/images/projects/project-04/myfinance2.png","/newPortfolio/images/projects/project-04/myfinance3.png"],"title":"MyFinance — Personal Finance Tracker","description":"MyFinance is a modern cloud-based platform for managing personal finances, tracking expenses, and visualizing investments. It features a robust full-stack architecture leveraging Next.js, NestJS, Prisma, and a scalable Neon Postgres database.","content":"$5","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://my-finance-frontend-sigma.vercel.app"}],"$L6","$L7","$L8"]}]]}],null,"$L9"]}],"loading":null,"isPartial":false}
-a:Te97,
+This MDX entry documents the **MyFinance** project—showcasing its technical architecture, features, and cloud-native deployment approach for modern personal finance management.0:{"buildId":"fOdYgtPufzfYtBKVv7HKc","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/work\",\"sameAs\":[],\"headline\":\"Projects – Doruk Kocausta\",\"description\":\"Design and dev projects by Doruk Kocausta\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Projects%20%E2%80%93%20Doruk%20Kocausta\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Doruk Kocausta"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","My-Finance-personal-finance-tracker",{"priority":true,"href":"/work/My-Finance-personal-finance-tracker","images":["/newPortfolio/images/projects/project-04/myfinance1.png","/newPortfolio/images/projects/project-04/myfinance2.png","/newPortfolio/images/projects/project-04/myfinance3.png"],"title":"MyFinance — Personal Finance Tracker","description":"MyFinance is a modern cloud-based platform for managing personal finances, tracking expenses, and visualizing investments. It features a robust full-stack architecture leveraging Next.js, NestJS, Prisma, and a scalable Neon Postgres database.","content":"$5","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://my-finance-frontend-sigma.vercel.app"}],"$L6","$L7"]}]]}],null,"$L8"]}],"loading":null,"isPartial":false}
+9:Te97,
 ## Overview
 
 WhatToWear is a full-stack application that helps users decide what to wear each day by combining live weather data and a personal wardrobe inventory. The backend (Express) aggregates weather feeds, manages user wardrobes, and returns outfit suggestions. The frontend (React/Vite) provides an intuitive UI for managing clothing items, viewing daily suggestions, and saving favorites.
@@ -109,8 +109,8 @@ WhatToWear is a full-stack application that helps users decide what to wear each
 
 ---
 
-This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.6:["$","$L4","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-02/wt_cover-02.png","/newPortfolio/images/projects/project-02/wt_cover-01.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}]
-b:Tf18,
+This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.6:["$","$L4","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":true,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-02/wt_cover-02.png","/newPortfolio/images/projects/project-02/wt_cover-01.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather.","content":"$9","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}]
+a:Tf18,
 ## Overview
 
 MealMatch is an MVP that streamlines meal donations by matching donors (restaurants, caterers, home cooks) with organizations and individuals in need. The project focuses on reducing food waste and improving logistics by providing a simple registration and matching flow, secure authentication, and an admin interface for managing donations and users.
@@ -160,57 +160,6 @@ MealMatch is an MVP that streamlines meal donations by matching donors (restaura
 
 ---
 
-This Mealmatch MDX entry summarizes the project, technical decisions, and actionable next steps for taking the MVP from a working prototype to a secure, production-ready service.7:["$","$L4","building-once-ui-a-customizable-design-system",{"priority":false,"href":"/work/building-once-ui-a-customizable-design-system","images":["/newPortfolio/images/projects/project-01/cover-01.png","/newPortfolio/images/projects/project-01/cover-02.jpeg"],"title":"MealMatch — Automating Meal Donations and Distribution","description":"MealMatch connects donors, kitchens, and recipients to reduce food waste and streamline meal distribution with an easy-to-use web platform and automated matching.","content":"$b","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/mealmatch"}]
-c:Tc8e,
-## Overview
-
-**Spots** is a modern, responsive social media platform for sharing and discovering photos of interesting locations. It offers users a clean interface and seamless experience across devices, combining ES6+ JavaScript, modular OOP design, and best practices in UI/UX development. Users can create a personal profile, upload and like photos, and explore a gallery that updates dynamically with API integration.
-
-## Key Features
-
-- **Responsive Design:** Adapts smoothly to desktop, tablet, and mobile screens using CSS Grid, Flexbox, and media queries.
-- **User Profile Section:** Each user can view and edit personal information, including their display name and bio.
-- **Profile Image Editing:** Simple modal interface for uploading or updating profile pictures, enhancing user identity.
-- **Photo Gallery with Likes:** Photos appear in stylish cards with a like button for user engagement.
-- **Form Validations:** All user input is validated in real time, with custom error messages and clear feedback.
-- **API Integration:** Fetches and submits user and photo data using RESTful endpoints for a live, interactive feel.
-- **Modular OOP Architecture:** Built with ES6 classes for clean, maintainable, and reusable code.
-- **BEM Methodology:** CSS follows Block-Element-Modifier conventions for clarity and scalability.
-
-## Technologies Used
-
-- **HTML5:** Semantic markup supports accessibility and SEO.
-- **CSS3:** Layouts built with Flexbox, CSS Grid, and responsive media queries.
-- **JavaScript (ES6+):** Modern, modular code using classes and advanced JS features.
-- **OOP:** Object-Oriented Programming improves structure and scalability.
-- **RESTful API:** Communication with backend services for data management.
-- **Form Validation:** Inline, user-friendly validation enhances UX.
-- **BEM CSS:** Systematic approach for organized styles.
-- **Git & GitHub:** Version control and remote collaboration.
-
-## Challenges and Learnings
-
-- **Scalable CSS Structure:** Implementing BEM and modular SCSS/CSS for maintainable styles.
-- **OOP in Frontend:** Adopting ES6 classes across components to improve scalability.
-- **UX Refinement:** Ensured smooth modals, validations, and photo interactions through user testing and iteration.
-- **API Error Handling:** Managed various response states for resilience and clear user feedback.
-- **Responsive Layouts:** Tuned grid/flex layouts for consistent, attractive look at any device resolution.
-
-## Outcome
-
-- Delivered a fully responsive, feature-rich social media web app.
-- Users can edit their profile, interact with others' photos, and enjoy a seamless viewing and editing experience.
-- The application codebase is clean, maintainable, and ready for further enhancements.
-- **Domain**: https://kedycatsudo.github.io/se_project_spots/
-- **Github Repo**: https://github.com/kedycatsudo/se_project_spots
-
-## Deployment & Next Steps
-
-- Future ideas: add comments, improved search/filter for spots, backend authentication, and richer social sharing features.
-
----
-
-This MDX entry documents the **Spots** project, showcasing the technical and user experience foundations of a robust photo-sharing platform.
-8:["$","$L4","simple-portfolio-builder",{"priority":false,"href":"/work/simple-portfolio-builder","images":["/newPortfolio/images/projects/project-03/spots1.png","/newPortfolio/images/projects/project-03/spots2.png","/newPortfolio/images/projects/project-03/spots3.png"],"title":"Spots — Social Photo Sharing Platform","description":"Spots is a responsive social platform where users share, explore, and interact with photos of unique places. Built with modern JavaScript, OOP, and modular architecture for maintainability and great user experience.","content":"$c","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://kedycatsudo.github.io/se_project_spots/"}]
-9:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
-f:null
+This Mealmatch MDX entry summarizes the project, technical decisions, and actionable next steps for taking the MVP from a working prototype to a secure, production-ready service.7:["$","$L4","building-once-ui-a-customizable-design-system",{"priority":false,"href":"/work/building-once-ui-a-customizable-design-system","images":["/newPortfolio/images/projects/project-01/cover-01.png","/newPortfolio/images/projects/project-01/cover-02.jpeg"],"title":"MealMatch — Automating Meal Donations and Distribution","description":"MealMatch connects donors, kitchens, and recipients to reduce food waste and streamline meal distribution with an easy-to-use web platform and automated matching.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/mealmatch"}]
+8:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null
