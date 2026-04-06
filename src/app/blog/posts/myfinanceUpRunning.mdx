@@ -1,0 +1,125 @@
+---
+title: "MyFinance is Up and Running"
+subtitle: ''
+summary: ''
+image: '/newPortfolio/images/gallery/myfinancelogo.png'
+publishedAt: '2026-03-16'
+tag: 'Learning Journey'
+---
+
+# MyFinance is Up and Running
+
+Last night around 3:30 AM, I finished deployment for MyFinance. I really wanted to write this article with fresh feelings, but today I realized that the feeling is still fresh like last night. I’m not going to be humble about this because there was true dedication and, yeah, some suffering—but at the end of that suffering, the prize was big. I loved every line of code, every piece of thought for MyFinance, and honestly, I even love writing about the project and its details. Hope everybody who reads this article enjoys it too.
+
+## How It Started
+
+I was thinking about one more side project that would go in my portfolio next to MealMatch. After some brainstorming, it didn’t take me too long to create this idea. I wanted to focus on backend this time instead of frontend. So I knew I would need a lot of data. Then I checked what problem I personally have that I could solve with a project. Turns out I really needed a financial tracking system for myself. I know, I know, there are millions of them ready to use. But guess what:
+
+- They’re not free.
+- If some are free, they're not satisfying my needs.
+- The paid ones have a ton of features I don’t even know why exist.
+- Also, don’t tell somebody who truly believes in open source.
+
+So, my rules were set. It had to be free—or as close as possible. But I needed even more motivation to start a new project. I decided to set a challenge for myself, to make it interesting. I decided to learn:
+
+- Next.js 
+- Nest.js
+- PostgreSQL
+- TypeScript
+- Vercel and Render for deployment
+
+Now that I caught my own attention, I wanted to dive deep into the project, but I knew I needed to make a lot of decisions before writing a single line of code.
+
+---
+
+## Build Different This Time
+
+On my last project, MealMatch, I started from the frontend. What did I do?
+
+- Planned frontend components before any data flow or backend architecture
+- Designed everything on Figma
+- Started and finished the frontend first
+- Then started and finished the backend
+
+Separately, things looked fine, right? But the moment I started to connect the two... the errors were intense. I had to change a lot on the backend, and let me tell you, it was a pain in the ass. Still, I finished and deployed successfully. If you’re interested, it’s running here: [MealMatch](https://mealmatch.online/).
+
+This time, I started from the database.
+
+- Learned PostgreSQL from scratch
+- Created my database
+- Made manual tests for database tables
+- Then I built the data flow and backend architecture
+- I planned for 5 days, just writing in a plain text file, scribbling my thoughts: What do I need? Where is it coming from? How is data created and transferred end to end? Thoughts led to more thoughts and the creation was intense. And I truly loved every second of it.
+
+When the plan was ready, I finally started creating my frontend components. With the data flow already mapped out, building the frontend was so much easier. I designed in Figma, it looked okay for a start—and I knew it would improve over time. Because this time, I didn’t need to change my backend or database. I just needed to adjust my frontend to fit my backend structure. I could feel it was going to be much easier than MealMatch. It was already running much more smoothly.
+
+Pay attention: I think I was around day 12 without having written any code, but my plan was rock solid. Like Lincoln said:  
+“If I had 24 hours to chop down a tree, I'd spend 23 hours sharpening my axe.”  
+That’s exactly what I did. I made sure the plan was done before I even opened VSCode.
+
+---
+
+## Finally Jump Into VSCode
+
+Alright, let’s be honest. I like planning and writing, but what I love is seeing VSCode with thousands of lines of code.
+
+I started creating my frontend components with Next.js.  
+I had a bit of Next.js experience from my portfolio website—the one you’re reading now—which wasn't from scratch but adapted from Vercel’s open source starter.  
+Next.js was easy enough, but learning and writing with TypeScript took me a minute. But I learned and implemented it successfully, and, no lie, TypeScript is amazing. Fixes a ton of type errors for you so you don’t have to deal with them later. Still, I know I need more practice with TypeScript and plain JavaScript. Especially TypeScript. It took me 2 months to publish the first frontend MVP (with GitHub Pages). I think I wrote about that earlier, two articles back.
+
+Quickly, I jumped to building the database. Tech stack: already decided.
+
+- Learned PostgreSQL
+- Created database and tables
+
+This part wasn’t too hard—I already had university experience working on a registration system as a junior dev.
+
+Then, I started building the backend with Nest.js.  
+I couldn’t believe how fast the production was. Everything is ready to use for a developer’s needs:
+
+- Guards  
+- Authentication  
+- Services  
+- Modules  
+- Controllers
+
+You just create your logic and connect the modules. If you’ve worked with Express.js before Nest.js, you know what I'm talking about, and you’ll love how quick it is. It took me about a month. Being honest, that’s impressive. Building the backend with Express.js in MealMatch took almost 2.5 months—I had to do everything by hand.
+
+Not too long ago, I finished connecting frontend and backend. It was easier than I thought, because Next.js and Nest.js work so well together. Plus, I’d anticipated most of the issues well ahead—3 months ago when I planned this out, I saw the problems before they even appeared and fixed them. Don’t get me wrong, this project still had its fair share of errors and headaches, ha! I could write another article just about the all-nighters spent refactoring data types or deleting whole database tables with Prisma. But that’s not for this article.
+
+Last night, I wrapped up lint and TypeScript errors, then started looking into deployment. I knew I was using Vercel for frontend, but what about the backend and DB? So, I did what we all do: researched till my eyes glazed over.
+
+Decided to use Neon for the DB and Render for backend.  
+Their free tiers are generous and reliable.
+
+I learned quickly how to deploy on both. Honestly, I expected way more problems—stuff like “no errors but data isn’t getting fetched” or weird connection issues. But here’s the reality:  
+Render’s free plan goes to sleep after 15 minutes of inactivity. So, if nobody’s used the backend in a while, your first login/register might take 45 seconds to a minute. Be patient! After that, it’s smooth as butter.
+
+Because I planned MyFinance so carefully, deployment only threw a couple of errors my way. One was CORS—just forgot to allow it for the investments page. No biggie, fixed in a sec. Otherwise, backend ran smooth on the first try.
+
+I know, I’ve talked a lot, but this is the way I review my own projects:  
+Documented articles, posts, mini info blogs.
+
+Now if anybody’s curious from my LinkedIn, they can check my site, read these articles, and see how and why I built what I did.  
+Hope you enjoy the article—and honestly, if not, I don’t care that much. I love this project and my articles about it. But feel free to give me feedback on LinkedIn; I love feedback, I consume it like crazy, and I’ll always keep learning new things.
+
+---
+
+## What’s Next?
+
+Before I finish, a sneak peek at my next project:  
+My own AI agent running on my local computer.
+
+Ollama has AI models you can download, use, and even fine-tune on your own little dataset—think ChatGPT, but local.
+
+You need domain-specific data. So, what to build?
+
+- Cyber security agent  
+- Financial adviser agent  
+- Trading agent  
+- Coding agent  
+- Business agent  
+- You name it, I’ll create it
+
+Alright, another project done and dusted, successfully implemented and running smooth.  
+I’ll see you on the next one.

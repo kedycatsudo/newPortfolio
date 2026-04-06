@@ -1,0 +1,68 @@
+---
+title: "MyFinance — Personal Finance Tracker"
+publishedAt: "2026-03-17"
+summary: "MyFinance is a modern cloud-based platform for managing personal finances, tracking expenses, and visualizing investments. It features a robust full-stack architecture leveraging Next.js, NestJS, Prisma, and a scalable Neon Postgres database."
+images:
+  - "/newPortfolio/images/projects/project-04/myfinance1.png"
+  - "/newPortfolio/images/projects/project-04/myfinance2.png"
+  - "/newPortfolio/images/projects/project-04/myfinance3.png"
+team:
+  - name: "Doruk Kocausta"
+    role: "Full-Stack Developer"
+    avatar: "/newPortfolio/images/dorukAvatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/dorukkocausta/"
+repo: "@kedycatsudo/my-finance-monorepo"
+link: "https://my-finance-frontend-sigma.vercel.app"
+---
+
+## Overview
+
+**MyFinance** is a modern full-stack personal finance tracker, designed for users to seamlessly manage expenses, track investments, and visualize their financial health in real time. The project utilizes a modular monorepo setup and cloud-native deployment for reliability and scalability.
+
+## Key Features
+
+- **Cloud-Hosted Backend:** Built using NestJS and Prisma ORM, deployed on Render and connected to Neon Postgres for persistent, scalable data storage.
+- **Modern Frontend:** Next.js React app, deployed on Vercel for high availability and global delivery.
+- **Expense & Investment Tracking:** Add, edit, and categorize expenses and investments with intuitive forms.
+- **Dynamic Dashboards:** Interactive charts and summary views visualize spending patterns and investment distribution.
+- **Authentication & Security:** (Planned) Secure login, user authentication, and role-based access.
+- **RESTful API:** Clean, versioned endpoints power the frontend and support future integrations.
+- **Responsive Design:** Usable across all devices—desktop, tablet, and mobile.
+- **Automated Deployments:** CI/CD via Git push enables automatic, zero-downtime deployments to Render and Vercel.
+- **Environment Variables:** Sensitive configs handled securely in cloud dashboards.
+
+## Technologies Used
+
+- **Frontend:** Next.js, React, TypeScript, CSS Modules
+- **Backend:** NestJS, TypeScript, Prisma ORM
+- **Database:** Neon Postgres (fully managed cloud database)
+- **API:** RESTful endpoints, stateless CORS policy
+- **DevOps:** Monorepo (multi-app), GitHub, Render, Vercel, CI/CD, Environment Variables
+- **Form Management & Validation:** React hooks/forms, custom error handling
+
+## Challenges and Learnings
+
+- **Monorepo Deployment:** Solved complex build issues on Render and Vercel using per-app lockfiles and custom build scripts.
+- **Prisma Migrations:** Automated schema updates in Pre-Deploy Commands for robust, reproducible DB migrations.
+- **CORS and API Security:** Configured CORS in NestJS for safe API consumption from the Vercel-hosted frontend.
+- **Frontend-Backend Cloud Integration:** Ensured smooth cross-origin data flow and proactive error monitoring.
+- **Responsive UI:** Tuned layouts for intuitive mobile and desktop usage.
+
+## Outcome
+
+- Users can seamlessly manage expenses, investments, and get instant insights into their financial life.
+- The codebase is organized, cloud-ready, and easily extendable for future features.
+- Automated deploys create a professional, production-grade workflow.
+- **Frontend Live:** [my-finance-frontend-sigma.vercel.app](https://my-finance-frontend-sigma.vercel.app)
+- **Monorepo:** [github.com/kedycatsudo/my-finance-monorepo](https://github.com/kedycatsudo/my-finance-monorepo)
+
+## Deployment & Next Steps
+
+- Add in-app authentication (login/register).
+- Budget tracking, recurring transaction planner, and export/report features.
+- Expand data visualization, including trends and alerts.
+- Open API docs, possible mobile PWA.
+
+---
+
+This MDX entry documents the **MyFinance** project—showcasing its technical architecture, features, and cloud-native deployment approach for modern personal finance management.

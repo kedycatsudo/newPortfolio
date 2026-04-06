@@ -230,6 +230,19 @@ const about: About = {
         ],
       },
       {
+        title: "Nest.js",
+        tags: [
+          { name: "TypeScript", icon: "typescript" },
+          { name: "Backend" },
+          { name: "API Development" },
+          { name: "Microservices" },
+          { name: "REST" },
+          { name: "GraphQL" },
+          { name: "Decorators" },
+          { name: "Full Stack" },
+        ],
+      },
+      {
         title: "Mongodb",
         tags: [
           { name: "MongoDB", icon: "mongodb" },
@@ -238,6 +251,18 @@ const about: About = {
           { name: "Database" },
           { name: "NoSQL" },
           { name: "Data Modeling" },
+        ],
+      },
+      {
+        title: "PostgreSQL",
+        tags: [
+          { name: "PostgreSQL" },
+          { name: "Backend" },
+          { name: "Database" },
+          { name: "SQL" },
+          { name: "Relational" },
+          { name: "Data Modeling" },
+          { name: "Queries" },
         ],
       },
       {
@@ -266,9 +291,11 @@ const about: About = {
         title: "Cloud Deployment",
         tags: [
           { name: "Netlify" },
+          { name: "Vercel" },
           { name: "AWS" },
           { name: "Google Cloud" },
-          { name: "OOP" },
+          { name: "Render" },
+          { name: "Neon" },
           { name: "CI/CD" },
           { name: "Docker" },
           { name: "Kubernetes" },
