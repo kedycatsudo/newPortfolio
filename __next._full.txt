@@ -14,58 +14,323 @@
 :HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
 :HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-a:Tc73,
-## Overview
+a:T3f74,
+# Architecture for the Modern Web.
 
-**MyFinance** is a modern full-stack personal finance tracker, designed for users to seamlessly manage expenses, track investments, and visualize their financial health in real time. The project utilizes a modular monorepo setup and cloud-native deployment for reliability and scalability.
+I am a full stack engineer with hands-on experience delivering end-to-end technology solutions. I earned my Bachelor’s degree in Computer Engineering from Pamukkale University (Turkey) in 2021, building my expertise through rigorous, AI-free study of real computer science, engineering, and software development fundamentals. I take pride in a foundation grounded in first principles—not just surface-level “vibe coding”—while embracing today’s most powerful tools, including AI, to achieve outstanding results.
 
-## Key Features
+Based in Knoxville and operating as a solo consultant, I serve clients both locally and around the world. My mission is to help businesses grow and stay competitive by providing reliable, up-to-date technology solutions tailored to their unique challenges and ambitions.
 
-- **Cloud-Hosted Backend:** Built using NestJS and Prisma ORM, deployed on Render and connected to Neon Postgres for persistent, scalable data storage.
-- **Modern Frontend:** Next.js React app, deployed on Vercel for high availability and global delivery.
-- **Expense & Investment Tracking:** Add, edit, and categorize expenses and investments with intuitive forms.
-- **Dynamic Dashboards:** Interactive charts and summary views visualize spending patterns and investment distribution.
-- **Authentication & Security:** (Planned) Secure login, user authentication, and role-based access.
-- **RESTful API:** Clean, versioned endpoints power the frontend and support future integrations.
-- **Responsive Design:** Usable across all devices—desktop, tablet, and mobile.
-- **Automated Deployments:** CI/CD via Git push enables automatic, zero-downtime deployments to Render and Vercel.
-- **Environment Variables:** Sensitive configs handled securely in cloud dashboards.
-
-## Technologies Used
-
-- **Frontend:** Next.js, React, TypeScript, CSS Modules
-- **Backend:** NestJS, TypeScript, Prisma ORM
-- **Database:** Neon Postgres (fully managed cloud database)
-- **API:** RESTful endpoints, stateless CORS policy
-- **DevOps:** Monorepo (multi-app), GitHub, Render, Vercel, CI/CD, Environment Variables
-- **Form Management & Validation:** React hooks/forms, custom error handling
-
-## Challenges and Learnings
-
-- **Monorepo Deployment:** Solved complex build issues on Render and Vercel using per-app lockfiles and custom build scripts.
-- **Prisma Migrations:** Automated schema updates in Pre-Deploy Commands for robust, reproducible DB migrations.
-- **CORS and API Security:** Configured CORS in NestJS for safe API consumption from the Vercel-hosted frontend.
-- **Frontend-Backend Cloud Integration:** Ensured smooth cross-origin data flow and proactive error monitoring.
-- **Responsive UI:** Tuned layouts for intuitive mobile and desktop usage.
-
-## Outcome
-
-- Users can seamlessly manage expenses, investments, and get instant insights into their financial life.
-- The codebase is organized, cloud-ready, and easily extendable for future features.
-- Automated deploys create a professional, production-grade workflow.
-- **Frontend Live:** [my-finance-frontend-sigma.vercel.app](https://my-finance-frontend-sigma.vercel.app)
-- **Monorepo:** [github.com/kedycatsudo/my-finance-monorepo](https://github.com/kedycatsudo/my-finance-monorepo)
-
-## Deployment & Next Steps
-
-- Add in-app authentication (login/register).
-- Budget tracking, recurring transaction planner, and export/report features.
-- Expand data visualization, including trends and alerts.
-- Open API docs, possible mobile PWA.
+**Here is my Upwork profile:**  
+[https://www.upwork.com/freelancers/~01ac65ad79d3f8f579](https://www.upwork.com/freelancers/~01ac65ad79d3f8f579)  
+_Reach out if you’d like to collaborate!_
 
 ---
 
-This MDX entry documents the **MyFinance** project—showcasing its technical architecture, features, and cloud-native deployment approach for modern personal finance management.0:{"P":null,"b":"fOdYgtPufzfYtBKVv7HKc","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/136acffeffc44697.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/\",\"sameAs\":[],\"headline\":\"Doruk Kocausta's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Full-Stack Web Developer\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Doruk%20Kocausta's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Building the Future of the Web "}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I’m Doruk, Full-Stack Web Developer focused on creating efficient, scalable and secure web apps. Welcome to my portfolio!"}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L8",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/newPortfolio/images/dorukAvatar.jpg","size":"l"}],"About – Doruk Kocausta"]}]}]}]]}]}],["$","$L5",null,{"translateY":"16","delay":0.6,"children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L9","My-Finance-personal-finance-tracker",{"priority":true,"href":"/work/My-Finance-personal-finance-tracker","images":["/newPortfolio/images/projects/project-04/myfinance1.png","/newPortfolio/images/projects/project-04/myfinance2.png","/newPortfolio/images/projects/project-04/myfinance3.png"],"title":"MyFinance — Personal Finance Tracker","description":"MyFinance is a modern cloud-based platform for managing personal finances, tracking expenses, and visualizing investments. It features a robust full-stack architecture leveraging Next.js, NestJS, Prisma, and a scalable Neon Postgres database.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://my-finance-frontend-sigma.vercel.app"}]]}]}],"$Lb","$Lc"]}],["$Ld"],"$Le"]}],{},null,false,false]},null,false,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true}
+## Engineering Services
+
+<img src="/newPortfolio/images/gallery/services.png" alt="Engineering Services" />
+Beyond standard code, I deliver technical excellence through curated service pillars.
+
+---
+
+## 1. Layers  
+### Digital Presence & Discovery
+
+Modern web presence isn’t just about looking good—it's about driving your business forward, reaching the right audience, and making every customer interaction count. My approach ensures you stand out from the competition, capture more leads, and turn visitors into loyal customers.
+
+**What I Deliver:**
+- Next-generation websites & applications: Blazing-fast, mobile-first sites and business apps custom-built with the latest technologies (React, Next.js, Vite.js).
+- Fully responsive design: Seamless experiences on phones, tablets, and desktops to serve your audience everywhere.
+- Brand-driven visuals: Unique UI tailored to your company, with pixel-perfect branding and attention to detail.
+- User-friendly navigation: Smooth journeys that keep visitors engaged and drive conversions.
+- Effortless content management: Easily update text, images, and products without writing code.
+- SEO & analytics, built-in: Technical SEO best practices (structured metadata, sitemaps, performance), plus Google Analytics or your preferred insights tools.
+- Accessibility for all: Designs accessible to everyone, including users with disabilities.
+- International reach: Multi-language, RTL, and localization support as your market grows.
+
+#### **Example**
+A small Turkish coffee roaster wants to expand internationally. Their old Wordpress blog is slow and unappealing.
+
+**My Solution:**
+- Build a new e-commerce site with Next.js: Fast product catalog, multi-language support, integrated checkout.
+- Mobile optimization and accessibility for global customers.
+- Connect Instagram feed for marketing/social proof.
+- Built-in blog for content marketing and newsletter sign-up.
+
+
+---
+
+## 2. Hub  
+### Process Automation & Integration
+
+Unlock the full potential of your business by connecting the systems you already use and eliminating time-consuming manual tasks. I weave your digital ecosystem—so your data flows seamlessly, teams stay on the same page, and your business scales smarter, not harder.
+
+**What I Deliver:**
+- API & SaaS Integrations: Connect your website, CRM, email marketing platforms, accounting tools, calendars, e-commerce systems, and more—no more data silos or double entry.
+- Automated Workflows: Streamline everything from client onboarding and order fulfillment to scheduling and support requests—so processes happen instantly, without extra clicks.
+- Custom Dashboard Solutions: Unified views of your most important business metrics and action items, all in one secure place.
+- Smart Notifications & Alerts: Automatic Slack, email, or SMS updates when key events occur (new sales, bookings, or form submissions).
+- Lead Capture & Follow-up: Automatically add new leads to your CRM, trigger email sequences, and assign tasks.
+
+**Real-World Examples:**
+- Syncing online bookings from your website directly to Google Calendar and your admin’s phone.
+- Integrating a Shopify store with Mailchimp to automate personalized follow-up after every order.
+- Connecting a lead generation form on your site to HubSpot, Salesforce, or Notion CRM—and instantly alerting your sales rep on Slack.
+- Building a custom dashboard for a catering company to track orders, inventory, and delivery status in real time.
+- Automating PDF invoice sending and storage via Google Drive/Dropbox.
+
+**Key Features:**
+- Direct integration with HubSpot, Airtable, Zapier, Stripe, Google Workspace, Mailchimp, Notion, Slack, and more.
+- Modern, well-documented APIs—secure, reliable, and maintainable.
+- No more copy-pasting data or chasing status updates.
+- Tailored solutions, from simple webhooks to robust cross-platform automations.
+- Ongoing support to update integrations as your business grows.
+
+**Bottom line:**  
+Let technology do the busywork for you. With process automation & integration, your business runs faster, smarter, and gives you more time to focus on what matters.
+
+
+---
+
+## 3. Dashboard  
+### Custom Tools & Dashboards
+
+Transform your business data and operations into clear, intuitive solutions—tailored just for you. My custom dashboards and admin tools give you and your team the clarity to make smarter decisions, improve efficiency, and stay on top of what matters most.
+
+**What I Deliver:**
+- Interactive Dashboards: Visualize business metrics, sales, inventory, workflows, employee activities, or marketing data—all in one secure view.
+- Admin Panels: Manage content, products, users, and daily operations with no code.
+- Role-based Access: Each team member gets only what they need.
+- Custom Reports & Exports: Generate, schedule, and download tailored PDF/Excel reports.
+- Notifications & Actions: Real-time alerts and one-click actions to approve, message, or flag transactions.
+
+**Real-World Examples:**
+- An e-commerce owner sees sales trends, inventory status, and order fulfillment in a mobile-friendly dashboard.
+- A logistics company monitors vehicle locations and delivery status, with live alerts for exceptions.
+- A service business automates client intake, invoicing, and communications with one admin panel—no spreadsheets or email chains.
+- A school or clinic manages schedules, registrations, and notifications through a private portal.
+- Admins generate customized performance and financial reports instantly.
+
+**Key Features:**
+- Real-time data visualization and drill-down
+- Custom widgets/charts/maps, tailored for your priorities
+- Secure authentication and permissions for every user type
+- Bulk data upload/editing—no technical skills needed
+- Seamless integration with APIs, databases, spreadsheets, and external services
+- Clean, intuitive design for all skill levels
+
+**Bottom line:**  
+Custom Tools & Dashboards save your team time, eliminate errors, and empower everyone with the info and controls they need.
+
+
+---
+
+## 4. Architecture  
+### Technical Consulting & Strategy
+
+Get strategic, unbiased guidance from an engineering expert—so you can make informed technology decisions, rescue/accelerate projects, and plan your next phase of growth. Whether scaling up, modernizing, or auditing, you'll have a partner who understands both code and business.
+
+**What I Deliver:**
+- Technology Audits & Evaluations: In-depth reviews of systems, codebases, infrastructure, and processes.
+- Roadmaps for Growth: Bespoke tech and product strategies aligned with timeline, budget, and vision.
+- Project Rescue & Turnaround: Hands-on help to get projects back on track—troubleshooting, refactoring, team coaching, and process improvement.
+- Vendor & Tool Selection: Rigorous evaluation of SaaS/app/service providers, APIs, and frameworks.
+- Compliance & Risk Assessment: Guidance on GDPR, security certs, data privacy, and regulatory risks.
+- Cloud & Architecture Planning: Design high-availability, scalable architecture (cloud, microservices, legacy migrations).
+
+**Real-World Examples:**
+- Audit and migration plan for a SaaS startup to move from MVP to cloud/microservices scale.
+- Rescue and launch of a half-finished nonprofit product after team burnout.
+- Evaluation and selection of payment, CRM, and SEO tools for an e-commerce business.
+- Ensuring GDPR readiness for a company expanding to European markets.
+
+**Key Features:**
+- Transparent, actionable advice for your industry.
+- Clear docs: technical reports, architecture diagrams, playbooks.
+- Workshops and virtual training for your team or management.
+- Vendor and tool comparison with cost/benefit analysis.
+- Post-audit support: help with implementation, ongoing improvement, and leadership.
+
+**Bottom line:**  
+With technical consulting & strategy, you get clarity, direction, and results that maximize ROI and minimize risk.
+
+
+---
+
+## 5. Security  
+### Quality & Security Engineering
+
+Build digital products that are resilient, fast, and fully protected—so your business and customers stay secure. I deliver robust engineering, safeguarding your code and infrastructure from errors and cyber threats.
+
+**What I Deliver:**
+- Comprehensive Security Audits: Review of apps and infrastructure for vulnerabilities/weak points before they’re exploited.
+- Penetration Testing: Simulated real-world attacks—automated and targeted—to reveal and correct security gaps.
+- SSL/TLS & Encryption Upgrades: Modern HTTPS, security headers, and best-practices across your site/services.
+- Performance Optimization: Diagnose and fix slow loads, memory leaks, and inefficient code.
+- Bug Fixes & Reliability: Resolve deep bugs to minimize downtime and data risk.
+- Accessibility & Privacy Compliance: Ensure use for all and help meet GDPR, CCPA, and privacy standards.
+
+**Real-World Examples:**
+- HIPAA security audit and encryption for a healthcare startup.
+- Performance and SEO optimization for an e-commerce site.
+- Privacy controls and cookie compliance for a local business.
+- Logging and stability upgrades for a SaaS dashboard at 99.99% uptime.
+
+**Key Features:**
+- Advanced threat modeling and hands-on analysis
+- SSL: auto-renewing certs, HSTS, secure cookies
+- Automated penetration tests and scans
+- Monitoring and alerting setup
+- Accessibility/privacy auditing and implementation
+- Clear, actionable reports—and remediation guidance
+
+**Bottom line:**  
+Stay ahead of bugs, hackers, and shifting legal standards. My security engineering keeps you fast, safe, and trusted.
+
+
+---
+
+## 6. Support Agent  
+### Continuous Support & Growth
+
+Your business evolves, so your technology must keep up. My support and enhancement service ensures your digital products are secure, high-performing, and always ready for what’s next.
+
+**What I Deliver:**
+- Proactive Updates & Maintenance: Regular checks and updates to keep your stack fast, secure, and stable.
+- Troubleshooting & Support: Fast help for problems and urgent issues—minimizing downtime.
+- Feature Enhancement: As you grow, roll out new features and optimize UX.
+- Performance Monitoring: Health checks, uptime, and instant alerting for issues.
+- User Training & Documentation: Clear guides and onboarding so staff get full value from your tech.
+- Scaling & Planning: As you expand, I help plan and execute system scale and new launches.
+
+**Real-World Examples:**
+- Ongoing e-commerce support: updates, bug fixes, and new sales campaigns.
+- Dashboard enhancements and expanded user roles for a consulting firm.
+- Event company performance ops before a major surge.
+- Health startup compliance and backend privacy updates.
+
+**Key Features:**
+- Priority support and defined response times
+- Monthly maintenance and patching
+- On-demand feature additions
+- System health reports
+- Friendly, open communication
+
+**Bottom line:**  
+You’ll never face tech challenges alone—consider me your ongoing partner for a thriving, up-to-date digital business.
+
+
+
+---
+
+# Development Lifecycle
+
+<img src="/newPortfolio/images/gallery/devCycle.png" alt="devCycle" />
+
+
+## 1. Discovery
+
+We begin by deeply understanding your business, your market, and your goals. Through collaborative workshops and stakeholder interviews, we define every requirement and success metric—so your solution is grounded in real objectives right from the start.
+
+**What We Provide:**
+- In-depth requirement gathering and business analysis
+- Exploration of pain points and market landscape
+- User persona and journey mapping
+- Clear project scope, priorities, and timelines
+
+_Result:_ We’re focused on solving the right problem with a strategy that aligns with your real needs and ambitions, reducing risk and wasted resources.
+
+---
+
+## 2. Schematics
+
+Before we write a single line of code, we craft detailed plans, including visual wireframes and robust system architecture. Our approach minimizes surprises, maximizes usability, and ensures high performance from day one.
+
+**What We Provide:**
+- Wireframes or interactive prototypes for key flows
+- Technical solution architecture diagrams and documentation
+- Database, API, and infrastructure planning
+- Accessibility and scalability considerations
+
+_Result:_ You approve exactly how things will work and look—avoiding misunderstandings and costly redesigns.
+
+---
+
+## 3. Assembly
+
+With the blueprint in place, development begins rapidly and transparently, with weekly progress demos and feedback. Issues are resolved early, and your solution takes shape in real time.
+
+**What We Provide:**
+- Modern, maintainable code using best practices
+- Mobile-first, cross-browser, and accessible implementation
+- Continuous integration and automated testing
+- Weekly deployments to staging for your review
+
+_Result:_ Steady progress, agility on pivots, and delivery meeting your expectations.
+
+---
+
+## 4. Deployment
+
+Preparation for launch is as critical as development. We test, optimize, automate deployment, and manage a smooth transition to production.
+
+**What We Provide:**
+- End-to-end and acceptance testing
+- Performance, security, and accessibility audits
+- Cloud provisioning, CI/CD, and rollout automation
+- Complete migration and user onboarding
+
+_Result:_ No last-minute surprises—your product launches smoothly and reliably.
+
+---
+
+## 5. Support & Growth
+
+After launch, I provide ongoing support, monitoring, and enhancements as your business evolves—so your tech never holds you back.
+
+**What We Provide:**
+- Ongoing monitoring, updates, and bug fixes
+- Regular performance and security audits
+- Priority support for urgent issues
+- Feature enhancements and strategic consulting
+
+_Result:_ Your digital presence adapts and grows with your business—always ready for new opportunities.
+
+---
+
+_Digital grid lines and cyber security circuit board patterns:_  
+My technical approach is built on solid engineering and a vision for the future—so your digital infrastructure is as robust, secure, and flexible as the world’s best.
+
+
+---
+
+# Let's build your next big idea.
+
+Every transformative project starts with a conversation. Whether you're ready to launch a new digital product, optimize your business processes, or advance your technology, partnering with an experienced technical team makes the difference.
+
+**My commitment:**
+- Collaborative, client-centric approach from day one
+- Solutions designed for impact, performance, and scale
+- Transparent communication and continuous support
+- Deep experience across startups, SMEs, and enterprise transformation
+
+I am available for selective partnerships and large-scale technical consulting—working with organizations serious about quality, innovation, and results.
+
+<img src="/newPortfolio/images/gallery/modal.png" alt="devCycle" />
+
+---
+
+### Ready to get started?
+
+- Schedule a 1:1 consultation to discuss your goals, challenges, and vision for the future.
+- Request a technical audit and discover how I can add value to your next project.
+- Explore my portfolio and imagine what’s possible for your brand.
+
+**Bozkurt Innovations:**  
+[https://bozkurt-inovations.vercel.app/](https://bozkurt-inovations.vercel.app/)  
+**Let’s turn your ideas into a robust, future-ready digital reality.**
+0:{"P":null,"b":"VDt5D8nFloLKPchKfukgW","c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/136acffeffc44697.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[["$","$L3",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L4",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/\",\"sameAs\":[],\"headline\":\"Doruk Kocausta's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Full-Stack Web Developer\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Doruk%20Kocausta's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L3",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L3",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L5",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Building the Future of the Web "}]}],["$","$L5",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I’m Doruk, Full-Stack Web Developer focused on creating efficient, scalable and secure web apps. Welcome to my portfolio!"}]}],["$","$L5",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L6",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L7",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L8",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/newPortfolio/images/dorukAvatar.jpg","size":"l"}],"About – Doruk Kocausta"]}]}]}]]}]}],["$","$L5",null,{"translateY":"16","delay":0.6,"children":["$","$L3",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L9","bozkurt-Inovations",{"priority":true,"href":"/work/bozkurt-Inovations","images":["/newPortfolio/images/projects/bozkurtInnovations/architecture.png","/newPortfolio/images/projects/bozkurtInnovations/services.png","/newPortfolio/images/projects/bozkurtInnovations/devCycle.png","/newPortfolio/images/projects/bozkurtInnovations/contact.png","/newPortfolio/images/projects/bozkurtInnovations/modal.png"],"title":"Bozkurt Innovation is now running.","description":"Full-stack engineering, technology solutions, and a results-driven solo consultancy to empower your business growth with modern digital services.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://bozkurt-inovations.vercel.app/"}]]}]}],"$Lb","$Lc"]}],["$Ld"],"$Le"]}],{},null,false,false]},null,false,false],"$Lf",false]],"m":"$undefined","G":["$10",[]],"S":true}
 11:I[696470,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/c358e02e9d3a6dd1.js"],"ClientGrid"]
 12:I[814360,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/c358e02e9d3a6dd1.js"],"default"]
 16:I[654406,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/c358e02e9d3a6dd1.js"],"Mailchimp"]
