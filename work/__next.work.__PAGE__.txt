@@ -2,8 +2,8 @@
 2:I[273323,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"Column"]
 3:I[479520,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],""]
 4:I[474855,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js"],"ProjectCard"]
-d:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
-e:"$Sreact.suspense"
+b:I[897367,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d80b3790a119a285.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
 5:T3f74,
 # Architecture for the Modern Web.
 
@@ -320,8 +320,8 @@ I am available for selective partnerships and large-scale technical consulting�
 **Bozkurt Innovations:**  
 [https://bozkurt-inovations.vercel.app/](https://bozkurt-inovations.vercel.app/)  
 **Let’s turn your ideas into a robust, future-ready digital reality.**
-0:{"buildId":"VDt5D8nFloLKPchKfukgW","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/work\",\"sameAs\":[],\"headline\":\"Projects – Doruk Kocausta\",\"description\":\"Design and dev projects by Doruk Kocausta\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Projects%20%E2%80%93%20Doruk%20Kocausta\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Doruk Kocausta"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","bozkurt-Inovations",{"priority":true,"href":"/work/bozkurt-Inovations","images":["/newPortfolio/images/projects/bozkurtInnovations/architecture.png","/newPortfolio/images/projects/bozkurtInnovations/services.png","/newPortfolio/images/projects/bozkurtInnovations/devCycle.png","/newPortfolio/images/projects/bozkurtInnovations/contact.png","/newPortfolio/images/projects/bozkurtInnovations/modal.png"],"title":"Bozkurt Innovation is now running.","description":"Full-stack engineering, technology solutions, and a results-driven solo consultancy to empower your business growth with modern digital services.","content":"$5","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://bozkurt-inovations.vercel.app/"}],"$L6","$L7","$L8"]}]]}],null,"$L9"]}],"loading":null,"isPartial":false}
-a:Tc73,
+0:{"buildId":"xs_7Z5mmKieWs7KXj5k3g","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L3",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/work\",\"sameAs\":[],\"headline\":\"Projects – Doruk Kocausta\",\"description\":\"Design and dev projects by Doruk Kocausta\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/og?title=Projects%20%E2%80%93%20Doruk%20Kocausta\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"Projects – Doruk Kocausta"}],["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L4","bozkurt-Inovations",{"priority":true,"href":"/work/bozkurt-Inovations","images":["/newPortfolio/images/projects/bozkurtInnovations/architecture.png","/newPortfolio/images/projects/bozkurtInnovations/services.png","/newPortfolio/images/projects/bozkurtInnovations/devCycle.png","/newPortfolio/images/projects/bozkurtInnovations/contact.png","/newPortfolio/images/projects/bozkurtInnovations/modal.png"],"title":"Bozkurt Innovation is now running.","description":"Full-stack engineering, technology solutions, and a results-driven solo consultancy to empower your business growth with modern digital services.","content":"$5","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://bozkurt-inovations.vercel.app/"}],"$L6","$L7"]}]]}],null,"$L8"]}],"loading":null,"isPartial":false}
+9:Tc73,
 ## Overview
 
 **MyFinance** is a modern full-stack personal finance tracker, designed for users to seamlessly manage expenses, track investments, and visualize their financial health in real time. The project utilizes a modular monorepo setup and cloud-native deployment for reliability and scalability.
@@ -372,62 +372,8 @@ a:Tc73,
 
 ---
 
-This MDX entry documents the **MyFinance** project—showcasing its technical architecture, features, and cloud-native deployment approach for modern personal finance management.6:["$","$L4","My-Finance-personal-finance-tracker",{"priority":true,"href":"/work/My-Finance-personal-finance-tracker","images":["/newPortfolio/images/projects/project-04/myfinance1.png","/newPortfolio/images/projects/project-04/myfinance2.png","/newPortfolio/images/projects/project-04/myfinance3.png"],"title":"MyFinance — Personal Finance Tracker","description":"MyFinance is a modern cloud-based platform for managing personal finances, tracking expenses, and visualizing investments. It features a robust full-stack architecture leveraging Next.js, NestJS, Prisma, and a scalable Neon Postgres database.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://my-finance-frontend-sigma.vercel.app"}]
-b:Te97,
-## Overview
-
-WhatToWear is a full-stack application that helps users decide what to wear each day by combining live weather data and a personal wardrobe inventory. The backend (Express) aggregates weather feeds, manages user wardrobes, and returns outfit suggestions. The frontend (React/Vite) provides an intuitive UI for managing clothing items, viewing daily suggestions, and saving favorites.
-
-## Key Features
-
-- **Weather-Aware Recommendations**: Fetches local weather (temperature, precipitation, wind) and recommends outfits suitable for current conditions and forecasts.
-- **Wardrobe Inventory**: Users upload or create clothing items with attributes (type, layers, warmth, colors, images). Items are stored in the user profile and can be tagged.
-- **Outfit Builder & History**: Saved outfit combinations and history let users reuse looks and refine recommendations over time.
-- **Lightweight API Layer**: Server aggregates third-party weather APIs, normalizes responses, and applies caching to limit external calls.
-- **Dockerized & CI/CD Ready**: Containerized backend and frontend with GitHub Actions for automated builds and deployment.
-
-## Technologies Used
-
-- Backend: Node.js, Express
-- Frontend: React (Vite)
-- External APIs: OpenWeatherMap (or alternate provider)
-- Data Storage: MongoDB (Mongoose) for users and wardrobe
-- Caching: Redis or in-memory TTL cache for weather and recommendation results
-- Auth: JWT for session handling and protected user resources
-- Deployment: Google Cloud, optional Nginx reverse proxy + Certbot for SSL
-- Utilities: multer / cloud storage for item images, axios for HTTP, cron jobs for scheduled syncs
-
-## Challenges and Learnings
-
-- **Data Modeling for Clothing**: Designing a flexible schema for clothing attributes (layering, warmth, formality, color) was key to meaningful recommendations.
-- **Normalization of External Data**: Weather providers use different structures; an adapter layer simplifies downstream logic.
-- **Caching & Rate Limits**: Implemented short TTLs and request coalescing to avoid exceeding external API rate limits while keeping suggestions fresh.
-- **Image Handling**: Optimizing upload, storage, and delivery of item photos improved UX and reduced bandwidth.
-
-
-
-## Outcome
-
-- A coherent MVP that suggests context-appropriate outfits, enables wardrobe management, and integrates with external data sources.
-- Backend endpoints for wardrobe CRUD, suggestion generation, and user preferences are available and ready for frontend consumption.
-- The system is containerized and prepared for deployment; frontend can run as a static site while the API runs in a Docker container on a VM.
-- **Domain**: https://wtwrkedycat.baselinux.net
-- **Frontend repo**: https://github.com/kedycatsudo/se_project_react
-
-## Deployment & Next Steps
-
-1. Point a domain or free DNS to your VM and create an A record for the API host.
-2. Use Nginx as a reverse proxy and obtain SSL certificates via Certbot to enable HTTPS.
-3. Harden the VM (SSH keys, disable root login, enable UFW for 22/80/443).
-4. Store API keys and secrets in CI/CD secrets or a secrets manager; use environment variables at runtime.
-5. Add Redis for stable caching if scaling, and enable structured logging and monitoring.
-6. Improve personalization with lightweight ML models or heuristics, add image auto-tagging (color, type), and implement offline-first frontend caching for reliability.
-7. Offer social sharing and exportable outfit plans as future features.
-
----
-
-This MDX entry documents the WhatToWear project, highlighting architecture, core features, implementation notes, and actionable next steps to take the MVP toward production readiness.7:["$","$L4","automate-design-handovers-with-a-figma-to-code-pipeline",{"priority":false,"href":"/work/automate-design-handovers-with-a-figma-to-code-pipeline","images":["/newPortfolio/images/projects/project-02/wt_cover-02.png","/newPortfolio/images/projects/project-02/wt_cover-01.png"],"title":"WhatToWear — Personal Outfit Recommendation App","description":"A context-aware outfit recommender that suggests daily looks from your wardrobe based on local weather.","content":"$b","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/se_project_express"}]
-c:Tf18,
+This MDX entry documents the **MyFinance** project—showcasing its technical architecture, features, and cloud-native deployment approach for modern personal finance management.6:["$","$L4","My-Finance-personal-finance-tracker",{"priority":true,"href":"/work/My-Finance-personal-finance-tracker","images":["/newPortfolio/images/projects/project-04/myfinance1.png","/newPortfolio/images/projects/project-04/myfinance2.png","/newPortfolio/images/projects/project-04/myfinance3.png"],"title":"MyFinance — Personal Finance Tracker","description":"MyFinance is a modern cloud-based platform for managing personal finances, tracking expenses, and visualizing investments. It features a robust full-stack architecture leveraging Next.js, NestJS, Prisma, and a scalable Neon Postgres database.","content":"$9","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://my-finance-frontend-sigma.vercel.app"}]
+a:Tf18,
 ## Overview
 
 MealMatch is an MVP that streamlines meal donations by matching donors (restaurants, caterers, home cooks) with organizations and individuals in need. The project focuses on reducing food waste and improving logistics by providing a simple registration and matching flow, secure authentication, and an admin interface for managing donations and users.
@@ -477,6 +423,6 @@ MealMatch is an MVP that streamlines meal donations by matching donors (restaura
 
 ---
 
-This Mealmatch MDX entry summarizes the project, technical decisions, and actionable next steps for taking the MVP from a working prototype to a secure, production-ready service.8:["$","$L4","building-once-ui-a-customizable-design-system",{"priority":false,"href":"/work/building-once-ui-a-customizable-design-system","images":["/newPortfolio/images/projects/project-01/cover-01.png","/newPortfolio/images/projects/project-01/cover-02.jpeg"],"title":"MealMatch — Automating Meal Donations and Distribution","description":"MealMatch connects donors, kitchens, and recipients to reduce food waste and streamline meal distribution with an easy-to-use web platform and automated matching.","content":"$c","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/mealmatch"}]
-9:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
-f:null
+This Mealmatch MDX entry summarizes the project, technical decisions, and actionable next steps for taking the MVP from a working prototype to a secure, production-ready service.7:["$","$L4","building-once-ui-a-customizable-design-system",{"priority":false,"href":"/work/building-once-ui-a-customizable-design-system","images":["/newPortfolio/images/projects/project-01/cover-01.png","/newPortfolio/images/projects/project-01/cover-02.jpeg"],"title":"MealMatch — Automating Meal Donations and Distribution","description":"MealMatch connects donors, kitchens, and recipients to reduce food waste and streamline meal distribution with an easy-to-use web platform and automated matching.","content":"$a","avatars":[{"src":"/newPortfolio/images/dorukAvatar.jpg"}],"link":"https://github.com/kedycatsudo/mealmatch"}]
+8:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null
