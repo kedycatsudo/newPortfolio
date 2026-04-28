@@ -13,7 +13,7 @@ d:I[168027,[],"default"]
 :HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
 :HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"xs_7Z5mmKieWs7KXj5k3g","c":["","blog","MydesignJourney"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","MydesignJourney","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/136acffeffc44697.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/28ec5dee638b8029.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"U_OVEBP1FnZjTPqSMHI_t","c":["","blog","MydesignJourney"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","MydesignJourney","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/136acffeffc44697.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/28ec5dee638b8029.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 f:I[530824,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"Providers"]
 10:I[273323,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"Column"]
 11:I[621971,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"RevealFx"]
@@ -73,7 +73,184 @@ e:T76b,
 15:["$","$L4",null,{}]
 16:[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
 17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-22:T1ed8,
+22:T22db,
+# Jumping into AI: Training My First Trading Agent (and Surviving the Swim)
+
+Alright, I’ll be honest—sometimes the fastest way to learn is to throw yourself into the deep end. When I was 5 or 6, my dad tossed me into the sea and just watched (don’t worry—definitely not a trauma 😂). That summer I learned to swim fast. Five years later, I was competing as a pro athlete. Now I know I can swim anywhere.
+
+So, what’s that got to do with programming?
+
+**Recently, I spent three days learning how to train an AI agent with Ollama and Hugging Face on Google Colab—all in Python.** As I wrote that sentence, it felt just like that first swim: jumping into the unknown and trusting I’ll make it to shore.
+
+I had NO idea how these technologies worked before. Until now, I was deep in the JavaScript/TypeScript world—building with Next.js, Nest.js, and React. But AI has always been my dream. So here I am, finally getting my hands dirty with model training.
+
+Spoiler: I’d been crafting this idea for over a month (this was no sudden 2-day inspiration). I spent weeks jotting down notes, sketching out what I’d need, thinking, and re-thinking. Eventually, things started to snap together. If you’re ready, join me for the (turbulent) flight.
+
+---
+
+## How It All Started
+
+Back in college at Pamukkale University in Denizli/Turkey, my senior project was a cybersecurity tool in Python. I was always drawn to LLMs and machine learning—curious how they worked and wanted to dig in—but cybersecurity kept calling. Then I came to the U.S... and now, finally, I’ve trained my first AI agent.
+
+Honestly, finding information today is almost too easy—Google, AI assistants, forums. But the *real* challenge is designing a system and a roadmap: figuring out how to connect all the dots and make an idea reality.
+
+### The Idea
+
+I’ve always been fascinated by trading—especially forex and crypto. (Stocks? Honestly, not my vibe. They feel a bit too manipulated for my taste.) So I knew I wanted to train an AI model for trading.
+
+Python was the clear choice:  
+- I wanted to level up my backend skills, not just JS/TS frameworks.
+- Plus, I always enjoyed building in Python when I worked in cybersecurity.
+
+And wouldn’t you know—the universe nudged me again. My next job interview included “Python backend programming” as a requirement.
+
+So, what do I know? What can I build?
+
+- I know I can make frontends with Next.js and deploy to Vercel. Easy.
+- I’m comfortable enough in Python to handle the project.
+- But let’s be honest: nobody knows everything on their first try! I remind myself—it’s fine not to know (yet). I’ll figure it out.
+
+Databases? PostgreSQL: check.  
+Connecting deployed services? Done that.  
+Biggest advantage: AI assistance is now at everyone’s fingertips—no more scratching through random forums for every bug.
+
+---
+
+## My Build Process
+
+Here’s how I broke it down, step by step:
+
+---
+
+### **Step 1: Backend (`forex-backend`)**
+
+**Goal:** Fetch global market data and prep it for an AI agent.
+
+- **Repo:** [kedycatsudo/forex-backend](https://github.com/kedycatsudo/forex-backend)
+- **Tech:** GitHub, Python, FastAPI, SQLAlchemy, TradingView API, Docker
+
+This backend is minimal by design—it fetches market data (like OHLCV from TradingView), transforms it, and exposes endpoints for the AI agent to consume. Super for practicing backend development in Python. MVP is ready and waiting for an agent to connect!
+
+---
+
+### **Step 2: AI Training (`llama_lora`)**
+
+**Goal:** Pretrain and fine-tune an AI trading agent.
+
+- **Tech Stack:** Hugging Face, Google Colab, Python, Ollama, Unsloth, LoRA, Jupyter Notebook
+
+I dove head-first into Google Colab—a browser-based Jupyter Notebook environment with free (and paid) access to GPU servers, perfect for ML experimentation. Free tier was good but limiting, so I grabbed Colab Pro for $10/month. It gives you longer GPU usage and higher resource limits. You do have to save your data/models somewhere—so I used Hugging Face as my “GitHub of AI,” pushing trained models and grabbing datasets from their massive catalog.
+
+First, I started training manually, typing out dependencies and wrestling with package versions and CUDA errors for hours. (Colab is amazing for debugging—you run code in chunks, see instant outputs and errors, and adjust on the fly.)
+
+Frustrated, I hunted for better workflows. Enter [Unsloth](https://github.com/unslothai/notebooks)—a high-performance library for fine-tuning large language models (LLMs) like Llama2 and Mistral using LoRA (Low-Rank Adaptation) and quantization, which makes training much faster and resource-friendly even on modest GPUs.
+
+My first pick was Mistral Vision (a 3B parameter vision-language model), but I quickly realized it focuses on images—not what I needed for a trading agent (yet). Swapped to conversational models, specifically Llama 3.2B, suited for NLP and dialogue.
+
+Code-wise: I didn’t copy-paste. I wrote everything out, line by line, unless it was a known snippet—best way to cement the learning.
+
+**Result:**  
+My first tiny training dataset:
+
+```json
+{"messages": [
+  {"role": "user", "content": "Hello"},
+  {"role": "assistant", "content": "Hello user, I’m ready for trading data. Please send your OHLCV candles or trading question..."}
+]}
+{"messages": [
+  {"role": "user", "content": "What can you do?"},
+  {"role": "assistant", "content": "I am a finance and trading assistant. You can send me market data, news, or scenarios..."}
+]}
+```
+
+It’s super basic, but it works! Now I can scale this up, push models to Hugging Face, and deploy when ready.
+
+---
+
+### **Step 3: General Database**
+
+**Goal:** Track everything—conversations, analyses, sessions, user info.
+
+- **Tech:** PostgreSQL, SQLAlchemy or other Python ORMs, SQL queries.
+
+Will power persistent data for chat logs, analysis results, and session tracking.
+
+---
+
+### **Step 4: Frontend**
+
+Not started yet—waiting for real agent output to shape the UI. Plans:
+
+- **Tech:** Next.js, React, TypeScript, Vercel  
+- **Features:** Conversational UI, market/news widgets, analytics display
+
+At MVP, only basic chat (no image or file inputs). I’ll expand once the data and model needs are clearer—could include news feeds (from TradingView or elsewhere), trading signals, educational content, etc.
+
+---
+
+## Analogies: Coding & Cooking
+
+(Pro tip: I’m also a sous chef, and honestly, the parallels between kitchen and code are wild.)
+
+- **Frontend:** The dining room, where users experience and interact.
+- **Backend:** The kitchen, prepping and serving up data (the “food”).
+- **Servers:** The “waitstaff”—they handle requests between frontend and backend.
+- **Storage:** Local storage is like a minibar; big industrial freezers? That’s your database.
+
+See? Same principles—structure, flow, prepping components for seamless experiences.
+
+---
+
+## Results So Far
+
+**Backend is running.**  
+First data payload from TradingView API:
+
+```json
+{
+  "symbol": "BINANCE:BTCUSDT",
+  "timeframe": "D",
+  "candles": [{ "timestamp": ..., "open": ..., "close": ..., "high": ..., "low": ..., "volume": ... }, ...]
+}
+```
+
+Success! Data ready, MVP-ing as we speak.
+
+**Next Steps:**  
+- Get deeper into AI model training & deployment (with Unsloth + LoRA).
+- Expand dataset and conversation quality.
+- Wire everything together—end-to-end.
+- Build a slick, user-friendly frontend, tightly integrated with the backend and the AI agent.
+
+---
+
+## Learning & Reflections
+
+Three days ago, I’d barely heard of some of these tools—Colab, Hugging Face, LoRA, Ollama, Unsloth.  
+Now I’ve built the backend, started meaningful AI training, and have a working pipeline from trading data to AI agent inference.
+
+- **Jupyter/Colab Notebooks:** Essential for hands-on ML, stepwise coding, and iterative troubleshooting.
+- **Hugging Face:** Like GitHub for AI; model hosting and dataset streaming made dead simple.
+- **Unsloth & LoRA:** Make large-model training feasible—even without supercomputers.
+
+The biggest lesson?  
+Don’t be afraid to dive in—even when you feel like you’re in over your head. Debug, refactor, iterate, and ask for help (Copilot and AI assistants are friends, not cheats).
+
+---
+
+## Final Thoughts
+
+I’m genuinely excited about this project, and about learning more every day—AI, backend, full stack, and beyond. I’ll share more updates as I go (and talk less next time, maybe 😉). Time to get back to training my model!
+
+If you’re working on something similar, or just want to trade data or AI wisdom, drop a comment or connect. Let’s keep swimming.
+
+---
+
+#python #ai #llm #tradingbot #huggingface #googlecolab #ollama #unsloth #machinelearning #finetuning #fastapi #postgresql #nextjs #backend #learningjourney #personalproject #coding #devblog #developer #fullstack #openai #jupyter #alpaca #lora #unstructuredlearning #projectlog5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/MydesignJourney","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/MydesignJourney\",\"sameAs\":[],\"headline\":\"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges\",\"description\":\"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-10\",\"dateModified\":\"2025-12-10\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"December 9, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","textWrap":"$undefined","fontStyle":"italic"},"children":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way"}]]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","url":"https://kedycatsudo.github.io/newPortfolio//blog/MydesignJourney"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","JumpIntoOcean",{"post":{"metadata":{"title":"Jumping into AI: Training My First Trading Agent (and Surviving the Swim)","subtitle":"","publishedAt":"2026-05-01","summary":"","image":"/newPortfolio/images/gallery/ollama.jpg","images":[],"tag":"Learning Journey, AI, Python","team":[],"link":""},"slug":"JumpIntoOcean","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
+27:I[988654,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"ScrollToHash"]
+28:I[141118,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"Icon"]
+29:I[605649,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"HeadingNav"]
+26:T1ed8,
 # MyFinance is Up and Running
 
 Last night around 3:30 AM, I finished deployment for MyFinance. I really wanted to write this article with fresh feelings, but today I realized that the feeling is still fresh like last night. I’m not going to be humble about this because there was true dedication and, yeah, some suffering—but at the end of that suffering, the prize was big. I loved every line of code, every piece of thought for MyFinance, and honestly, I even love writing about the project and its details. Hope everybody who reads this article enjoys it too.
@@ -190,172 +367,7 @@ You need domain-specific data. So, what to build?
 
 Alright, another project done and dusted, successfully implemented and running smooth.  
 I’ll see you on the next one.
-5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/MydesignJourney","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/MydesignJourney\",\"sameAs\":[],\"headline\":\"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges\",\"description\":\"Real thoughts and progress on getting MyFinance off the ground, from login screens to dashboard, as I wrestle with design, UI decisions, and bringing my own idea to life.\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2025-12-10\",\"dateModified\":\"2025-12-10\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"December 9, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges"}],["$","span",null,{"className":"font-body font-default font-l neutral-on-background-weak","style":{"textAlign":"center","textWrap":"$undefined","fontStyle":"italic"},"children":"Why designing UIs is harder for me than cooking risotto—and what I'm learning along the way"}]]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"MyFinance Design Journey: Kickstarting the Frontend, Facing (and Embracing) Creative Challenges","url":"https://kedycatsudo.github.io/newPortfolio//blog/MydesignJourney"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","myfinanceUpRunning",{"post":{"metadata":{"title":"MyFinance is Up and Running","subtitle":"","publishedAt":"2026-03-16","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"myfinanceUpRunning","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
-27:I[988654,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"ScrollToHash"]
-28:I[141118,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"Icon"]
-29:I[605649,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"HeadingNav"]
-26:T1f71,
-# I Was the Customer: The Full-Stack Journey of Building MyFinance
-
-I can't tell you how much I enjoyed working on this project. It was a remarkable learning experience and a hands-on opportunity to dive into new technologies like Tailwind CSS, Next.js, and TypeScript.
-
-I also had the chance to work with different branches and manage them just like in a real-world project. Honestly, I’m proud—not just because the MVP is finished, but also because:
-
-- I was the designer (and you can probably tell, hahah! I mentioned in a previous article that I’m not a designer, but I actually like how it turned out).
-- I was the system architect.
-- I was the junior dev.
-- I was the senior dev.
-- I was the project manager.
-- I was the QA tester.
-- More importantly, I **WAS THE CUSTOMER**.
-
-You might wonder why I wrote "I WAS THE CUSTOMER" in all caps. To explain that, we need to roll all the way back to where it started—how I decided to build this project. Stay with me, just read and enjoy.
-
----
-
-## How Did Everything Start?
-
-It was a couple of months ago. I had just finished my new portfolio website and was considering my next move:
-
-- Do another personal portfolio project, or  
-- Start job hunting
-
-I thought long and hard about those two options—listing pros, cons, and possible consequences. And I decided to create another project **before** I started job hunting.
-
-### Why?
-
-I really wanted to make this career transition as soon as possible, but I realized I actually wasn’t ready. The roles I’m aiming for are backend-heavy, but I didn’t have real hands-on experience with relational databases. I had worked with MongoDB, but that’s non-relational. And I know for sure that the companies I’m targeting—even for junior backend roles—are going to expect database experience.
-
-That’s when I started thinking: what could I build with enough real data to create solid relational database tables?
-
-It didn’t take me long to realize “money” is a *perfect* candidate. Think about it: almost everything in life involves money, so the data value is huge and the scope is broad.
-
-This idea pushed me to look at what I actually needed to make my life easier. I started investigating what I was struggling to manage and keep track of. Because life is data, and if you don’t manage it, you lose it.
-
-Everything came together: my big data is money, my demand is to track what my life needs—and the answer was right in front of me. A financial tracking application for myself.
-
-Also, I’d been browsing tons of apps for personal finance management and never found one that fit my needs. On top of that—they weren’t even free?!  
-Like, whaaat?!  
-I’m an open source Linux software engineer. Don’t tell me I can’t get something I need if I don’t pay for it!
-
-The name “MyFinance” immediately popped into my head. I loved it.
-
----
-
-## Thinking Things Through—Before Even Creating the Repo
-
-Think. Think. Think…
-
-I knew my database would be PostgreSQL—no decision needed there.  
-But what about the tech stack?
-
-I wanted to add something new to my skill set: another framework, more useful tools, more data. I decided to go with Next.js and TypeScript. I’d just built my portfolio site with them, and I wanted to go even deeper.
-
-Alright, I had the framework and database.  
-What next?
-
-Design!
-
-I really didn’t want to use plain CSS, but I could learn a modern CSS system with new tech and still stick to the project’s purpose. So, I picked Tailwind CSS.
-
-Here’s the final stack:
-- **Design:** Tailwind CSS
-- **Frontend framework:** Next.js
-- **Database:** PostgreSQL (via Prisma)
-- **Backend:** Nest.js—yet another framework I wanted to learn, and it works brilliantly with PostgreSQL and Prisma.
-
----
-
-## Stack Ready. What Next?
-
-On my last project, I started with the UI and moved to the backend later, only to find I had to completely rewire a ton of frontend logic to match the backend design. That was painful. This time, I’d heard that designing the backend system upfront saves a ton of time, so I decided to work out the data architecture *before* touching UI.
-
----
-
-## System Design: Two Weeks with Nothing but a Blank Txt File
-
-Just me and an empty text file.
-
-I thought, and thought, some more. Writing down every idea, every question, every possible scenario. Categorized, analyzed, picked apart: Why? Where? How will I get that data?  
-- What are my backbones?
-- How does data flow?
-- Decisions, buttons, forms, JSON files, file architecture, dead ends, loops, mappings, contexts, users… you name it.
-I ended up with eight files, and reread them countless times—until there was nothing more to process. I needed some UI!
-
----
-
-## Figuring Out the UI in Figma
-
-This was my least favorite part. I’m definitely **not** a designer. Not because their job is less important—if anything, it’s the opposite! It’d be disrespectful for me to claim “I can design.” But, just for fun, here are a few snapshots from my Figma, and then we’ll compare them with the MVP.
-
-![Figma design 1](/newPortfolio/images/gallery/figma1.png)
-![Figma design 2](/newPortfolio/images/gallery/figma2.png)
-![Figma design 3](/newPortfolio/images/gallery/figma3.png)
-
----
-
-## Finally, VS Code!
-
-I finally fired up VS Code, created the repo, and just started writing.
-
-Page by page, then refactoring, then components, and another round of refactoring. I remembered all those backend rewrites from my last project, but this time, frontend changes came much easier—thanks to building with the data flow in mind.
-
-I created contexts, helpers, layouts—slowly piecing everything together.
-
----
-
-## Unexpected Technical Issue
-
-Remember, I said I wore every hat, including junior dev? Here’s proof:
-
-A week ago, I was trying to publish an article for my blog. Instead of running `sudo rm -r ./*`, I wrote `sudo rm -r /*`.  
-*Yeah.*  
-The feeling when you realize files are disappearing from **root** is hard to describe. I jumped for ctrl+c, but it was too late. The damage was done.
-
-My laptop got weird, slowed down, then went dark. I couldn’t even see the console screen, so no way to recover anything.
-
-Remember, I was the senior dev too? So, I did what a senior dev does—reinstalled Linux, everything gone. Silence.
-
-But I’d pushed my repos and branches just before. Cold-blooded, methodical, no shaking hands. Mad, maybe! But head down, job to do.
-
-Did I mention I love Kobe Bryant? His ambition and will to win—incredible. That’s what I try to channel: the Black Mamba mentality. I win. That’s my job.
-
-Pulled my repos, checked every branch, blog, project. Everything was there. Back on track.
-
-I love staying static. Like Ice Age—no emotion. Maybe I picked that up working as a chef, spending six hours serving customers, knowing there’s four more to go. You put your head down. You finish the job.
-
----
-
-## And the Last Touches
-
-.env file set up for `assetPrefix` and `basePath`—super useful for Next.js and GitHub Pages.  
-And just like that: published! MyFinance MVP is live on GitHub Pages. If you’re interested, here’s the link: [link]
-
----
-
-## What I have on my hand now. Lets compare with the deisgn that i made 
-
-![MVP 1](/newPortfolio/images/gallery/myfinance1.png)
-![MVP 2](/newPortfolio/images/gallery/myfinance2.png)
-![MVP 3](/newPortfolio/images/gallery/myfinance3.png)
-![MVP 4](/newPortfolio/images/gallery/myfinance4.png)
-![MVP 5](/newPortfolio/images/gallery/myfinance5.png)
-![MVP 6](/newPortfolio/images/gallery/myfinance6.png)
-![MVP 7](/newPortfolio/images/gallery/myfinance7.png)
-
-
-## What’s Next?
-
-More learning, more databases. I’ll move to PostgreSQL and Prisma on the backend, and integrate them into this project. Lots of late nights and snow where I live—stay warm, stay safe, and I’ll see you in the next one.
-
----
-
-If you made it this far—thanks for reading! Your feedback is always welcome.
-
----
-
-#react #nextjs #typescript #tailwindcss #learningjourney #fullstack #personalproject #postgresql #nestjs #blackmambamentality
-23:["$","$L21","mvpPublished",{"post":{"metadata":{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","subtitle":"","publishedAt":"2026-01-25","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"mvpPublished","content":"$26"},"thumbnail":true,"direction":"column"}]
+23:["$","$L21","myfinanceUpRunning",{"post":{"metadata":{"title":"MyFinance is Up and Running","subtitle":"","publishedAt":"2026-03-16","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"myfinanceUpRunning","content":"$26"},"thumbnail":true,"direction":"column"}]
 24:["$","$L27",null,{}]
 25:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L18",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L28",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L29",null,{"fitHeight":true}]]}]
 2a:I[811052,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"HeadingLink"]

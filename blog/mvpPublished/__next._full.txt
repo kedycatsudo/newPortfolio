@@ -13,7 +13,7 @@ d:I[168027,[],"default"]
 :HL["/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","style"]
 :HL["/newPortfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/newPortfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"b":"xs_7Z5mmKieWs7KXj5k3g","c":["","blog","mvpPublished"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","mvpPublished","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/136acffeffc44697.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/28ec5dee638b8029.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+0:{"P":null,"b":"U_OVEBP1FnZjTPqSMHI_t","c":["","blog","mvpPublished"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","mvpPublished","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/cecc8f2bb117acec.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/2a5b081f82bb5f58.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/newPortfolio/_next/static/chunks/4c177a1c2b51a4c4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/newPortfolio/_next/static/chunks/136acffeffc44697.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/newPortfolio/_next/static/chunks/28ec5dee638b8029.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
 f:I[530824,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"Providers"]
 10:I[273323,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"Column"]
 11:I[621971,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"RevealFx"]
@@ -73,7 +73,184 @@ e:T76b,
 15:["$","$L4",null,{}]
 16:[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]]
 17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L19","GitHub",{"href":"https://github.com/kedycatsudo","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L19","LinkedIn",{"href":"https://www.linkedin.com/in/dorukkocausta/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L19","Email",{"href":"mailto:dkocausta.linkedin@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
-22:T1ed8,
+22:T22db,
+# Jumping into AI: Training My First Trading Agent (and Surviving the Swim)
+
+Alright, I’ll be honest—sometimes the fastest way to learn is to throw yourself into the deep end. When I was 5 or 6, my dad tossed me into the sea and just watched (don’t worry—definitely not a trauma 😂). That summer I learned to swim fast. Five years later, I was competing as a pro athlete. Now I know I can swim anywhere.
+
+So, what’s that got to do with programming?
+
+**Recently, I spent three days learning how to train an AI agent with Ollama and Hugging Face on Google Colab—all in Python.** As I wrote that sentence, it felt just like that first swim: jumping into the unknown and trusting I’ll make it to shore.
+
+I had NO idea how these technologies worked before. Until now, I was deep in the JavaScript/TypeScript world—building with Next.js, Nest.js, and React. But AI has always been my dream. So here I am, finally getting my hands dirty with model training.
+
+Spoiler: I’d been crafting this idea for over a month (this was no sudden 2-day inspiration). I spent weeks jotting down notes, sketching out what I’d need, thinking, and re-thinking. Eventually, things started to snap together. If you’re ready, join me for the (turbulent) flight.
+
+---
+
+## How It All Started
+
+Back in college at Pamukkale University in Denizli/Turkey, my senior project was a cybersecurity tool in Python. I was always drawn to LLMs and machine learning—curious how they worked and wanted to dig in—but cybersecurity kept calling. Then I came to the U.S... and now, finally, I’ve trained my first AI agent.
+
+Honestly, finding information today is almost too easy—Google, AI assistants, forums. But the *real* challenge is designing a system and a roadmap: figuring out how to connect all the dots and make an idea reality.
+
+### The Idea
+
+I’ve always been fascinated by trading—especially forex and crypto. (Stocks? Honestly, not my vibe. They feel a bit too manipulated for my taste.) So I knew I wanted to train an AI model for trading.
+
+Python was the clear choice:  
+- I wanted to level up my backend skills, not just JS/TS frameworks.
+- Plus, I always enjoyed building in Python when I worked in cybersecurity.
+
+And wouldn’t you know—the universe nudged me again. My next job interview included “Python backend programming” as a requirement.
+
+So, what do I know? What can I build?
+
+- I know I can make frontends with Next.js and deploy to Vercel. Easy.
+- I’m comfortable enough in Python to handle the project.
+- But let’s be honest: nobody knows everything on their first try! I remind myself—it’s fine not to know (yet). I’ll figure it out.
+
+Databases? PostgreSQL: check.  
+Connecting deployed services? Done that.  
+Biggest advantage: AI assistance is now at everyone’s fingertips—no more scratching through random forums for every bug.
+
+---
+
+## My Build Process
+
+Here’s how I broke it down, step by step:
+
+---
+
+### **Step 1: Backend (`forex-backend`)**
+
+**Goal:** Fetch global market data and prep it for an AI agent.
+
+- **Repo:** [kedycatsudo/forex-backend](https://github.com/kedycatsudo/forex-backend)
+- **Tech:** GitHub, Python, FastAPI, SQLAlchemy, TradingView API, Docker
+
+This backend is minimal by design—it fetches market data (like OHLCV from TradingView), transforms it, and exposes endpoints for the AI agent to consume. Super for practicing backend development in Python. MVP is ready and waiting for an agent to connect!
+
+---
+
+### **Step 2: AI Training (`llama_lora`)**
+
+**Goal:** Pretrain and fine-tune an AI trading agent.
+
+- **Tech Stack:** Hugging Face, Google Colab, Python, Ollama, Unsloth, LoRA, Jupyter Notebook
+
+I dove head-first into Google Colab—a browser-based Jupyter Notebook environment with free (and paid) access to GPU servers, perfect for ML experimentation. Free tier was good but limiting, so I grabbed Colab Pro for $10/month. It gives you longer GPU usage and higher resource limits. You do have to save your data/models somewhere—so I used Hugging Face as my “GitHub of AI,” pushing trained models and grabbing datasets from their massive catalog.
+
+First, I started training manually, typing out dependencies and wrestling with package versions and CUDA errors for hours. (Colab is amazing for debugging—you run code in chunks, see instant outputs and errors, and adjust on the fly.)
+
+Frustrated, I hunted for better workflows. Enter [Unsloth](https://github.com/unslothai/notebooks)—a high-performance library for fine-tuning large language models (LLMs) like Llama2 and Mistral using LoRA (Low-Rank Adaptation) and quantization, which makes training much faster and resource-friendly even on modest GPUs.
+
+My first pick was Mistral Vision (a 3B parameter vision-language model), but I quickly realized it focuses on images—not what I needed for a trading agent (yet). Swapped to conversational models, specifically Llama 3.2B, suited for NLP and dialogue.
+
+Code-wise: I didn’t copy-paste. I wrote everything out, line by line, unless it was a known snippet—best way to cement the learning.
+
+**Result:**  
+My first tiny training dataset:
+
+```json
+{"messages": [
+  {"role": "user", "content": "Hello"},
+  {"role": "assistant", "content": "Hello user, I’m ready for trading data. Please send your OHLCV candles or trading question..."}
+]}
+{"messages": [
+  {"role": "user", "content": "What can you do?"},
+  {"role": "assistant", "content": "I am a finance and trading assistant. You can send me market data, news, or scenarios..."}
+]}
+```
+
+It’s super basic, but it works! Now I can scale this up, push models to Hugging Face, and deploy when ready.
+
+---
+
+### **Step 3: General Database**
+
+**Goal:** Track everything—conversations, analyses, sessions, user info.
+
+- **Tech:** PostgreSQL, SQLAlchemy or other Python ORMs, SQL queries.
+
+Will power persistent data for chat logs, analysis results, and session tracking.
+
+---
+
+### **Step 4: Frontend**
+
+Not started yet—waiting for real agent output to shape the UI. Plans:
+
+- **Tech:** Next.js, React, TypeScript, Vercel  
+- **Features:** Conversational UI, market/news widgets, analytics display
+
+At MVP, only basic chat (no image or file inputs). I’ll expand once the data and model needs are clearer—could include news feeds (from TradingView or elsewhere), trading signals, educational content, etc.
+
+---
+
+## Analogies: Coding & Cooking
+
+(Pro tip: I’m also a sous chef, and honestly, the parallels between kitchen and code are wild.)
+
+- **Frontend:** The dining room, where users experience and interact.
+- **Backend:** The kitchen, prepping and serving up data (the “food”).
+- **Servers:** The “waitstaff”—they handle requests between frontend and backend.
+- **Storage:** Local storage is like a minibar; big industrial freezers? That’s your database.
+
+See? Same principles—structure, flow, prepping components for seamless experiences.
+
+---
+
+## Results So Far
+
+**Backend is running.**  
+First data payload from TradingView API:
+
+```json
+{
+  "symbol": "BINANCE:BTCUSDT",
+  "timeframe": "D",
+  "candles": [{ "timestamp": ..., "open": ..., "close": ..., "high": ..., "low": ..., "volume": ... }, ...]
+}
+```
+
+Success! Data ready, MVP-ing as we speak.
+
+**Next Steps:**  
+- Get deeper into AI model training & deployment (with Unsloth + LoRA).
+- Expand dataset and conversation quality.
+- Wire everything together—end-to-end.
+- Build a slick, user-friendly frontend, tightly integrated with the backend and the AI agent.
+
+---
+
+## Learning & Reflections
+
+Three days ago, I’d barely heard of some of these tools—Colab, Hugging Face, LoRA, Ollama, Unsloth.  
+Now I’ve built the backend, started meaningful AI training, and have a working pipeline from trading data to AI agent inference.
+
+- **Jupyter/Colab Notebooks:** Essential for hands-on ML, stepwise coding, and iterative troubleshooting.
+- **Hugging Face:** Like GitHub for AI; model hosting and dataset streaming made dead simple.
+- **Unsloth & LoRA:** Make large-model training feasible—even without supercomputers.
+
+The biggest lesson?  
+Don’t be afraid to dive in—even when you feel like you’re in over your head. Debug, refactor, iterate, and ask for help (Copilot and AI assistants are friends, not cheats).
+
+---
+
+## Final Thoughts
+
+I’m genuinely excited about this project, and about learning more every day—AI, backend, full stack, and beyond. I’ll share more updates as I go (and talk less next time, maybe 😉). Time to get back to training my model!
+
+If you’re working on something similar, or just want to trade data or AI wisdom, drop a comment or connect. Let’s keep swimming.
+
+---
+
+#python #ai #llm #tradingbot #huggingface #googlecolab #ollama #unsloth #machinelearning #finetuning #fastapi #postgresql #nextjs #backend #learningjourney #personalproject #coding #devblog #developer #fullstack #openai #jupyter #alpaca #lora #unstructuredlearning #projectlog5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/mvpPublished","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/mvpPublished\",\"sameAs\":[],\"headline\":\"I Was the Customer: The Full-Stack Journey of Building MyFinance\",\"description\":\"\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2026-01-25\",\"dateModified\":\"2026-01-25\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"January 24, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I Was the Customer: The Full-Stack Journey of Building MyFinance"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"I Was the Customer: The Full-Stack Journey of Building MyFinance","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","url":"https://kedycatsudo.github.io/newPortfolio//blog/mvpPublished"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","JumpIntoOcean",{"post":{"metadata":{"title":"Jumping into AI: Training My First Trading Agent (and Surviving the Swim)","subtitle":"","publishedAt":"2026-05-01","summary":"","image":"/newPortfolio/images/gallery/ollama.jpg","images":[],"tag":"Learning Journey, AI, Python","team":[],"link":""},"slug":"JumpIntoOcean","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
+27:I[988654,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"ScrollToHash"]
+28:I[141118,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"Icon"]
+29:I[605649,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"HeadingNav"]
+26:T1ed8,
 # MyFinance is Up and Running
 
 Last night around 3:30 AM, I finished deployment for MyFinance. I really wanted to write this article with fresh feelings, but today I realized that the feeling is still fresh like last night. I’m not going to be humble about this because there was true dedication and, yeah, some suffering—but at the end of that suffering, the prize was big. I loved every line of code, every piece of thought for MyFinance, and honestly, I even love writing about the project and its details. Hope everybody who reads this article enjoys it too.
@@ -190,401 +367,7 @@ You need domain-specific data. So, what to build?
 
 Alright, another project done and dusted, successfully implemented and running smooth.  
 I’ll see you on the next one.
-5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1a",null,{"id":"schema-blogPosting-/blog/mvpPublished","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://kedycatsudo.github.io/newPortfolio/blog/mvpPublished\",\"sameAs\":[],\"headline\":\"I Was the Customer: The Full-Stack Journey of Building MyFinance\",\"description\":\"\",\"image\":\"https://kedycatsudo.github.io/newPortfolio/newPortfolio/images/gallery/myfinancelogo.png\",\"datePublished\":\"2026-01-25\",\"dateModified\":\"2026-01-25\",\"author\":{\"@type\":\"Person\",\"name\":\"Doruk Kocausta\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://kedycatsudo.github.io/newPortfolio//newPortfolio/images/dorukAvatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L1b",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"January 24, 2026"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"I Was the Customer: The Full-Stack Journey of Building MyFinance"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/newPortfolio/images/dorukAvatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Doruk Kocausta"}]]}]}],["$","$L1d",null,{"src":"/newPortfolio/images/gallery/myfinancelogo.png","alt":"I Was the Customer: The Full-Stack Journey of Building MyFinance","aspectRatio":"16/9","priority":true,"sizes":"(min-width: 768px) 100vw, 768px","border":"neutral-alpha-weak","radius":"l","marginTop":"12","marginBottom":"8"}],["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1e"}],["$","$L1f",null,{"title":"I Was the Customer: The Full-Stack Journey of Building MyFinance","url":"https://kedycatsudo.github.io/newPortfolio//blog/mvpPublished"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","div",null,{"ref":"$undefined","className":"display-flex position-relative neutral-background-strong flex-row min-width-0 fill-width ","style":{"maxWidth":"var(--static-space-40)","minWidth":"$undefined","minHeight":"var(--static-space-1)","maxHeight":"$undefined","width":"$undefined","height":"var(--static-space-1)","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":"$undefined"}],["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Recent posts"}],["$","$L20",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"columns":1},"xs":"$undefined","style":"$undefined","hide":"$undefined","columns":"2","fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","myfinanceUpRunning",{"post":{"metadata":{"title":"MyFinance is Up and Running","subtitle":"","publishedAt":"2026-03-16","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"myfinanceUpRunning","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
-27:I[988654,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"ScrollToHash"]
-28:I[141118,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"Icon"]
-29:I[605649,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"HeadingNav"]
-26:T2f19,
-# From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components
-
-Alright, let’s be honest—what you imagine will take one day can easily take three or four. That’s what happened this week. Planning, the first implementation, realizing my code was turning into spaghetti, then finally refactoring and modularizing everything—it turned into a marathon. Add a salary job and, well, life under capitalism, and four days are gone. But I have zero regrets, because what I learned was absolutely worth it.
-
-In this article, I’ll walk you through every step as I untangle my Edit Modal from a monster file into a suite of focused, elegant components. It’s night and day. You’ll see every file, every abstraction, and exactly how (and why) I pulled it off.
-
-*(All the code and logic you’ll see here started as one big file: `EditSourceModal.tsx`. Now, it’s organized freedom. Trust me, the difference is huge.)*
-
----
-
-## What Did I End Up With?
-
-**New files/components:**
-
-- **EditSourceModal.tsx** (the parent, controls modal logic and orchestration)
-- **AccordionItem.tsx** (shows each payment/investment in an accordion, with fields)
-- **constants/fieldConfig.ts** (`PAYMENT_FIELDS` and `ITEM_FIELDS` describe all editable fields)
-- **FieldInput.tsx** (super basic, dumb and generic input/selector component)
-
-### The best part:  
-Now when I open each in a separate VS Code pane I can understand the logic chain, top to bottom, at a glance. Maintainability is real!
-
----
-
-## EditSourceModal.tsx – The Orchestrator
-
-First, the prop types for clarity:
-
-```tsx
-type EditSourceModalProps = {
-  open: boolean;
-  source: FinanceSource | InvestmentSource;
-  onClose: () => void;
-  onSubmit: (updated: FinanceSource | InvestmentSource) => void;
-};
-```
-
-### Internal State
-
-```tsx
-const [localSource, setLocalSource] = useState<FinanceSource | InvestmentSource>(source);
-const [openItemAccordions, setOpenItemAccordions] = useState<{ [id: string]: boolean }>({});
-const [errors, setErrors] = useState<{ [field: string]: string }>({});
-```
-- `localSource`: Holds what I’m currently editing.
-- `openItemAccordions`: Which accordion(s) are open.
-- `errors`: Error messages keyed by field.
-
-### useEffect for Reset
-
-```tsx
-useEffect(() => {
-  setLocalSource(source);
-  setOpenItemAccordions({});
-  setErrors({});
-}, [source, open]);
-```
-Cleans everything up when data changes or the modal opens/closes.
-
-### useEffect for Scroll Lock
-
-```tsx
-useEffect(() => {
-  if (open) document.body.style.overflow = 'hidden';
-  else document.body.style.overflow = '';
-  return () => {
-    document.body.style.overflow = '';
-  };
-}, [open]);
-if (!open) return null;
-```
-Major UX win: disables scroll behind the modal.
-
----
-
-### Input/Edit Handlers
-
-```tsx
-const handleItemInput = (itemId: string, field: any, value: any) => {
-  const arrKey = isFinanceSource(localSource) ? 'payments' : 'items';
-  setLocalSource(prev => ({
-    ...prev,
-    [arrKey]: (prev as any)[arrKey].map((itm: any) =>
-      itm.id === itemId ? { ...itm, [field]: value } : itm,
-    ),
-  }) as any);
-};
-```
-
-- Decides if we’re editing "payments" or "items."
-- Finds the one we're editing (via `id`), and updates just that field.
-
-```tsx
-const handleSourceInput = (field: string, value: any) => {
-  setLocalSource(prev => ({ ...prev, [field]: value }) as any);
-};
-```
-
-- Updates a top-level field without touching others.
-
-#### Validation logic
-
-```tsx
-function validate() {
-  const err: Record<string, string> = {};
-  if (!localSource.sourceName?.trim()) err.sourceName = 'Source name required';
-  const items = isFinanceSource(localSource)
-    ? localSource.payments
-    : isInvestmentSource(localSource)
-      ? localSource.items
-      : [];
-  for (const item of items) {
-    if ('name' in item && !item.name?.trim()) err[`item.${item.id}.name`] = 'Name required';
-    if ('assetName' in item && !item.assetName?.trim())
-      err[`item.${item.id}.assetName`] = 'Asset name required';
-  }
-  setErrors(err);
-  return Object.keys(err).length === 0;
-}
-```
-- Checks that required fields are present (MVP-level, but ready to extend!).
-
-#### Submit Handler
-
-```tsx
-const handleSubmit = () => {
-  if (validate()) {
-    onSubmit?.(localSource);
-    onClose();
-  }
-};
-```
-
----
-
-### The Source Fields
-
-To avoid hardcoding, I set up an array describing the fields for the modal "header":
-
-```tsx
-const sourceFields = [
-  { label: 'Source Name', field: 'sourceName', value: localSource.sourceName, err: errors.sourceName },
-  ...(localSource.description !== undefined
-    ? [{ label: 'Description', field: 'description', value: localSource.description }]
-    : []),
-  ...(localSource.date !== undefined
-    ? [{ label: 'Date', field: 'date', value: localSource.date, type: 'date' }]
-    : []),
-];
-```
-
-Which gets rendered as:
-
-```tsx
-<h2 className="text-2xl font-bold mb-2 text-[#29388A] text-center">
-  Edit "{localSource.sourceName}"
-</h2>
-{sourceFields.map(f => (
-  <FieldInput
-    key={f.field}
-    label={f.label}
-    type={f.type}
-    value={f.value}
-    onChange={v => handleSourceInput(f.field ?? '', v)}
-    err={f.err}
-  />
-))}
-```
-
----
-
-## constants/fieldConfig.ts – All Fields Centralized
-
-I keep payment and investment item fields here for clarity and maintainability.
-
-```tsx
-export const PAYMENT_FIELDS = [
-  { field: "name", label: "Name" },
-  { field: "type", label: "Type" },
-  { field: "amount", label: "Amount", type: "number" },
-  { field: "date", label: "Date", type: "date" },
-  { field: "loop", label: "Loop", type: "checkbox" },
-  { field: "status", label: "Payment Status", enumOptions: ["coming", "paid"] }
-];
-
-export const ITEM_FIELDS = [
-  { field: "assetName", label: "Asset Name" },
-  { field: "term", label: "Term", enumOptions: ["short", "middle", "long"] },
-  { field: "investedAmount", label: "Invested Amount", type: "number" },
-  { field: "entryDate", label: "Entry Date", type: "date" },
-  { field: "exitDate", label: "Exit Date", type: "date" },
-  { field: "result", label: "Result", enumOptions: ["none", "profit", "loss"] },
-  { field: "resultAmount", label: "Result Amount", type: "number" },
-  { field: "status", label: "Status", enumOptions: ["open", "closed"] }
-];
-```
-Any change here flows everywhere.
-
----
-
-## FieldInput.tsx – A Simple, Dumb Field Component
-
-```tsx
-type FieldInputProps = {
-  label: string;
-  type?: string;
-  value: any;
-  onChange: (v: any) => void;
-  enumOptions?: string[];
-  err?: string;
-};
-
-export default function FieldInput({label, type, value, onChange, enumOptions, err}: FieldInputProps) {
-  if (enumOptions) return (
-    <label>
-      <span className="block">{label}</span>
-      <select
-        value={value}
-        onChange={e=>onChange(e.target.value)}
-        className="rounded border px-2 py-1 mt-1 w-full text-black"
-      >
-        {enumOptions.map(opt => <option key={opt} value={opt}>{opt}</option>)}
-      </select>
-      {err && <span className="text-red-500 text-xs">{err}</span>}
-    </label>
-  );
-  if (type === 'checkbox') return (
-    <label className="flex items-center gap-1">
-      <span className="block">{label}</span>
-      <input type="checkbox" checked={!!value} onChange={e=>onChange(e.target.checked)}/>
-    </label>
-  );
-  return (
-    <label className="block">
-      <span className="block">{label}</span>
-      <input
-        type={type||'text'}
-        value={type==='date' && value ? String(value).slice(0,10) : (value ?? '')}
-        onChange={e => onChange(
-          type==='number' ? Number(e.target.value)
-          : type==='checkbox' ? e.target.checked
-          : e.target.value
-        )}
-        className="rounded border px-2 py-1 mt-1 w-full text-black"
-      />
-      {err && <span className="text-red-500 text-xs">{err}</span>}
-    </label>
-  );
-}
-```
-- Handles selects, checkboxes, text, numbers, dates—just unite data and logic.
-- Shows an error if needed.
-
----
-
-## AccordionItem.tsx – All The Heavy Lifting, None of the Spaghetti
-
-```tsx
-type AccordionItemProps = {
-  item: Record<string, any>;
-  fieldConfig: {
-    field: string;
-    label: string;
-    type?: string;
-    enumOptions?: string[];
-  }[];
-  itemTypeKey: string;
-  isOpen: boolean;
-  toggleOpen: () => void;
-  handleItemInput: (itemId: string, field: string, value: any) => void;
-  errors?: Record<string, string>;
-};
-
-export default function AccordionItem({
-  item,
-  fieldConfig,
-  itemTypeKey,
-  isOpen,
-  toggleOpen,
-  handleItemInput,
-  errors,
-}: AccordionItemProps) {
-  return (
-    <div className={`border-4 border-[#29388A] rounded px-2 py-2 transition-all cursor-pointer ${isOpen ? 'bg-[#3A4483]/75 text-white' : 'text-[#29388A]'}`}>
-      <div onClick={toggleOpen} className="flex flex-row justify-between items-center">
-        <span> {'name' in item ? item.name : item.assetName}</span>
-        <span className="text-sm text-gray-500">{isOpen ? '▼' : '▶'}</span>
-      </div>
-      {isOpen && (
-        <div className="mt-2 flex flex-col gap-2">
-          {fieldConfig.map((f) =>
-            f.field === 'id' ? null : (
-              <FieldInput
-                key={f.field}
-                label={f.label}
-                type={f.type}
-                enumOptions={f.enumOptions}
-                value={item[f.field]}
-                onChange={v => handleItemInput(item.id, f.field, v)}
-                err={errors?.[`${itemTypeKey}.${item.id}.${f.field}`]}
-              />
-            )
-          )}
-        </div>
-      )}
-    </div>
-  );
-}
-```
-- No matter what shape the data becomes, this will render/expand/collapse and edit each field correctly.
-- One clear file—not hundreds of repetitive lines for every possible field.
-
----
-
-## Main Modal Use: Bringing It All Together
-
-```tsx
-{isFinanceSource(localSource) &&
-  localSource.payments &&
-  localSource.payments.map(payment => (
-    <AccordionItem
-      key={payment.id}
-      item={payment}
-      fieldConfig={PAYMENT_FIELDS}
-      itemTypeKey="payment"
-      isOpen={!!openItemAccordions[payment.id]}
-      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [payment.id]: !prev[payment.id] }))}
-      handleItemInput={handleItemInput}
-      errors={errors}
-    />
-  ))
-}
-{isInvestmentSource(localSource) &&
-  localSource.items &&
-  localSource.items.map(item => (
-    <AccordionItem
-      key={item.id}
-      item={item}
-      fieldConfig={ITEM_FIELDS}
-      itemTypeKey="item"
-      isOpen={!!openItemAccordions[item.id]}
-      toggleOpen={() => setOpenItemAccordions(prev => ({ ...prev, [item.id]: !prev[item.id] }))}
-      handleItemInput={handleItemInput}
-      errors={errors}
-    />
-  ))
-}
-```
-
-All arrays map cleanly, and handlers/configs are passed in for complete flexibility. No repeated code, just reusable legos.
-
----
-
-## Clean Modal Controls
-
-```tsx
-<div className="flex justify-end gap-2 mt-4">
-  <button
-    onClick={onClose}
-    className="px-4 py-2 rounded bg-gray-200 text-gray-800 hover:bg-gray-300 font-semibold"
-  >
-    Cancel
-  </button>
-  <button
-    onClick={handleSubmit}
-    className="px-4 py-2 rounded bg-[#29388A] text-white hover:bg-blue-800 font-semibold"
-  >
-    Submit
-  </button>
-</div>
-```
-They do only what they need to, with zero drama.
-
----
-
-## Final Reflections
-
-Before the cleanup, this was a hot mess: one file, hundreds of lines, nearly impossible to trace. Now, thanks to focused components and field configs, I can extend and maintain everything with confidence. I can add or change fields, validation, or UI behaviors without ever touching 200 lines at once—maybe just 10, in the right place.
-
-**Maintainability is gold.**  
-This process cemented how much TypeScript + React + good planning = massive time and sanity savings. Don’t be afraid to modularize—even if it feels like “extra work.” It always pays off.
-
----
-
-If you enjoyed this, found it useful, or have feedback, please share a comment! I’ll keep learning, building, and sharing—onward and upward!
-
----
-
-#react #nextjs #typescript #refactor #frontend #webdevelopment #modal #forms #learningjourney #components #scalable #maintainable #ui #personalproject
-23:["$","$L21","fromChaosToClarity",{"post":{"metadata":{"title":"From Chaos to Clarity: How I Refactored My Edit Modal into Maintainable, Scalable React Components","subtitle":"","publishedAt":"2026-01-21","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"fromChaosToClarity","content":"$26"},"thumbnail":true,"direction":"column"}]
+23:["$","$L21","myfinanceUpRunning",{"post":{"metadata":{"title":"MyFinance is Up and Running","subtitle":"","publishedAt":"2026-03-16","summary":"","image":"/newPortfolio/images/gallery/myfinancelogo.png","images":[],"tag":"Learning Journey","team":[],"link":""},"slug":"myfinanceUpRunning","content":"$26"},"thumbnail":true,"direction":"column"}]
 24:["$","$L27",null,{}]
 25:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":[["$","$L18",null,{"gap":"12","paddingLeft":"2","vertical":"center","onBackground":"neutral-medium","textVariant":"label-default-s","children":[["$","$L28",null,{"name":"document","size":"xs"}],"On this page"]}],["$","$L29",null,{"fitHeight":true}]]}]
 2a:I[811052,["/newPortfolio/_next/static/chunks/d96012bcfc98706a.js","/newPortfolio/_next/static/chunks/d2078a46fdcc20d6.js","/newPortfolio/_next/static/chunks/136acffeffc44697.js","/newPortfolio/_next/static/chunks/5cbf927d9839a8a6.js","/newPortfolio/_next/static/chunks/a5bc7f874d4dd1d9.js","/newPortfolio/_next/static/chunks/28ec5dee638b8029.js"],"HeadingLink"]
